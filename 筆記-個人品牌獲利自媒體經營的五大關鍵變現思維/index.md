@@ -40,7 +40,10 @@
 ### 「用名詞呈現處境狀態」「形容詞化成動詞」「保留原話」，故事更生動
 ［以我為例］*很晚*才下班--> 下班的時候常陪著黑夜一起走路回家，有時會有月亮的陪伴，四線道的大馬路，只剩我的腳步聲。
 
+
 ## 行銷漏斗
+<iframe src="https://open.firstory.me/embed/story/cl4lfopla01k101uc3smm9u0h" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+
 ![漏斗](ex1.png)
 漏斗最上層(多): 完全不認識你的陌生人
 漏斗中間層(中): 聽過幾次，認識你，知道你在做甚麼的人，會想看「關於我」
