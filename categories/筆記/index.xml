@@ -3,7 +3,15 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 04 Sep 2022 22:10:36 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 Sep 2022 22:44:22 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 雜誌 THE21 2022年7月号 40代・50代で必ずやっておくべき「学び直し」</title>
+    <link>https://nostanduptalk.github.io/notes-the21-2022-07/</link>
+    <pubDate>Sun, 11 Sep 2022 22:44:22 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-the21-2022-07/</guid>
+    <description><![CDATA[<p>偶然的機會在圖書館看到這本書日本雜誌</p>]]></description>
+</item>
+<item>
     <title>[筆記] 情緒勒索</title>
     <link>https://nostanduptalk.github.io/notes-motional-blackmail/</link>
     <pubDate>Sun, 04 Sep 2022 22:10:36 &#43;0800</pubDate>
@@ -107,14 +115,6 @@
 更簡單的方式滿足客戶需要,手段可否更彈
 性、更有效率呢?</p>
 </blockquote>]]></description>
-</item>
-<item>
-    <title>[筆記] LaMDA！Google工程師說：人工智慧有意識？</title>
-    <link>https://nostanduptalk.github.io/notes-nlp-google-lamda/</link>
-    <pubDate>Sat, 30 Jul 2022 13:01:12 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-nlp-google-lamda/</guid>
-    <description><![CDATA[<p>今天看到<a href="https://www.youtube.com/watch?v=lqVWy96KI0o" target="_blank" rel="noopener noreffer">曲博科技教室 Dr. J Class</a>在講最近Google 傳出人工智慧有意識的新聞，裡面提及其實AI只是在詞庫裡面，選擇機率最高的用詞，並順應人類的隱含意思回答。</p>]]></description>
 </item>
 </channel>
 </rss>
