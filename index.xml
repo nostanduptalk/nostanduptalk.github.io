@@ -3,9 +3,20 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 Sep 2022 22:44:22 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 16 Sep 2022 22:21:49 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 接下來的十年內，何時買房</title>
+    <link>https://nostanduptalk.github.io/notes-when-to-buy-a-house/</link>
+    <pubDate>Fri, 16 Sep 2022 22:21:49 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-when-to-buy-a-house/</guid>
+    <description><![CDATA[<p>2020~2021年</p>
+<p>因為要挽救疫情對經濟的破壞</p>
+<p>各國政府撒了很多錢</p>
+<p>導致房價也跟著上漲</p>]]></description>
+</item>
+<item>
     <title>[筆記] 雜誌 THE21 2022年7月号 40代・50代で必ずやっておくべき「学び直し」</title>
     <link>https://nostanduptalk.github.io/notes-the21-2022-07/</link>
     <pubDate>Sun, 11 Sep 2022 22:44:22 &#43;0800</pubDate>
@@ -104,15 +115,6 @@
 <li>背單字的方法</li>
 <li>選擇外語文章的技巧</li>
 </ul>]]></description>
-</item>
-<item>
-    <title>[筆記] 第二曲線</title>
-    <link>https://nostanduptalk.github.io/notes-the-second-curve/</link>
-    <pubDate>Sat, 06 Aug 2022 11:50:04 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-the-second-curve/</guid>
-    <description><![CDATA[<h2 id="政府舉債">政府舉債</h2>
-<p>「用未來的錢，支付現在的花費需求」，不只是個人，政府也會做一樣的事。通貨膨脹，還可以有降低債務的效果，基於這個特性，我想這個全世界最後就是一直借錢，一直通貨膨脹，負債越多的人反而才是贏家。</p>]]></description>
 </item>
 </channel>
 </rss>
