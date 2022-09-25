@@ -34,8 +34,9 @@
 <iframe src="https://open.firstory.me/embed/story/cl84ms1kl02a601wm2n5m2x8p" height="180" width="500" frameborder="0" scrolling="no"></iframe>
 
 # 連結
-[台灣-就業狀況 | MacroMicro 財經M平方](https://www.macromicro.me/charts/131/tw-employ)
+[台灣-景氣對策信號 | 台灣-景氣對策信號 | 圖組 | MacroMicro 財經M平方](https://www.macromicro.me/collections/10/tw-monitoring-indicators-relative/79/tw-monitoring-indicators)
 
+[台灣-就業狀況 | MacroMicro 財經M平方](https://www.macromicro.me/charts/131/tw-employ)
 
 [台幣 | MacroMicro 財經M平方](https://www.macromicro.me/charts/143/usd-twd)
 
@@ -44,4 +45,5 @@
 [台灣-信義房價指數-各地區 | 台灣-房地產 | 圖組 | MacroMicro 財經M平方](https://www.macromicro.me/collections/15/tw-housing-relative/124/tw-housing-price-sinyi)
 
 [台灣-房市循環指標 | 台灣-房地產 | 圖組 | MacroMicro 財經M平方](https://www.macromicro.me/collections/15/tw-housing-relative/1404/tw-house-purchasing-loans-interestrate)
+
 
