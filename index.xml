@@ -3,9 +3,20 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 25 Sep 2022 13:38:36 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Oct 2022 22:53:55 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 生活槓桿</title>
+    <link>https://nostanduptalk.github.io/notes-life-leverage/</link>
+    <pubDate>Sun, 02 Oct 2022 22:53:55 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-life-leverage/</guid>
+    <description><![CDATA[<p>覺得書名可以改叫：
+<em><strong>學會外包工作，充實自己的生活：專業的事情，該讓專家執行。低價值的事情，該讓時間價值低的人做。</strong></em></p>
+<p>把工作外包，讓專業的人去完成，利用別人的專長與時間，減少自己的時間消耗，我想就是作者提倡的概念：「生活槓桿」。</p>
+<p>想到有一個梗圖，有人上網留言說，三百坪的家打掃起來很辛苦，下面有人回問，為什麼不傭人，他回答：我就是被請來打掃的傭人。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 灰階思考</title>
     <link>https://nostanduptalk.github.io/notes-grey-thinking/</link>
     <pubDate>Sun, 25 Sep 2022 13:38:36 &#43;0800</pubDate>
@@ -103,17 +114,6 @@
 <li>價格中包含的心理因素,是過於樂觀還是過於悲觀？</li>
 <li><code>如果我錯了,會發生什麼事？</code></li>
 <li>如果我對了,又會如何？</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>[筆記] 如何學習新的語言</title>
-    <link>https://nostanduptalk.github.io/notes-how-to-learn-new-language/</link>
-    <pubDate>Sat, 06 Aug 2022 11:58:36 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-how-to-learn-new-language/</guid>
-    <description><![CDATA[<ul>
-<li>背單字的方法</li>
-<li>選擇外語文章的技巧</li>
 </ul>]]></description>
 </item>
 </channel>
