@@ -3,9 +3,18 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 09 Oct 2022 23:19:13 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Oct 2022 15:48:47 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 收入增加後，你不該省的錢</title>
+    <link>https://nostanduptalk.github.io/notes-money-well-spent/</link>
+    <pubDate>Sun, 16 Oct 2022 15:48:47 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-money-well-spent/</guid>
+    <description><![CDATA[<p>我曾經有個價值觀：「錢賺得比較多，為什麼要花比較多？這樣我乾脆賺少一點，這樣還輕鬆一點。」</p>
+<p>直到我偶然看到這篇文章後，才有了不同的看法。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 第一次與房仲看房 2022-10 </title>
     <link>https://nostanduptalk.github.io/notes-house-202210/</link>
     <pubDate>Sun, 09 Oct 2022 23:19:13 &#43;0800</pubDate>
@@ -97,18 +106,6 @@
     <description><![CDATA[<p>台北松山機場出發，北竿1天與南竿1天企劃書</p>
 <p>（本文沒有業配）</p>
 <p>寫作目的：假設我可以在旅遊前看到這篇文章的規劃設計。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 金錢心理學</title>
-    <link>https://nostanduptalk.github.io/notes-dollars-and-sense/</link>
-    <pubDate>Sun, 14 Aug 2022 12:53:24 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-dollars-and-sense/</guid>
-    <description><![CDATA[<h2 id="當比較愈容易就愈容易做出選擇">當比較愈容易，就愈容易做出選擇</h2>
-<blockquote>
-<p>「你晚餐想吃什麼?」,或是「你晚餐想吃雞或披薩?」哪個你會回答得比較快?
-第一個問句提供了無限選擇,第二個只提供了兩個選擇,只要比較這兩個選擇,決定哪一個在此刻比較具有吸引力就好。第二種問法比較容易得到快速回答,因為它是更簡單。</p>
-</blockquote>]]></description>
 </item>
 </channel>
 </rss>
