@@ -3,10 +3,18 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Oct 2022 21:29:52 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Oct 2022 22:46:32 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>[筆記] 為什麼便宜的機票不要買</title>
+    <title>[思考] 行動的類型：地圖使用者與地圖創造者 </title>
+    <link>https://nostanduptalk.github.io/thinking-actions-users-and-creators/</link>
+    <pubDate>Sun, 30 Oct 2022 22:46:32 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-actions-users-and-creators/</guid>
+    <description><![CDATA[<p>人類行動大致可分為兩種，一種是地圖使用型，一種是地圖開創型，兩者各有不同的優缺點。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 為什麼便宜的機票不要買？</title>
     <link>https://nostanduptalk.github.io/notes-understand-risk/</link>
     <pubDate>Sun, 23 Oct 2022 21:29:52 &#43;0800</pubDate>
     <author>Author</author>
@@ -96,17 +104,6 @@
     <guid>https://nostanduptalk.github.io/notes-rich-man-in-babylon/</guid>
     <description><![CDATA[<blockquote>
 <p>本書對1926年在美國出版的《巴比倫富翁》（The Richest Man In Babylon）進行翻譯、改編腳本並繪製成<strong>漫畫</strong>。這篇故事以古巴比倫為舞台，教導人們儲蓄、守財與增加財富的道理，在被資產家及銀行員閱讀之後，轉眼便成為暢銷書籍，至今依舊吸引許多讀者，亦堪稱是現今市面上許多理財讀物的原點。</p>
-</blockquote>]]></description>
-</item>
-<item>
-    <title>[筆記] 錢要投資 : 賺到退休賺到自由健康 : 阮慕驊的人生體悟</title>
-    <link>https://nostanduptalk.github.io/notes-money-should-be-used-to-invest/</link>
-    <pubDate>Sun, 21 Aug 2022 12:40:48 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-money-should-be-used-to-invest/</guid>
-    <description><![CDATA[<h2 id="引言">引言</h2>
-<blockquote>
-<p>p36，覺察、接受、改變這三件事是序列,是我體會的人生哲學。提高對萬事萬物的覺察能力。接受一切不可接受的。改變一切已有的。</p>
 </blockquote>]]></description>
 </item>
 </channel>
