@@ -3,10 +3,18 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 20 Nov 2022 21:54:34 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 27 Nov 2022 20:57:12 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>寫N2試題的策略(言語知識、讀解)</title>
+    <title>[思考] 寫N2試題的策略(聽解)</title>
+    <link>https://nostanduptalk.github.io/thinking-n2-exam-strategy-listening/</link>
+    <pubDate>Sun, 27 Nov 2022 20:57:12 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-n2-exam-strategy-listening/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[思考] 寫N2試題的策略(言語知識、讀解)</title>
     <link>https://nostanduptalk.github.io/thinking-n2-exam-strategy/</link>
     <pubDate>Sun, 20 Nov 2022 21:54:34 &#43;0800</pubDate>
     <author>Author</author>
@@ -18,7 +26,7 @@
 </ol>]]></description>
 </item>
 <item>
-    <title>工作時，一定要放在心上的原則</title>
+    <title>[思考] 工作時，一定要放在心上的原則</title>
     <link>https://nostanduptalk.github.io/thinking-working-principle/</link>
     <pubDate>Sun, 13 Nov 2022 21:53:50 &#43;0800</pubDate>
     <author>Author</author>
@@ -97,17 +105,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-grey-thinking/</guid>
     <description><![CDATA[<h2 id="人生如擲骰子不可能一次就豹子">人生如擲骰子，不可能一次就豹子</h2>]]></description>
-</item>
-<item>
-    <title>[筆記] 接下來的十年內，何時買房</title>
-    <link>https://nostanduptalk.github.io/notes-when-to-buy-a-house/</link>
-    <pubDate>Fri, 16 Sep 2022 22:21:49 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-when-to-buy-a-house/</guid>
-    <description><![CDATA[<p>2020~2021年</p>
-<p>因為要挽救疫情對經濟的破壞</p>
-<p>各國政府撒了很多錢</p>
-<p>導致房價也跟著上漲</p>]]></description>
 </item>
 </channel>
 </rss>
