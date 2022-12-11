@@ -3,7 +3,23 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 06 Nov 2022 21:52:52 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>API設計之hyrum&#39;s law</title>
+    <link>https://nostanduptalk.github.io/notes-hyrum-law/</link>
+    <pubDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-hyrum-law/</guid>
+    <description><![CDATA[<p>API使用者夠多，即使是文件沒提到的使用方法，若使用者能觀察到，就會依賴使用。</p>]]></description>
+</item>
+<item>
+    <title>效率越高，消耗越少？</title>
+    <link>https://nostanduptalk.github.io/notes-jevons-paradox/</link>
+    <pubDate>Sun, 04 Dec 2022 21:36:51 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-jevons-paradox/</guid>
+    <description><![CDATA[<p>Jevons悖論表示：效率越高，其實有機會消耗越多。</p>]]></description>
+</item>
+<item>
     <title>[筆記]不快樂, 就不是工作</title>
     <link>https://nostanduptalk.github.io/notes-no-work-no-fun/</link>
     <pubDate>Sun, 06 Nov 2022 21:52:52 &#43;0800</pubDate>
@@ -86,27 +102,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-the21-2022-07/</guid>
     <description><![CDATA[<p>偶然的機會在圖書館看到這本書日本雜誌</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 情緒勒索</title>
-    <link>https://nostanduptalk.github.io/notes-motional-blackmail/</link>
-    <pubDate>Sun, 04 Sep 2022 22:10:36 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-motional-blackmail/</guid>
-    <description><![CDATA[<blockquote>
-<p>p30，你的人生,都在滿足別人嗎?
-試著問問自己這個問題,如果答案是肯定的,那麼再問問自己:「發生了什麼事,讓我願意拿我的人生去滿足別人?」</p>
-</blockquote>]]></description>
-</item>
-<item>
-    <title>[筆記] 巴比倫致富聖經 : 用10%薪水, 賺到100%的人生</title>
-    <link>https://nostanduptalk.github.io/notes-rich-man-in-babylon/</link>
-    <pubDate>Sat, 27 Aug 2022 13:31:18 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-rich-man-in-babylon/</guid>
-    <description><![CDATA[<blockquote>
-<p>本書對1926年在美國出版的《巴比倫富翁》（The Richest Man In Babylon）進行翻譯、改編腳本並繪製成<strong>漫畫</strong>。這篇故事以古巴比倫為舞台，教導人們儲蓄、守財與增加財富的道理，在被資產家及銀行員閱讀之後，轉眼便成為暢銷書籍，至今依舊吸引許多讀者，亦堪稱是現今市面上許多理財讀物的原點。</p>
-</blockquote>]]></description>
 </item>
 </channel>
 </rss>

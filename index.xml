@@ -3,9 +3,25 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 27 Nov 2022 20:57:12 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>API設計之hyrum&#39;s law</title>
+    <link>https://nostanduptalk.github.io/notes-hyrum-law/</link>
+    <pubDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-hyrum-law/</guid>
+    <description><![CDATA[<p>API使用者夠多，即使是文件沒提到的使用方法，若使用者能觀察到，就會依賴使用。</p>]]></description>
+</item>
+<item>
+    <title>效率越高，消耗越少？</title>
+    <link>https://nostanduptalk.github.io/notes-jevons-paradox/</link>
+    <pubDate>Sun, 04 Dec 2022 21:36:51 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-jevons-paradox/</guid>
+    <description><![CDATA[<p>Jevons悖論表示：效率越高，其實有機會消耗越多。</p>]]></description>
+</item>
+<item>
     <title>[思考] 寫N2試題的策略(聽解)</title>
     <link>https://nostanduptalk.github.io/thinking-n2-exam-strategy-listening/</link>
     <pubDate>Sun, 27 Nov 2022 20:57:12 &#43;0800</pubDate>
@@ -86,25 +102,6 @@
 <p>但仲介呢？</p>
 <p>我原本以為仲介基於成交才有收入，所以會以拉近買賣雙方的價格為目標努力。</p>
 <p>與房屋仲介交涉後，我開始有了不同的想法。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 生活槓桿</title>
-    <link>https://nostanduptalk.github.io/notes-life-leverage/</link>
-    <pubDate>Sun, 02 Oct 2022 22:53:55 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-life-leverage/</guid>
-    <description><![CDATA[<p>覺得書名可以改叫：
-<em><strong>學會外包工作，充實自己的生活：專業的事情，該讓專家執行。低價值的事情，該讓時間價值低的人做。</strong></em></p>
-<p>把工作外包，讓專業的人去完成，利用別人的專長與時間，減少自己的時間消耗，我想就是作者提倡的概念：「生活槓桿」。</p>
-<p>想到有一個梗圖，有人上網留言說，三百坪的家打掃起來很辛苦，下面有人回問，為什麼不傭人，他回答：我就是被請來打掃的傭人。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 灰階思考</title>
-    <link>https://nostanduptalk.github.io/notes-grey-thinking/</link>
-    <pubDate>Sun, 25 Sep 2022 13:38:36 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-grey-thinking/</guid>
-    <description><![CDATA[<h2 id="人生如擲骰子不可能一次就豹子">人生如擲骰子，不可能一次就豹子</h2>]]></description>
 </item>
 </channel>
 </rss>

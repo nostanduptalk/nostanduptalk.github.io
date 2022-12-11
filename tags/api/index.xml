@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>API - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/api/</link>
+        <description>API - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/api/" rel="self" type="application/rss+xml" /><item>
+    <title>API設計之hyrum&#39;s law</title>
+    <link>https://nostanduptalk.github.io/notes-hyrum-law/</link>
+    <pubDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-hyrum-law/</guid>
+    <description><![CDATA[<p>API使用者夠多，即使是文件沒提到的使用方法，若使用者能觀察到，就會依賴使用。</p>]]></description>
+</item>
+</channel>
+</rss>
