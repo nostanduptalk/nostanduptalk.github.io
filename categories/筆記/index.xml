@@ -4,7 +4,7 @@
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
-    <title>API設計之hyrum&#39;s law</title>
+    <title>[筆記] API設計之hyrum&#39;s law</title>
     <link>https://nostanduptalk.github.io/notes-hyrum-law/</link>
     <pubDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</pubDate>
     <author>Author</author>
@@ -12,7 +12,7 @@
     <description><![CDATA[<p>API使用者夠多，即使是文件沒提到的使用方法，若使用者能觀察到，就會依賴使用。</p>]]></description>
 </item>
 <item>
-    <title>效率越高，消耗越少？</title>
+    <title>[筆記] 效率越高，消耗越少？</title>
     <link>https://nostanduptalk.github.io/notes-jevons-paradox/</link>
     <pubDate>Sun, 04 Dec 2022 21:36:51 &#43;0800</pubDate>
     <author>Author</author>
