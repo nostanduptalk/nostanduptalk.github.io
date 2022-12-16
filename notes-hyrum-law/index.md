@@ -13,3 +13,5 @@ API使用者夠多，即使是文件沒提到的使用方法，若使用者能�
 
 ## 參考
 [hyrums-law](https://thebootstrappedfounder.com/hyrums-law/)
+
+<iframe src="https://open.firstory.me/embed/story/clbjfocii01w701ql25yl7kmb" height="180" width="500" frameborder="0" scrolling="no"></iframe>
