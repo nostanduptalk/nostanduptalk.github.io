@@ -18,3 +18,5 @@
 知名度有了，信任度也有了，賣產品就容易了，這也是為什麼大家喜歡找網紅賣東西吧！
 
 接下來，我要提供YouTube 的教學系列影片，介紹electron怎麼入門到發佈。
+
+<iframe src="https://open.firstory.me/embed/story/clbqg3aje05n001s86mehgrzz" height="180" width="500" frameborder="0" scrolling="no"></iframe>

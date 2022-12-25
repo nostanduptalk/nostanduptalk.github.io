@@ -3,9 +3,17 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 18 Dec 2022 19:48:15 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[思考] 信任與流量變現</title>
+    <link>https://nostanduptalk.github.io/thinking-trust-and-traffic-to-cash/</link>
+    <pubDate>Sun, 18 Dec 2022 19:48:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-trust-and-traffic-to-cash/</guid>
+    <description><![CDATA[<p>最近的「100小時諮商筆記」變成課程一事，引起爭議，台灣這麼多心理師，為什麼是沒有證照的他開課，就算有證照的來開課，營收也遠小於這位網紅，流量變現真的很厲害！</p>]]></description>
+</item>
+<item>
     <title>[筆記] API設計之hyrum&#39;s law</title>
     <link>https://nostanduptalk.github.io/notes-hyrum-law/</link>
     <pubDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</pubDate>
@@ -89,19 +97,6 @@
     <guid>https://nostanduptalk.github.io/notes-money-well-spent/</guid>
     <description><![CDATA[<p>我曾經有個價值觀：「錢賺得比較多，為什麼要花比較多？這樣我乾脆賺少一點，這樣還輕鬆一點。」</p>
 <p>直到我偶然看到這篇文章後，才有了不同的看法。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 第一次與房仲看房 2022-10 </title>
-    <link>https://nostanduptalk.github.io/notes-house-202210/</link>
-    <pubDate>Sun, 09 Oct 2022 23:19:13 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-house-202210/</guid>
-    <description><![CDATA[<p>在一個正常的市場上</p>
-<p>買方希望價格越低越好</p>
-<p>賣方希望價格越高越好</p>
-<p>但仲介呢？</p>
-<p>我原本以為仲介基於成交才有收入，所以會以拉近買賣雙方的價格為目標努力。</p>
-<p>與房屋仲介交涉後，我開始有了不同的想法。</p>]]></description>
 </item>
 </channel>
 </rss>
