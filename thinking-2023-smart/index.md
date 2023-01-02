@@ -1,4 +1,4 @@
-# 回顧2022與展望2023 
+# [思考] 回顧2022與展望2023
 
 
 
@@ -20,7 +20,7 @@
 
 2. preview 
 
-<img src="2023.JPG" width="70%">
+<img src="2023.JPG" width="90%">
 
 3. 如果遇到不能顯示preview ，要安裝 [Java Runtime Environment (JRE).](https://www.java.com/en/download/)
 
