@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>心智圖 - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/%E5%BF%83%E6%99%BA%E5%9C%96/</link>
+        <description>心智圖 - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jan 2023 22:41:22 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E5%BF%83%E6%99%BA%E5%9C%96/" rel="self" type="application/rss+xml" /><item>
+    <title>回顧2022與展望2023 </title>
+    <link>https://nostanduptalk.github.io/thinking-2023-smart/</link>
+    <pubDate>Sun, 01 Jan 2023 22:41:22 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-2023-smart/</guid>
+    <description><![CDATA[<h2 id="回顧2022">回顧2022</h2>
+<ul>
+<li>年初 - 開始建立部落格</li>
+<li>年終 - 開始錄製podcast</li>
+<li>年尾 - 日檢N2</li>
+</ul>
+<h2 id="展望2023">展望2023</h2>
+<p>三個Electron程式</p>]]></description>
+</item>
+</channel>
+</rss>

@@ -3,7 +3,22 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 25 Dec 2022 23:14:39 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jan 2023 22:41:22 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>回顧2022與展望2023 </title>
+    <link>https://nostanduptalk.github.io/thinking-2023-smart/</link>
+    <pubDate>Sun, 01 Jan 2023 22:41:22 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-2023-smart/</guid>
+    <description><![CDATA[<h2 id="回顧2022">回顧2022</h2>
+<ul>
+<li>年初 - 開始建立部落格</li>
+<li>年終 - 開始錄製podcast</li>
+<li>年尾 - 日檢N2</li>
+</ul>
+<h2 id="展望2023">展望2023</h2>
+<p>三個Electron程式</p>]]></description>
+</item>
+<item>
     <title>[筆記] 最美好、也最殘酷的翻身時代：畢德歐夫帶你掌握理財5大關鍵</title>
     <link>https://nostanduptalk.github.io/notes-bidoffer/</link>
     <pubDate>Sun, 25 Dec 2022 23:14:39 &#43;0800</pubDate>
@@ -82,18 +97,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-actions-users-and-creators/</guid>
     <description><![CDATA[<p>人類行動大致可分為兩種，一種是地圖使用型，一種是地圖開創型，兩者各有不同的優缺點。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 為什麼便宜的機票不要買？</title>
-    <link>https://nostanduptalk.github.io/notes-understand-risk/</link>
-    <pubDate>Sun, 23 Oct 2022 21:29:52 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-understand-risk/</guid>
-    <description><![CDATA[<p>有風險，就是有失敗的可能</p>
-<p>以為甚麼事都不做</p>
-<p>就不用承受風險</p>
-<p>但其實這樣才是最大的風險</p>
-<p>因為想改變的時候 可能來不及了</p>]]></description>
 </item>
 </channel>
 </rss>
