@@ -3,7 +3,24 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 15 Jan 2023 21:43:37 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 29 Jan 2023 21:38:24 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 底層邏輯</title>
+    <link>https://nostanduptalk.github.io/notes-underlying-logic/</link>
+    <pubDate>Sun, 29 Jan 2023 21:38:24 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-underlying-logic/</guid>
+    <description><![CDATA[<p><code>我們要時時刻刻反省：我說的話、我的表述，是事實，是觀點，是立場，還是信仰？</code></p>]]></description>
+</item>
+<item>
+    <title>[筆記] 財富自由的整理鍊金術</title>
+    <link>https://nostanduptalk.github.io/notes-declutter-lifealchemy05/</link>
+    <pubDate>Sun, 22 Jan 2023 21:38:28 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-declutter-lifealchemy05/</guid>
+    <description><![CDATA[<h2 id="後記">後記</h2>
+<p>用來斷捨離的判斷方法，也可以用在買東西的時候，避免買到用不到、又不會讓自己變得更好的物品。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 累死你的不是工作，是工作方法</title>
     <link>https://nostanduptalk.github.io/notes-working-method/</link>
     <pubDate>Sun, 15 Jan 2023 21:43:37 &#43;0800</pubDate>
@@ -75,26 +92,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-n2-exam-strategy-listening/</guid>
     <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[思考] 寫N2試題的策略(言語知識、讀解)</title>
-    <link>https://nostanduptalk.github.io/thinking-n2-exam-strategy/</link>
-    <pubDate>Sun, 20 Nov 2022 21:54:34 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-n2-exam-strategy/</guid>
-    <description><![CDATA[<p>我覺得 做考題的主要目的是</p>
-<ol>
-<li>訓練手速</li>
-<li>學習常見錯誤</li>
-</ol>]]></description>
-</item>
-<item>
-    <title>[思考] 工作時，一定要放在心上的原則</title>
-    <link>https://nostanduptalk.github.io/thinking-working-principle/</link>
-    <pubDate>Sun, 13 Nov 2022 21:53:50 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-working-principle/</guid>
-    <description><![CDATA[<p>收到Task先問: 價值在哪? 緊急度? 重要度? 與project 關聯、與客戶關聯、與公司發展的關係</p>]]></description>
 </item>
 </channel>
 </rss>

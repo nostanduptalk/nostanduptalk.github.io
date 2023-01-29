@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>邊界感 - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/%E9%82%8A%E7%95%8C%E6%84%9F/</link>
+        <description>邊界感 - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 29 Jan 2023 21:38:24 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E9%82%8A%E7%95%8C%E6%84%9F/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 底層邏輯</title>
+    <link>https://nostanduptalk.github.io/notes-underlying-logic/</link>
+    <pubDate>Sun, 29 Jan 2023 21:38:24 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-underlying-logic/</guid>
+    <description><![CDATA[<p><code>我們要時時刻刻反省：我說的話、我的表述，是事實，是觀點，是立場，還是信仰？</code></p>]]></description>
+</item>
+</channel>
+</rss>
