@@ -3,7 +3,15 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 05 Feb 2023 23:31:12 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 12 Feb 2023 23:49:10 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[思考] 學習的兩種「型態」</title>
+    <link>https://nostanduptalk.github.io/thinking-two-learning-styles/</link>
+    <pubDate>Sun, 12 Feb 2023 23:49:10 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-two-learning-styles/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>[筆記] 人生實用商學院 (共貳冊)</title>
     <link>https://nostanduptalk.github.io/notes-life-school-bettywu1122/</link>
     <pubDate>Sun, 05 Feb 2023 23:31:12 &#43;0800</pubDate>
@@ -84,14 +92,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-hyrum-law/</guid>
     <description><![CDATA[<p>API使用者夠多，即使是文件沒提到的使用方法，若使用者能觀察到，就會依賴使用。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 效率越高，消耗越少？</title>
-    <link>https://nostanduptalk.github.io/notes-jevons-paradox/</link>
-    <pubDate>Sun, 04 Dec 2022 21:36:51 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-jevons-paradox/</guid>
-    <description><![CDATA[<p>Jevons悖論表示：效率越高，其實有機會消耗越多。</p>]]></description>
 </item>
 </channel>
 </rss>
