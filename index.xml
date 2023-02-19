@@ -3,9 +3,17 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 12 Feb 2023 23:49:10 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 19 Feb 2023 15:52:09 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 職涯副業經營學</title>
+    <link>https://nostanduptalk.github.io/notes-side-job-freelancer-ladykaren/</link>
+    <pubDate>Sun, 19 Feb 2023 15:52:09 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-side-job-freelancer-ladykaren/</guid>
+    <description><![CDATA[<p>這是一門線上課程的學習筆記。</p>]]></description>
+</item>
+<item>
     <title>[思考] 學習的兩種「型態」</title>
     <link>https://nostanduptalk.github.io/thinking-two-learning-styles/</link>
     <pubDate>Sun, 12 Feb 2023 23:49:10 &#43;0800</pubDate>
@@ -86,14 +94,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-trust-and-traffic-to-cash/</guid>
     <description><![CDATA[<p>最近的「100小時諮商筆記」變成課程一事，引起爭議，台灣這麼多心理師，為什麼是沒有證照的他開課，就算有證照的來開課，營收也遠小於這位網紅，流量變現真的很厲害！</p>]]></description>
-</item>
-<item>
-    <title>[筆記] API設計之hyrum&#39;s law</title>
-    <link>https://nostanduptalk.github.io/notes-hyrum-law/</link>
-    <pubDate>Sun, 11 Dec 2022 21:37:43 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-hyrum-law/</guid>
-    <description><![CDATA[<p>API使用者夠多，即使是文件沒提到的使用方法，若使用者能觀察到，就會依賴使用。</p>]]></description>
 </item>
 </channel>
 </rss>
