@@ -3,7 +3,19 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Feb 2023 10:53:50 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 05 Mar 2023 16:54:58 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[旅遊] 下次去新加坡與新山還想再吃的與再買東西的地方</title>
+    <link>https://nostanduptalk.github.io/journey-my-favorite-singaporean-and-malaysian-foods/</link>
+    <pubDate>Sun, 05 Mar 2023 16:54:58 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/journey-my-favorite-singaporean-and-malaysian-foods/</guid>
+    <description><![CDATA[<h2 id="評分標準">評分標準</h2>
+<ul>
+<li>符合我的口味</li>
+<li>價格不貴</li>
+</ul>]]></description>
+</item>
+<item>
     <title>[旅遊] 從新加坡去馬來西亞新山JB(Johor Bahru)一日遊</title>
     <link>https://nostanduptalk.github.io/journey-one-day-trip-from-singapore-to-malaysia-johor-bahru-2023-03/</link>
     <pubDate>Sun, 26 Feb 2023 10:53:50 &#43;0800</pubDate>
@@ -85,14 +97,6 @@
 </ul>
 <h2 id="展望2023">展望2023</h2>
 <p>三個Electron程式</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 最美好、也最殘酷的翻身時代：畢德歐夫帶你掌握理財5大關鍵</title>
-    <link>https://nostanduptalk.github.io/notes-bidoffer/</link>
-    <pubDate>Sun, 25 Dec 2022 23:14:39 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-bidoffer/</guid>
-    <description><![CDATA[<p><code>當我們一心幫別人設想(當然自己也不能虧太多),一路上就會有越來越多人想來幫助你。</code></p>]]></description>
 </item>
 </channel>
 </rss>
