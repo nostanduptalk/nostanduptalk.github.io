@@ -3,7 +3,16 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 12 Mar 2023 22:36:42 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 19 Mar 2023 23:32:26 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 手寫筆記工作術</title>
+    <link>https://nostanduptalk.github.io/notes-paper-note/</link>
+    <pubDate>Sun, 19 Mar 2023 23:32:26 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-paper-note/</guid>
+    <description><![CDATA[<p>「筆記是為了要讓未來想起當時的背景情況，好的筆記能夠讓我們隨時自由的喚起記憶」
+保存情報作業的重點，不在於記了多少資料，而是讓自己能夠想起什麼。所喚起的記憶清晰度為何？是否能讓自己回到當時的臨場感？</p>]]></description>
+</item>
+<item>
     <title>[筆記] 當收入只夠填飽肚子</title>
     <link>https://nostanduptalk.github.io/notes-hand-to-mouth/</link>
     <pubDate>Sun, 12 Mar 2023 22:36:42 &#43;0800</pubDate>
@@ -82,15 +91,6 @@
     <guid>https://nostanduptalk.github.io/notes-working-method/</guid>
     <description><![CDATA[<h2 id="事情的輕重緩急">事情的輕重緩急</h2>
 <p><code>現在做這件事，是否離目標更近一步？</code></p>]]></description>
-</item>
-<item>
-    <title>[筆記] 破解黑心話術【購屋超級攻略】</title>
-    <link>https://nostanduptalk.github.io/notes-superagentzack/</link>
-    <pubDate>Sun, 08 Jan 2023 22:28:53 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-superagentzack/</guid>
-    <description><![CDATA[<h2 id="房仲考照制度極度寬鬆">房仲考照制度極度寬鬆</h2>
-<p>你只要乖乖出席四天課程，無論你在上課期間滑手機看漫畫還是做工作，只要在座位上四天你就已經完成一半了。接著課程結束後這次週，再通過筆試就能夠拿到證照，筆試都是單選題而且還有考古題可以拿回去背。</p>]]></description>
 </item>
 </channel>
 </rss>
