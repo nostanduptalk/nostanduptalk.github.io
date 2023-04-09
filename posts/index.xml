@@ -3,7 +3,15 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Apr 2023 20:56:27 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 09 Apr 2023 21:45:22 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[旅遊] 在馬來西亞的觀察與發現</title>
+    <link>https://nostanduptalk.github.io/journey-observations-in-malaysia/</link>
+    <pubDate>Sun, 09 Apr 2023 21:45:22 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/journey-observations-in-malaysia/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>[筆記] 致富心態</title>
     <link>https://nostanduptalk.github.io/notes-psychology-of-money/</link>
     <pubDate>Sun, 02 Apr 2023 20:56:27 &#43;0800</pubDate>
@@ -82,14 +90,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-life-school-bettywu1122/</guid>
     <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[筆記] 底層邏輯</title>
-    <link>https://nostanduptalk.github.io/notes-underlying-logic/</link>
-    <pubDate>Sun, 29 Jan 2023 21:38:24 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-underlying-logic/</guid>
-    <description><![CDATA[<p><code>我們要時時刻刻反省：我說的話、我的表述，是事實，是觀點，是立場，還是信仰？</code></p>]]></description>
 </item>
 </channel>
 </rss>
