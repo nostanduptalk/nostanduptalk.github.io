@@ -19,4 +19,4 @@
 
 接下來，我要提供YouTube 的教學系列影片，介紹electron怎麼入門到發佈。
 
-<iframe src="https://open.firstory.me/embed/story/clbqg3aje05n001s86mehgrzz" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clbqg3aje05n001s86mehgrzz" height="180" width="81%" frameborder="0" scrolling="no"></iframe>

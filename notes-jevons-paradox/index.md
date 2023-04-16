@@ -10,4 +10,4 @@ Jevons悖論表示：效率越高，其實有機會消耗越多。
 [wiki](https://zh.wikipedia.org/wiki/Jevons%E6%82%96%E8%AB%96)
 
 
-<iframe src="https://open.firstory.me/embed/story/clbjfm2zh01le01s0brz290er" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clbjfm2zh01le01s0brz290er" height="180" width="81%" frameborder="0" scrolling="no"></iframe>

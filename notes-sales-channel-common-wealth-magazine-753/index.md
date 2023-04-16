@@ -27,7 +27,7 @@
 
 ## 結語
 目前的台灣通路與供應商的生態系，是多年以來的自由市場發展結果，對於消費者來說，能夠在家附近就能買到便宜的商品，可以說全來自自由市場的競爭，但供應商可能為了不停讓利導致我們的商品無法再投資創新，甚至可能為了壓低成本，做出自己都不敢買的產品。政府在事情還可以控制的時候就應該要干預市場，透過公平會的力量，避免一面倒的結果。「維持競爭才有進步」，這句話通常是放在同業，現在看起來上下游業者也適用，任何企業失去議價能力之後，都不會有好下場。
-<iframe src="https://open.firstory.me/embed/story/cl69iobjt00rl01w25tmrhw6l" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl69iobjt00rl01w25tmrhw6l" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 
 # 連結

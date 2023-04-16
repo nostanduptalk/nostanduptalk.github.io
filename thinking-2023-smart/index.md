@@ -55,4 +55,4 @@ https://www.planttext.com/
 
 https://stackoverflow.com/questions/70039939/how-to-use-the-plantuml-preview-in-vscode
 
-<iframe src="https://open.firstory.me/embed/story/clcewqtv20c2g010gglr5dorc" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clcewqtv20c2g010gglr5dorc" height="180" width="81%" frameborder="0" scrolling="no"></iframe>

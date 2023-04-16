@@ -4,7 +4,7 @@
 
 <!--more-->
 
-<iframe src="https://open.firstory.me/embed/story/clg9gmqyp016l01sk13ccfagn" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clg9gmqyp016l01sk13ccfagn" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 # 交通
 * grab 很方便，司機都開很快，不太常使用方向燈，但也沒看到車禍，有時候會因為比較難叫所以比較貴？但還是很划算，麻六甲最便宜RM3-5元，可能是油價也便宜，RM2一公升的樣子，grab司機在路途中去加油站，加油過程沒有熄火。

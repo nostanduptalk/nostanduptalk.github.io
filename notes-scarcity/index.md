@@ -5,7 +5,7 @@
 
 <!--more-->
 
-<iframe src="https://open.firstory.me/embed/story/clfpkqc5f00wi010w8tg8gfpp" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clfpkqc5f00wi010w8tg8gfpp" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 ## 「拋接球效應」
 `是指當一個急事接著另一個急事不斷出現時，我們只能注意最快掉下來的那個球，而忽略其他在空中的球，並且只能暫時地「解決」問題，給未來帶來新的麻煩。`

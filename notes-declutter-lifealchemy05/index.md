@@ -17,7 +17,7 @@
 2. 是不是有東西可以取代？
 3. 這個物品可以幫助我成為更好的人嗎？
 
-<iframe src="https://open.firstory.me/embed/story/cldhfcqrp0lkm01tjc2gib6cx" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cldhfcqrp0lkm01tjc2gib6cx" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 ## 用五個為什麼整理內心思緒
 也不一定只能提出五個，只要能夠一直往核心發問，提出解決的方法，得以改善生活就可以了。

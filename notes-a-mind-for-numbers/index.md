@@ -11,7 +11,7 @@
 
 ## **專注模式**與**發散模式**
 好的作曲，可能是在「鬧著玩的」情況下，用發散模式完成的，同一個作者若要很專注地再做出一首經典，可能就不是那麼容易。
-<iframe src="https://open.firstory.me/embed/story/cl5zf4tyl03nv01ul7dre03mr" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl5zf4tyl03nv01ul7dre03mr" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 [心得] 有時候做不出來，就先暫停，去上個廁所，喝口水，讓大腦回到發散模式，說不定可以解決專注模式卡住的問題。
 

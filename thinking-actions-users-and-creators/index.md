@@ -31,4 +31,4 @@
 
 有人說，把事情做好就是100分，做到120分才能被長官嘉獎，身為打工人，每天有許多待辦案件要做，但我們總有辦法在日常任務之中，尋找重來沒有想到的解決方案，讓事情更快又更省成本。
 
-<iframe src="https://open.firstory.me/embed/story/cl9vgzx1s06vc01xugkee23fr" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl9vgzx1s06vc01xugkee23fr" height="180" width="81%" frameborder="0" scrolling="no"></iframe>

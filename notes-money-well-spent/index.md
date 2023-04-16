@@ -19,7 +19,7 @@
 ## 3. 「更多的人生體驗」的錢不能省
 這點對我來說是**旅行**，我喜歡去沒去過的地方，感受當地的生活，體驗的記憶雖然不會永久長存，但也讓我能有事情能回憶，人生到晚年無法自由行動的時候，才不會後悔。
 
-<iframe src="https://open.firstory.me/embed/story/cl9b21met066201v9cogvapz9" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl9b21met066201v9cogvapz9" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 # 連結
 [綠角財經筆記FB](https://www.facebook.com/GreenHornFans/posts/2792092427487164)

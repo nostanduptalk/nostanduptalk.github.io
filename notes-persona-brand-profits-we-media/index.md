@@ -42,7 +42,7 @@
 
 
 ## 行銷漏斗
-<iframe src="https://open.firstory.me/embed/story/cl4lfopla01k101uc3smm9u0h" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl4lfopla01k101uc3smm9u0h" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 ![漏斗](ex1.png)
 漏斗最上層(多): 完全不認識你的陌生人

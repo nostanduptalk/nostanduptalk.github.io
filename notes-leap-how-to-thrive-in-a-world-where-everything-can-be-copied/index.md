@@ -8,7 +8,7 @@
 <!--more-->
 [心得]明明大家都做好自己的工作，最後，卻只能被市場淘汰。所以企業在選擇賽道的時候，要能放下過去的包袱，忘掉沉默成本。最近PCHOME 網購營收一直下滑，大家都知道購買介面做的不好，但疫情2年多過去了，還是同一個樣子。
 
-<iframe src="https://open.firstory.me/embed/story/cl5pf6zly02wq01zx0y3v5d9d" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl5pf6zly02wq01zx0y3v5d9d" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 ## 人們如果覺得這件事情是自己選擇的，或是在做利他的事，做起來就不會這麼累。
 如果是覺得自己沒有自主權，只是聽命行事，人的意志就容易疲勞。

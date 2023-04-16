@@ -21,7 +21,7 @@
 
 **[心得]** 日常工作之餘，也要找機會發展能力，不要工作十年後才發現，只是同一年的能力用十年。
 
-<iframe src="https://open.firstory.me/embed/story/clcxfaedg087y01ua225ne9lj" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clcxfaedg087y01ua225ne9lj" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 
 ## 溝通力

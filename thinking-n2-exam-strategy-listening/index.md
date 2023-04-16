@@ -22,4 +22,4 @@
 
 畢竟，N2合格只需要拿到一半的分數。
 
-<iframe src="https://open.firstory.me/embed/story/clazddv1n04ls01vfaon63c81" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clazddv1n04ls01vfaon63c81" height="180" width="81%" frameborder="0" scrolling="no"></iframe>

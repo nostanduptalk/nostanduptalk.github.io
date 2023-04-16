@@ -32,7 +32,7 @@
 
 舉例來說，像玩俄羅斯輪盤這樣的危險遊戲，即使機率對我們有利，但是如果失敗的後果是毀滅性的，那就不值得冒這個險。同樣的，投資也是如此，雖然有些投資機會看起來很有利可圖，但如果存在潛在的破壞性風險，那就不值得去冒險。`你必須要活下來才會成功。`
 
-<iframe src="https://open.firstory.me/embed/story/clg9fasij015k01ske1edg8la" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clg9fasij015k01ske1edg8la" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 ## 計畫中的盲點與信念
 我們經常只聚焦在自己已知的事實上，而忽略自己不知道的事實，這使我們對自己的信念過於自信。我們應該在計畫制定時保持開放的態度，考慮他人的計畫和技能，不要忽視運氣的影響，並且時刻警覺自我中心偏誤的存在。

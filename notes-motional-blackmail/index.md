@@ -42,7 +42,7 @@
 ## 後記
 前半都在介紹情緒勒索的成因與樣貌，後半部都在說明怎麼避免成為情緒勒索的受害者，但我看起來都沒有書中的症狀，看完定義後，後面就很快翻過去。我會觀察自己的感受，不會為別人的情緒負責，尊重價值觀差異。
 
-<iframe src="https://open.firstory.me/embed/story/cl7nfi9u704ka01wm8nbo1nim" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl7nfi9u704ka01wm8nbo1nim" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 # 連結
 [博客來-情緒勒索：那些在伴侶、親子、職場間，最讓人窒息的相處（15萬冊暢銷版）](https://www.books.com.tw/products/0010742371)

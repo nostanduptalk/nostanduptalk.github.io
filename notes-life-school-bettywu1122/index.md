@@ -86,7 +86,7 @@
 
 **心得**： 2023年成熟製成晶片產能利用率只剩70%，但之前卻有公司高層在2021年說，到2024年都不會衰退，這應該就是長鞭效應吧。
 
-<iframe src="https://open.firstory.me/embed/story/cldrk7bl50hhr01t41mx4fthu" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cldrk7bl50hhr01t41mx4fthu" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 
 ## 人品大於人脈大於能力大於學歷

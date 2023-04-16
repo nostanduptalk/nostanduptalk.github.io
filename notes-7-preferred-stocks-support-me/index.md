@@ -9,7 +9,7 @@
 [心得] 如果是專門領股利的散戶，是不是有特別股就不要選普通股呢?
 
 <!--more-->
-<iframe src="https://open.firstory.me/embed/story/cl5fi74pm00r701s0bauh00n9" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl5fi74pm00r701s0bauh00n9" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
 
 ## 公司清算順序
 1. 政府: 欠稅、罰鍰、規費。

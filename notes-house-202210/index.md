@@ -38,4 +38,4 @@
 2. 同一個社區，如果比之前的成交金額低，會有人情壓力，怕讓前客戶有買貴的感覺
 3. 對於賣家來說，只要成交金額比成交歷史高，就算任務達成。
 
-<iframe src="https://open.firstory.me/embed/story/cl92xspe909i1010k6pmc4mns" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl92xspe909i1010k6pmc4mns" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
