@@ -5,7 +5,7 @@
 `一個只會一個指令一個動作的人，絕對無法成長。優秀的人才總是能快速完成指派任務，並主動善用省下的時間。`
 
 <!--more-->
-<iframe src="https://open.firstory.me/embed/story/clgjivm4s042j01x76fsn1qrq" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clgjivm4s042j01x76fsn1qrq" height="180" width="100%" frameborder="0" scrolling="no"></iframe>
 
 ## 若無法尋求100%正確的選擇，該如何行動呢？
 可以選擇成功率較高的選項，並增加嘗試與調整的次數，來提高成功的機會。
