@@ -17,7 +17,7 @@
 
 *就只有「評斷人」與「做甚麼事」*
 <!--more-->
-<iframe src="https://open.firstory.me/embed/story/cl55i2eh80dtw01t9518wep28" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl55i2eh80dtw01t9518wep28" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ### 黃冠華提到十個字口訣，可以分成四點:
 1. 賽道: 選擇的領域，市場風口

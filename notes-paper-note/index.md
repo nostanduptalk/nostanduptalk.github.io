@@ -10,7 +10,7 @@
 從事交易活動時,記憶力不重要,需要的是記憶量。但是我們的記憶力根本容納不下
 如此龐大的客戶溝通資料,所以,一定要手寫記筆記。將龐大資料記下來
 
-<iframe src="https://open.firstory.me/embed/story/clffjr3ue01l801tw3kl37bu5" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clffjr3ue01l801tw3kl37bu5" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 筆記本尺寸不宜過大，也不宜太小
 A5或B6最適合，大約64頁也不會太厚，選擇方格筆記本就可以自由書寫和繪畫， 可以兼具空白頁面和橫線 頁面的功能。筆記本可能停產如果遇到喜歡的樣式，可以透過網路大量購買並獲得折扣。

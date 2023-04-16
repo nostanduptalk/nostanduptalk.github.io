@@ -8,7 +8,7 @@
 
 我挑選其中**準備測驗的技巧**的部分
 
-<iframe src="https://open.firstory.me/embed/story/cl7xh805i090c01wi14sw3syt" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl7xh805i090c01wi14sw3syt" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 時間規劃
 > * 晚上輸入：睡覺期間可以幫助記憶思考

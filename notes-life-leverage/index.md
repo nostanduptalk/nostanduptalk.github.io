@@ -31,7 +31,7 @@
 # 結語
 > p70p71：你永遠無法平衡時間與工作,因為那就像期待鐘擺停在正中央一樣,是不可能的事情。有時候你會處在工作的那一端,掌握自己的財源收入與職業發展,沒有明付出足夠的時間在家庭身上。而某些時候,你享受美好的家庭生活，但你的職業發展停滯,也沒有法賺到足夠的金錢。
 
-<iframe src="https://open.firstory.me/embed/story/cl8rhn44m00xp01wl62zjcpzk" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl8rhn44m00xp01wl62zjcpzk" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 # 連結
 [作者臉書](https://www.facebook.com/progressiveproperty)

@@ -14,5 +14,5 @@
 
 不要到年底結算成果的時候，寫不出價值亮點。
 
-<iframe src="https://open.firstory.me/embed/story/clapf27du00m001v70xzy54a8" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clapf27du00m001v70xzy54a8" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 

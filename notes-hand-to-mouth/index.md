@@ -5,7 +5,7 @@
 一個英語片語，「手到口」或「口袋空空」的意思。這個詞常常用來形容一個人沒有存款或儲蓄，只能靠每天工作賺到的錢來維持生計。也可以用來形容一個人的生活非常貧困，只能勉強維持基本的生活需求，無法有儲蓄或享受生活上的奢侈品。這個片語也可以用來形容那些沒有長遠計劃或沒有經濟穩定的人，他們只能在當下應對生活的需要，而無法做長期的打算。
 
 <!--more-->
-<iframe src="https://open.firstory.me/embed/story/clffj21x701ku01tw69l61tid" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clffj21x701ku01tw69l61tid" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ### 休息是有錢人的奢侈
 ``根本沒有太多時間去思考現在手上正在做的事,只能不斷忙著處理下一件事與下下一件事,完全沒有做規劃的空間。貧窮是很淒慘的,而且讓人失去考慮長期問題的能力。``

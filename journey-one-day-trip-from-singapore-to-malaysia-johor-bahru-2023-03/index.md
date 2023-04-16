@@ -6,7 +6,7 @@
 出去前，先填好新加坡的ICA，準備兩邊的車錢，不能找零，只有visa可以刷，最好sim卡有兩地網路比較好求救。馬來西亞購物便宜，觀光區食物物價大約跟台灣一樣。
 <!--more-->
 
-<iframe src="https://open.firstory.me/embed/story/cletodx7u025l01vwe1nz6ahg" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cletodx7u025l01vwe1nz6ahg" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## [過邊境交通] 去程
 ![queen street](QueenStTer.JPG)

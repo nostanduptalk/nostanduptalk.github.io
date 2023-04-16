@@ -9,7 +9,7 @@
 
 心得：過年期間，就會有那種不懂邊界的長輩會想要亂問問題，直接跨越邊界，讓對方感受到不舒服，作者說這個行為很像是小孩子一樣，搞不清楚邊界在哪裡，如同沒有長大像巨嬰。
 
-<iframe src="https://open.firstory.me/embed/story/cldhfepm10lkr01tjbqcm1ls0" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cldhfepm10lkr01tjbqcm1ls0" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 判斷損失發生後應該怪誰，就看誰因此損失大。
 如果自己有損失，只能怪自己，也就只有自己才能夠改變事情最終的結果。

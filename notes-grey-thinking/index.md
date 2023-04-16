@@ -9,7 +9,7 @@
 
 心得：如果知道事情的成功需要時機，那是不是有機會尋找歷史上失敗的案例，再重新等待時機的到來，化為自己的成功? 像最近流行的美食外送服務，必須要搭配行動網路、手機、平板電腦的普及，才可以在客戶下單，店家收單，與外送員接單之間做出商業模式。我猜未來網路延遲如果可以大幅縮短，就會產生大量遠端工作的機會，目前因為網路的限制，讓線上會議的延遲變得不好溝通，等延遲低到就像面對面溝通的時候，我們基本上就不用出門了。
 
-<iframe src="https://open.firstory.me/embed/story/cl8hffp0p00d101sl830ib3mu" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl8hffp0p00d101sl830ib3mu" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 若能夠花幾分鐘就可以知道一個人是否正派與否、觀念是否值得參考借鏡，是很幸褔的一件事，而這樣的訓練要持續精進，也需要時間。
 心得：也許沒辦法第一時間確認，但可以透過多方的資訊來源，交叉比對。

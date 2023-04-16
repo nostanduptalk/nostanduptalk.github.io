@@ -38,7 +38,7 @@
 
 心得：我無法被這種論點說服。不想要閒著等死，並可以同時在工作中找到成就感，我覺得才是有錢人持續工作的原因。
 
-<iframe src="https://open.firstory.me/embed/story/cl7bi1hlx04gd01tahc44ayoe" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl7bi1hlx04gd01tahc44ayoe" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 
 # 連結

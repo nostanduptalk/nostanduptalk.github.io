@@ -20,4 +20,4 @@
 # 連結
 [ezgif-線上影片轉GIF並resize](https://ezgif.com/video-to-gif)
 
-<iframe src="https://open.firstory.me/embed/story/cle1kxn1r0orc01t49un661ow" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cle1kxn1r0orc01t49un661ow" height="180" width="99%" frameborder="0" scrolling="no"></iframe>

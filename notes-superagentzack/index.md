@@ -14,7 +14,7 @@
 
 心得：這樣一來，台灣就會一直在低利率的環境下提供洋行上繳的稅收，而這個稅收目前據說佔了每年的收入10%，所以我猜之後就會因為低利率，所以房價就一直降不下來。
 
-<iframe src="https://open.firstory.me/embed/story/clcnh504301k401yo4cmjdjt0" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clcnh504301k401yo4cmjdjt0" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 買房，應該是讓你生活品質更好的決定
 不應該為了面子而買房，買了一個不適合又負擔不來的房子，看你得先撐完30年省吃儉用的屋奴生活，在過上20年省吃儉用的退休生活。

@@ -70,7 +70,7 @@
 
 [心得] 確實有不容易的老闆，而且大部分可能都是不容易的，不然創業失敗率就不會這麼高了。
 
-<iframe src="https://open.firstory.me/embed/story/clc3j617i03n701zyfzlyeghm" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clc3j617i03n701zyfzlyeghm" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 連結
 [博客來-最美好、也最殘酷的翻身時代：畢德歐夫帶你掌握理財5大關鍵](https://www.books.com.tw/products/0010922499)

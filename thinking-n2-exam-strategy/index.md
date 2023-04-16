@@ -10,6 +10,6 @@
 
 通過N2只要拿到50%得分即可，我的作答情況是前半部的「言語知識(文字、語彙、文法)」錯很多，但5X題中，錯不到25題，而後半部「讀解」答對率遠高於50%，以整體題數來說有60~70%的答對率，我覺得應該可以低空飛過吧。
 
-<iframe src="https://open.firstory.me/embed/story/clapf44xu00m501v7cp8v6v8v" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clapf44xu00m501v7cp8v6v8v" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 

@@ -11,7 +11,7 @@
 3. 定期壽險  
 [心得] 沒有家庭的話，真的沒有這些必要，怕得癌症的話，還不如平常飲食作息控制好。
 <!--more-->
-<iframe src="https://open.firstory.me/embed/story/cl4vfotu6000p01t9cl5xazu5" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl4vfotu6000p01t9cl5xazu5" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 作者覺得保險要「低保費、高保障、理賠明確」
 [心得]我這樣的產品肯定不多，畢竟保險公司都是營利公司，我們要怎麼找到對保戶有利的產品呢? 我覺得可能的方法，只有賠率對你有利: 假設家族很多人都有癌症病史，趁沒有癌症的時候去保癌症險。如果是騎機車外送員，可以找沒有排除外送員的意外險。

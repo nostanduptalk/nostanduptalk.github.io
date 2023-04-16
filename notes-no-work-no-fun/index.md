@@ -27,7 +27,7 @@
 
 [心得] 要做到客戶或是老闆需要的事情，但那件事情他們本來卻都沒想到，這樣就可以達成120分了。
 
-<iframe src="https://open.firstory.me/embed/story/clapezpgk00lv01v71edegpm7" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clapezpgk00lv01v71edegpm7" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 
 ## 改變觀點的方法

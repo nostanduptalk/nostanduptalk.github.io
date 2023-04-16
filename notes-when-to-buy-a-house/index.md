@@ -31,7 +31,7 @@
 
 <img src="house.png" width="80%">
 
-<iframe src="https://open.firstory.me/embed/story/cl84ms1kl02a601wm2n5m2x8p" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cl84ms1kl02a601wm2n5m2x8p" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 # 連結
 [台灣-景氣對策信號 | 台灣-景氣對策信號 | 圖組 | MacroMicro 財經M平方](https://www.macromicro.me/collections/10/tw-monitoring-indicators-relative/79/tw-monitoring-indicators)

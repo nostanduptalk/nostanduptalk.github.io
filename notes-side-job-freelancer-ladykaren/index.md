@@ -5,7 +5,7 @@
 
 <!--more-->
 
-<iframe src="https://open.firstory.me/embed/story/cleb3z998016001z5citv88cx" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cleb3z998016001z5citv88cx" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## WPV，盤點能力
 W是Well也就是你做得好的事情，P是Passion也就是你有熱情的事情，V是Value也就是你能夠為(社會)他人提供價值的事情，三者的**交集**就可以當作**未來的天職**

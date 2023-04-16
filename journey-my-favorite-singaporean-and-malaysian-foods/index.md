@@ -8,7 +8,7 @@
 
 <!--more-->
 
-<iframe src="https://open.firstory.me/embed/story/clf58h33x040501vwhwude3jr" height="180" width="81%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clf58h33x040501vwhwude3jr" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## COFFEE QUEEN，Teh O，SGD1.5
 Teh O ，只要1.5，我不加糖喝起來只有微苦，一周內喝了三次，在麥斯威爾熟食中心，天天海南雞飯也在附近。不太需要排隊。
