@@ -3,7 +3,15 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Apr 2023 22:31:52 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Apr 2023 22:10:13 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 你拿什麼定義自己</title>
+    <link>https://nostanduptalk.github.io/notes-important-matters/</link>
+    <pubDate>Sun, 23 Apr 2023 22:10:13 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-important-matters/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>[筆記] 一流的人，都懂得如何做選擇</title>
     <link>https://nostanduptalk.github.io/notes-how-to-make-choices/</link>
     <pubDate>Sun, 16 Apr 2023 22:31:52 &#43;0800</pubDate>
@@ -82,14 +90,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-side-job-freelancer-ladykaren/</guid>
     <description><![CDATA[<p>這是一門線上課程的學習筆記。</p>]]></description>
-</item>
-<item>
-    <title>[思考] 學習的兩種「型態」</title>
-    <link>https://nostanduptalk.github.io/thinking-two-learning-styles/</link>
-    <pubDate>Sun, 12 Feb 2023 23:49:10 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-two-learning-styles/</guid>
-    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>
