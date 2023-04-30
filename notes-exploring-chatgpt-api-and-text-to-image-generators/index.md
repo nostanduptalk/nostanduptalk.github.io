@@ -6,15 +6,19 @@
 
 <!--more-->
 <iframe src="https://open.firstory.me/embed/story/clh3lx1m7018301yh3tf42ggs" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 上課前後的差異
 上課前，我只使用[ChatGPT 網頁版](https://chat.openai.com/)，常常輸入太多，直接顯示沒有回應。上課後，使用python 與API KEY，用電腦傳需求可以更穩定。
 
 ## 官方課程: 
 [Link: ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
-介紹提示的兩個關鍵原則：**撰寫明確具體的指示，並在適當的情況下給模型思考的時間。**同時介紹了迭代提示開發和構建自定義聊天機器人的方法。並介紹了大 型語言模型的幾種有用功能，包括**總結、推斷、轉換和擴展**。此外，還提醒讀者使用這些工具負責任，並只構建將具有積極影響的事物。
+介紹提示的兩個關鍵原則：**撰寫明確具體的指示，並在適當的情況下給模型思考的時間。**
+同時介紹了迭代提示開發和構建自定義聊天機器人的方法。並介紹了大 型語言模型的幾種有用功能，包括**總結、推斷、轉換和擴展**。
+此外，還提醒讀者使用這些工具負責任，並只構建將具有積極影響的事物。
 
 
-## model="gpt-3.5-turbo"，一次執行多個任務，並設定輸出格式
+## model="gpt-3.5-turbo"
+一次執行多個任務，並設定輸出格式
 ``` python
 import openai
 
@@ -72,7 +76,7 @@ print(response)
 ChatGPT 回答是: 
 total_tokens: 1370 temperature: 0
 
-```
+``` text
 翻譯:
 你好！我是ChatGPT，一個人工智能模型，我可以說日語。
 
@@ -100,7 +104,7 @@ ChatGPT是一個人工智能模型，可以說日語。他建議人們可以嘗�
 ```
 
 ## 可以送出對話歷史，以便製作聊天機器人
-```
+``` python
 messages =  [  
 {'role':'system', 'content':'You are friendly chatbot.'},
 {'role':'user', 'content':'Hi, my name is Isa'},
@@ -113,10 +117,10 @@ print(response)
 ChatGPT 回答是: Your name is Isa.
 
 ## token
-但似乎只有用這種方式才會算token 使用量(?)，用python 回傳的結果可以看到每次大約都要1000~4000 token 才能完成一次，以gpt-3.5-turbo價格 $0.002 / 1000 tokens來說，其實不貴，但滿三個月或是18美元的額度用完後，就不知道該怎麼辦了。
+但似乎只有用API方式才會算token 使用量(?)，用python 回傳的結果可以看到每次大約都要1000~4000 token 才能完成一次，以gpt-3.5-turbo價格 $0.002 / 1000 tokens來說，其實不貴，但滿三個月或是18美元的額度用完後，就不知道該怎麼辦了。
 
 ## Line Bot
-原本想要串Line 機器人，但發現免費帳號只到6月，所以裝好就不到一個月可以用，就很沒有衝勁，等6月再看看。
+原本想要串Line 機器人，但發現帳號只免費到6月，所以裝好就不到一個月就不能用了，就很沒有衝勁，等6月再看看。
 
 ## 其他發現
 - 可以請他用 informal 的方式回答
@@ -124,7 +128,7 @@ ChatGPT 回答是: Your name is Isa.
 - 更好的Prompt: proofread and correct this review:
 - 比較差異的ptyhon套件: Redlines
 
-```
+``` python
 from redlines import Redlines
 
 diff = Redlines(text,response)
@@ -134,7 +138,7 @@ display(Markdown(diff.output_markdown))
 ## 文字產圖 "model": "image-alpha-001"
 最後去研究文字產圖，目前midjourney已經沒有免費版了，所以就找看看其他的，意外發現這也可以用同樣的API KEY。但是比較貴，1024×1024，$0.020 / image，所以不敢一直做。
 
-```
+``` python
 import requests
 import json
 
@@ -159,8 +163,10 @@ def generate_image(prompt):
 prompt = """A digital illustration of office, 4k, detailed, trending in artstation, fantasy"""
 generate_image(prompt)
 ```
+
 回傳image_url網址，檔案3MB，我自行壓縮後如下:
-<img src="ex.jpg" width="80%">
+
+<img src="ex.jpg" width="100%">
 
 ## 免費產圖 
 1. [bing image creator (有限次數)](https://www.bing.com/images/create)

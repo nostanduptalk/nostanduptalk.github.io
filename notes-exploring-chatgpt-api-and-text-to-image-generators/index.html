@@ -35,7 +35,7 @@
                             "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "探索ChatGPT, 文字轉圖像, AI","wordcount":  2364 ,
+                        }],"genre": "posts","keywords": "探索ChatGPT, 文字轉圖像, AI","wordcount":  2305 ,
         "url": "https:\/\/nostanduptalk.github.io\/notes-exploring-chatgpt-api-and-text-to-image-generators\/","datePublished": "2023-04-30T23:54:52+08:00","dateModified": "2023-04-30T23:54:52+08:00","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -115,7 +115,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] 探索ChatGPT API和文字轉圖像生成器</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-30">2023-04-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2364 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-30">2023-04-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2305 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -124,8 +124,9 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
+    <li><a href="#上課前後的差異">上課前後的差異</a></li>
     <li><a href="#官方課程">官方課程:</a></li>
-    <li><a href="#modelgpt-35-turbo一次執行多個任務並設定輸出格式">model=&ldquo;gpt-3.5-turbo&rdquo;，一次執行多個任務，並設定輸出格式</a></li>
+    <li><a href="#modelgpt-35-turbo">model=&ldquo;gpt-3.5-turbo&rdquo;</a></li>
     <li><a href="#可以送出對話歷史以便製作聊天機器人">可以送出對話歷史，以便製作聊天機器人</a></li>
     <li><a href="#token">token</a></li>
     <li><a href="#line-bot">Line Bot</a></li>
@@ -137,12 +138,15 @@
 </nav></div>
             </div><div class="content" id="content"><p>偶然的機會發現ChatGPT 官方免費線上課程，花了一天來深入了解，以下是我筆記，最後介紹三個AI文字產圖的心得。</p>
 <iframe src="https://open.firstory.me/embed/story/clh3lx1m7018301yh3tf42ggs" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
-## 上課前後的差異
-上課前，我只使用[ChatGPT 網頁版](https://chat.openai.com/)，常常輸入太多，直接顯示沒有回應。上課後，使用python 與API KEY，用電腦傳需求可以更穩定。
+<h2 id="上課前後的差異">上課前後的差異</h2>
+<p>上課前，我只使用<a href="https://chat.openai.com/" target="_blank" rel="noopener noreffer">ChatGPT 網頁版</a>，常常輸入太多，直接顯示沒有回應。上課後，使用python 與API KEY，用電腦傳需求可以更穩定。</p>
 <h2 id="官方課程">官方課程:</h2>
 <p><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" target="_blank" rel="noopener noreffer">Link: ChatGPT Prompt Engineering for Developers</a>
-介紹提示的兩個關鍵原則：<strong>撰寫明確具體的指示，並在適當的情況下給模型思考的時間。<strong>同時介紹了迭代提示開發和構建自定義聊天機器人的方法。並介紹了大 型語言模型的幾種有用功能，包括</strong>總結、推斷、轉換和擴展</strong>。此外，還提醒讀者使用這些工具負責任，並只構建將具有積極影響的事物。</p>
-<h2 id="modelgpt-35-turbo一次執行多個任務並設定輸出格式">model=&ldquo;gpt-3.5-turbo&rdquo;，一次執行多個任務，並設定輸出格式</h2>
+介紹提示的兩個關鍵原則：<strong>撰寫明確具體的指示，並在適當的情況下給模型思考的時間。</strong>
+同時介紹了迭代提示開發和構建自定義聊天機器人的方法。並介紹了大 型語言模型的幾種有用功能，包括<strong>總結、推斷、轉換和擴展</strong>。
+此外，還提醒讀者使用這些工具負責任，並只構建將具有積極影響的事物。</p>
+<h2 id="modelgpt-35-turbo">model=&ldquo;gpt-3.5-turbo&rdquo;</h2>
+<p>一次執行多個任務，並設定輸出格式</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -281,7 +285,7 @@ total_tokens: 1370 temperature: 0</p>
 </span><span class="lnt">24
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">翻譯:
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">翻譯:
 你好！我是ChatGPT，一個人工智能模型，我可以說日語。
 
 今天天氣真好啊！不妨出門試試新事物，例如嘗試新餐廳、在公園野餐或參觀博物館和美術館等等。
@@ -320,21 +324,21 @@ ChatGPT是一個人工智能模型，可以說日語。他建議人們可以嘗�
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">messages =  [  
-{&#39;role&#39;:&#39;system&#39;, &#39;content&#39;:&#39;You are friendly chatbot.&#39;},
-{&#39;role&#39;:&#39;user&#39;, &#39;content&#39;:&#39;Hi, my name is Isa&#39;},
-{&#39;role&#39;:&#39;assistant&#39;, &#39;content&#39;: &#34;Hi Isa! It&#39;s nice to meet you. \
-Is there anything I can help you with today?&#34;},
-{&#39;role&#39;:&#39;user&#39;, &#39;content&#39;:&#39;Yes, you can remind me, What is my name?&#39;}  ]
-response = get_completion_from_messages(messages, temperature=1)
-print(response)
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">messages</span> <span class="o">=</span>  <span class="p">[</span>  
+<span class="p">{</span><span class="s1">&#39;role&#39;</span><span class="p">:</span><span class="s1">&#39;system&#39;</span><span class="p">,</span> <span class="s1">&#39;content&#39;</span><span class="p">:</span><span class="s1">&#39;You are friendly chatbot.&#39;</span><span class="p">},</span>
+<span class="p">{</span><span class="s1">&#39;role&#39;</span><span class="p">:</span><span class="s1">&#39;user&#39;</span><span class="p">,</span> <span class="s1">&#39;content&#39;</span><span class="p">:</span><span class="s1">&#39;Hi, my name is Isa&#39;</span><span class="p">},</span>
+<span class="p">{</span><span class="s1">&#39;role&#39;</span><span class="p">:</span><span class="s1">&#39;assistant&#39;</span><span class="p">,</span> <span class="s1">&#39;content&#39;</span><span class="p">:</span> <span class="s2">&#34;Hi Isa! It&#39;s nice to meet you. </span><span class="se">\
+</span><span class="se"></span><span class="s2">Is there anything I can help you with today?&#34;</span><span class="p">},</span>
+<span class="p">{</span><span class="s1">&#39;role&#39;</span><span class="p">:</span><span class="s1">&#39;user&#39;</span><span class="p">,</span> <span class="s1">&#39;content&#39;</span><span class="p">:</span><span class="s1">&#39;Yes, you can remind me, What is my name?&#39;</span><span class="p">}</span>  <span class="p">]</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">get_completion_from_messages</span><span class="p">(</span><span class="n">messages</span><span class="p">,</span> <span class="n">temperature</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>ChatGPT 回答是: Your name is Isa.</p>
 <h2 id="token">token</h2>
-<p>但似乎只有用這種方式才會算token 使用量(?)，用python 回傳的結果可以看到每次大約都要1000~4000 token 才能完成一次，以gpt-3.5-turbo價格 $0.002 / 1000 tokens來說，其實不貴，但滿三個月或是18美元的額度用完後，就不知道該怎麼辦了。</p>
+<p>但似乎只有用API方式才會算token 使用量(?)，用python 回傳的結果可以看到每次大約都要1000~4000 token 才能完成一次，以gpt-3.5-turbo價格 $0.002 / 1000 tokens來說，其實不貴，但滿三個月或是18美元的額度用完後，就不知道該怎麼辦了。</p>
 <h2 id="line-bot">Line Bot</h2>
-<p>原本想要串Line 機器人，但發現免費帳號只到6月，所以裝好就不到一個月可以用，就很沒有衝勁，等6月再看看。</p>
+<p>原本想要串Line 機器人，但發現帳號只免費到6月，所以裝好就不到一個月就不能用了，就很沒有衝勁，等6月再看看。</p>
 <h2 id="其他發現">其他發現</h2>
 <ul>
 <li>可以請他用 informal 的方式回答</li>
@@ -350,10 +354,10 @@ print(response)
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">from redlines import Redlines
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">redlines</span> <span class="kn">import</span> <span class="n">Redlines</span>
 
-diff = Redlines(text,response)
-display(Markdown(diff.output_markdown))
+<span class="n">diff</span> <span class="o">=</span> <span class="n">Redlines</span><span class="p">(</span><span class="n">text</span><span class="p">,</span><span class="n">response</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="n">diff</span><span class="o">.</span><span class="n">output_markdown</span><span class="p">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="文字產圖-model-image-alpha-001">文字產圖 &ldquo;model&rdquo;: &ldquo;image-alpha-001&rdquo;</h2>
@@ -385,33 +389,33 @@ display(Markdown(diff.output_markdown))
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">import requests
-import json
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">json</span>
 
-def generate_image(prompt):
-    response = requests.post(
-        &#34;https://api.openai.com/v1/images/generations&#34;,
-        headers={
-            &#34;Content-Type&#34;: &#34;application/json&#34;,
-            &#34;Authorization&#34;: &#34;Bearer sk-XXXXXXXXXXX&#34;  # API KEY
-        },
-        json={
-            &#34;model&#34;: &#34;image-alpha-001&#34;,
-            &#34;prompt&#34;: prompt,
-            &#34;num_images&#34;: 1,
-            &#34;size&#34;: &#34;1024x1024&#34;,
-            &#34;response_format&#34;: &#34;url&#34;
-        }
-    )
-    image_url = json.loads(response.text)[&#34;data&#34;][0][&#34;url&#34;]
-    print (image_url)
+<span class="k">def</span> <span class="nf">generate_image</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
+        <span class="s2">&#34;https://api.openai.com/v1/images/generations&#34;</span><span class="p">,</span>
+        <span class="n">headers</span><span class="o">=</span><span class="p">{</span>
+            <span class="s2">&#34;Content-Type&#34;</span><span class="p">:</span> <span class="s2">&#34;application/json&#34;</span><span class="p">,</span>
+            <span class="s2">&#34;Authorization&#34;</span><span class="p">:</span> <span class="s2">&#34;Bearer sk-XXXXXXXXXXX&#34;</span>  <span class="c1"># API KEY</span>
+        <span class="p">},</span>
+        <span class="n">json</span><span class="o">=</span><span class="p">{</span>
+            <span class="s2">&#34;model&#34;</span><span class="p">:</span> <span class="s2">&#34;image-alpha-001&#34;</span><span class="p">,</span>
+            <span class="s2">&#34;prompt&#34;</span><span class="p">:</span> <span class="n">prompt</span><span class="p">,</span>
+            <span class="s2">&#34;num_images&#34;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="s2">&#34;size&#34;</span><span class="p">:</span> <span class="s2">&#34;1024x1024&#34;</span><span class="p">,</span>
+            <span class="s2">&#34;response_format&#34;</span><span class="p">:</span> <span class="s2">&#34;url&#34;</span>
+        <span class="p">}</span>
+    <span class="p">)</span>
+    <span class="n">image_url</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)[</span><span class="s2">&#34;data&#34;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s2">&#34;url&#34;</span><span class="p">]</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="n">image_url</span><span class="p">)</span>
 
-prompt = &#34;&#34;&#34;A digital illustration of office, 4k, detailed, trending in artstation, fantasy&#34;&#34;&#34;
-generate_image(prompt)
+<span class="n">prompt</span> <span class="o">=</span> <span class="s2">&#34;&#34;&#34;A digital illustration of office, 4k, detailed, trending in artstation, fantasy&#34;&#34;&#34;</span>
+<span class="n">generate_image</span><span class="p">(</span><span class="n">prompt</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>回傳image_url網址，檔案3MB，我自行壓縮後如下:
-<img src="ex.jpg" width="80%"></p>
+</div><p>回傳image_url網址，檔案3MB，我自行壓縮後如下:</p>
+<img src="ex.jpg" width="100%">
 <h2 id="免費產圖">免費產圖</h2>
 <ol>
 <li><a href="https://www.bing.com/images/create" target="_blank" rel="noopener noreffer">bing image creator (有限次數)</a></li>
