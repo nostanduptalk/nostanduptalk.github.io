@@ -3,9 +3,17 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Apr 2023 22:10:13 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Apr 2023 23:54:52 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 探索ChatGPT API和文字轉圖像生成器</title>
+    <link>https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/</link>
+    <pubDate>Sun, 30 Apr 2023 23:54:52 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/</guid>
+    <description><![CDATA[<p>偶然的機會發現ChatGPT 官方免費線上課程，花了一天來深入了解，以下是我筆記，最後介紹三個AI文字產圖的心得。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 你拿什麼定義自己</title>
     <link>https://nostanduptalk.github.io/notes-important-matters/</link>
     <pubDate>Sun, 23 Apr 2023 22:10:13 &#43;0800</pubDate>
@@ -84,14 +92,6 @@
     <guid>https://nostanduptalk.github.io/journey-one-day-trip-from-singapore-to-malaysia-johor-bahru-2023-03/</guid>
     <description><![CDATA[<h2 id="重點摘要">重點摘要</h2>
 <p>出去前，先填好新加坡的ICA，準備兩邊的車錢，不能找零，只有visa可以刷，最好sim卡有兩地網路比較好求救。馬來西亞購物便宜，觀光區食物物價大約跟台灣一樣。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 職涯副業經營學</title>
-    <link>https://nostanduptalk.github.io/notes-side-job-freelancer-ladykaren/</link>
-    <pubDate>Sun, 19 Feb 2023 15:52:09 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-side-job-freelancer-ladykaren/</guid>
-    <description><![CDATA[<p>這是一門線上課程的學習筆記。</p>]]></description>
 </item>
 </channel>
 </rss>

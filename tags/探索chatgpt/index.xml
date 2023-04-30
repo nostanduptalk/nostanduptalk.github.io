@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>探索ChatGPT - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/%E6%8E%A2%E7%B4%A2chatgpt/</link>
+        <description>探索ChatGPT - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Apr 2023 23:54:52 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E6%8E%A2%E7%B4%A2chatgpt/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 探索ChatGPT API和文字轉圖像生成器</title>
+    <link>https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/</link>
+    <pubDate>Sun, 30 Apr 2023 23:54:52 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/</guid>
+    <description><![CDATA[<p>偶然的機會發現ChatGPT 官方免費線上課程，花了一天來深入了解，以下是我筆記，最後介紹三個AI文字產圖的心得。</p>]]></description>
+</item>
+</channel>
+</rss>

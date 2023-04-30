@@ -3,7 +3,15 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Apr 2023 22:10:13 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Apr 2023 23:54:52 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 探索ChatGPT API和文字轉圖像生成器</title>
+    <link>https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/</link>
+    <pubDate>Sun, 30 Apr 2023 23:54:52 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/</guid>
+    <description><![CDATA[<p>偶然的機會發現ChatGPT 官方免費線上課程，花了一天來深入了解，以下是我筆記，最後介紹三個AI文字產圖的心得。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 你拿什麼定義自己</title>
     <link>https://nostanduptalk.github.io/notes-important-matters/</link>
     <pubDate>Sun, 23 Apr 2023 22:10:13 &#43;0800</pubDate>
@@ -77,15 +85,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-underlying-logic/</guid>
     <description><![CDATA[<p><code>我們要時時刻刻反省：我說的話、我的表述，是事實，是觀點，是立場，還是信仰？</code></p>]]></description>
-</item>
-<item>
-    <title>[筆記] 財富自由的整理鍊金術</title>
-    <link>https://nostanduptalk.github.io/notes-declutter-lifealchemy05/</link>
-    <pubDate>Sun, 22 Jan 2023 21:38:28 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-declutter-lifealchemy05/</guid>
-    <description><![CDATA[<h2 id="後記">後記</h2>
-<p>用來斷捨離的判斷方法，也可以用在買東西的時候，避免買到用不到、又不會讓自己變得更好的物品。</p>]]></description>
 </item>
 </channel>
 </rss>
