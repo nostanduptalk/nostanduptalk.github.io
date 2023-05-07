@@ -20,7 +20,9 @@
 
 ## 趁年經，正確的積累自己
 (X) 職位工作最低限度。
+
 (X) 不是功勞：去影印店，提東西，買東西，做會議紀錄或是負責借用設備。
+
 (X) 避免扛責任：當你到了一定年紀，老闆可能會給你一個團隊，希望你擔任主管。然而，你可能認為自己不適合擔任這個角色，因為你可能對某個技術不是非常熟悉。
 
 ## 所有的選擇都有代價
@@ -47,7 +49,5 @@
 有意識的去積累「帶得走的戰功」，苦勞的事情少做，培養「其他公司也用得到的能力」。
 
 # 連結
-<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/tw/podcast/ep354-%E9%81%8E%E4%BA%8640%E6%AD%B2%E8%81%B7%E5%A0%B4%E9%9B%A3%E6%9C%89%E6%A9%9F%E6%9C%83-%E5%B9%B4%E7%B4%80-%E5%85%B6%E5%AF%A6%E4%B8%8D%E6%98%AF%E4%BD%A0%E8%81%B7%E6%B6%AF%E5%8D%A1%E9%97%9C%E7%9A%84%E4%B8%BB%E5%9B%A0/id1452688611?i=1000610777918"></iframe>
-
 <iframe src="https://podcast-cdn.kkbox.com/embed/tw/episode/-mBHrcuNKLVoZ0PfKP" width="99%" height="176" frameborder="0" loading="lazy"></iframe>
 
