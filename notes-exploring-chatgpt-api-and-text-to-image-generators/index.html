@@ -19,7 +19,7 @@
 <meta name="application-name" content="不沾醬">
 <meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" /><link rel="prev" href="https://nostanduptalk.github.io/notes-important-matters/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" /><link rel="prev" href="https://nostanduptalk.github.io/notes-important-matters/" /><link rel="next" href="https://nostanduptalk.github.io/notes-age-is-not-the-main-factor-darencademy-ep354/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -35,7 +35,7 @@
                             "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "探索ChatGPT, 文字轉圖像, AI","wordcount":  2305 ,
+                        }],"genre": "posts","keywords": "ChatGPT, 文字轉圖像, AI人工智慧","wordcount":  2613 ,
         "url": "https:\/\/nostanduptalk.github.io\/notes-exploring-chatgpt-api-and-text-to-image-generators\/","datePublished": "2023-04-30T23:54:52+08:00","dateModified": "2023-04-30T23:54:52+08:00","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -115,8 +115,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] 探索ChatGPT API和文字轉圖像生成器</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-30">2023-04-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2305 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-30">2023-04-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2613 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -134,6 +134,7 @@
     <li><a href="#文字產圖-model-image-alpha-001">文字產圖 &ldquo;model&rdquo;: &ldquo;image-alpha-001&rdquo;</a></li>
     <li><a href="#免費產圖">免費產圖</a></li>
     <li><a href="#後記">後記</a></li>
+    <li><a href="#名詞">名詞</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>偶然的機會發現ChatGPT 官方免費線上課程，花了一天來深入了解，以下是我筆記，最後介紹三個AI文字產圖的心得。</p>
@@ -141,9 +142,9 @@
 <h2 id="上課前後的差異">上課前後的差異</h2>
 <p>上課前，我只使用<a href="https://chat.openai.com/" target="_blank" rel="noopener noreffer">ChatGPT 網頁版</a>，常常輸入太多，直接顯示沒有回應。上課後，使用python 與API KEY，用電腦傳需求可以更穩定。</p>
 <h2 id="官方課程">官方課程:</h2>
-<p><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" target="_blank" rel="noopener noreffer">Link: ChatGPT Prompt Engineering for Developers</a>
-介紹提示的兩個關鍵原則：<strong>撰寫明確具體的指示，並在適當的情況下給模型思考的時間。</strong>
-同時介紹了迭代提示開發和構建自定義聊天機器人的方法。並介紹了大 型語言模型的幾種有用功能，包括<strong>總結、推斷、轉換和擴展</strong>。
+<p><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" target="_blank" rel="noopener noreffer">Link: ChatGPT Prompt Engineering for Developers</a></p>
+<p>介紹提示的兩個關鍵原則：<strong>撰寫明確具體的指示，並在適當的情況下給模型思考的時間。</strong>
+同時介紹了迭代提示開發和構建自定義聊天機器人的方法。並介紹了大型語言模型的幾種有用功能，包括<strong>總結、推斷、轉換和擴展</strong>。
 此外，還提醒讀者使用這些工具負責任，並只構建將具有積極影響的事物。</p>
 <h2 id="modelgpt-35-turbo">model=&ldquo;gpt-3.5-turbo&rdquo;</h2>
 <p>一次執行多個任務，並設定輸出格式</p>
@@ -425,7 +426,18 @@ ChatGPT是一個人工智能模型，可以說日語。他建議人們可以嘗�
 <code>A digital illustration of a office with people, 4k, detailed, trending in artstation, fantasy</code></p>
 <p>太難的做出來根本不能看，素材Prompt 可以上網找。</p>
 <h2 id="後記">後記</h2>
-<p>之後的人生，肯定多離不了AI工具了，目前ChatGPT能夠幫助我整理書上的重點，重新潤飾我的心得，並且能給我創意啟發，告訴我還需要寫些甚麼，或是要怎麼開始思考一件事。會不會以後每個月都需要固定花一筆費用在這些AI費用上呢？希望還是有每個月的免費額度讓我少量使用。</p></div><div class="post-footer" id="post-footer">
+<p>之後的人生，肯定脫離不了AI工具了，目前ChatGPT能夠幫助我整理書上的重點，重新潤飾我的心得，並且能給我創意啟發，告訴我還需要寫些甚麼，或是要怎麼開始思考一件事。會不會以後每個月都需要固定花一筆費用在這些AI費用上呢？希望還是有每個月的免費額度讓我少量使用。</p>
+<h2 id="名詞">名詞</h2>
+<ul>
+<li>
+<p>token
+在ChatGPT中，token是指一個字或是一個單字的部分。當使用者輸入一段文字或指示時，ChatGPT會將其分解成token，並將這些token送到模型進行處理。每個token都有一個對應的token ID，這個ID是一個整數，並用於模型的運算。在ChatGPT中，使用者使用API發送指令時，所花費的token數量會被扣除，因此使用者需要注意每個指令所需要的token數量，以免超出配額。</p>
+</li>
+<li>
+<p>prompt
+在 ChatGPT 中，prompt 是一段簡短的文字片段或問題，用來提示模型生成相關的回應或內容。prompt 可以包含關鍵詞、問句、敘述或其他形式的文字，用來指導 ChatGPT 產生特定的回答或內容。對 prompt 的撰寫方式和選擇可以影響 ChatGPT 的回答質量和風格。</p>
+</li>
+</ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -436,19 +448,20 @@ ChatGPT是一個人工智能模型，可以說日語。他建議人們可以嘗�
                             <a class="link-to-markdown" href="/notes-exploring-chatgpt-api-and-text-to-image-generators/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-title="[筆記] 探索ChatGPT API和文字轉圖像生成器" data-hashtags="探索ChatGPT,文字轉圖像,AI"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-hashtag="探索ChatGPT"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-title="[筆記] 探索ChatGPT API和文字轉圖像生成器"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-title="[筆記] 探索ChatGPT API和文字轉圖像生成器"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-title="[筆記] 探索ChatGPT API和文字轉圖像生成器"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-title="[筆記] 探索ChatGPT API和文字轉圖像生成器" data-hashtags="ChatGPT,文字轉圖像,AI人工智慧"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-hashtag="ChatGPT"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-title="[筆記] 探索ChatGPT API和文字轉圖像生成器"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-title="[筆記] 探索ChatGPT API和文字轉圖像生成器"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/" data-title="[筆記] 探索ChatGPT API和文字轉圖像生成器"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E6%8E%A2%E7%B4%A2chatgpt/">探索ChatGPT</a>,&nbsp;<a href="/tags/%E6%96%87%E5%AD%97%E8%BD%89%E5%9C%96%E5%83%8F/">文字轉圖像</a>,&nbsp;<a href="/tags/ai/">AI</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/chatgpt/">ChatGPT</a>,&nbsp;<a href="/tags/%E6%96%87%E5%AD%97%E8%BD%89%E5%9C%96%E5%83%8F/">文字轉圖像</a>,&nbsp;<a href="/tags/ai%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7/">AI人工智慧</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/notes-important-matters/" class="prev" rel="prev" title="[筆記] 你拿什麼定義自己"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[筆記] 你拿什麼定義自己</a></div>
+    <div class="post-nav"><a href="/notes-important-matters/" class="prev" rel="prev" title="[筆記] 你拿什麼定義自己"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[筆記] 你拿什麼定義自己</a>
+            <a href="/notes-age-is-not-the-main-factor-darencademy-ep354/" class="next" rel="next" title="[筆記] 年紀不是主因 (大人學 EP354 心得)">[筆記] 年紀不是主因 (大人學 EP354 心得)<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"></div></article></div>
             </main><footer class="footer">

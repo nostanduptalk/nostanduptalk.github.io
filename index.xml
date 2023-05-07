@@ -3,9 +3,17 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Apr 2023 23:54:52 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 07 May 2023 22:26:02 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 年紀不是主因 (大人學 EP354 心得)</title>
+    <link>https://nostanduptalk.github.io/notes-age-is-not-the-main-factor-darencademy-ep354/</link>
+    <pubDate>Sun, 07 May 2023 22:26:02 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-age-is-not-the-main-factor-darencademy-ep354/</guid>
+    <description><![CDATA[<p>聽到這集特別有感觸，所以把重點都寫下來了，並附上我的心得。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 探索ChatGPT API和文字轉圖像生成器</title>
     <link>https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/</link>
     <pubDate>Sun, 30 Apr 2023 23:54:52 &#43;0800</pubDate>
@@ -83,15 +91,6 @@
 <li>符合我的口味</li>
 <li>價格不貴</li>
 </ul>]]></description>
-</item>
-<item>
-    <title>[旅遊] 從新加坡去馬來西亞新山JB(Johor Bahru)一日遊</title>
-    <link>https://nostanduptalk.github.io/journey-one-day-trip-from-singapore-to-malaysia-johor-bahru-2023-03/</link>
-    <pubDate>Sun, 26 Feb 2023 10:53:50 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/journey-one-day-trip-from-singapore-to-malaysia-johor-bahru-2023-03/</guid>
-    <description><![CDATA[<h2 id="重點摘要">重點摘要</h2>
-<p>出去前，先填好新加坡的ICA，準備兩邊的車錢，不能找零，只有visa可以刷，最好sim卡有兩地網路比較好求救。馬來西亞購物便宜，觀光區食物物價大約跟台灣一樣。</p>]]></description>
 </item>
 </channel>
 </rss>
