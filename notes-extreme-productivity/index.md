@@ -7,8 +7,11 @@
 `重視實際工作成果，而不是工作時數。`
 
 `在進行重要計畫時，應盡快得出初步結論，以便作為工作的指南。`
+
 <!--more-->
+
 <iframe src="https://open.firstory.me/embed/story/clhnjajs4066u01uzciradtoe" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 工作排程
 
 1. 在未來一年，你希望自己的每週工作排程與今天相比有何不同或相似程度？
