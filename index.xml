@@ -3,9 +3,17 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 May 2023 23:32:58 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 May 2023 23:41:16 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 持續成功</title>
+    <link>https://nostanduptalk.github.io/notes-upward/</link>
+    <pubDate>Sun, 28 May 2023 23:41:16 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-upward/</guid>
+    <description><![CDATA[<p>後記: 每個人都像書中一樣努力，就會產生內捲。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 下個十年，你在哪？</title>
     <link>https://nostanduptalk.github.io/notes-next-ten-years-where-are-you/</link>
     <pubDate>Sun, 21 May 2023 23:32:58 &#43;0800</pubDate>
@@ -79,15 +87,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-scarcity/</guid>
     <description><![CDATA[<p>作者在書中不停強調「認知頻寬」的概念，當我們的認知能力不足時，我們容易專注於即將截止的事情，就好像在隧道之中盯著目標，而忽略了「隧道外」的其他重要但可以延後的事情。這種現象類似於「拋接球」，我們只能努力照顧快要落地的球，而無視其他球仍在落下中。為了改善這種「匱乏」不斷出現的情況，我們需要刻意安排時間的空檔或儲蓄現金，以應對突發狀況，並避免打亂現有的計畫。當然，適度的「匱乏」也可以提升效率，但如果用過頭，則可能會產生反效果。也可以透過刻意的把重要不急的事，設定提醒，強制放入「隧道」內，讓我們想起並注意。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 手寫筆記工作術</title>
-    <link>https://nostanduptalk.github.io/notes-paper-note/</link>
-    <pubDate>Sun, 19 Mar 2023 23:32:26 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-paper-note/</guid>
-    <description><![CDATA[<p>「筆記是為了要讓未來想起當時的背景情況，好的筆記能夠讓我們隨時自由的喚起記憶」
-保存情報作業的重點，不在於記了多少資料，而是讓自己能夠想起什麼。所喚起的記憶清晰度為何？是否能讓自己回到當時的臨場感？</p>]]></description>
 </item>
 </channel>
 </rss>
