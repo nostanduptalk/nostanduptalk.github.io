@@ -6,6 +6,8 @@
 
 <!--more-->
 
+<iframe src="https://open.firstory.me/embed/story/cljbkfp06012n01xe6jdn36k2" height="180" width="99% " frameborder="0" scrolling="no"></iframe>
+
 ## 背景設定
 既然已經財務自由了，當然會住在自己的房子裡，並有管理室收發包裹、垃圾處理場、廚房和冰箱。我可以自由地煮飯，並擁有一台大型電視和高速網路。可能不會買四輪車，並保留一台使用汽油的機車，不過它非常節能且車廂空間寬敞。雖然我仍然不想換成iPhone手機，但可能會買一隻iPhone作為攝影機，用於自媒體創作，同時將行動網路改為無限流量。
 
@@ -32,3 +34,6 @@
 
 ## 結語
 突然想到一句話：**「賺錢的目的是為了不再為錢而賺錢！」**
+
+# 連結
+https://youtu.be/MXHmLMozWB8
