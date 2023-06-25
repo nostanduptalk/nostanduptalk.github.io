@@ -5,6 +5,8 @@
 
 <!--more-->
 
+<iframe src="https://open.firstory.me/embed/story/clj1m489b0db401vm0q0delk2" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 本次旅遊的第一名景點，旭川動物園
 這次的路線是往道東，主要是以旭川與北見當作中心，向外尋找景點，最讓我覺得不錯的是旭川動物園，只用1000日圓就可以看到企鵝與北極熊非常划算，館內設施維持的不錯，餐廳食物也沒有說到超級貴。
 
@@ -39,3 +41,6 @@
 
 ## 雜記
 百元商店不只大創，還有can do (還沒去)與Seria，三百元商店也很特別。 外面超過100日圓的商品可以用100買的超級划算，現在匯率約0.22，加上10%消費稅後，一件台幣只要24元，比台灣大創一件49元好多了！
+
+# 連結
+https://www.youtube.com/watch?v=xGGaN5-1UA8

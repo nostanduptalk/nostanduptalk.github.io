@@ -5,6 +5,8 @@
 
 <!--more-->
 
+<iframe src="https://open.firstory.me/embed/story/clj1lxbqr06bj01vofnaz9kzg" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 中文對應的環境，簡單許多
 這次是租Car Rental Hokkaodo公司，有中文對應人員，用line 就可以溝通，有機場接送，非常方便，解說車子的時候也是用中文。
 
@@ -50,3 +52,6 @@
 
 ## 車牌
 忘記哪裡看到，車牌字頭是わ或れ就是租來的。
+
+# 連結
+https://www.youtube.com/watch?v=9mSrF9eovM0
