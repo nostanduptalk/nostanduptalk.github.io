@@ -7,6 +7,7 @@
 我會把我的生活經驗寫出來，做自媒體。
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cljik5wq1015m01tz0gmodnqe" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 一開始，我會嘗試多條戰線。
 我會嘗試多種主題，將我的日常轉化為一種事業。我會考慮以下主題：從零開始自己煮菜、自學筆記（包括自然語言、程式語言、讀書筆記和旅遊筆記）、建立網站，以及將我的職涯經驗寫成一本書。
@@ -21,3 +22,6 @@
 
 ## 結語
 儘管我不需要去上班，但自媒體的工作能讓我保持忙碌，不會感到無聊，同時也能不斷創造價值。
+
+# 連結
+https://youtu.be/ixKsO24ovnM
