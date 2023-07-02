@@ -3,9 +3,34 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 30 Jun 2023 20:07:58 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Jul 2023 21:47:05 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 買房聖經</title>
+    <link>https://nostanduptalk.github.io/notes-buying-a-house-sway/</link>
+    <pubDate>Sun, 02 Jul 2023 21:47:05 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-buying-a-house-sway/</guid>
+    <description><![CDATA[<p>其實選地段，思考角度可以簡單分成「你家原來住哪裡」、 「你熟悉哪裡」、「你在哪工作」這三方面。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 精準寫作</title>
+    <link>https://nostanduptalk.github.io/notes-accurate-writing/</link>
+    <pubDate>Sun, 02 Jul 2023 21:46:32 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-accurate-writing/</guid>
+    <description><![CDATA[<p>要學好寫作，不是立即學習寫作技巧，而是先學會思考。好讀且易懂的文章才能算是一篇優秀的作品。首先，寫下關鍵詞，廣泛發揮創意，然後將焦點集中在一個主題上，過多的內容反而不易傳達。就像英文文章一樣，快速引入主題，再展開細節。如果想使文章生動有趣，記得要多使用動詞。標題是讀者決定是否繼續閱讀的關鍵，因此在不失真的情況下，應巧妙地設計標題。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 自我介紹術</title>
+    <link>https://nostanduptalk.github.io/notes-perfect-self-introduction/</link>
+    <pubDate>Sun, 02 Jul 2023 21:45:59 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-perfect-self-introduction/</guid>
+    <description><![CDATA[<p>作者提到：成功人士談論未來，而失敗人士談論自己。</p>
+<p>當我們進行自我介紹時，應該聚焦於「未來」，而不是「自己」。</p>]]></description>
+</item>
+<item>
     <title>[思考] 不需要為了賺錢工作的日子</title>
     <link>https://nostanduptalk.github.io/thinking-when-i-am-financially-independent/</link>
     <pubDate>Fri, 30 Jun 2023 20:07:58 &#43;0800</pubDate>
@@ -61,32 +86,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-next-ten-years-where-are-you/</guid>
     <description><![CDATA[<p>後記：每一篇都是一個故事，適合分次閱讀。工作不是看職稱、看公司，要看能不能夠升值。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 時間，愈用愈有價值：以職場高效能打造平衡全人生</title>
-    <link>https://nostanduptalk.github.io/notes-extreme-productivity/</link>
-    <pubDate>Sun, 14 May 2023 22:52:20 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-extreme-productivity/</guid>
-    <description><![CDATA[<p><code>要取得成功，不僅需要辛勤工作和周密計畫，還需要擁有正確的心態。</code></p>
-<p><code>重視實際工作成果，而不是工作時數。</code></p>
-<p><code>在進行重要計畫時，應盡快得出初步結論，以便作為工作的指南。</code></p>]]></description>
-</item>
-<item>
-    <title>[筆記] 年紀不是主因 (大人學 EP354 心得)</title>
-    <link>https://nostanduptalk.github.io/notes-age-is-not-the-main-factor-darencademy-ep354/</link>
-    <pubDate>Sun, 07 May 2023 22:26:02 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-age-is-not-the-main-factor-darencademy-ep354/</guid>
-    <description><![CDATA[<p>聽到這集特別有感觸，所以把重點都寫下來了，並附上我的心得。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 探索ChatGPT API和文字轉圖像生成器</title>
-    <link>https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/</link>
-    <pubDate>Sun, 30 Apr 2023 23:54:52 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-exploring-chatgpt-api-and-text-to-image-generators/</guid>
-    <description><![CDATA[<p>偶然的機會發現ChatGPT 官方免費線上課程，花了一天來深入了解，以下是我筆記，最後介紹三個AI文字產圖的心得。</p>]]></description>
 </item>
 </channel>
 </rss>
