@@ -1,4 +1,4 @@
-# [筆記] 自我介紹術
+# [筆記] 18秒超強自我介紹術
 
 
 
@@ -7,6 +7,7 @@
 當我們進行自我介紹時，應該聚焦於「未來」，而不是「自己」。
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cljlhylu602f101xn1siq7f53" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 開口前，自我介紹就開始了
 
