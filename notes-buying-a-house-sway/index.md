@@ -4,7 +4,7 @@
 其實選地段，思考角度可以簡單分成「你家原來住哪裡」、 「你熟悉哪裡」、「你在哪工作」這三方面。
 <!--more-->
 
-<iframe src="https://open.firstory.me/embed/story/cljli43kf02d801tzfusk5nam" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/cljli8oo802dc01tzbkjdcxx3" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 房仲業務員所需的兩張執照
 
