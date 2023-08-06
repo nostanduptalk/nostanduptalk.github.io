@@ -78,8 +78,12 @@
 
 題外話，新加坡檢查站的廁所比較能使用。
 
-# 連結
+## 連結
 [2023新加坡與新山-馬來西亞 FB粉絲專頁 紀錄流水帳](https://www.facebook.com/profile.php?id=100090658718483)
 
-# 備註
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FeyLdLzRcqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## 備註
 旅遊日期是2023/3/1，但為了方便整理發布時間，所以改成2023/2/26。
+
+

@@ -12,6 +12,8 @@
 
 ‌<img src="baseball4-1.png" width="100%">
 
+<iframe src="https://open.firstory.me/embed/story/clkzijk2g00ze01w57t2yhxij" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 現場與電視上看的差異
 
 以前都是在電視上看，這是我第一次到現場看棒球賽，轉播的時候會有各種角度鏡頭重播，或是拉近畫面，並附上解說。現場沒這些，但可以同時看到整個球場所有球員的動態，也不會進廣告，但就沒有聽到解說。比較麻煩的是，有幾次擊出，我都看不到球的飛行路徑，不知道是不是觀眾席角度問題，還是球真的太快。
@@ -47,3 +49,9 @@
 仔細想想，投手非常厲害，不只要和捕手溝通，避免被安打，還要小心盜壘，面對兩好三壞的時候，壓力應該很大。工作的時候應該也是一樣，獨當一面去面對客戶的時候就是如此，只能憑自己的經驗做事，若經驗或能力還不夠的時候，就會很辛苦。
 
 <img src="baseball4.jpg" width="100%">
+
+
+## 連結
+https://www.youtube.com/watch?v=lrRZEyPhUDk
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pJTRoeOqNsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

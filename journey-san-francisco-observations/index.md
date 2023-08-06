@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clkzisd6v00pb01sw9csrglfi" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 單位
 
 汽油單位: 加侖
@@ -66,3 +68,8 @@ Merced的麥當勞與星巴克上廁所"要問店員密碼"，可能是怕遊民
 ROSS 商店的手推車，為了要避免被推出門外，有一個很高的桿子在車上，但好像有人沒注意到，想要推出去就卡在門上。
 
 ‌<img src="ross.jpg" width="100%">
+
+## 連結
+https://www.youtube.com/watch?v=p8to8nPTQB8
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pJTRoeOqNsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
