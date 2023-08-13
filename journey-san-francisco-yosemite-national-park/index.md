@@ -6,6 +6,8 @@
 
 <!--more-->
 
+<iframe src="https://open.firstory.me/embed/story/clkzixpn500pd01sw7g39dnlg" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 路線
 
 網路上有提到兩種路線上山，路線120比較崎嶇，我們選擇路線140相對平緩。
@@ -54,3 +56,8 @@
 上面沒有食物要自備零食
 
 水也是！
+
+## 連結
+https://www.youtube.com/watch?v=hizepBqECtg
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pJTRoeOqNsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
