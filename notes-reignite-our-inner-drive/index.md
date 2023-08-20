@@ -4,6 +4,9 @@
 
 外部的誘因(ex.薪水、福利)之外，內部的驅動力也是讓人能好好工作的關鍵。
 <!--more-->
+
+<iframe src="https://open.firstory.me/embed/story/clljisp2001w401xt0w1g38b3" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 內在驅動力來自：
 
 1. 使命感，會感到自己在為某個重要的目標、價值觀或社會問題做出貢獻。

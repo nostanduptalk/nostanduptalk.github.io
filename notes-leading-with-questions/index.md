@@ -4,6 +4,7 @@
 好的問題可以誘發好的思考方向
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clljiopso01k501tadavvconp" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 沒問對問題就不會得到適當的答案
 

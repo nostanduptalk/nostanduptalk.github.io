@@ -4,6 +4,9 @@
 `有了具體的目標(O),也掌握了事情的優先順序(T) 並運用 專案管理的觀念來排妥計畫與掌控進度,讓有價值的事情一件件被交付 (P),最後透過回顧與復盤經常自我檢視(R)`
 
 <!--more-->
+
+<iframe src="https://open.firstory.me/embed/story/clljijudj01vo01xte7to5wvs" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 「我做的很辛苦，為什麼老闆不懂呢?」
 
 - 價值不僅來自於做事，更是源自於我們對某件事所產生的具體影響。

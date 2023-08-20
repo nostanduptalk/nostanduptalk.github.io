@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clljizgfx01kb01tagwn7cok0" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 時區時差
 從生物學角度來看，往東飛行時需要提前睡覺，而這調整對我們來說相對較困難。相反，往西飛行時要延後睡覺時間，這在意識和實行上比較容易。
 
