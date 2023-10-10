@@ -6,6 +6,8 @@
 ## 群體鬥爭
 在困難和衝突加劇的時期，人們更傾向於以刻板的方式將其他人視為一個或多個群體的成員，並將這些群體視為敵人或盟友。
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clnkg5xm701sp01zb2ms1e8m5" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 如何處理已知未知
 1. 了解所有的可能性，考慮最壞的情況，然後想辦法消除無法忍受的情況。
 2. 分散風險，有吸引力又互不相關的下注機會。狡兔三窟。
@@ -27,3 +29,5 @@
 
 ## 連結
 [博客來-變化中的世界秩序：橋水基金應對國家興衰的原則](https://www.books.com.tw/products/0010920073)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G2SgNcKu1Wg?si=o_Vr2WC7uNLeGaMe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

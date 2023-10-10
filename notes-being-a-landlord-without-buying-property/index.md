@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clnkg0ypo01sl01zb9acxh8l1" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 作者的背景與我的職涯思考
 作者在自序中提到，他曾經在上海工作，協助公司成長為一間旗下有2萬多件出租公寓的租屋平台，也就是說，作者在回到台灣創業前，就已經在做相關的事情了！
 
@@ -104,3 +106,5 @@ www.coolors.co
 
 ## 連結
 [博客來-不買房當房東：輕資產包租，建立可愛的第二收入，年投報率40%！](https://www.books.com.tw/products/0010893638)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8H8g0h5WGn0?si=Ni9p3ecLODN36hl1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

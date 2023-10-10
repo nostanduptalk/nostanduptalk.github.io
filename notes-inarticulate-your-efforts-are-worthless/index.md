@@ -5,6 +5,7 @@
 `溝通不是一封封長長的郵件，也不是我們腦中冒出的每一個念頭`
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clnkgodrq01tb01zb2m6q92vw" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 精神不佳時，做些整理性工作
 在精神狀態低落時，嘗試著做些整理性的工作，例如整理辦公桌，將抽屜裡的文件歸檔整齊。同時，也可以站起來，欣賞窗外美景，或者稍作休息，泡杯茶，這些都是調整情緒，澄清思緒的方法。
@@ -46,3 +47,5 @@
 
 ## 連結
 [博客來-不會表達，你的努力一文不值： 33個精準、高效、重溝通的工作法則，讓你的用心和成效，百分百被看見](https://www.books.com.tw/products/0010908703)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6b_GApFmfQc?si=eIV2HOvOFwxeiP5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

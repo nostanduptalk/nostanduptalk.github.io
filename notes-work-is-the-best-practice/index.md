@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clnkg38tr01sn01zber3c4rkq" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 人分三類
 - 不可燃型:無法被激起工作熱情的人
 
@@ -54,3 +56,5 @@
 
 ## 連結
 [博客來-工作是最好的修行](https://www.books.com.tw/products/CN11490655)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ARR_GX5hvmw?si=NFjCoK00XRK0wxci" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

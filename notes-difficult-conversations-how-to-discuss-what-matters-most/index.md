@@ -10,6 +10,8 @@
 
 `我們不願意傷害他人，同時也不想委屈自己？`
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clnkg8jpn01sy01zb42pi78dj" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 學習型對話！
 改變立場，心態改成邀請對方對話，協助我解決問題，了解對方，也協助對方了解我。
 
@@ -27,4 +29,6 @@
 
 ## 連結
 [博客來-再也沒有難談的事：哈佛法學院教你如何開口，解決切身的大小事](https://www.books.com.tw/products/0010650242)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O4Y1EnkAXxo?si=2dis_bVaYfXBZx-V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clnkgfn3601t901zb7wj61zgk" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 線上課投影片與實體課投影片的原則一樣
 1. **投影片設計技巧**：
    - 避免文字過多，採用大字流，使用簡潔的關鍵詞或短語。
@@ -21,4 +23,8 @@
 
 ## 連結
 
-[博客來-線上教學力：全球趨勢X觀念心法X課堂實作X好用工具](https://www.books.com.tw/products/0010900676 "‌")
+[博客來-線上教學力：全球趨勢X觀念心法X課堂實作X好用工具](https://www.books.com.tw/products/0010900676)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YnjzzYIqND8?si=luwo1FJi6xONVMtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
