@@ -2,6 +2,9 @@
 
 
 <!--more-->
+
+<iframe src="https://open.firstory.me/embed/story/clovj8apc02ap01t55pood63u" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 財務管理的目的和三張主要報表之間的關係可以總結如下：
 
 1. 管理現金流量表的目的是確保企業擁有足夠的現金流來維持其運作，這有助於企業「活得下」。

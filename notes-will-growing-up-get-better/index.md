@@ -4,6 +4,8 @@
 <!--more-->
 口述給chat gpt整理，再用ttsmaker 1601 - yt 雅婷-繁体台湾通用女声 taiwan female輸出
 
+<iframe src="https://open.firstory.me/embed/story/clobj4dbg0q5801w51dmshhdw" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 識別情緒
 了解和識別情緒對於我們的心靈健康至關重要。情緒不僅僅是單一的感覺，而是可以分為兩個關鍵維度：喚起程度和愉悅程度。
 

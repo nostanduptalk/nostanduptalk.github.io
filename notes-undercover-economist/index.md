@@ -4,7 +4,7 @@
 <!--more-->
 口述給chat gpt整理，再用ttsmaker 1601 - yt 雅婷-繁体台湾通用女声 taiwan female輸出
 
-<iframe src="https://open.firstory.me/embed/story/clobj4dbg0q5801w51dmshhdw" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://open.firstory.me/embed/story/clovjcid402ar01t562flg2nk" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 定價策略：書中提到賣家使用不同的策略來提高收益，如提高售出的數量和價格以獲取更高的利潤。其中一種策略是增加產品之間的價格差異，例如商務艙和經濟艙的價格區別。此外，賣家可能會使用降低品質的策略，避免能夠出高價的人，去買低價商品，例如使經濟艙變得不吸引人，以鼓勵人們購買更昂貴的商務艙。
 
