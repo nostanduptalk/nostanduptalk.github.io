@@ -6,6 +6,8 @@
 <!--more-->
 這三個職業，是在沒有大型工廠，沒有生產線，員工不是當螺絲釘的時候，獨立自主、創造價值，卻能主導未來的技能。
 
+<iframe src="https://open.firstory.me/embed/story/clppgf7sx0atx01ts2o7x4bjh" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 工匠：從無到有建構一項成品的能力。
 書中用鐵器工匠舉例，以前的工匠從鐵砂出鐵，再到冶煉打件都了解。同時也說明，工匠的能力不僅適用於實體物品，對服務同樣有效。例如，在客服領域，一位客服工匠不僅懂如何回應客戶問題，還精通整個客服體系的設計、通訊設備的選擇和人員的教育訓練等方面。委託這樣的工匠建立客服體系，只需提供足夠資源，他們就能成功完成。這樣的全面性知識在專業分工的時代中非常難得，因此這樣的人才受到廣泛關注和挖角。
  思考：我的工作緯度有多少？
@@ -70,3 +72,5 @@
 
 ## 連結
 [博客來-三年後，你的工作還在嗎？：掌握關鍵職能，迎向工匠、總管與行腳商人的時代！](https://www.books.com.tw/products/0010641668)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6ltiBkXEnks?si=OJ1ff2khAf3wurgt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

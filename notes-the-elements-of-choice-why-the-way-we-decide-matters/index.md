@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clppgkot50abp01wc3k35byi3" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 一個好的選擇架構，可以讓決策者更有效率地做出決策
 如同一個良好設計的駕駛艙一樣，可以協助決策者快速地辨識出重要的資訊，忽略掉不必要的內容，並整合相關的資訊。
 
@@ -20,3 +22,5 @@
 
 ## 連結
 [博客來-選擇，不只是選擇：全美決策領域最知名教授，告訴你選項背後的隱藏力量](https://www.books.com.tw/products/0010920093)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rJ0vflJLkog?si=hWsGLiocVl0AMBUP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

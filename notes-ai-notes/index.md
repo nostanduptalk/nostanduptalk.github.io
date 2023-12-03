@@ -4,6 +4,8 @@
 <!--more-->
 ttsmaker 1601 - yt 雅婷-繁体台湾通用女声 taiwan female輸出
 
+<iframe src="https://open.firstory.me/embed/story/clppgsykq0auj01tsdwe02xwu" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 [筆記] 機器學習是一種人工智慧的應用
 
 電腦透過大量資料，從中提取規律和模式，進而建立模型，用以預測、分類或做出決策。
@@ -44,3 +46,6 @@ ttsmaker 1601 - yt 雅婷-繁体台湾通用女声 taiwan female輸出
 
 
 (本文與ChatGPT合作完成)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hNrEDmaWk9Y?si=AwxTK_SNodcHWAB7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

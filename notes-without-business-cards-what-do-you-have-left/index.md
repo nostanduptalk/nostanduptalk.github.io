@@ -41,3 +41,5 @@
 
 ## 連結
 [博客來-沒了名片，你還剩下什麼？32個上班族增加自我籌碼的方法](https://www.books.com.tw/products/0010624132)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/upmq0Lc19Io?si=25ElTIb76TR0cmlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

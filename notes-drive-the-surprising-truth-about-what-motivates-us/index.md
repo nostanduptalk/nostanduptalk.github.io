@@ -3,6 +3,7 @@
 
 本書的作者，一開始就透過動物實驗，描述其實使用牆上的外在驅動能力，對於個體來說不見得是最好的驅動方式。
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clppgoe7r0aud01tse3jg0emc" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 書中也提到，維基百科的成功模式，就是透過一群沒有獎賞的志願者一起努力達成的，也許這會被視為一個特例，但這世界上非常多Open source的軟體，例如Firefox瀏覽器，都是透過這種方式運行。
 
@@ -33,3 +34,6 @@
 
 ## 連結
 [博客來-動機，單純的力量：把工作做得像投入嗜好一樣有最單純的動機，才有最棒的表現](https://www.books.com.tw/products/0010476180)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nC42uQt2XBI?si=EbywTesVs6XeJR6j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
