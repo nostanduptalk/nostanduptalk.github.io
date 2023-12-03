@@ -4,6 +4,8 @@
 「所有的升遷，其實都不是讓你更好過，一定是有更大的難處與挑戰在後面。」
 <!--more-->
 
+<iframe src="https://open.firstory.me/embed/story/clppg6jmp0aaz01wc3ll248g5" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 升職條件
 1. 意願與能力：
    - 意願是升職的一個條件，但不是每個人都具備的。
