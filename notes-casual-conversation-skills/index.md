@@ -5,7 +5,7 @@
 (AI輔助生成)
 <!--more-->
 ttsmaker 1601 - yt 雅婷-繁体台湾通用女声 taiwan female輸出
-
+<iframe src="https://open.firstory.me/embed/story/clr0nu4pi00sj01wvd3v03yv9" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 筆記
 聊天可以透過新聞找到5個主題，並隨時更新
