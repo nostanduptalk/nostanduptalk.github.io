@@ -5,6 +5,7 @@
 > 我大半輩子都在追求一份滿足夢想的工作，曾經以為我找到了，最終還是敗退下來，因為那個夢想其實是老闆的，跟我一點關係都沒有。
 <!--more-->
 
+<iframe src="https://open.firstory.me/embed/story/clral1pkr00e501sw7uiedqce" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 《倒數60天職場生存日記》以一名業務的身份，紀錄了2020年3月疫情嚴峻時的生存壓力。他深切感受到業績波動可能帶來的工作不穩，與我在疫情期間相對較為安穩的工程師身份形成對比。
 

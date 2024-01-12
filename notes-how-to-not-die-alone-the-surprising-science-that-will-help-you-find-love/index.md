@@ -4,6 +4,9 @@
 
 `「愛」是本能，但「交往」不是。我們並非天生就知道如何選擇適合的伴侶`
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clrakwl5e00h301vn5ezof48e" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
+
 ## 美好的關係是建構出來的結果
 「長久的關係」並不會憑空降臨，這是一連串選擇的結果。
 
