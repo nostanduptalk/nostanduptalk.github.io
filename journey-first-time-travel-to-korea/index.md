@@ -4,6 +4,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cls6946r505mi01u0c1ez583b" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 
 ## 整體心得
 韓文有些發音類似中文
@@ -98,4 +100,4 @@
 https://www.facebook.com/profile.php?id=61555437516894
 
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JA3eCAX6Qm8?si=ffZ2TcODeB1dWLp9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

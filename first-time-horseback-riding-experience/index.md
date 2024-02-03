@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cls69d6qt05q501utgvxp0qtt" height="180" width="500" frameborder="0" scrolling="no"></iframe>
+
 馬看不到前後，盡量從旁邊接近，不要揮手，不要拍手，避免嚇到馬
 
 不要站在馬後，比較安全

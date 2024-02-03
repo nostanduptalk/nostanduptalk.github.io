@@ -4,6 +4,8 @@
 
 `如何判斷這個市場要不要做，或者是這個訂單要不要接？就是這群人能不能夠「裂變」、「拉新」`
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cls699pl605vy01tr9u9seyxp" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 全文的兩個假設
 企業的資源有限，必須將資源放在最有價值的活動上；顧客的時間有限，只會注意到他感興趣的事情。所以企業要在「關鍵時刻」，滿足客戶的需求，就能達到「一見就進、一進就買、一買再買、一傳千里」的效果。設計傳達訊息，讓消費者「一聽秒懂、覺得不同、覺得值得、我跟你說」，或「始於迷惑、限於套路、忠於習慣、傳於印記」。
 
@@ -118,3 +120,5 @@
 
 ## 連結
 [博客來-峰值體驗：洞察隱而未知的需求，掌握關鍵時刻影響顧客決策](https://www.books.com.tw/products/0010913474)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X1O6JjICSRs?si=paLnNIUQlpa9MZ6i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

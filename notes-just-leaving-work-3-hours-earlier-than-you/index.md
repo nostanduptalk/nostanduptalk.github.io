@@ -5,6 +5,8 @@
 `把時間花在喜愛的事物上，找回人生的光彩`
 <!--more-->
 
+<iframe src="https://open.firstory.me/embed/story/cls68ttwz05me01u039cy4u1i" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 作者是日本人，都用Google 服務當作基礎。
 
 本文順序：座位整理-> 情報整理->腦內整理
