@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>值得再看 - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/%E5%80%BC%E5%BE%97%E5%86%8D%E7%9C%8B/</link>
+        <description>值得再看 - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 02 Mar 2024 15:09:48 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E5%80%BC%E5%BE%97%E5%86%8D%E7%9C%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 系統思考</title>
+    <link>https://nostanduptalk.github.io/notes-thinking-in-systems-a-primer/</link>
+    <pubDate>Sat, 02 Mar 2024 15:09:48 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-thinking-in-systems-a-primer/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[筆記] 峰值體驗</title>
+    <link>https://nostanduptalk.github.io/notes-peak-experience/</link>
+    <pubDate>Sun, 18 Feb 2024 14:52:10 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-peak-experience/</guid>
+    <description><![CDATA[<p><code>如何判斷這個市場要不要做，或者是這個訂單要不要接？就是這群人能不能夠「裂變」、「拉新」</code></p>]]></description>
+</item>
+</channel>
+</rss>

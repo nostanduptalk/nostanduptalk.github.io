@@ -70,3 +70,5 @@
 
 ## 連結
 [博客來-就是比你早3小時下班：從「桌面淨空」開始！重整工作、情報、大腦的14天整理術](https://www.books.com.tw/products/0010686060)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cC9WOHULx6Y?si=p5tXidtYx97BYSdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
