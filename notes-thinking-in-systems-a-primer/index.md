@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cltbnuwoa046v01zfgxmhcihw" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 `複雜的系統中存在反饋延遲，經過一段時間之後問題會變得更加嚴重，而且更難解決`
 
 一針不補，十針難縫
@@ -76,4 +78,4 @@ chat gpt 回答：
 
 ## 連結
 
-[博客來-系統思考：克服盲點、面對複雜性、見樹又見林的整體思考](https://www.books.com.tw/products/0010702990https://www.books.com.tw/products/0010702990 "‌")
+[博客來-系統思考：克服盲點、面對複雜性、見樹又見林的整體思考](https://www.books.com.tw/products/0010702990 "‌")

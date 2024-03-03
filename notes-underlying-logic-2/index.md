@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cltbnzuit044e01wab7vh24dr" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 正確的事重複做
 
 > 整體成功率 = 100% -（100% - 基礎成功率）^嘗試次數

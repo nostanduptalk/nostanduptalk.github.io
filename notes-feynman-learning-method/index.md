@@ -5,7 +5,7 @@
 
 
 <!--more-->
-
+<iframe src="https://open.firstory.me/embed/story/cltbodlgt045201waarh69zjk" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 「輸出」會是很棒的學習方式。
 ``人類所有的新知識,其實都是由舊的知識構成和解釋的。我們獲取新知識的過程,本質上便是通過大腦的組織與聯結,將新的概念插入到舊的體系中,再在動態的學習中將之轉化成一個合乎邏輯、富有張力和強勁生命力的知識系統。這就是為什麼費曼主張用「以教代學」的知識輸出模式來進行學習的原因。``

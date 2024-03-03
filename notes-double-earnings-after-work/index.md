@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cltbnrah4046j01zfh4ot4yj4" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 財富不等於金錢
 
 - 「財務自由」：單純金錢上的自由，被動收入超過主動收入。

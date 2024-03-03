@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cltbn9sl103mp01waamkudalr" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 做得對
 
 * 知道真正的需求: 確定重點

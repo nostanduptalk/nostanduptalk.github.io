@@ -2,7 +2,7 @@
 
 
 <!--more-->
-
+<iframe src="https://open.firstory.me/embed/story/cltbo4re3044s01wabtdz7mde" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 之前就有聽說企業在面試員工這時候會問一些神奇的問題比如說1年美國會喝多少的可樂，這問題就很適合用**費米推論**來處理，就是先找出關鍵的因素比如說美國的人口，喝飲料的比例，與喝可樂的比例，一步一步推算出來，雖然可能會差很多，翻譯因為推測的項目多是有機會做抵銷。
 

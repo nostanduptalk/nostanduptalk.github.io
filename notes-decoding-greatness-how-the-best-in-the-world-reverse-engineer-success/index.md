@@ -4,6 +4,8 @@
 
 `所謂逆向工程,就是系統性地拆解物品,以便探究其內部運作方式,從中獲取重要的洞見`
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cltbnhbdl046a01zf6u6027kx" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 面對專家你該這樣**提問**
 
 ### 旅程：

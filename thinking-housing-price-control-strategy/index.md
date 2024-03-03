@@ -2,6 +2,8 @@
 
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/cltbnme7a03mz01wabu45d0we" height="180" width=99%" frameborder="0" scrolling="no"></iframe>
+
 ## 控制台灣房價：提出區隔市場的解決方案
 
 台灣的房價一直呈現上漲趨勢，其中一個主要原因是有錢人將賺來的錢投入房地產市場。這些人之所以選擇買房，而非其他投資方式，主要是因為買房被認為是最具投資潛力且可以透過貸款槓桿操作的一種方式。簡而言之，買房的人大多都對投資有所期待，這導致有錢人湧入房市，使得普通人買房負擔加重。
