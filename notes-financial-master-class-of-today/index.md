@@ -3,6 +3,9 @@
 
 > 心得：這本書是以美國為背景，許多內容在台灣不太實用。雖然我已經熟悉大部分內容，但還是有些句子讓我印象深刻。
 <!--more-->
+
+<iframe src="https://open.firstory.me/embed/story/clvj2q82203gz01zn0zst4btj" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 理財的重點在於定期儲蓄、風險控制、低成本基金投資、降低成本費用，以及關注稅務問題。
 
 - **在保險方面，如果你能承擔風險，就不必支付保險公司的費用。**

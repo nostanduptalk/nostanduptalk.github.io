@@ -7,6 +7,7 @@
 ## 對內，從熱情開始；對外，從生活中的剛性需求
 絕大多數的成功斜槓，都是從「多元興趣」「多元價值」開始。持續投入就會自然累積，最後超乎自己想像。`甚麼事情可以一直做而不會覺得累？`
 
+<iframe src="https://open.firstory.me/embed/story/clvj34hcr043001u74v6945pt" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 如果不獨特，怎麼辦？
 1. 差異化：細部差異也算。

@@ -13,6 +13,8 @@
 - 一定要調整心態。
 <!--more-->
 
+<iframe src="https://open.firstory.me/embed/story/clvj5yq4p047v01u759vjber8" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 阻礙你改變的最大原因是什麼？
 
 `是你的大腦`

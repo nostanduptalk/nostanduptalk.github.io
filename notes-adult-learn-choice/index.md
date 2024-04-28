@@ -5,6 +5,8 @@
 對於不能改變的事情，我們要坦然放下。
 
 <!--more-->
+<iframe src="https://open.firstory.me/embed/story/clvj6j8ia0l9d01x6gnqq639a" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
+
 ## 想到失敗的恐懼和現況的美好，讓人難以做出改變
 
 作者建議可以把一個大的目標拆解成小的步驟，讓自己慢慢的完成並保持隨時可以抽離的可能（避免恐懼）

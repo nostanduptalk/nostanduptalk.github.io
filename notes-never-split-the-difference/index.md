@@ -12,6 +12,7 @@
 
 > p202，開始談判時,我會說:「我希望你隨時都覺得自己被公平對待,因此如果你覺得我不公平,請立刻打我,以便好好討論一下」
 
+<iframe src="https://open.firstory.me/embed/story/clvj2ydjs03hh01zngauwasek" height="180" width="99%" frameborder="0" scrolling="no"></iframe>
 
 ## 人總是只聽想聽的話
 大腦為了尋求認知一致性，接收外界資訊的時候，不是尋求事實，而是在找符合自己立場的資訊。因此，談判的時候，必須要用一個團隊。另外，也要放下自己的成見，忘記自己的論點，「積極聆聽」對方的說法。
