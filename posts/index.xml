@@ -3,87 +3,100 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 02 Mar 2024 15:09:50 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>[筆記] 費曼學習法</title>
-    <link>https://nostanduptalk.github.io/notes-feynman-learning-method/</link>
-    <pubDate>Sat, 02 Mar 2024 15:09:50 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 Apr 2024 09:40:55 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 大人學選擇</title>
+    <link>https://nostanduptalk.github.io/notes-adult-learn-choice/</link>
+    <pubDate>Sun, 28 Apr 2024 09:40:55 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-feynman-learning-method/</guid>
-    <description><![CDATA[<p>「若有人願意以有限的生命去追求無窮的知識，並為此感動，那純粹是一種無知的狂熱。」最有效率的學習方式應當是讓自己成為某一領域的專家，而非試圖樣樣精通，成為全能者。在這個世界上，並不存在全能者。</p>]]></description>
+    <guid>https://nostanduptalk.github.io/notes-adult-learn-choice/</guid>
+    <description><![CDATA[<p>對於可以改變的事情，我們要盡力而為；</p>
+<p>對於不能改變的事情，我們要坦然放下。</p>]]></description>
+</item>
+<item>
+    <title>[思考] 組裝IKEA 家具心得</title>
+    <link>https://nostanduptalk.github.io/thinking-assembling-ikea-furniture/</link>
+    <pubDate>Sun, 28 Apr 2024 09:40:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-assembling-ikea-furniture/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[旅遊] 密室逃脫心得</title>
+    <link>https://nostanduptalk.github.io/journey-escape-room/</link>
+    <pubDate>Sun, 28 Apr 2024 09:40:51 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/journey-escape-room/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[筆記] 神心態</title>
+    <link>https://nostanduptalk.github.io/notes-extraordinary-mindset/</link>
+    <pubDate>Sun, 28 Apr 2024 09:40:49 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-extraordinary-mindset/</guid>
+    <description><![CDATA[<p>本書核心概念摘要：</p>
+<ul>
+<li>大腦習慣安於現狀，不喜歡改變，又會自動找尋證據證明自己是正確的。</li>
+<li>透過設想自己已經達成後，會怎麼思考，會有甚麼體驗，接受訪問時會怎麼回答問題，讓大腦覺得<strong>突兀</strong>，並自動找出達成目標的方法。</li>
+<li>設立目標要跟飛機旅程一樣具體。</li>
+<li>一定要調整心態。</li>
+</ul>]]></description>
+</item>
+<item>
+    <title>[筆記] 只工作不上班的自主人生</title>
+    <link>https://nostanduptalk.github.io/notes-only-working-not-going-to-work/</link>
+    <pubDate>Sun, 28 Apr 2024 09:40:47 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-only-working-not-going-to-work/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[筆記] 斜槓的50道難題</title>
+    <link>https://nostanduptalk.github.io/notes-50-pauzzles-of-slashie/</link>
+    <pubDate>Sun, 28 Apr 2024 09:40:45 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-50-pauzzles-of-slashie/</guid>
+    <description><![CDATA[<blockquote>
+<p>p85，認識自己是每個人一生的功課,時常反思自己,我能夠做什麼?我喜歡做什麼?我願意做什麼?從你具備的能力、渴望發展的興趣、生活的信念及對事物的價值觀開始著手,斜槓是從內而外理解和探索的過程,清楚定位自己,遠比盲從別人來的更重要。</p>
+</blockquote>]]></description>
+</item>
+<item>
+    <title>[筆記] FBI談判協商術</title>
+    <link>https://nostanduptalk.github.io/notes-never-split-the-difference/</link>
+    <pubDate>Sun, 28 Apr 2024 09:40:43 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-never-split-the-difference/</guid>
+    <description><![CDATA[<ul>
+<li>請在對方的的世界談判。我們要做的事，其實是<strong>讓對方說服自己</strong>，讓他們覺得我們想要的方案，其實是他們自己的主意。不是靠<code>講道理</code>或是<code>強硬地的態度</code>，而是透過提問，引導對方。</li>
+</ul>]]></description>
+</item>
+<item>
+    <title>[筆記] 高效能的5個習慣</title>
+    <link>https://nostanduptalk.github.io/notes-high-performance-5-habits/</link>
+    <pubDate>Sun, 28 Apr 2024 09:40:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-high-performance-5-habits/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[筆記] 當代財經大師的理財通識課</title>
+    <link>https://nostanduptalk.github.io/notes-financial-master-class-of-today/</link>
+    <pubDate>Sun, 28 Apr 2024 09:39:16 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-financial-master-class-of-today/</guid>
+    <description><![CDATA[<blockquote>
+<p>心得：這本書是以美國為背景，許多內容在台灣不太實用。雖然我已經熟悉大部分內容，但還是有些句子讓我印象深刻。</p>
+</blockquote>]]></description>
 </item>
 <item>
     <title>[筆記] 致富的特權</title>
     <link>https://nostanduptalk.github.io/notes-privilege-of-wealth/</link>
-    <pubDate>Sat, 02 Mar 2024 15:09:49 &#43;0800</pubDate>
+    <pubDate>Sun, 21 Apr 2024 15:09:49 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-privilege-of-wealth/</guid>
     <description><![CDATA[<blockquote>
 <p>總評：書中有幾個觀點，我覺得是作者心中有一套想法，就會想辦法找證據符合它，雖然有表達經濟活動非常複雜，很少事件只有一個原因，但還是很難不察覺作者們的主觀意見。不過，不影響這本書的價值–引起社會思考央行的策略之道。</p>
 </blockquote>]]></description>
-</item>
-<item>
-    <title>[筆記] 費米推論</title>
-    <link>https://nostanduptalk.github.io/notes-fermi-inference/</link>
-    <pubDate>Sat, 02 Mar 2024 15:09:49 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-fermi-inference/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[筆記] 底層邏輯2</title>
-    <link>https://nostanduptalk.github.io/notes-underlying-logic-2/</link>
-    <pubDate>Sat, 02 Mar 2024 15:09:48 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-underlying-logic-2/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[筆記] 系統思考</title>
-    <link>https://nostanduptalk.github.io/notes-thinking-in-systems-a-primer/</link>
-    <pubDate>Sat, 02 Mar 2024 15:09:48 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-thinking-in-systems-a-primer/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[筆記] 小資族下班後翻倍賺</title>
-    <link>https://nostanduptalk.github.io/notes-double-earnings-after-work/</link>
-    <pubDate>Sat, 02 Mar 2024 14:24:51 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-double-earnings-after-work/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[思考] 我覺得該怎麼控制台灣房價</title>
-    <link>https://nostanduptalk.github.io/thinking-housing-price-control-strategy/</link>
-    <pubDate>Sat, 02 Mar 2024 14:24:47 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-housing-price-control-strategy/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[筆記] 逆向工程 (4F 引導思考法) </title>
-    <link>https://nostanduptalk.github.io/notes-decoding-greatness-how-the-best-in-the-world-reverse-engineer-success/</link>
-    <pubDate>Sat, 02 Mar 2024 14:24:47 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-decoding-greatness-how-the-best-in-the-world-reverse-engineer-success/</guid>
-    <description><![CDATA[<p><code>所謂逆向工程,就是系統性地拆解物品,以便探究其內部運作方式,從中獲取重要的洞見</code></p>]]></description>
-</item>
-<item>
-    <title>[思考] 我認為工程師的關鍵指標是甚麼</title>
-    <link>https://nostanduptalk.github.io/thinking-engineer-performance-indicators/</link>
-    <pubDate>Sat, 02 Mar 2024 14:21:49 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-engineer-performance-indicators/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[旅遊] 騎馬心得</title>
-    <link>https://nostanduptalk.github.io/first-time-horseback-riding-experience/</link>
-    <pubDate>Sun, 25 Feb 2024 14:53:22 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/first-time-horseback-riding-experience/</guid>
-    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>
