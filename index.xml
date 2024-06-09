@@ -3,9 +3,18 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 Apr 2024 09:40:55 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 Apr 2024 19:07:29 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[旅遊] 在韓國濟州島的觀察</title>
+    <link>https://nostanduptalk.github.io/journey-observations-in-jeju-korea/</link>
+    <pubDate>Sun, 28 Apr 2024 19:07:29 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/journey-observations-in-jeju-korea/</guid>
+    <description><![CDATA[<h2 id="韓國連鎖咖啡">韓國連鎖咖啡</h2>
+<p>首推<code>theVenti</code></p>]]></description>
+</item>
+<item>
     <title>[筆記] 大人學選擇</title>
     <link>https://nostanduptalk.github.io/notes-adult-learn-choice/</link>
     <pubDate>Sun, 28 Apr 2024 09:40:55 &#43;0800</pubDate>
@@ -89,14 +98,6 @@
     <description><![CDATA[<blockquote>
 <p>心得：這本書是以美國為背景，許多內容在台灣不太實用。雖然我已經熟悉大部分內容，但還是有些句子讓我印象深刻。</p>
 </blockquote>]]></description>
-</item>
-<item>
-    <title>[筆記] 費曼學習法</title>
-    <link>https://nostanduptalk.github.io/notes-feynman-learning-method/</link>
-    <pubDate>Sun, 28 Apr 2024 09:09:50 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-feynman-learning-method/</guid>
-    <description><![CDATA[<p>「若有人願意以有限的生命去追求無窮的知識，並為此感動，那純粹是一種無知的狂熱。」最有效率的學習方式應當是讓自己成為某一領域的專家，而非試圖樣樣精通，成為全能者。在這個世界上，並不存在全能者。</p>]]></description>
 </item>
 </channel>
 </rss>
