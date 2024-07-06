@@ -3,12 +3,68 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 Apr 2024 19:07:29 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Jul 2024 11:19:16 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 蘇黎士投機定律</title>
+    <link>https://nostanduptalk.github.io/notes-zurich-axiom/</link>
+    <pubDate>Sat, 06 Jul 2024 11:19:16 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-zurich-axiom/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[思考] 我認為，韌體工程師，應該有什麼關鍵指標</title>
+    <link>https://nostanduptalk.github.io/thinking-key-metrics-for-firmware-engineers/</link>
+    <pubDate>Sat, 06 Jul 2024 11:19:08 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-key-metrics-for-firmware-engineers/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[筆記] 花掉的錢都會自己流回來</title>
+    <link>https://nostanduptalk.github.io/notes-money-spiral-the-more-you-spend-the-richer-you-get/</link>
+    <pubDate>Sat, 06 Jul 2024 11:18:55 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-money-spiral-the-more-you-spend-the-richer-you-get/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[筆記] 原力效應</title>
+    <link>https://nostanduptalk.github.io/notes-the-force-effect-3-steps-to-change-your-world/</link>
+    <pubDate>Sat, 06 Jul 2024 11:18:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-the-force-effect-3-steps-to-change-your-world/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[筆記] 精準提問</title>
+    <link>https://nostanduptalk.github.io/notes-precision-questioning/</link>
+    <pubDate>Sat, 06 Jul 2024 11:18:35 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-precision-questioning/</guid>
+    <description><![CDATA[<p>如果能夠轉述對方的話，就表示聽懂了。可以用總結的方式，讓對方確認自己是否有理解正確。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 設計的實戰法則</title>
+    <link>https://nostanduptalk.github.io/notes-practical-design-rules-immediate-improvement-with-fine-tuning/</link>
+    <pubDate>Sat, 06 Jul 2024 11:18:23 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-practical-design-rules-immediate-improvement-with-fine-tuning/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>[筆記] 思維的製程</title>
+    <link>https://nostanduptalk.github.io/notes-tsmc-working-style-sharing/</link>
+    <pubDate>Sat, 06 Jul 2024 11:18:03 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-tsmc-working-style-sharing/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>[旅遊] 在韓國濟州島的觀察</title>
     <link>https://nostanduptalk.github.io/journey-observations-in-jeju-korea/</link>
-    <pubDate>Sun, 28 Apr 2024 19:07:29 &#43;0800</pubDate>
+    <pubDate>Sat, 06 Jul 2024 09:07:29 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/journey-observations-in-jeju-korea/</guid>
     <description><![CDATA[<h2 id="韓國連鎖咖啡">韓國連鎖咖啡</h2>
@@ -17,7 +73,7 @@
 <item>
     <title>[筆記] 大人學選擇</title>
     <link>https://nostanduptalk.github.io/notes-adult-learn-choice/</link>
-    <pubDate>Sun, 28 Apr 2024 09:40:55 &#43;0800</pubDate>
+    <pubDate>Sun, 30 Jun 2024 09:40:55 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-adult-learn-choice/</guid>
     <description><![CDATA[<p>對於可以改變的事情，我們要盡力而為；</p>
@@ -26,78 +82,10 @@
 <item>
     <title>[思考] 組裝IKEA 家具心得</title>
     <link>https://nostanduptalk.github.io/thinking-assembling-ikea-furniture/</link>
-    <pubDate>Sun, 28 Apr 2024 09:40:53 &#43;0800</pubDate>
+    <pubDate>Sun, 23 Jun 2024 09:40:53 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-assembling-ikea-furniture/</guid>
     <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[旅遊] 密室逃脫心得</title>
-    <link>https://nostanduptalk.github.io/journey-escape-room/</link>
-    <pubDate>Sun, 28 Apr 2024 09:40:51 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/journey-escape-room/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[筆記] 神心態</title>
-    <link>https://nostanduptalk.github.io/notes-extraordinary-mindset/</link>
-    <pubDate>Sun, 28 Apr 2024 09:40:49 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-extraordinary-mindset/</guid>
-    <description><![CDATA[<p>本書核心概念摘要：</p>
-<ul>
-<li>大腦習慣安於現狀，不喜歡改變，又會自動找尋證據證明自己是正確的。</li>
-<li>透過設想自己已經達成後，會怎麼思考，會有甚麼體驗，接受訪問時會怎麼回答問題，讓大腦覺得<strong>突兀</strong>，並自動找出達成目標的方法。</li>
-<li>設立目標要跟飛機旅程一樣具體。</li>
-<li>一定要調整心態。</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>[筆記] 只工作不上班的自主人生</title>
-    <link>https://nostanduptalk.github.io/notes-only-working-not-going-to-work/</link>
-    <pubDate>Sun, 28 Apr 2024 09:40:47 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-only-working-not-going-to-work/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[筆記] 斜槓的50道難題</title>
-    <link>https://nostanduptalk.github.io/notes-50-pauzzles-of-slashie/</link>
-    <pubDate>Sun, 28 Apr 2024 09:40:45 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-50-pauzzles-of-slashie/</guid>
-    <description><![CDATA[<blockquote>
-<p>p85，認識自己是每個人一生的功課,時常反思自己,我能夠做什麼?我喜歡做什麼?我願意做什麼?從你具備的能力、渴望發展的興趣、生活的信念及對事物的價值觀開始著手,斜槓是從內而外理解和探索的過程,清楚定位自己,遠比盲從別人來的更重要。</p>
-</blockquote>]]></description>
-</item>
-<item>
-    <title>[筆記] FBI談判協商術</title>
-    <link>https://nostanduptalk.github.io/notes-never-split-the-difference/</link>
-    <pubDate>Sun, 28 Apr 2024 09:40:43 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-never-split-the-difference/</guid>
-    <description><![CDATA[<ul>
-<li>請在對方的的世界談判。我們要做的事，其實是<strong>讓對方說服自己</strong>，讓他們覺得我們想要的方案，其實是他們自己的主意。不是靠<code>講道理</code>或是<code>強硬地的態度</code>，而是透過提問，引導對方。</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>[筆記] 高效能的5個習慣</title>
-    <link>https://nostanduptalk.github.io/notes-high-performance-5-habits/</link>
-    <pubDate>Sun, 28 Apr 2024 09:40:41 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-high-performance-5-habits/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[筆記] 當代財經大師的理財通識課</title>
-    <link>https://nostanduptalk.github.io/notes-financial-master-class-of-today/</link>
-    <pubDate>Sun, 28 Apr 2024 09:39:16 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-financial-master-class-of-today/</guid>
-    <description><![CDATA[<blockquote>
-<p>心得：這本書是以美國為背景，許多內容在台灣不太實用。雖然我已經熟悉大部分內容，但還是有些句子讓我印象深刻。</p>
-</blockquote>]]></description>
 </item>
 </channel>
 </rss>
