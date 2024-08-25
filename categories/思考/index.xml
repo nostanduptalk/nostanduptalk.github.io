@@ -3,10 +3,18 @@
         <title>思考 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/</link>
         <description>思考 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Jul 2024 11:19:08 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 25 Aug 2024 15:59:58 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+    <title>[思考] 第一次參加區分所有權人會議與成立社區聯盟的想法</title>
+    <link>https://nostanduptalk.github.io/thinking-first-time-attending-owners-meeting/</link>
+    <pubDate>Sun, 25 Aug 2024 15:59:58 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-first-time-attending-owners-meeting/</guid>
+    <description><![CDATA[<p>我把我的心得口述給chatGPT ，請他整理後再提問，最後帶出成立社區聯盟的想法，如下，答案我回答在音檔：</p>]]></description>
+</item>
+<item>
     <title>[思考] 我認為，韌體工程師，應該有什麼關鍵指標</title>
     <link>https://nostanduptalk.github.io/thinking-key-metrics-for-firmware-engineers/</link>
-    <pubDate>Sat, 06 Jul 2024 11:19:08 &#43;0800</pubDate>
+    <pubDate>Sun, 18 Aug 2024 11:19:08 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-key-metrics-for-firmware-engineers/</guid>
     <description><![CDATA[]]></description>
@@ -82,14 +90,6 @@
 </ul>
 <h2 id="展望2023">展望2023</h2>
 <p>三個Electron程式</p>]]></description>
-</item>
-<item>
-    <title>[思考] 信任與流量變現</title>
-    <link>https://nostanduptalk.github.io/thinking-trust-and-traffic-to-cash/</link>
-    <pubDate>Sun, 18 Dec 2022 19:48:15 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-trust-and-traffic-to-cash/</guid>
-    <description><![CDATA[<p>最近的「100小時諮商筆記」變成課程一事，引起爭議，台灣這麼多心理師，為什麼是沒有證照的他開課，就算有證照的來開課，營收也遠小於這位網紅，流量變現真的很厲害！</p>]]></description>
 </item>
 </channel>
 </rss>
