@@ -2,6 +2,7 @@
 
 
 <!--more-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cx1jzuNul4U?si=8KzNAAj5md8SiypW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 金錢管理與投資心態
 
