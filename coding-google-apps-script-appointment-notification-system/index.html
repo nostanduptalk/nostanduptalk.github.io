@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[程式] Google Apps Script 約定通知系統：自動郵件通知系統 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[程式] Google Apps Script 約定通知系統：自動郵件通知系統" />
+<meta property="og:description" content="在這個繁忙的世界裡，有效管理時間和預約變得越來越重要。想像一下，有一個系統能夠自動為您發送提醒、更新預約狀態，甚至處理取消請求。本文將介紹一個使用 Google Apps Script 開發的強大工具，它將徹底改變您管理日程的方式。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-10-02T14:38:52+08:00" />
+<meta property="article:modified_time" content="2024-10-27T14:38:52+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[程式] Google Apps Script 約定通知系統：自動郵件通知系統"/>
+<meta name="twitter:description" content="在這個繁忙的世界裡，有效管理時間和預約變得越來越重要。想像一下，有一個系統能夠自動為您發送提醒、更新預約狀態，甚至處理取消請求。本文將介紹一個使用 Google Apps Script 開發的強大工具，它將徹底改變您管理日程的方式。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/" /><link rel="prev" href="https://nostanduptalk.github.io/notes-five-steps-to-handle-legacy-code/" /><link rel="next" href="https://nostanduptalk.github.io/notes-how-to-be-successful/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[程式] Google Apps Script 約定通知系統：自動郵件通知系統",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/coding-google-apps-script-appointment-notification-system\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "Google Apps Script, 自動化","wordcount":  3891 ,
+        "url": "https:\/\/nostanduptalk.github.io\/coding-google-apps-script-appointment-notification-system\/","datePublished": "2024-10-02T14:38:52+08:00","dateModified": "2024-10-27T14:38:52+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[程式] Google Apps Script 約定通知系統：自動郵件通知系統</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%A8%8B%E5%BC%8F/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>程式</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-10-02">2024-10-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;3891 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;8 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#程式介紹預約提醒與自動郵件通知系統">程式介紹：預約提醒與自動郵件通知系統</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#核心功能">核心功能</a></li>
+            <li><a href="#使用者流程">使用者流程</a></li>
+            <li><a href="#流程圖">流程圖</a></li>
+          </ul>
+        </li>
+        <li><a href="#結論">結論</a></li>
+        <li><a href="#程式碼區">程式碼區</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>在這個繁忙的世界裡，有效管理時間和預約變得越來越重要。想像一下，有一個系統能夠自動為您發送提醒、更新預約狀態，甚至處理取消請求。本文將介紹一個使用 Google Apps Script 開發的強大工具，它將徹底改變您管理日程的方式。</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1flsDUF2xly4gMPFNOEuha6esHxN3lpuEcOGkUeD6giY/edit?usp=sharing" title="smartCard-inline" target="_blank" rel="noopener noreffer">點這裡，索取副本</a></p>
+<h2 id="程式介紹預約提醒與自動郵件通知系統">程式介紹：預約提醒與自動郵件通知系統</h2>
+<p>這篇文章介紹了一個使用 Google Apps Script 編寫的自動化程式，專為幫助您管理和跟進各類預約而設計。該系統根據預設<code>時間點</code>，自動發送提醒郵件，更新預約狀態，並且支持隨時取消預約，適合需要經常安排會議、活動或其他時間敏感任務的使用者。
+<img src="1.png" width="100%"></p>
+<h4 id="核心功能">核心功能</h4>
+<ol>
+<li><strong>自動發送提醒郵件</strong>：
+<ul>
+<li><strong>48小時前提醒</strong>：預約開始前48小時，系統會自動發送郵件提醒相關人員。</li>
+<li><strong>2小時前提醒</strong>：預約開始前2小時，系統再次發送提醒郵件，確保用戶準時參加。</li>
+</ul>
+</li>
+<li><strong>狀態自動更新</strong>：
+<ul>
+<li>預約時間過去後，如果狀態為「已成立」，系統會自動更新為「已完成」。</li>
+</ul>
+</li>
+<li><strong>取消預約通知</strong>：
+<ul>
+<li>使用者如果決定取消預約，可以將「總狀態」更新為「要取消」。</li>
+<li>系統會立即發送取消通知，並將狀態更新為「已取消」，之後不再觸發任何提醒。</li>
+</ul>
+</li>
+</ol>
+<h4 id="使用者流程">使用者流程</h4>
+<ol>
+<li>
+<p>建立副本 (檔案&ndash;&gt; 建立副本)，連帶程式碼一起，改名。</p>
+</li>
+<li>
+<p>設定觸發器 (擴充功能 &ndash;&gt; App script) <code>(過程需要使用權限同意)</code></p>
+<ul>
+<li>設置每小時觸發器：
+點擊編輯器左側的「時鐘」圖標（觸發器設置）。
+點擊右下角的「+ 新增觸發器」按鈕。
+在彈出的對話框中：
+選擇要運行的函數：選擇 hourBasedTrigger。
+選擇事件來源：選擇「時間驅動」。
+選擇事件類型：選擇「小時定時器」。
+選擇時間間隔：選擇「每小時」。
+點擊「保存」。<img src="2.png" width="100%"></li>
+<li>設置編輯觸發器：
+在編輯器左側的「時鐘」圖標（觸發器設置）中，點擊右下角的「+ 新增觸發器」按鈕。
+在彈出的對話框中：
+選擇要運行的函數：選擇 handleEditTrigger。
+選擇事件來源：選擇「試算表」。
+選擇事件類型：選擇「文件內容變更時」。
+點擊「保存」。</li>
+</ul>
+<img src="3.png" width="80%">
+</li>
+<li>
+<p><strong>填寫預約資訊</strong>：</p>
+<ul>
+<li>在試算表中填寫「預約時間點」、「人名」、「地點」、「活動內容」和「email地址」等欄位，<strong>不要</strong>填寫「總狀態」。</li>
+</ul>
+</li>
+<li>
+<p><strong>啟動預約</strong>：</p>
+<ul>
+<li>當所有資訊填寫完成後，將「總狀態」設為「新成立」。</li>
+<li>系統會自動發送確認郵件給相關人員，通知他們預約已成立，並將「總狀態」更新為「已成立」。</li>
+</ul>
+<img src="4.png" width="70%">
+</li>
+<li>
+<p><strong>自動提醒</strong>：</p>
+<ul>
+<li>預約狀態為「已成立」後，系統將每小時檢查時間，並根據預約時間，自動發送48小時前和2小時前的提醒郵件。</li>
+</ul>
+<img src="5.png" width="70%">
+</li>
+<li>
+<p><strong>取消預約</strong>：</p>
+<ul>
+<li>若需取消預約，將「總狀態」設為「要取消」。</li>
+<li>系統會立即發送取消通知，並將「總狀態」更新為「已取消」。</li>
+<li>狀態更新為「已取消」後，系統將不再發送任何提醒郵件。</li>
+</ul>
+<img src="6.png" width="70%">
+</li>
+</ol>
+<h4 id="流程圖">流程圖</h4>
+<p>下圖展示了使用者如何操作該系統的整體流程，從預約填寫、啟動到取消的全過程。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">graph TD
+  A[開始] --&gt; B[填寫預約資訊]
+  B --&gt; C{總狀態}
+  C --&gt;|新成立| D[發送確認郵件]
+  D --&gt; E[更新狀態為「已成立」]
+  E --&gt; F{時間檢查}
+  F --&gt;|時間 &lt; 48小時且狀態未更新| G[發送48小時提醒]
+  F --&gt;|時間 &lt; 2小時且狀態未更新| H[發送2小時提醒]
+  F --&gt;|時間已過且狀態為「已成立」| I[更新狀態為「已完成」]
+  C --&gt;|要取消| J[發送取消通知]
+  J --&gt; K[更新狀態為「已取消」]
+  K --&gt; L[結束]
+</code></pre></td></tr></table>
+</div>
+</div><p>這個流程圖清晰展示了使用者在不同狀態下的操作步驟，確保系統在預約管理中的高效運作。</p>
+<h3 id="結論">結論</h3>
+<p>這個自動化預約提醒系統通過多層次的自動化通知和靈活的狀態管理，極大地提升了預約管理的效率。它能確保使用者及時收到提醒，並能夠靈活處理預約的變更或取消需求。如果您經常需要管理多個預約或活動，這個工具將是您理想的選擇。</p>
+<h3 id="程式碼區">程式碼區</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span><span class="lnt">140
+</span><span class="lnt">141
+</span><span class="lnt">142
+</span><span class="lnt">143
+</span><span class="lnt">144
+</span><span class="lnt">145
+</span><span class="lnt">146
+</span><span class="lnt">147
+</span><span class="lnt">148
+</span><span class="lnt">149
+</span><span class="lnt">150
+</span><span class="lnt">151
+</span><span class="lnt">152
+</span><span class="lnt">153
+</span><span class="lnt">154
+</span><span class="lnt">155
+</span><span class="lnt">156
+</span><span class="lnt">157
+</span><span class="lnt">158
+</span><span class="lnt">159
+</span><span class="lnt">160
+</span><span class="lnt">161
+</span><span class="lnt">162
+</span><span class="lnt">163
+</span><span class="lnt">164
+</span><span class="lnt">165
+</span><span class="lnt">166
+</span><span class="lnt">167
+</span><span class="lnt">168
+</span><span class="lnt">169
+</span><span class="lnt">170
+</span><span class="lnt">171
+</span><span class="lnt">172
+</span><span class="lnt">173
+</span><span class="lnt">174
+</span><span class="lnt">175
+</span><span class="lnt">176
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">// 定義常數
+const COLUMN_APPOINTMENT_TIME = 0; // 預約時間點，列索引從0開始
+const COLUMN_NAME = 1; // 人名
+const COLUMN_LOCATION = 2; // 地點
+const COLUMN_EVENT_DETAILS = 3; // 活動內容
+const COLUMN_EMAIL_ADDRESS = 4; // email地址
+const COLUMN_HOUR_STATUS = 5; // 每小時觸發器狀態
+const COLUMN_OVERALL_STATUS = 6; // 總狀態
+
+const NOTIFICATION_REMINDER_2_DAYS = &#34;已通知-2天&#34;;
+const NOTIFICATION_REMINDER_2_HOURS = &#34;已通知-2小時&#34;;
+const STATUS_NEW = &#34;新成立&#34;;
+const STATUS_CONFIRMED = &#34;已成立&#34;;
+const STATUS_CANCELLED = &#34;已取消&#34;;
+const STATUS_COMPLETED = &#34;已完成&#34;;
+const STATUS_TO_BE_CANCELLED = &#34;要取消&#34;;
+
+
+//不沾醬公司 請換成你的企業名稱
+function sendEmail(subject, body, emailAddress) {
+  subject = &#34;不沾醬公司 - &#34; + subject;
+  Logger.log(&#34;發送郵件：主旨 - &#34; + subject + &#34;, 收件人 - &#34; + emailAddress);
+  MailApp.sendEmail(emailAddress, subject, body);
+}
+// 新增一個函數來格式化日期時間
+function formatDateTime(date) {
+  var year = date.getFullYear();
+  var month = (&#39;0&#39; + (date.getMonth() + 1)).slice(-2); // 月份從0開始，所以加1
+  var day = (&#39;0&#39; + date.getDate()).slice(-2);
+  var hours = (&#39;0&#39; + date.getHours()).slice(-2);
+  var minutes = (&#39;0&#39; + date.getMinutes()).slice(-2);
+
+  return year + &#39;-&#39; + month + &#39;-&#39; + day + &#39; &#39; + hours + &#39;:&#39; + minutes;
+}
+function hourBasedTrigger() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var data = sheet.getDataRange().getValues();
+  var now = new Date();
+
+  Logger.log(&#34;開始每小時觸發器執行，當前時間：&#34; + now);
+
+  for (var i = 1; i &lt; data.length; i++) {
+    var appointmentTime = new Date(data[i][COLUMN_APPOINTMENT_TIME] + &#34;:00&#34;); // 需要加上秒數
+    var appointmentTimeInMail = formatDateTime(data[i][COLUMN_APPOINTMENT_TIME]); // 訊息用
+    var name = data[i][COLUMN_NAME];
+    var location = data[i][COLUMN_LOCATION];
+    var eventDetails = data[i][COLUMN_EVENT_DETAILS];
+    var emailAddress = data[i][COLUMN_EMAIL_ADDRESS];
+    var hourStatus = data[i][COLUMN_HOUR_STATUS];
+    var overallStatus = data[i][COLUMN_OVERALL_STATUS];
+
+    Logger.log(&#34;處理第 &#34; + (i + 1) + &#34; 行: 預約時間 - &#34; + appointmentTime);
+
+    // 跳過尚未填寫總狀態的行
+    if (!overallStatus) {
+      Logger.log(&#34;第 &#34; + (i + 1) + &#34; 行總狀態尚未填寫，跳過處理。&#34;);
+      continue;
+    }
+
+    // 檢查是否已取消
+    if (overallStatus === STATUS_CANCELLED) {
+      Logger.log(&#34;第 &#34; + (i + 1) + &#34; 行預約已取消，跳過處理。&#34;);
+      continue;
+    }
+
+    var diffHours = (appointmentTime - now) / (1000 * 60 * 60);
+
+    // 發送48小時前的通知
+    if (diffHours &lt;= 48 &amp;&amp; diffHours &gt; 46 &amp;&amp; hourStatus !== NOTIFICATION_REMINDER_2_DAYS) {
+      var subject = &#34;即將到來的預約提醒 (2天後)&#34;;
+      var body = &#34;親愛的 &#34; + name + &#34;，\n\n&#34; +
+                 &#34;您有一個即將到來的預約：\n\n&#34; +
+                 &#34;時間：&#34; + appointmentTimeInMail + &#34;\n&#34; +
+                 &#34;地點：&#34; + location + &#34;\n&#34; +
+                 &#34;內容：&#34; + eventDetails + &#34;\n\n&#34; +
+                 &#34;如果無法出席，請提前請假，謝謝。&#34;;
+      sendEmail(subject, body, emailAddress);
+      sheet.getRange(i + 1, COLUMN_HOUR_STATUS + 1).setValue(NOTIFICATION_REMINDER_2_DAYS);
+      Logger.log(&#34;第 &#34; + (i + 1) + &#34; 行發送了48小時前的通知。&#34;);
+    }
+
+    // 發送2小時前的通知
+    if (diffHours &lt;= 2 &amp;&amp; diffHours &gt; 0 &amp;&amp; hourStatus !== NOTIFICATION_REMINDER_2_HOURS) {
+      var subject = &#34;即將開始的預約提醒 (2小時內)&#34;;
+      var body = &#34;親愛的 &#34; + name + &#34;，\n\n&#34; +
+                 &#34;您有一個即將開始的預約：\n\n&#34; +
+                 &#34;時間：&#34; + appointmentTimeInMail + &#34;\n&#34; +
+                 &#34;地點：&#34; + location + &#34;\n&#34; +
+                 &#34;內容：&#34; + eventDetails + &#34;\n\n&#34; +
+                 &#34;請準時出席。&#34;;
+      sendEmail(subject, body, emailAddress);
+      sheet.getRange(i + 1, COLUMN_HOUR_STATUS + 1).setValue(NOTIFICATION_REMINDER_2_HOURS);
+      Logger.log(&#34;第 &#34; + (i + 1) + &#34; 行發送了2小時前的通知。&#34;);
+    }
+
+    // 檢查是否超過預約時間，更新狀態為&#34;已完成&#34;
+    if (appointmentTime &lt; now &amp;&amp; overallStatus === STATUS_CONFIRMED) {
+      sheet.getRange(i + 1, COLUMN_OVERALL_STATUS + 1).setValue(STATUS_COMPLETED);
+      Logger.log(&#34;第 &#34; + (i + 1) + &#34; 行的預約時間已過，狀態更新為「已完成」。&#34;);
+    }
+  }
+
+  Logger.log(&#34;每小時觸發器執行結束。&#34;);
+}
+
+function handleEditTrigger() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var data = sheet.getDataRange().getValues();
+
+  Logger.log(&#34;處理編輯觸發器&#34;);
+
+  for (var i = 1; i &lt; data.length; i++) {
+    var overallStatus = data[i][COLUMN_OVERALL_STATUS];
+    var appointmentTimeInMail = formatDateTime(data[i][COLUMN_APPOINTMENT_TIME]); // 訊息用
+    var name = data[i][COLUMN_NAME];
+    var location = data[i][COLUMN_LOCATION];
+    var eventDetails = data[i][COLUMN_EVENT_DETAILS];
+    var emailAddress = data[i][COLUMN_EMAIL_ADDRESS];
+
+    Logger.log(&#34;第 &#34; + (i + 1) + &#34; 行的總狀態: &#34; + overallStatus);
+
+    if (overallStatus === STATUS_NEW) {
+      // 發送約定通知
+      var subject = &#34;新的預約通知&#34;;
+      var body = &#34;親愛的 &#34; + name + &#34;，\n\n&#34; +
+                 &#34;您已成功預約以下活動：\n\n&#34; +
+                 &#34;時間：&#34; + appointmentTimeInMail + &#34;\n&#34; +
+                 &#34;地點：&#34; + location + &#34;\n&#34; +
+                 &#34;內容：&#34; + eventDetails + &#34;\n\n&#34; +
+                 &#34;謝謝您！&#34;;
+      sendEmail(subject, body, emailAddress);
+      sheet.getRange(i + 1, COLUMN_OVERALL_STATUS + 1).setValue(STATUS_CONFIRMED);
+      Logger.log(&#34;第 &#34; + (i + 1) + &#34; 行發送了約定通知，狀態更新為「已成立」。&#34;);
+    } else if (overallStatus === STATUS_TO_BE_CANCELLED) {
+      // 發送取消通知
+      var subject = &#34;預約取消通知&#34;;
+      var body = &#34;親愛的 &#34; + name + &#34;，\n\n&#34; +
+                 &#34;您的預約已取消，原定時間為：&#34; + appointmentTimeInMail + &#34;\n&#34; +
+                 &#34;地點：&#34; + location + &#34;\n&#34; +
+                 &#34;內容：&#34; + eventDetails + &#34;\n\n&#34; +
+                 &#34;如需重新預約，請聯繫我們。&#34;;
+      sendEmail(subject, body, emailAddress);
+      sheet.getRange(i + 1, COLUMN_OVERALL_STATUS + 1).setValue(STATUS_CANCELLED);
+      Logger.log(&#34;第 &#34; + (i + 1) + &#34; 行發送了取消通知，狀態更新為「已取消」。&#34;);
+    }
+  }
+
+  Logger.log(&#34;編輯觸發器處理結束。&#34;);
+}
+
+
+
+// 設定觸發器
+
+//     設置每小時觸發器：
+//         點擊編輯器左側的「時鐘」圖標（觸發器設置）。
+//         點擊右下角的「+ 新增觸發器」按鈕。
+//         在彈出的對話框中：
+//             選擇要運行的函數：選擇 hourBasedTrigger。
+//             選擇事件來源：選擇「時間驅動」。
+//             選擇事件類型：選擇「小時定時器」。
+//             選擇時間間隔：選擇「每小時」。
+//         點擊「保存」。
+
+//     設置編輯觸發器：
+//         在編輯器左側的「時鐘」圖標（觸發器設置）中，點擊右下角的「+ 新增觸發器」按鈕。
+//         在彈出的對話框中：
+//             選擇要運行的函數：選擇 handleEditTrigger。
+//             選擇事件來源：選擇「試算表」。
+//             選擇事件類型：選擇「文件內容變更時」。
+//         點擊「保存」。
+
+// 注意事項
+
+//     handleEditTrigger 函數不再接收事件對象（e），而是直接遍歷整個試算表中的資料列。這意味著每次觸發器執行時，它會檢查每一行的狀態。
+//     確保每次編輯試算表時，handleEditTrigger 函數會更新所有行的狀態，這可能會影響性能，特別是當試算表有大量資料時。如果需要優化，可能需要根據實際需求調整邏輯。
+</code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-10-27</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/coding-google-apps-script-appointment-notification-system/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/" data-title="[程式] Google Apps Script 約定通知系統：自動郵件通知系統" data-hashtags="Google Apps Script,自動化"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/" data-hashtag="Google Apps Script"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/" data-title="[程式] Google Apps Script 約定通知系統：自動郵件通知系統"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/" data-title="[程式] Google Apps Script 約定通知系統：自動郵件通知系統"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/" data-title="[程式] Google Apps Script 約定通知系統：自動郵件通知系統"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/google-apps-script/">Google Apps Script</a>,&nbsp;<a href="/tags/%E8%87%AA%E5%8B%95%E5%8C%96/">自動化</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/notes-five-steps-to-handle-legacy-code/" class="prev" rel="prev" title="[筆記] 處理老舊程式碼的五個步驟"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[筆記] 處理老舊程式碼的五個步驟</a>
+            <a href="/notes-how-to-be-successful/" class="next" rel="next" title="[筆記] 讀了Sam Altman的一篇文章">[筆記] 讀了Sam Altman的一篇文章<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>
