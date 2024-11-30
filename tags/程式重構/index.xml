@@ -3,10 +3,10 @@
         <title>程式重構 - Tag - 不沾醬</title>
         <link>https://nostanduptalk.github.io/tags/%E7%A8%8B%E5%BC%8F%E9%87%8D%E6%A7%8B/</link>
         <description>程式重構 - Tag - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 02 Oct 2024 14:35:43 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E7%A8%8B%E5%BC%8F%E9%87%8D%E6%A7%8B/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 20 Oct 2024 14:35:43 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E7%A8%8B%E5%BC%8F%E9%87%8D%E6%A7%8B/" rel="self" type="application/rss+xml" /><item>
     <title>[筆記] 處理老舊程式碼的五個步驟</title>
     <link>https://nostanduptalk.github.io/notes-five-steps-to-handle-legacy-code/</link>
-    <pubDate>Wed, 02 Oct 2024 14:35:43 &#43;0800</pubDate>
+    <pubDate>Sun, 20 Oct 2024 14:35:43 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-five-steps-to-handle-legacy-code/</guid>
     <description><![CDATA[<p>在軟體工程領域中，處理<code>老舊程式碼</code>是一個不可避免的挑戰。本文介紹了五個步驟來有效管理和改進老舊程式碼，從接受其存在到縮小重寫範圍，幫助開發團隊提升效率和輸出品質。</p>]]></description>

@@ -3,10 +3,10 @@
         <title>自動化 - Tag - 不沾醬</title>
         <link>https://nostanduptalk.github.io/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</link>
         <description>自動化 - Tag - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 02 Oct 2024 14:38:52 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E8%87%AA%E5%8B%95%E5%8C%96/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 27 Oct 2024 14:38:52 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E8%87%AA%E5%8B%95%E5%8C%96/" rel="self" type="application/rss+xml" /><item>
     <title>[程式] Google Apps Script 約定通知系統：自動郵件通知系統</title>
     <link>https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/</link>
-    <pubDate>Wed, 02 Oct 2024 14:38:52 &#43;0800</pubDate>
+    <pubDate>Sun, 27 Oct 2024 14:38:52 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/</guid>
     <description><![CDATA[<p>在這個繁忙的世界裡，有效管理時間和預約變得越來越重要。想像一下，有一個系統能夠自動為您發送提醒、更新預約狀態，甚至處理取消請求。本文將介紹一個使用 Google Apps Script 開發的強大工具，它將徹底改變您管理日程的方式。</p>]]></description>
