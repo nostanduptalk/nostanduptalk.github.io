@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[筆記] 高效工程師的煉成之路：讀《The Effective Engineer》心得 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[筆記] 高效工程師的煉成之路：讀《The Effective Engineer》心得" />
+<meta property="og:description" content="管理學大師 Peter Drucker 曾說：&ldquo;If you can&rsquo;t measure it, you can&rsquo;t improve it.&quot;（如果你無法衡量它，你就無法改進它）。
+透過本書10個章節，探索如何成為高效的工程師，我們需要深入了解時間槓桿、學習策略、優先排序、迭代速度等多個面向，並在團隊中建立正向的工程文化。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/notes-the-effective-engineer-how-to-leverage-your-efforts/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-01-26T17:19:44+08:00" />
+<meta property="article:modified_time" content="2025-02-09T17:19:44+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[筆記] 高效工程師的煉成之路：讀《The Effective Engineer》心得"/>
+<meta name="twitter:description" content="管理學大師 Peter Drucker 曾說：&ldquo;If you can&rsquo;t measure it, you can&rsquo;t improve it.&quot;（如果你無法衡量它，你就無法改進它）。
+透過本書10個章節，探索如何成為高效的工程師，我們需要深入了解時間槓桿、學習策略、優先排序、迭代速度等多個面向，並在團隊中建立正向的工程文化。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-the-effective-engineer-how-to-leverage-your-efforts/" /><link rel="prev" href="https://nostanduptalk.github.io/journey-first-time-skiing-preparation-and-guides/" /><link rel="next" href="https://nostanduptalk.github.io/journey-jr-pass-kansai-wide-2024/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[筆記] 高效工程師的煉成之路：讀《The Effective Engineer》心得",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/notes-the-effective-engineer-how-to-leverage-your-efforts\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "高槓桿活動, 優化學習, 優先排序, 迭代速度, 工程文化","wordcount":  2633 ,
+        "url": "https:\/\/nostanduptalk.github.io\/notes-the-effective-engineer-how-to-leverage-your-efforts\/","datePublished": "2025-01-26T17:19:44+08:00","dateModified": "2025-02-09T17:19:44+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] 高效工程師的煉成之路：讀《The Effective Engineer》心得</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-01-26">2025-01-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2633 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#工程師的影響力">工程師的影響力</a></li>
+    <li><a href="#第1章專注於高槓桿活動">第1章：專注於高槓桿活動</a></li>
+    <li><a href="#第2章優化學習">第2章：優化學習</a></li>
+    <li><a href="#第3章定期進行優先排序">第3章：定期進行優先排序</a></li>
+    <li><a href="#第4章投資在迭代速度上">第4章：投資在迭代速度上</a></li>
+    <li><a href="#第5章衡量你想改進的事物">第5章：衡量你想改進的事物</a></li>
+    <li><a href="#第6章及早並經常驗證你的想法">第6章：及早並經常驗證你的想法</a></li>
+    <li><a href="#第7章提高你的專案估算技能">第7章：提高你的專案估算技能</a></li>
+    <li><a href="#第8章在品質與實用性之間取得平衡">第8章：在品質與實用性之間取得平衡</a></li>
+    <li><a href="#第9章盡量減少營運負擔">第9章：盡量減少營運負擔</a></li>
+    <li><a href="#第10章投資於你團隊的成長">第10章：投資於你團隊的成長</a></li>
+    <li><a href="#連結">連結</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>管理學大師 Peter Drucker 曾說：&ldquo;If you can&rsquo;t measure it, you can&rsquo;t improve it.&quot;（如果你無法衡量它，你就無法改進它）。</p>
+<p>透過本書10個章節，探索如何成為高效的工程師，我們需要深入了解時間槓桿、學習策略、優先排序、迭代速度等多個面向，並在團隊中建立正向的工程文化。</p>
+<h2 id="工程師的影響力">工程師的影響力</h2>
+<p>這本書《The-Effective-Engineer-How-to-Leverage-Your-Efforts-In-Software-Engineering-to-Make-a-Disproportionate-and-Meaningful-Impact》的核心在於探討如何成為一個高效且有影響力的工程師。</p>
+<h2 id="第1章專注於高槓桿活動">第1章：專注於高槓桿活動</h2>
+<p><strong>找出並專注於能為你投入的時間產生最高回報的事物</strong>。這意味著系統性地尋找提高你時間槓桿的方法，將精力集中在那些能帶來巨大影響的習慣和行動上。</p>
+<ul>
+<li>使用槓桿來衡量你的工程效能。</li>
+<li>專注於為你投入的時間產生最高回報的事物。</li>
+<li>系統性地提高你時間的槓桿。</li>
+<li>找出更快完成活動的方法，增加活動的影響力，或轉向更高槓桿的活動。</li>
+<li>將精力集中在槓桿點上。</li>
+<li>找出能為投入時間帶來巨大影響的習慣。</li>
+</ul>
+<h2 id="第2章優化學習">第2章：優化學習</h2>
+<p><strong>將學習視為複利</strong>，越早優化學習，未來的機會越多。積極尋找能讓你持續成長的工作環境，並在工作內外尋求學習機會，讓自己成為更有效率的工程師。</p>
+<ul>
+<li>主導你的故事。主動塑造自己的職涯敘事，聚焦於自己能掌控的部分，並將挑戰轉化為機會。</li>
+<li>專注於你能影響的改變，而不是浪費精力抱怨你無法控制的部分。</li>
+<li>以成長心態看待失敗和挑戰，視為學習的機會。</li>
+<li>不要低估你的學習速度。</li>
+<li><strong>學習就像複利一樣</strong>。</li>
+<li>優化學習，為未來的機會做好最充分的準備。</li>
+<li>找到能持續助你成長的工作環境。</li>
+<li>面試團隊或公司的人員。</li>
+<li>了解他們在新人培訓和指導方面提供哪些機會，內部有多透明，動作有多快，你未來的同事是什麼樣的人，以及你將有多少自主權。</li>
+<li>把握機會在工作中提升技術能力。</li>
+<li>向最優秀的同事學習。</li>
+<li>研究他們的程式碼和程式碼審查。<strong>主動加入設計會議，即使只是作為觀察者</strong>。了解決策過程和考量因素。</li>
+<li>利用公司提供的任何教育資源。</li>
+<li>查看公司是否願意補貼課程或書籍費用。</li>
+<li>在工作之外尋找學習機會。</li>
+<li>每天挑戰自己進步1%。</li>
+<li>成為更快樂更好的學習者。</li>
+</ul>
+<h2 id="第3章定期進行優先排序">第3章：定期進行優先排序</h2>
+<p><strong>將精力放在排定任務優先順序，而非試圖記住所有事項</strong>。定期評估並專注於直接產生價值的工作，優先處理重要但不緊急的事務，並減少上下文切換，保護你的創意產出時間。</p>
+<ul>
+<li>記錄並檢視待辦事項。</li>
+<li>把精力花在排定任務優先順序和處理任務上，而不是試圖記住它們。</li>
+<li>把你的大腦當作處理器，而不是記憶庫。</li>
+<li>專注於直接產生價值的工作。</li>
+<li>不要試圖做所有事情。</li>
+<li>要經常問自己是否有更高槓桿的事情可以做。</li>
+<li>處理重要但不緊急的事務。</li>
+<li>優先處理能提高你效率的長期投資。</li>
+<li>減少上下文切換。</li>
+<li>為你的創意輸出保護大塊時間。</li>
+<li>限制進行中的項目數量。</li>
+<li>制定如果-那麼計畫來對抗拖延。</li>
+<li>養成優先排序的習慣。</li>
+<li>嘗試找出適合你的工作流程。</li>
+<li><strong>定期進行優先排序</strong>。</li>
+</ul>
+<h2 id="第4章投資在迭代速度上">第4章：投資在迭代速度上</h2>
+<p><strong>迭代速度越快，學習和進步的速度也越快</strong>。投資開發工具，優化除錯流程，並熟悉你每天使用的開發環境，能帶來長期的效益。</p>
+<ul>
+<li>迭代越快，學習就越快。</li>
+<li>不要為了避免錯誤而行動太慢。</li>
+<li>投資開發工具。</li>
+<li>更快的編譯時間、更快的部署週期和更快的開發週期都能帶來時間節省效益。</li>
+<li>優化你的除錯工作流程。</li>
+<li>投入足夠的時間來縮短這些工作流程。</li>
+<li>精通你的專業基礎知識。</li>
+<li>熟悉並高效使用你每天使用的開發環境。</li>
+<li>全面看待你的迭代循環。</li>
+<li>不要忽視任何可能在你影響範圍內的組織和團隊相關瓶頸。</li>
+</ul>
+<h2 id="第5章衡量你想改進的事物">第5章：衡量你想改進的事物</h2>
+<p><strong>難以改進沒有衡量的東西</strong>。仔細選擇能激勵你期望行為的指標，並為系統添加監測，了解你的數據，確保你不是在盲目飛行。</p>
+<ul>
+<li>衡量你的進展。</li>
+<li><strong>很難改進你沒有衡量的東西</strong>。</li>
+<li>仔細選擇你的頂層指標。</li>
+<li>不同的指標會激勵不同的行為。</li>
+<li>弄清楚你想要激勵哪些行為。</li>
+<li>為你的系統添加監測。</li>
+<li>系統越複雜，你就越需要監測。</li>
+<li>了解你的數字。</li>
+<li>記住或隨時可以查看一些可以作為進度基準或幫助你進行粗略計算的數字。</li>
+<li>優先考慮數據的完整性。</li>
+<li>擁有錯誤的數據比沒有數據更糟。</li>
+</ul>
+<h2 id="第6章及早並經常驗證你的想法">第6章：及早並經常驗證你的想法</h2>
+<p><strong>以迭代的方式處理問題，通過小規模驗證來降低大型實施的風險</strong>。使用A/B測試持續驗證你的產品假設，並建立反饋循環，評估你工作的價值和有效性。</p>
+<ul>
+<li>以迭代的方式處理問題。</li>
+<li>每次迭代都提供機會來驗證新想法。</li>
+<li>通過小規模驗證來降低大型實施的風險。</li>
+<li>使用A/B測試持續驗證你的產品假設。</li>
+<li>在獨立項目上工作時，找方法定期獲得反饋。</li>
+<li>採取願意驗證你決策的態度。</li>
+<li><strong>建立反饋循環，評估你工作的價值和有效性</strong>。</li>
+</ul>
+<h2 id="第7章提高你的專案估算技能">第7章：提高你的專案估算技能</h2>
+<p><strong>將估算納入專案計畫中，並利用估算來判斷專案是否可行</strong>。為未知因素預留緩衝時間，並先做風險最高的任務。了解加班的限制，只有在必要時才加班。</p>
+<ul>
+<li>將估算納入專案計劃中。</li>
+<li>估算應該被用作決定在某個日期前交付一組功能是否可行的依據。</li>
+<li>不要讓期望的目標左右估算。</li>
+<li>在排程中為未知因素留出緩衝時間。</li>
+<li>考慮到競爭的工作義務、假期、生病等因素。</li>
+<li>定義可衡量的里程碑。</li>
+<li>利用它們作為修改估算的機會。</li>
+<li>先做風險最高的任務。</li>
+<li>不要專注於容易做的事情。</li>
+<li>了解加班的限制。</li>
+<li>只有在你確信加班能讓你按時完成時才加班。</li>
+</ul>
+<h2 id="第8章在品質與實用性之間取得平衡">第8章：在品質與實用性之間取得平衡</h2>
+<p><strong>建立程式碼審查文化，投資於優秀的軟體抽象化，並通過自動化測試來擴展程式碼品質</strong>。管理你的技術債務，專注於累積最多利息的債務，以維持長期發展。</p>
+<ul>
+<li>建立程式碼審查的文化。</li>
+<li>在程式碼審查和工具之間找到適當的平衡。</li>
+<li>投資於優秀的軟體抽象化。</li>
+<li>通過自動化測試來擴展程式碼品質。</li>
+<li>首先專注於那些能節省最多時間的測試。</li>
+<li><strong>管理你的技術債務</strong>。</li>
+<li>專注於累積最多利息的債務。</li>
+</ul>
+<h2 id="第9章盡量減少營運負擔">第9章：盡量減少營運負擔</h2>
+<p><strong>盡量保持系統簡單，快速失敗找出錯誤的根源，並自動化機械性工作</strong>。追求冪等性和可重入性，並計劃和練習失敗模式，增強系統的可靠性。</p>
+<ul>
+<li>先做簡單的事情。</li>
+<li>簡單的系統更容易理解、擴展和維護。</li>
+<li><strong>快速失敗以找出錯誤的根源</strong>。</li>
+<li>自動化機械性工作而不是決策。</li>
+<li>追求冪等性和可重入性。</li>
+<li>計劃並練習失敗模式。</li>
+</ul>
+<h2 id="第10章投資於你團隊的成長">第10章：投資於你團隊的成長</h2>
+<p><strong>幫助你周圍的人成功，將招聘視為優先事項，投資於新人培訓和指導，建立共同的程式碼所有權，並總結和記錄集體智慧，創造一個優秀的工程文化</strong>。</p>
+<ul>
+<li>幫助你周圍的人成功。</li>
+<li><strong>將招聘視為優先事項</strong>。</li>
+<li>保持高招聘標準，並在發展團隊方面發揮積極作用。</li>
+<li>投資新人培訓和指導。</li>
+<li>建立共同的程式碼所有權。</li>
+<li>增加你的巴士係數(bus factor)。</li>
+<li>總結並記錄集體智慧。</li>
+<li><strong>創造一個優秀的工程文化</strong>。</li>
+</ul>
+<h2 id="連結">連結</h2>
+<p><a href="https://www.tenlong.com.tw/products/9780996128100" title="‌" target="_blank" rel="noopener noreffer">The Effective Engineer: How to Leverage Your Efforts In Software Engineering to Make a Disproportionate and Meaningful Impact (Paperback) | 天瓏網路書店</a></p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-02-09</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/notes-the-effective-engineer-how-to-leverage-your-efforts/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-the-effective-engineer-how-to-leverage-your-efforts/" data-title="[筆記] 高效工程師的煉成之路：讀《The Effective Engineer》心得" data-hashtags="高槓桿活動,優化學習,優先排序,迭代速度,工程文化"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-the-effective-engineer-how-to-leverage-your-efforts/" data-hashtag="高槓桿活動"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-the-effective-engineer-how-to-leverage-your-efforts/" data-title="[筆記] 高效工程師的煉成之路：讀《The Effective Engineer》心得"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-the-effective-engineer-how-to-leverage-your-efforts/" data-title="[筆記] 高效工程師的煉成之路：讀《The Effective Engineer》心得"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-the-effective-engineer-how-to-leverage-your-efforts/" data-title="[筆記] 高效工程師的煉成之路：讀《The Effective Engineer》心得"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%AB%98%E6%A7%93%E6%A1%BF%E6%B4%BB%E5%8B%95/">高槓桿活動</a>,&nbsp;<a href="/tags/%E5%84%AA%E5%8C%96%E5%AD%B8%E7%BF%92/">優化學習</a>,&nbsp;<a href="/tags/%E5%84%AA%E5%85%88%E6%8E%92%E5%BA%8F/">優先排序</a>,&nbsp;<a href="/tags/%E8%BF%AD%E4%BB%A3%E9%80%9F%E5%BA%A6/">迭代速度</a>,&nbsp;<a href="/tags/%E5%B7%A5%E7%A8%8B%E6%96%87%E5%8C%96/">工程文化</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/journey-first-time-skiing-preparation-and-guides/" class="prev" rel="prev" title="[旅遊] 滑雪新手攻略：第一次滑雪的準備與注意事項"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[旅遊] 滑雪新手攻略：第一次滑雪的準備與注意事項</a>
+            <a href="/journey-jr-pass-kansai-wide-2024/" class="next" rel="next" title="[筆記] 七天玩遍關西！JR廣域周遊券省錢攻略：景點、交通全分享">[筆記] 七天玩遍關西！JR廣域周遊券省錢攻略：景點、交通全分享<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>
