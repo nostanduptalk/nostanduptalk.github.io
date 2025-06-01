@@ -3,12 +3,20 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 12 Apr 2025 16:45:29 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jun 2025 16:52:17 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 線上課程 - 零錯誤</title>
+    <link>https://nostanduptalk.github.io/notes-error-free-online-course/</link>
+    <pubDate>Sun, 01 Jun 2025 16:52:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-error-free-online-course/</guid>
+    <description><![CDATA[<p>成功的境遇無法複製，失敗卻可以學習避免</p>]]></description>
+</item>
+<item>
     <title>[筆記] 小型公司內部工具開發注意事項</title>
     <link>https://nostanduptalk.github.io/notes-internal-tools-development-for-small-companies/</link>
-    <pubDate>Sat, 12 Apr 2025 16:45:29 &#43;0800</pubDate>
+    <pubDate>Sun, 25 May 2025 16:45:29 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-internal-tools-development-for-small-companies/</guid>
     <description><![CDATA[<p>針對小型團隊的內部工具開發，這篇筆記深入探討了如何在有限資源下開發一個簡單、高效且實用的工具，並探索如何使用 AI 提升開發效率。</p>]]></description>
@@ -16,7 +24,7 @@
 <item>
     <title>[筆記] 專案管理：玩一場從不確定到確定的遊戲</title>
     <link>https://nostanduptalk.github.io/notes-project-management-the-game-between-uncertainty-and-certainty/</link>
-    <pubDate>Sat, 12 Apr 2025 16:45:27 &#43;0800</pubDate>
+    <pubDate>Sun, 18 May 2025 16:45:27 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-project-management-the-game-between-uncertainty-and-certainty/</guid>
     <description><![CDATA[<p>透過五個核心主題，這篇筆記探索了專案管理的關鍵挑戰—如何在不確定性中找到前進的方向，並在每個階段調整策略以達成目標。</p>]]></description>
@@ -24,7 +32,7 @@
 <item>
     <title>[筆記] 思考的框架</title>
     <link>https://nostanduptalk.github.io/notes-the-great-mental-models/</link>
-    <pubDate>Sat, 12 Apr 2025 16:45:25 &#43;0800</pubDate>
+    <pubDate>Sun, 11 May 2025 16:45:25 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-the-great-mental-models/</guid>
     <description><![CDATA[<p>這本書揭示了如何通過建立有效的思考框架，提升我們在現實世界中的決策與問題解決能力。從避免問題的發生到掌握二階思考與反演法，這些技巧能幫助我們更清楚地看待世界並做出更好的決策。</p>]]></description>
@@ -32,7 +40,7 @@
 <item>
     <title>[筆記] 反脆弱</title>
     <link>https://nostanduptalk.github.io/notes-antifragile-how-to-strengthen-yourself-through-challenges-and-pressure/</link>
-    <pubDate>Sat, 12 Apr 2025 16:45:23 &#43;0800</pubDate>
+    <pubDate>Sun, 04 May 2025 16:45:23 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-antifragile-how-to-strengthen-yourself-through-challenges-and-pressure/</guid>
     <description><![CDATA[<p>在這篇筆記中，我們將深入探索如何利用挑戰與壓力來強化自我。從健身比喻到工作中的實際應用，了解「反脆弱」的真實意涵，並學習如何在壓力中成長、修復並突破自我限制。</p>]]></description>
@@ -40,7 +48,7 @@
 <item>
     <title>[筆記] 親愛的別怕，勇敢說YES</title>
     <link>https://nostanduptalk.github.io/notes-dont-be-afraid-just-say-yes/</link>
-    <pubDate>Sat, 12 Apr 2025 16:45:21 &#43;0800</pubDate>
+    <pubDate>Sun, 27 Apr 2025 16:45:21 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-dont-be-afraid-just-say-yes/</guid>
     <description><![CDATA[<p>這本書《親愛的別怕，勇敢說YES》提供了轉換產業與創業的寶貴見解，教你如何從提問中快速學習新產業運作、如何應對創業的不確定性，以及如何選擇適合的合作夥伴，帶領自己與團隊邁向成功。</p>]]></description>
@@ -48,7 +56,7 @@
 <item>
     <title>[筆記] 大人學破局思考</title>
     <link>https://nostanduptalk.github.io/notes-adult-learning-breaking-the-game/</link>
-    <pubDate>Sat, 12 Apr 2025 16:45:19 &#43;0800</pubDate>
+    <pubDate>Sun, 20 Apr 2025 16:45:19 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-adult-learning-breaking-the-game/</guid>
     <description><![CDATA[<p>透過11個重點，探索問題與解決方案時，我們需要深入理解<code>真實需求</code>、<code>管理期望落差</code>、避免過度干預、鼓勵自主解決、重新審視問題、謹慎決策、接受改進、並預見解決方案可能帶來的後續挑戰。</p>]]></description>
@@ -56,7 +64,7 @@
 <item>
     <title>[旅遊] 去紐西蘭旅遊前要看的筆記</title>
     <link>https://nostanduptalk.github.io/journey-new-zealand-travel-tips/</link>
-    <pubDate>Sat, 12 Apr 2025 16:45:17 &#43;0800</pubDate>
+    <pubDate>Sun, 13 Apr 2025 16:45:17 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/journey-new-zealand-travel-tips/</guid>
     <description><![CDATA[<p>透過這篇筆記，你將了解前往紐西蘭旅遊所需的準備、注意事項、景點推薦，甚至一些在當地的特殊經驗，讓你的旅行更加順利與豐富。</p>]]></description>
@@ -76,14 +84,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-at-least-try-to-be-a-manager-once-improve-your-workplace-value/</guid>
     <description><![CDATA[<p>透過五個重點，探索如何用老闆的思維來提升自己的職場價值與發展，並在工作中做出更高效的決策。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 我們為什麼要賺錢？為什麼要存錢？</title>
-    <link>https://nostanduptalk.github.io/notes-why-do-we-earn-money-why-do-we-save-money/</link>
-    <pubDate>Sun, 23 Mar 2025 15:22:28 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-why-do-we-earn-money-why-do-we-save-money/</guid>
-    <description><![CDATA[<p>你是否曾經思考過，賺錢的真正意義是什麼？是單純的數字增長，還是更深層次的價值交換？讓我們一起探索，如何透過「收集感謝」來重新定義你的財富觀！</p>]]></description>
 </item>
 </channel>
 </rss>
