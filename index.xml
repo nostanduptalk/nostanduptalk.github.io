@@ -3,9 +3,35 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jun 2025 16:52:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 07 Jun 2025 15:13:25 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 哪種失敗才算對？《正確犯錯》讀後心得</title>
+    <link>https://nostanduptalk.github.io/notes-right-kind-of-wrong-the-science-of-failing-well/</link>
+    <pubDate>Sat, 07 Jun 2025 15:13:25 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-right-kind-of-wrong-the-science-of-failing-well/</guid>
+    <description><![CDATA[<p>面對失敗，要責怪還是學習？這本書探討失敗背後的結構與心理安全機制，其實錯誤可以是創新與成長的動能。</p>]]></description>
+</item>
+<item>
+    <title>[筆記]《數值化之鬼》</title>
+    <link>https://nostanduptalk.github.io/notes-quantify-thinking/</link>
+    <pubDate>Sat, 07 Jun 2025 15:12:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-quantify-thinking/</guid>
+    <description><![CDATA[<blockquote>
+<p>確實，數字不是全部，但是擁有三十年以上老經驗的人說出這句話的時候，跟剛進公司第一年新人說出這句話，其實背後意義是截然不同的。</p>
+</blockquote>]]></description>
+</item>
+<item>
+    <title>[思考] 《我獨自升級》觀後感：關於成長與工作的聯想</title>
+    <link>https://nostanduptalk.github.io/thinking-solo-leveling/</link>
+    <pubDate>Sat, 07 Jun 2025 15:10:57 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-solo-leveling/</guid>
+    <description><![CDATA[<p>「本文含有劇情內容，請斟酌閱讀。」</p>]]></description>
+</item>
+<item>
     <title>[筆記] 線上課程 - 零錯誤</title>
     <link>https://nostanduptalk.github.io/notes-error-free-online-course/</link>
     <pubDate>Sun, 01 Jun 2025 16:52:17 &#43;0800</pubDate>
@@ -60,30 +86,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-adult-learning-breaking-the-game/</guid>
     <description><![CDATA[<p>透過11個重點，探索問題與解決方案時，我們需要深入理解<code>真實需求</code>、<code>管理期望落差</code>、避免過度干預、鼓勵自主解決、重新審視問題、謹慎決策、接受改進、並預見解決方案可能帶來的後續挑戰。</p>]]></description>
-</item>
-<item>
-    <title>[旅遊] 去紐西蘭旅遊前要看的筆記</title>
-    <link>https://nostanduptalk.github.io/journey-new-zealand-travel-tips/</link>
-    <pubDate>Sun, 13 Apr 2025 16:45:17 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/journey-new-zealand-travel-tips/</guid>
-    <description><![CDATA[<p>透過這篇筆記，你將了解前往紐西蘭旅遊所需的準備、注意事項、景點推薦，甚至一些在當地的特殊經驗，讓你的旅行更加順利與豐富。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 正面迎擊人生大魔王</title>
-    <link>https://nostanduptalk.github.io/notes-misfortunes-define-fortunes/</link>
-    <pubDate>Sun, 06 Apr 2025 15:22:32 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-misfortunes-define-fortunes/</guid>
-    <description><![CDATA[<p>「情緒不能影響工作才是專業。」</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 至少努力當上主管一次吧：站高一點，擁抱職場新視野</title>
-    <link>https://nostanduptalk.github.io/notes-at-least-try-to-be-a-manager-once-improve-your-workplace-value/</link>
-    <pubDate>Sun, 30 Mar 2025 15:22:30 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-at-least-try-to-be-a-manager-once-improve-your-workplace-value/</guid>
-    <description><![CDATA[<p>透過五個重點，探索如何用老闆的思維來提升自己的職場價值與發展，並在工作中做出更高效的決策。</p>]]></description>
 </item>
 </channel>
 </rss>
