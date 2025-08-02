@@ -3,7 +3,32 @@
         <title>思考 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/</link>
         <description>思考 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 08 Jun 2025 15:10:57 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 02 Aug 2025 04:31:33 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+    <title>[思考] Hard Realtime Fail：工程師的責任與韌性設計</title>
+    <link>https://nostanduptalk.github.io/thinking-hard-realtime-fail-engineer-responsibility-resilience-design/</link>
+    <pubDate>Sat, 02 Aug 2025 04:31:33 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-hard-realtime-fail-engineer-responsibility-resilience-design/</guid>
+    <description><![CDATA[<p>從個人信念出發，延伸至系統韌性設計的必要性。</p>
+<blockquote>
+<p>在對的時間產生對的結果</p>
+</blockquote>
+<blockquote>
+<p>我們是否能提出一個最小資源需求，來滿足你整套軟體設計？</p>
+</blockquote>
+<blockquote>
+<p>一個好的 Realtime System，不是「從不摔下台」，而是即使摔了，也知道怎麼站起來、怎麼通知其他人、怎麼保護整體秩序不受影響。</p>
+</blockquote>]]></description>
+</item>
+<item>
+    <title>[思考] 深度優化與終局思維：從表層修補到戰略重構</title>
+    <link>https://nostanduptalk.github.io/thinking-deep-optimization-end-game-thinking/</link>
+    <pubDate>Sat, 02 Aug 2025 01:54:43 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-deep-optimization-end-game-thinking/</guid>
+    <description><![CDATA[<p>大膽目標能驅動更徹底的重構與創新，並學習如何以終為始，讓每一步行動都更具方向性與意義。</p>]]></description>
+</item>
+<item>
     <title>[思考] 《我獨自升級》觀後感：關於成長與工作的聯想</title>
     <link>https://nostanduptalk.github.io/thinking-solo-leveling/</link>
     <pubDate>Sun, 08 Jun 2025 15:10:57 &#43;0800</pubDate>
@@ -67,22 +92,6 @@
     <guid>https://nostanduptalk.github.io/thinking-when-i-am-financially-independent/</guid>
     <description><![CDATA[<p>承上一篇，如果中了彩券拿，多了一億元可以花用，我會怎麼過生活。</p>
 <p>我會把我的生活經驗寫出來，做自媒體。</p>]]></description>
-</item>
-<item>
-    <title>[思考] 中獎一億後的日子</title>
-    <link>https://nostanduptalk.github.io/thinking-imagining-life-after-winning-the-lottery/</link>
-    <pubDate>Sun, 25 Jun 2023 22:16:39 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-imagining-life-after-winning-the-lottery/</guid>
-    <description><![CDATA[<p>最近端午節連假有四天，難得可以放這麼長假，很久沒有享受這樣悠閒的生活。於是我開始想像，如果我突然中了彩券，不需要再為了錢而工作，我的日子會變成怎麼樣呢？因此，我做了一個白日夢，想像自己已經擁有財務自由，試著思考如何過這樣的生活。</p>]]></description>
-</item>
-<item>
-    <title>[思考] 學習的兩種「型態」</title>
-    <link>https://nostanduptalk.github.io/thinking-two-learning-styles/</link>
-    <pubDate>Sun, 12 Feb 2023 23:49:10 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-two-learning-styles/</guid>
-    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>

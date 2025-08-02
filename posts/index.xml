@@ -3,10 +3,59 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 28 Jun 2025 12:15:17 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 02 Aug 2025 04:31:33 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[思考] Hard Realtime Fail：工程師的責任與韌性設計</title>
+    <link>https://nostanduptalk.github.io/thinking-hard-realtime-fail-engineer-responsibility-resilience-design/</link>
+    <pubDate>Sat, 02 Aug 2025 04:31:33 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-hard-realtime-fail-engineer-responsibility-resilience-design/</guid>
+    <description><![CDATA[<p>從個人信念出發，延伸至系統韌性設計的必要性。</p>
+<blockquote>
+<p>在對的時間產生對的結果</p>
+</blockquote>
+<blockquote>
+<p>我們是否能提出一個最小資源需求，來滿足你整套軟體設計？</p>
+</blockquote>
+<blockquote>
+<p>一個好的 Realtime System，不是「從不摔下台」，而是即使摔了，也知道怎麼站起來、怎麼通知其他人、怎麼保護整體秩序不受影響。</p>
+</blockquote>]]></description>
+</item>
+<item>
+    <title>[筆記] 線上課程 - 陳宗賢經營方法論</title>
+    <link>https://nostanduptalk.github.io/notes-richard-ceo-strategy/</link>
+    <pubDate>Sat, 02 Aug 2025 04:15:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-richard-ceo-strategy/</guid>
+    <description><![CDATA[<p>這篇文章整理了陳宗賢老師在「經營方法論」線上課程中的核心筆記。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 《朋友與敵人》：合作、競爭與成功的策略</title>
+    <link>https://nostanduptalk.github.io/notes-friend-and-foe-cooperate-compete-succeed/</link>
+    <pubDate>Sat, 02 Aug 2025 02:40:42 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-friend-and-foe-cooperate-compete-succeed/</guid>
+    <description><![CDATA[<p>本書深入探討了人際互動與職場策略，從比較心理、權力運作、階級制度到信任建立與協商技巧，提供在合作與競爭中取得成功的實用洞察。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 《管理者每天精進1%的決策躍升思維》</title>
+    <link>https://nostanduptalk.github.io/notes-manager-daily-1-percent-decision-making-upgrade-thinking/</link>
+    <pubDate>Sat, 02 Aug 2025 02:18:05 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-manager-daily-1-percent-decision-making-upgrade-thinking/</guid>
+    <description><![CDATA[<p>這本書探討管理者的日常工作。</p>]]></description>
+</item>
+<item>
+    <title>[思考] 深度優化與終局思維：從表層修補到戰略重構</title>
+    <link>https://nostanduptalk.github.io/thinking-deep-optimization-end-game-thinking/</link>
+    <pubDate>Sat, 02 Aug 2025 01:54:43 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-deep-optimization-end-game-thinking/</guid>
+    <description><![CDATA[<p>大膽目標能驅動更徹底的重構與創新，並學習如何以終為始，讓每一步行動都更具方向性與意義。</p>]]></description>
+</item>
+<item>
     <title>[筆記]《烏合之眾》：群體心理的洞察</title>
     <link>https://nostanduptalk.github.io/notes-psychologie-des-foules/</link>
-    <pubDate>Sat, 28 Jun 2025 12:15:17 &#43;0800</pubDate>
+    <pubDate>Sun, 27 Jul 2025 12:15:17 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-psychologie-des-foules/</guid>
     <description><![CDATA[<p>這篇讀書筆記深入探討了古斯塔夫·勒龐的經典著作《烏合之眾》，揭示了群體行為的本質、領袖如何影響群體，以及個體在群體中如何失去理性判斷力。文章將帶您了解群體的可暗示性、輕信，以及領袖透過斷言、重複和傳播建立權威的過程。</p>]]></description>
@@ -14,7 +63,7 @@
 <item>
     <title>[筆記] 《原子習慣》：習慣化四步驟與紀錄的重要性</title>
     <link>https://nostanduptalk.github.io/notes-atomic-habits-four-steps-and-tracking/</link>
-    <pubDate>Sat, 28 Jun 2025 11:59:47 &#43;0800</pubDate>
+    <pubDate>Sun, 20 Jul 2025 11:59:47 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-atomic-habits-four-steps-and-tracking/</guid>
     <description><![CDATA[<p>本文整理了《原子習慣》一書中關於習慣養成的核心概念，包括習慣化的四個步驟以及紀錄的重要性，幫助您有效建立和維持好習慣。</p>]]></description>
@@ -22,7 +71,7 @@
 <item>
     <title>[筆記] 《精準獲利》節錄</title>
     <link>https://nostanduptalk.github.io/notes-profitable-business/</link>
-    <pubDate>Sat, 28 Jun 2025 11:39:57 &#43;0800</pubDate>
+    <pubDate>Sun, 13 Jul 2025 11:39:57 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-profitable-business/</guid>
     <description><![CDATA[<p>本文節錄自《精準獲利》，探討企業如何透過讓配合方參與策略制定，建立團隊共識，確保策略有效落地執行。</p>]]></description>
@@ -30,7 +79,7 @@
 <item>
     <title>[筆記] 《搞定》六層管理架構與五階段計畫法</title>
     <link>https://nostanduptalk.github.io/notes-getting-things-done-six-levels-five-phases/</link>
-    <pubDate>Sat, 28 Jun 2025 11:22:24 &#43;0800</pubDate>
+    <pubDate>Sun, 06 Jul 2025 11:22:24 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-getting-things-done-six-levels-five-phases/</guid>
     <description><![CDATA[<p>這篇文章整理了《搞定》(Getting Things Done, GTD) 書中的核心概念，包含如何透過五個階段有效規劃專案，以及六層高度管理架構來全面掌控工作與生活。透過這些方法，您可以降低心智負擔，提升專注力與效率。</p>]]></description>
@@ -38,52 +87,10 @@
 <item>
     <title>[筆記] 2019年書 - 《零錯誤》</title>
     <link>https://nostanduptalk.github.io/notes-error-free-book/</link>
-    <pubDate>Sat, 28 Jun 2025 11:04:02 &#43;0800</pubDate>
+    <pubDate>Sun, 29 Jun 2025 11:04:02 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-error-free-book/</guid>
     <description><![CDATA[<p>這篇文章整理了關於錯誤的分類與成因、養成零錯誤習慣的方法，以及如何透過決策分析和注意力管理來提升效率。深入探討技術型、規則型、知識型錯誤的預防策略，並分享狙擊手提升注意力的方法，幫助您在工作與生活中減少失誤。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 哪種失敗才算對？《正確犯錯》讀後心得</title>
-    <link>https://nostanduptalk.github.io/notes-right-kind-of-wrong-the-science-of-failing-well/</link>
-    <pubDate>Sun, 22 Jun 2025 15:13:25 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-right-kind-of-wrong-the-science-of-failing-well/</guid>
-    <description><![CDATA[<p>面對失敗，要責怪還是學習？這本書探討失敗背後的結構與心理安全機制，其實錯誤可以是創新與成長的動能。</p>]]></description>
-</item>
-<item>
-    <title>[筆記]《數值化之鬼》</title>
-    <link>https://nostanduptalk.github.io/notes-quantify-thinking/</link>
-    <pubDate>Sun, 15 Jun 2025 15:12:53 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-quantify-thinking/</guid>
-    <description><![CDATA[<blockquote>
-<p>確實，數字不是全部，但是擁有三十年以上老經驗的人說出這句話的時候，跟剛進公司第一年新人說出這句話，其實背後意義是截然不同的。</p>
-</blockquote>]]></description>
-</item>
-<item>
-    <title>[思考] 《我獨自升級》觀後感：關於成長與工作的聯想</title>
-    <link>https://nostanduptalk.github.io/thinking-solo-leveling/</link>
-    <pubDate>Sun, 08 Jun 2025 15:10:57 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-solo-leveling/</guid>
-    <description><![CDATA[<p>「本文含有劇情內容，請斟酌閱讀。」</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 線上課程 - 零錯誤</title>
-    <link>https://nostanduptalk.github.io/notes-error-free-online-course/</link>
-    <pubDate>Sun, 01 Jun 2025 16:52:17 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-error-free-online-course/</guid>
-    <description><![CDATA[<p>成功的境遇無法複製，失敗卻可以學習避免</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 小型公司內部工具開發注意事項</title>
-    <link>https://nostanduptalk.github.io/notes-internal-tools-development-for-small-companies/</link>
-    <pubDate>Sun, 25 May 2025 16:45:29 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-internal-tools-development-for-small-companies/</guid>
-    <description><![CDATA[<p>針對小型團隊的內部工具開發，這篇筆記深入探討了如何在有限資源下開發一個簡單、高效且實用的工具，並探索如何使用 AI 提升開發效率。</p>]]></description>
 </item>
 </channel>
 </rss>

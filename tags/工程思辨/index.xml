@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>工程思辨 - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/%E5%B7%A5%E7%A8%8B%E6%80%9D%E8%BE%A8/</link>
+        <description>工程思辨 - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 02 Aug 2025 04:31:33 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E5%B7%A5%E7%A8%8B%E6%80%9D%E8%BE%A8/" rel="self" type="application/rss+xml" /><item>
+    <title>[思考] Hard Realtime Fail：工程師的責任與韌性設計</title>
+    <link>https://nostanduptalk.github.io/thinking-hard-realtime-fail-engineer-responsibility-resilience-design/</link>
+    <pubDate>Sat, 02 Aug 2025 04:31:33 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-hard-realtime-fail-engineer-responsibility-resilience-design/</guid>
+    <description><![CDATA[<p>從個人信念出發，延伸至系統韌性設計的必要性。</p>
+<blockquote>
+<p>在對的時間產生對的結果</p>
+</blockquote>
+<blockquote>
+<p>我們是否能提出一個最小資源需求，來滿足你整套軟體設計？</p>
+</blockquote>
+<blockquote>
+<p>一個好的 Realtime System，不是「從不摔下台」，而是即使摔了，也知道怎麼站起來、怎麼通知其他人、怎麼保護整體秩序不受影響。</p>
+</blockquote>]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 不沾醬</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on 不沾醬</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Jul 2025 12:15:17 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>筆記</title>
+      <link>http://localhost:1313/categories/%E7%AD%86%E8%A8%98/</link>
+      <pubDate>Sat, 28 Jun 2025 12:15:17 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E7%AD%86%E8%A8%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>思考</title>
+      <link>http://localhost:1313/categories/%E6%80%9D%E8%80%83/</link>
+      <pubDate>Sun, 08 Jun 2025 15:10:57 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E6%80%9D%E8%80%83/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>課程</title>
+      <link>http://localhost:1313/categories/%E8%AA%B2%E7%A8%8B/</link>
+      <pubDate>Sun, 01 Jun 2025 16:52:17 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E8%AA%B2%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>旅遊</title>
+      <link>http://localhost:1313/categories/%E6%97%85%E9%81%8A/</link>
+      <pubDate>Sun, 13 Apr 2025 16:45:17 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E6%97%85%E9%81%8A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>程式</title>
+      <link>http://localhost:1313/categories/%E7%A8%8B%E5%BC%8F/</link>
+      <pubDate>Sun, 27 Oct 2024 14:38:52 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E7%A8%8B%E5%BC%8F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>THE21</title>
+      <link>http://localhost:1313/categories/the21/</link>
+      <pubDate>Sun, 11 Sep 2022 22:44:22 +0800</pubDate>
+      <guid>http://localhost:1313/categories/the21/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>天下雜誌</title>
+      <link>http://localhost:1313/categories/%E5%A4%A9%E4%B8%8B%E9%9B%9C%E8%AA%8C/</link>
+      <pubDate>Sun, 31 Jul 2022 23:51:24 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E5%A4%A9%E4%B8%8B%E9%9B%9C%E8%AA%8C/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
