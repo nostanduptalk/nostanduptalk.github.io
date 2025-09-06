@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper" />
+<meta property="og:description" content="本文記錄了如何在 MacBook 上透過 LM Studio 和 Whisper 建立一個完全離線的 AI 工作流程，實現本地端的模型推論與語音辨識。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-09-06T12:41:32+08:00" />
+<meta property="article:modified_time" content="2025-09-07T12:41:32+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper"/>
+<meta name="twitter:description" content="本文記錄了如何在 MacBook 上透過 LM Studio 和 Whisper 建立一個完全離線的 AI 工作流程，實現本地端的模型推論與語音辨識。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/" /><link rel="prev" href="https://nostanduptalk.github.io/thinking-hard-realtime-fail-engineer-responsibility-resilience-design/" /><link rel="next" href="https://nostanduptalk.github.io/notes-not-all-suffering-is-worth-embracing/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/thinking-offline-ai-workflow-on-macbook-gemma-whisper\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "LLM, LM Studio, Gemma, Whisper, MacBook","wordcount":  781 ,
+        "url": "https:\/\/nostanduptalk.github.io\/thinking-offline-ai-workflow-on-macbook-gemma-whisper\/","datePublished": "2025-09-06T12:41:32+08:00","dateModified": "2025-09-07T12:41:32+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E5%BF%83%E5%BE%97/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>心得</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-09-06">2025-09-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;781 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#使用-lm-studio-做離線大語言模型推論">使用 LM Studio 做離線大語言模型推論</a></li>
+    <li><a href="#whisper-語音轉文字嘗試">Whisper 語音轉文字嘗試</a></li>
+    <li><a href="#總結"><strong>總結:</strong></a></li>
+    <li><a href="#心得">心得</a></li>
+    <li><a href="#androidfiletransferdmg">AndroidFileTransfer.dmg</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>本文記錄了如何在 MacBook 上透過 <code>LM Studio</code> 和 <code>Whisper</code> 建立一個完全離線的 AI 工作流程，實現本地端的模型推論與語音辨識。</p>
+<h2 id="使用-lm-studio-做離線大語言模型推論">使用 LM Studio 做離線大語言模型推論</h2>
+<ul>
+<li><strong>目標</strong>：在無網路環境下，能在自己的電腦完成大語言模型的推論。</li>
+<li><strong>電腦設備</strong>：<code>MacBook Air M4</code>，<code>16GB</code> 記憶體。</li>
+<li><strong>選用模型</strong>：<code>google/gemma-3-12b</code>，模型大小約 8GB。</li>
+<li><strong>性能</strong>：
+<ul>
+<li><code>16GB</code> 記憶體足夠使用該模型。</li>
+<li>每秒輸出約 <code>15個 Token</code>，使用體感普通流暢。</li>
+</ul>
+</li>
+<li><strong>模型特色</strong>：
+<ul>
+<li>除了文字聊天，還支援<strong>視覺模型</strong>功能，可以辨識照片中的物體。</li>
+<li>支援 <strong>function call</strong> 功能，透過事先寫好的 Python 程式呼叫功能。</li>
+</ul>
+</li>
+<li><strong>使用方式</strong>：
+<ul>
+<li><code>LM Studio</code> 可以用聊天模式直接互動或分析圖片內容。</li>
+<li>也能架設在 <code>localhost</code>，透過 Python 程式與模型溝通。</li>
+</ul>
+</li>
+<li><strong>擴充套件</strong>：
+<ul>
+<li>嘗試搭配 <code>Roocode</code>（VSCODE 插件）。</li>
+<li>預設 Token 上限不足，調整到 <code>13萬</code> 後功能正常。</li>
+<li>已成功實現 <strong>Tool Use(Function call)</strong>、<strong>Vision</strong>、<strong>Roocode</strong> 等功能。</li>
+</ul>
+</li>
+<li><strong>總結</strong>：
+<ul>
+<li>未來可在無網路狀態下完成多項任務，品質與速度尚可。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="whisper-語音轉文字嘗試">Whisper 語音轉文字嘗試</h2>
+<ul>
+<li><strong>嘗試工具</strong>：
+<ul>
+<li><strong>MacWhisper</strong>（Mac 專用，免費版含 <code>small</code> 模型）。</li>
+<li>過去使用 Google Colab 上的 <code>Large V2</code> 模型，翻譯準確率約 <code>98%</code> 以上，但處理速度較慢。</li>
+</ul>
+</li>
+<li><strong>模型大小</strong>：
+<ul>
+<li><code>Large V2</code> 約 2GB?，下載與運算耗時較長。</li>
+<li><code>Small</code> 模型約 400MB+，處理快速，適合快速語音轉文字。</li>
+</ul>
+</li>
+<li><strong>Whisper 特性</strong>：
+<ul>
+<li>會附帶<strong>時間軸資訊</strong>。</li>
+</ul>
+</li>
+<li><strong>本地化使用</strong>：
+<ul>
+<li>除 <code>MacWhisper</code> 外，發現 Python 版本也可本地執行，且轉出品質相同。</li>
+<li>未來語音轉文字可完全在本地環境完成。</li>
+</ul>
+</li>
+<li><strong>MacWhisper 操作體驗</strong>：
+<ul>
+<li>可單擊右側 <code>command</code> 鍵開始錄音，再點擊一次結束錄音。</li>
+<li>不需網路，全靠下載好的 <code>small</code> 模型處理，使用非常方便。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="總結"><strong>總結:</strong></h2>
+<p>目前已成功在本地環境中實現了<strong>大語言模型推論</strong> (<code>LM Studio</code> + <code>Gemma</code>) 和<strong>語音轉文字</strong>功能 (<code>MacWhisper</code>/<code>Python Whisper</code>)。 所有操作均無需網路連接，依賴自行下載的模型。</p>
+<h2 id="心得">心得</h2>
+<ul>
+<li>為什麼要全部在本地運行還不太確定，但先記錄下來。</li>
+<li>本地運行帶來的<strong>便利性</strong>與<strong>隱私保障</strong>是很重要的考量。</li>
+</ul>
+<p>下一步開始研究M8N</p>
+<h2 id="androidfiletransferdmg">AndroidFileTransfer.dmg</h2>
+<p>傳檔案工具，裝完後，手機與電腦重開機後才可以用</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-09-07</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/thinking-offline-ai-workflow-on-macbook-gemma-whisper/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/" data-title="[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper" data-hashtags="LLM,LM Studio,Gemma,Whisper,MacBook"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/" data-hashtag="LLM"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/" data-title="[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/" data-title="[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/" data-title="[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/llm/">LLM</a>,&nbsp;<a href="/tags/lm-studio/">LM Studio</a>,&nbsp;<a href="/tags/gemma/">Gemma</a>,&nbsp;<a href="/tags/whisper/">Whisper</a>,&nbsp;<a href="/tags/macbook/">MacBook</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/thinking-hard-realtime-fail-engineer-responsibility-resilience-design/" class="prev" rel="prev" title="[思考] Hard Realtime Fail：工程師的責任與韌性設計"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[思考] Hard Realtime Fail：工程師的責任與韌性設計</a>
+            <a href="/notes-not-all-suffering-is-worth-embracing/" class="next" rel="next" title="[筆記] 並非所有痛苦都值得擁抱：如何分辨成長與消耗">[筆記] 並非所有痛苦都值得擁抱：如何分辨成長與消耗<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>

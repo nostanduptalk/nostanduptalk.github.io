@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[筆記] 《軟體品質全面思維》 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[筆記] 《軟體品質全面思維》" />
+<meta property="og:description" content="這是一本由多位作者合著的書，探討了從產品設計、開發到交付的全面品質思維。本篇筆記整理了書中關於點子驗證、產品成長、測試核心觀念與實踐心法等重點。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-09-06T13:31:44+08:00" />
+<meta property="article:modified_time" content="2025-09-21T13:31:44+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[筆記] 《軟體品質全面思維》"/>
+<meta name="twitter:description" content="這是一本由多位作者合著的書，探討了從產品設計、開發到交付的全面品質思維。本篇筆記整理了書中關於點子驗證、產品成長、測試核心觀念與實踐心法等重點。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/" /><link rel="prev" href="https://nostanduptalk.github.io/notes-not-all-suffering-is-worth-embracing/" /><link rel="next" href="https://nostanduptalk.github.io/notes-microsoft-2025-recommit-in-change/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[筆記] 《軟體品質全面思維》",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/notes-comprehensive-thinking-in-software-quality\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "軟體品質, 測試","wordcount":  1817 ,
+        "url": "https:\/\/nostanduptalk.github.io\/notes-comprehensive-thinking-in-software-quality\/","datePublished": "2025-09-06T13:31:44+08:00","dateModified": "2025-09-21T13:31:44+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] 《軟體品質全面思維》</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-09-06">2025-09-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1817 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#第一章產品從零到一再到二">第一章：產品從「零」到「一」再到「二」</a>
+      <ul>
+        <li><a href="#驗證你的點子">驗證你的點子</a></li>
+        <li><a href="#1-市場需求評估">1. 市場需求評估</a></li>
+        <li><a href="#2-競爭分析">2. 競爭分析</a></li>
+        <li><a href="#3-創意來源與企業文化反思">3. 創意來源與企業文化反思</a></li>
+        <li><a href="#產品從一到二的成長與優化">產品從「一」到「二」的成長與優化</a>
+          <ul>
+            <li><a href="#1-識別核心功能並尋找延伸點">1. 識別核心功能並尋找延伸點</a></li>
+            <li><a href="#2-利用數據分析進行決策">2. 利用數據分析進行決策</a></li>
+            <li><a href="#3-適度跨平台擴展與新市場開發">3. 適度跨平台擴展與新市場開發</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#第二章測試的核心觀念與實務">第二章：測試的核心觀念與實務</a>
+      <ul>
+        <li><a href="#測試的四個步驟">測試的四個步驟</a></li>
+        <li><a href="#測試的核心精神">測試的核心精神</a></li>
+        <li><a href="#測試是持續改善的過程">測試是持續改善的過程</a></li>
+        <li><a href="#常見測試誤區與報告建議">常見測試誤區與報告建議</a></li>
+      </ul>
+    </li>
+    <li><a href="#第四章測試章節重點整理">第四章：測試章節重點整理</a>
+      <ul>
+        <li><a href="#各階段測試重點">各階段測試重點</a></li>
+        <li><a href="#做事情的標準">做事情的標準</a></li>
+        <li><a href="#錯誤評量指標">錯誤評量指標</a></li>
+        <li><a href="#測試團隊核心理念">測試團隊核心理念</a></li>
+      </ul>
+    </li>
+    <li><a href="#測試心法與心得整理">測試心法與心得整理</a>
+      <ul>
+        <li><a href="#測試金字塔的四個層級">測試金字塔的四個層級</a></li>
+        <li><a href="#infrastructure-as-code-的測試應用-覺得最好的論點">Infrastructure as Code 的測試應用 [覺得最好的論點]</a></li>
+        <li><a href="#對本書的整體觀感">對本書的整體觀感</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>這是一本由多位作者合著的書，探討了從產品設計、開發到交付的全面品質思維。本篇筆記整理了書中關於點子驗證、產品成長、測試核心觀念與實踐心法等重點。</p>
+<h2 id="第一章產品從零到一再到二">第一章：產品從「零」到「一」再到「二」</h2>
+<h3 id="驗證你的點子">驗證你的點子</h3>
+<p>在投入大量資源進行產品開發之前，<code>點子驗證</code>是關鍵的一步，目的是確認市場需求與成功潛力，以避免資源浪費。</p>
+<h3 id="1-市場需求評估">1. 市場需求評估</h3>
+<p>了解目標市場需求，確認你的產品能解決明確的市場痛點。需要掌握潛在客戶的：</p>
+<ul>
+<li><strong>需求</strong></li>
+<li><strong>行為模式</strong></li>
+<li><strong>購買動機</strong></li>
+</ul>
+<p>這麼做的好處是確保產品具競爭力，並能引起市場共鳴。</p>
+<h3 id="2-競爭分析">2. 競爭分析</h3>
+<p>分析現有競品的優劣勢，目的是：</p>
+<ul>
+<li>評估產品是否具備足夠<strong>差異化</strong>。</li>
+<li>找出切入市場的<strong>獨特定位</strong>。</li>
+<li>從競爭者那裡獲得產品開發靈感。</li>
+</ul>
+<h3 id="3-創意來源與企業文化反思">3. 創意來源與企業文化反思</h3>
+<p>傳統企業常見高層提出想法，下屬只負責執行的問題。但真正有價值的創新點子，來自<code>團隊合作</code>、<code>創意激盪</code>與<code>深入討論</code>。</p>
+<p>建議高層的角色定位是提供清晰方向與目標，不應過度干涉具體細節或創意決策，這樣才能激發團隊潛力，提升整體創意水準。</p>
+<h3 id="產品從一到二的成長與優化">產品從「一」到「二」的成長與優化</h3>
+<p>本章節探討的是產品上線後，如何從已有的「一」進化到更完整的「二」，實現產品的成長與優化。</p>
+<h4 id="1-識別核心功能並尋找延伸點">1. 識別核心功能並尋找延伸點</h4>
+<ul>
+<li>確認產品的<strong>核心功能</strong>，這是產品的靈魂，具備不可替代的價值。</li>
+<li>核心功能通常是使用者<strong>會重複使用的原因</strong>。</li>
+<li>延伸功能的設計應該<strong>以核心功能為基礎</strong>，進行擴展。</li>
+</ul>
+<p>例如，音樂串流平台的核心功能是音樂播放，可以延伸出社交分享、歌詞顯示、個人歌單整理等功能來增強核心體驗。</p>
+<h4 id="2-利用數據分析進行決策">2. 利用數據分析進行決策</h4>
+<ul>
+<li>產品上線後可以快速收集用戶反饋。</li>
+<li>分析用戶的行為數據（如停留時間、互動數據），可以幫助理解用戶的<strong>興趣偏好</strong>。</li>
+<li>透過數據驅動可以進一步實現<strong>個人化體驗</strong>，提升用戶黏著度。</li>
+</ul>
+<h4 id="3-適度跨平台擴展與新市場開發">3. 適度跨平台擴展與新市場開發</h4>
+<p>當某一平台或市場已站穩腳步後，可考慮進一步擴展，目標是<strong>增加使用人數</strong>、<strong>提升使用頻率</strong>、<strong>加深日常生活中的滲透率</strong>。</p>
+<hr>
+<h2 id="第二章測試的核心觀念與實務">第二章：測試的核心觀念與實務</h2>
+<h3 id="測試的四個步驟">測試的四個步驟</h3>
+<ol>
+<li><strong>確認系統目標</strong>：定義系統的核心目的與要解決的問題。測試重點不是「無錯誤」，而是「是否解決了正確的問題」。</li>
+<li><strong>模擬日常流程 (Happy Path)</strong>：測試使用者在正常情況下的操作流程是否順利。</li>
+<li><strong>測試異常情境</strong>：模擬錯誤、延遲、非預期操作等情況。</li>
+<li><strong>記錄發現 (問題回報)</strong>：問題回報建議包含三點：
+<ol>
+<li><strong>我做了什麼</strong>：具體操作步驟。</li>
+<li><strong>發現了什麼</strong>：錯誤訊息或異常現象。</li>
+<li><strong>期望系統行為</strong>：說明理想狀況下應該發生什麼事。</li>
+</ol>
+</li>
+</ol>
+<h3 id="測試的核心精神">測試的核心精神</h3>
+<ol>
+<li><strong>驗證需求，不是找錯誤</strong>：確認功能是否符合使用者需求與預期。</li>
+<li><strong>理解實際使用方式</strong>：評估操作流程是否合理、符合使用者習慣。</li>
+<li><strong>預測潛在問題</strong>：包含異常值、極端輸入、邊界條件等測試。</li>
+</ol>
+<h3 id="測試是持續改善的過程">測試是持續改善的過程</h3>
+<p>測試的目的並非阻止上線，而是提升產品品質。它貫穿於開發的各個階段，從需求驗證到上線後的回饋收集。</p>
+<blockquote>
+<p>測試的目的並非阻止上線，而是提升產品品質。不過實際上，為了讓產品更好，測試往往真的阻止了上線。</p>
+</blockquote>
+<h3 id="常見測試誤區與報告建議">常見測試誤區與報告建議</h3>
+<ul>
+<li><strong>誤區</strong>：忽略邊界條件、只測成功案例、過度依賴自動化。</li>
+<li><strong>報告建議</strong>：分層撰寫，兼顧<strong>技術層</strong>（錯誤細節）與<strong>業務層</strong>（對營運的影響）。
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">例如：結帳流程失敗 → 導致轉換率下降與營收損失。
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<hr>
+<h2 id="第四章測試章節重點整理">第四章：測試章節重點整理</h2>
+<h3 id="各階段測試重點">各階段測試重點</h3>
+<ul>
+<li><strong>初期</strong>：依照風險程度分級，優先測試關鍵功能。</li>
+<li><strong>成長期</strong>：漸漸引入非功能性測試，如<code>安全測試</code>、<code>兼容性測試</code>。</li>
+<li><strong>成熟期</strong>：協助收集數據，提供未來決策指引。</li>
+</ul>
+<h3 id="做事情的標準">做事情的標準</h3>
+<ul>
+<li><code>ISO-9001-2015</code> 提到的 <code>PDCA</code> (Plan-Do-Check-Act) 品質管理方式值得參考。</li>
+</ul>
+<h3 id="錯誤評量指標">錯誤評量指標</h3>
+<ul>
+<li><strong>MTTR (Mean Time To Repair)</strong>：從發現缺陷到修復所需的平均時間，用來評估維護效率。這個指標很重要，可以反映測試團隊的效率。</li>
+</ul>
+<h3 id="測試團隊核心理念">測試團隊核心理念</h3>
+<blockquote>
+<p>品質是被設計出來的。</p>
+</blockquote>
+<p>如果產品沒有經過完整的品質管理設計規範，即使表面上運行正常，也只是在大多數情況下不出錯而已。</p>
+<hr>
+<h2 id="測試心法與心得整理">測試心法與心得整理</h2>
+<h3 id="測試金字塔的四個層級">測試金字塔的四個層級</h3>
+<ol>
+<li><strong>價值觀層</strong>：團隊核心價值觀必須正確且一致。</li>
+<li><strong>原則層</strong>：做事的細則與規範。</li>
+<li><strong>實踐層</strong>：實際執行的動作與方法。</li>
+<li><strong>工具層</strong>：完成工作所需的工具與技術。</li>
+</ol>
+<blockquote>
+<p>這四個層級（價值觀 → 原則 → 實踐 → 工具）不只適用於測試，也適用於任何事物的推進。</p>
+</blockquote>
+<h3 id="infrastructure-as-code-的測試應用-覺得最好的論點">Infrastructure as Code 的測試應用 [覺得最好的論點]</h3>
+<ul>
+<li><strong>核心概念</strong>：將測試環境中的不同設定<code>參數化</code>，並透過<code>自動化</code>方式帶入系統，減少人工操作。</li>
+<li><strong>優點</strong>：減少疏漏、提升效率、確保環境一致性。</li>
+</ul>
+<h3 id="對本書的整體觀感">對本書的整體觀感</h3>
+<ul>
+<li><strong>多作者合著</strong>：優點是觀點多元，缺點是內容偏基礎，缺乏深入案例。</li>
+<li><strong>閱讀體驗</strong>：雖然未滿足對深入案例的期待，但作為第一次接觸多作者合著的書籍，仍是一種新鮮且有啟發的體驗。</li>
+</ul>
+<hr>
+<h1 id="連結">連結</h1>
+<ul>
+<li><a href="https://www.tenlong.com.tw/products/9786264142335" target="_blank" rel="noopener noreffer">軟體品質全面思維：從產品設計、開發到交付，跨越 DevOps、安全與 AI 的實踐指南</a></li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-09-21</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/notes-comprehensive-thinking-in-software-quality/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/" data-title="[筆記] 《軟體品質全面思維》" data-hashtags="軟體品質,測試"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/" data-hashtag="軟體品質"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/" data-title="[筆記] 《軟體品質全面思維》"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/" data-title="[筆記] 《軟體品質全面思維》"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/" data-title="[筆記] 《軟體品質全面思維》"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E8%BB%9F%E9%AB%94%E5%93%81%E8%B3%AA/">軟體品質</a>,&nbsp;<a href="/tags/%E6%B8%AC%E8%A9%A6/">測試</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/notes-not-all-suffering-is-worth-embracing/" class="prev" rel="prev" title="[筆記] 並非所有痛苦都值得擁抱：如何分辨成長與消耗"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[筆記] 並非所有痛苦都值得擁抱：如何分辨成長與消耗</a>
+            <a href="/notes-microsoft-2025-recommit-in-change/" class="next" rel="next" title="[筆記] 微軟 2025 年度內部信：在變動中重新承諾">[筆記] 微軟 2025 年度內部信：在變動中重新承諾<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>

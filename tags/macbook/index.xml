@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>MacBook - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/macbook/</link>
+        <description>MacBook - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Sep 2025 12:41:32 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/macbook/" rel="self" type="application/rss+xml" /><item>
+    <title>[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper</title>
+    <link>https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/</link>
+    <pubDate>Sat, 06 Sep 2025 12:41:32 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/</guid>
+    <description><![CDATA[<p>本文記錄了如何在 MacBook 上透過 <code>LM Studio</code> 和 <code>Whisper</code> 建立一個完全離線的 AI 工作流程，實現本地端的模型推論與語音辨識。</p>]]></description>
+</item>
+</channel>
+</rss>

@@ -3,10 +3,37 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 02 Aug 2025 04:15:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Sep 2025 13:51:12 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 微軟 2025 年度內部信：在變動中重新承諾</title>
+    <link>https://nostanduptalk.github.io/notes-microsoft-2025-recommit-in-change/</link>
+    <pubDate>Sat, 06 Sep 2025 13:51:12 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-microsoft-2025-recommit-in-change/</guid>
+    <description><![CDATA[<p>在 AI 產業劇烈變動的背景下，微軟 CEO Satya Nadella 發表了 2025 年度內部信。這封信不僅是對員工的喊話，更揭示了微軟如何在矛盾與不確定中，重新定義其使命、優先事項與文化。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 《軟體品質全面思維》</title>
+    <link>https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/</link>
+    <pubDate>Sat, 06 Sep 2025 13:31:44 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/</guid>
+    <description><![CDATA[<p>這是一本由多位作者合著的書，探討了從產品設計、開發到交付的全面品質思維。本篇筆記整理了書中關於點子驗證、產品成長、測試核心觀念與實踐心法等重點。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 並非所有痛苦都值得擁抱：如何分辨成長與消耗</title>
+    <link>https://nostanduptalk.github.io/notes-not-all-suffering-is-worth-embracing/</link>
+    <pubDate>Sat, 06 Sep 2025 12:51:54 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-not-all-suffering-is-worth-embracing/</guid>
+    <description><![CDATA[<blockquote>
+<p>這段痛苦，與我的人生向量是否對齊？</p>
+</blockquote>
+<p>學習如何分辨「成長性痛苦」與「消耗性痛苦」，原文提供一個清晰的判斷框架，幫助你選擇真正「值得」擁抱的挑戰，破除「痛苦萬能論」的迷思。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 線上課程 - 陳宗賢經營方法論</title>
     <link>https://nostanduptalk.github.io/notes-richard-ceo-strategy/</link>
-    <pubDate>Sat, 02 Aug 2025 04:15:00 &#43;0800</pubDate>
+    <pubDate>Sun, 24 Aug 2025 04:15:00 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-richard-ceo-strategy/</guid>
     <description><![CDATA[<p>這篇文章整理了陳宗賢老師在「經營方法論」線上課程中的核心筆記。</p>]]></description>
@@ -14,7 +41,7 @@
 <item>
     <title>[筆記] 《朋友與敵人》：合作、競爭與成功的策略</title>
     <link>https://nostanduptalk.github.io/notes-friend-and-foe-cooperate-compete-succeed/</link>
-    <pubDate>Sat, 02 Aug 2025 02:40:42 &#43;0800</pubDate>
+    <pubDate>Sun, 17 Aug 2025 02:40:42 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-friend-and-foe-cooperate-compete-succeed/</guid>
     <description><![CDATA[<p>本書深入探討了人際互動與職場策略，從比較心理、權力運作、階級制度到信任建立與協商技巧，提供在合作與競爭中取得成功的實用洞察。</p>]]></description>
@@ -22,7 +49,7 @@
 <item>
     <title>[筆記] 《管理者每天精進1%的決策躍升思維》</title>
     <link>https://nostanduptalk.github.io/notes-manager-daily-1-percent-decision-making-upgrade-thinking/</link>
-    <pubDate>Sat, 02 Aug 2025 02:18:05 &#43;0800</pubDate>
+    <pubDate>Sun, 10 Aug 2025 02:18:05 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-manager-daily-1-percent-decision-making-upgrade-thinking/</guid>
     <description><![CDATA[<p>這本書探討管理者的日常工作。</p>]]></description>
@@ -58,32 +85,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-getting-things-done-six-levels-five-phases/</guid>
     <description><![CDATA[<p>這篇文章整理了《搞定》(Getting Things Done, GTD) 書中的核心概念，包含如何透過五個階段有效規劃專案，以及六層高度管理架構來全面掌控工作與生活。透過這些方法，您可以降低心智負擔，提升專注力與效率。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 2019年書 - 《零錯誤》</title>
-    <link>https://nostanduptalk.github.io/notes-error-free-book/</link>
-    <pubDate>Sun, 29 Jun 2025 11:04:02 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-error-free-book/</guid>
-    <description><![CDATA[<p>這篇文章整理了關於錯誤的分類與成因、養成零錯誤習慣的方法，以及如何透過決策分析和注意力管理來提升效率。深入探討技術型、規則型、知識型錯誤的預防策略，並分享狙擊手提升注意力的方法，幫助您在工作與生活中減少失誤。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 哪種失敗才算對？《正確犯錯》讀後心得</title>
-    <link>https://nostanduptalk.github.io/notes-right-kind-of-wrong-the-science-of-failing-well/</link>
-    <pubDate>Sun, 22 Jun 2025 15:13:25 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-right-kind-of-wrong-the-science-of-failing-well/</guid>
-    <description><![CDATA[<p>面對失敗，要責怪還是學習？這本書探討失敗背後的結構與心理安全機制，其實錯誤可以是創新與成長的動能。</p>]]></description>
-</item>
-<item>
-    <title>[筆記]《數值化之鬼》</title>
-    <link>https://nostanduptalk.github.io/notes-quantify-thinking/</link>
-    <pubDate>Sun, 15 Jun 2025 15:12:53 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-quantify-thinking/</guid>
-    <description><![CDATA[<blockquote>
-<p>確實，數字不是全部，但是擁有三十年以上老經驗的人說出這句話的時候，跟剛進公司第一年新人說出這句話，其實背後意義是截然不同的。</p>
-</blockquote>]]></description>
 </item>
 </channel>
 </rss>
