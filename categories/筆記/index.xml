@@ -3,7 +3,32 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Sep 2025 13:51:12 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 04 Oct 2025 08:31:13 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 一場訪談的體悟：不是求完美，而是求完整</title>
+    <link>https://nostanduptalk.github.io/notes-interview-insights-not-perfection-but-completeness/</link>
+    <pubDate>Sat, 04 Oct 2025 08:31:13 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-interview-insights-not-perfection-but-completeness/</guid>
+    <description><![CDATA[<p>一位總是在螢光幕前帶來歡笑的模仿藝人，分享了他從單純的喜歡表演，到經歷低潮，最終體悟到「不是求完美，而是求完整」的人生哲學。這段心路歷程，或許也能給在不同角色中切換的我們一些啟發。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 黑箱測試入門：標準流程(SOP)與七大方法</title>
+    <link>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</link>
+    <pubDate>Sat, 04 Oct 2025 08:09:20 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</guid>
+    <description><![CDATA[<p>當測試人員看不到內部情況的時候，同常會採用<strong>黑箱測試（Black-Box Testing）</strong> 確保品質。透過使用者的視角，不窺探內部程式碼，僅根據軟體規格來驗證其功能是否符合預期。</p>
+<p>我查閱了多本書籍與網路資料，透過AI 做成標準作業流程（SOP），再深入解析流程中提到的七種核心測試技術，未來除了給自己參考之外，也想作為LLM的prompt。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧</title>
+    <link>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</link>
+    <pubDate>Sat, 04 Oct 2025 08:02:45 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</guid>
+    <description><![CDATA[<p>想提升 AI 的生產力嗎？史丹佛大學教授 Jeremy Utley 提出，關鍵在於將 AI 視為「隊友」而非「工具」。這篇文章整理了他的四個實用提示技巧，幫助你學會如何引導、提問，讓 AI 發揮最佳表現。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 微軟 2025 年度內部信：在變動中重新承諾</title>
     <link>https://nostanduptalk.github.io/notes-microsoft-2025-recommit-in-change/</link>
     <pubDate>Sat, 06 Sep 2025 13:51:12 &#43;0800</pubDate>
@@ -61,30 +86,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-psychologie-des-foules/</guid>
     <description><![CDATA[<p>這篇讀書筆記深入探討了古斯塔夫·勒龐的經典著作《烏合之眾》，揭示了群體行為的本質、領袖如何影響群體，以及個體在群體中如何失去理性判斷力。文章將帶您了解群體的可暗示性、輕信，以及領袖透過斷言、重複和傳播建立權威的過程。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《原子習慣》：習慣化四步驟與紀錄的重要性</title>
-    <link>https://nostanduptalk.github.io/notes-atomic-habits-four-steps-and-tracking/</link>
-    <pubDate>Sun, 20 Jul 2025 11:59:47 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-atomic-habits-four-steps-and-tracking/</guid>
-    <description><![CDATA[<p>本文整理了《原子習慣》一書中關於習慣養成的核心概念，包括習慣化的四個步驟以及紀錄的重要性，幫助您有效建立和維持好習慣。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《精準獲利》節錄</title>
-    <link>https://nostanduptalk.github.io/notes-profitable-business/</link>
-    <pubDate>Sun, 13 Jul 2025 11:39:57 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-profitable-business/</guid>
-    <description><![CDATA[<p>本文節錄自《精準獲利》，探討企業如何透過讓配合方參與策略制定，建立團隊共識，確保策略有效落地執行。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《搞定》六層管理架構與五階段計畫法</title>
-    <link>https://nostanduptalk.github.io/notes-getting-things-done-six-levels-five-phases/</link>
-    <pubDate>Sun, 06 Jul 2025 11:22:24 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-getting-things-done-six-levels-five-phases/</guid>
-    <description><![CDATA[<p>這篇文章整理了《搞定》(Getting Things Done, GTD) 書中的核心概念，包含如何透過五個階段有效規劃專案，以及六層高度管理架構來全面掌控工作與生活。透過這些方法，您可以降低心智負擔，提升專注力與效率。</p>]]></description>
 </item>
 </channel>
 </rss>

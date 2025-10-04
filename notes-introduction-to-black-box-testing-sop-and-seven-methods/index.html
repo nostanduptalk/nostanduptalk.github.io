@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[筆記] 黑箱測試入門：標準流程(SOP)與七大方法 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[筆記] 黑箱測試入門：標準流程(SOP)與七大方法" />
+<meta property="og:description" content="當測試人員看不到內部情況的時候，同常會採用黑箱測試（Black-Box Testing） 確保品質。透過使用者的視角，不窺探內部程式碼，僅根據軟體規格來驗證其功能是否符合預期。
+我查閱了多本書籍與網路資料，透過AI 做成標準作業流程（SOP），再深入解析流程中提到的七種核心測試技術，未來除了給自己參考之外，也想作為LLM的prompt。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-10-04T08:09:20+08:00" />
+<meta property="article:modified_time" content="2025-10-19T08:09:20+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[筆記] 黑箱測試入門：標準流程(SOP)與七大方法"/>
+<meta name="twitter:description" content="當測試人員看不到內部情況的時候，同常會採用黑箱測試（Black-Box Testing） 確保品質。透過使用者的視角，不窺探內部程式碼，僅根據軟體規格來驗證其功能是否符合預期。
+我查閱了多本書籍與網路資料，透過AI 做成標準作業流程（SOP），再深入解析流程中提到的七種核心測試技術，未來除了給自己參考之外，也想作為LLM的prompt。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/" /><link rel="prev" href="https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/" /><link rel="next" href="https://nostanduptalk.github.io/notes-interview-insights-not-perfection-but-completeness/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[筆記] 黑箱測試入門：標準流程(SOP)與七大方法",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/notes-introduction-to-black-box-testing-sop-and-seven-methods\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "黑箱測試, 軟體測試, LLM","wordcount":  4840 ,
+        "url": "https:\/\/nostanduptalk.github.io\/notes-introduction-to-black-box-testing-sop-and-seven-methods\/","datePublished": "2025-10-04T08:09:20+08:00","dateModified": "2025-10-19T08:09:20+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] 黑箱測試入門：標準流程(SOP)與七大方法</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-10-04">2025-10-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;4840 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;10 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#第一章專業黑箱測試的標準作業流程-sop">第一章：專業黑箱測試的標準作業流程 (SOP)</a>
+      <ul>
+        <li><a href="#步驟一測試前的準備工作-前置檢查清單">步驟一：測試前的準備工作 (前置檢查清單)</a></li>
+        <li><a href="#步驟二系統化的核心執行流程">步驟二：系統化的核心執行流程</a></li>
+        <li><a href="#步驟三產出與缺陷提報標準">步驟三：產出與缺陷提報標準</a></li>
+      </ul>
+    </li>
+    <li><a href="#第二章黑箱測試核心技術深度解析">第二章：黑箱測試核心技術深度解析</a>
+      <ul>
+        <li><a href="#1-等價類劃分-equivalence-partitioning">1. 等價類劃分 (Equivalence Partitioning)</a>
+          <ul>
+            <li><a href="#什麼是等價類劃分">什麼是等價類劃分？</a></li>
+            <li><a href="#程式案例">程式案例</a></li>
+            <li><a href="#適用情境">適用情境</a></li>
+            <li><a href="#不適用情境">不適用情境</a></li>
+          </ul>
+        </li>
+        <li><a href="#2-邊界值分析-boundary-value-analysis">2. 邊界值分析 (Boundary Value Analysis)</a>
+          <ul>
+            <li><a href="#什麼是邊界值分析">什麼是邊界值分析？</a></li>
+            <li><a href="#程式案例-1">程式案例</a></li>
+            <li><a href="#適用情境-1">適用情境</a></li>
+            <li><a href="#不適用情境-1">不適用情境</a></li>
+          </ul>
+        </li>
+        <li><a href="#3-決策表-decision-tables">3. 決策表 (Decision Tables)</a>
+          <ul>
+            <li><a href="#什麼是決策表">什麼是決策表？</a></li>
+            <li><a href="#程式案例-2">程式案例</a></li>
+            <li><a href="#適用情境-2">適用情境</a></li>
+            <li><a href="#不適用情境-2">不適用情境</a></li>
+          </ul>
+        </li>
+        <li><a href="#4-狀態轉換測試-state-transition-testing">4. 狀態轉換測試 (State Transition Testing)</a>
+          <ul>
+            <li><a href="#什麼是狀態轉換測試">什麼是狀態轉換測試？</a></li>
+            <li><a href="#程式案例-3">程式案例</a></li>
+            <li><a href="#適用情境-3">適用情境</a></li>
+            <li><a href="#不適用情境-3">不適用情境</a></li>
+          </ul>
+        </li>
+        <li><a href="#5-因果圖法-cause-effect-graphing">5. 因果圖法 (Cause-Effect Graphing)</a>
+          <ul>
+            <li><a href="#什麼是因果圖法">什麼是因果圖法？</a></li>
+            <li><a href="#程式案例-4">程式案例</a></li>
+            <li><a href="#適用情境-4">適用情境</a></li>
+            <li><a href="#不適用情境-4">不適用情境</a></li>
+          </ul>
+        </li>
+        <li><a href="#6-錯誤猜測-error-guessing">6. 錯誤猜測 (Error Guessing)</a>
+          <ul>
+            <li><a href="#什麼是錯誤猜測">什麼是錯誤猜測？</a></li>
+            <li><a href="#程式案例-5">程式案例</a></li>
+            <li><a href="#適用情境-5">適用情境</a></li>
+            <li><a href="#不適用情境-5">不適用情境</a></li>
+          </ul>
+        </li>
+        <li><a href="#7-所有配對測試-all-pair-testing--pairwise-testing">7. 所有配對測試 (All-Pair Testing / Pairwise Testing)</a>
+          <ul>
+            <li><a href="#什麼是所有配對測試">什麼是所有配對測試？</a></li>
+            <li><a href="#程式案例-6">程式案例</a></li>
+            <li><a href="#適用情境-6">適用情境</a></li>
+            <li><a href="#不適用情境-6">不適用情境</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>當測試人員看不到內部情況的時候，同常會採用<strong>黑箱測試（Black-Box Testing）</strong> 確保品質。透過使用者的視角，不窺探內部程式碼，僅根據軟體規格來驗證其功能是否符合預期。</p>
+<p>我查閱了多本書籍與網路資料，透過AI 做成標準作業流程（SOP），再深入解析流程中提到的七種核心測試技術，未來除了給自己參考之外，也想作為LLM的prompt。</p>
+<h2 id="第一章專業黑箱測試的標準作業流程-sop">第一章：專業黑箱測試的標準作業流程 (SOP)</h2>
+<h3 id="步驟一測試前的準備工作-前置檢查清單">步驟一：測試前的準備工作 (前置檢查清單)</h3>
+<p>在撰寫任何測試案例之前，請先確保以下項目都已準備就緒：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">#</th>
+<th style="text-align:left">檢查項目</th>
+<th style="text-align:left">是/否</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left"><strong>需求規格說明書 (SRS)</strong> 或外部規格文件是否已審核並定版？</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left"><strong>測試計畫 (Test Plan)</strong> 是否已定義範圍、資源、時程與目標？</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left">所有 <strong>測試案例</strong> 是否已設計完成，並包含唯一的 ID、目的、前置條件、輸入值與精確的預期輸出 (Oracle)？</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:left"><strong>測試環境</strong>（硬體平台、作業系統、相關軟體）是否已架設、配置並驗證完成？</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:left"><strong>待測軟體版本</strong> 是否已確定，並已納入版次控制 (Configuration Management)？</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">6</td>
+<td style="text-align:left"><strong>測試執行人員</strong> 是否為獨立於開發團隊的個體或小組？</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">7</td>
+<td style="text-align:left"><strong>測試終止條件 (Test Completion Criteria)</strong> 是否已明確定義？</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="步驟二系統化的核心執行流程">步驟二：系統化的核心執行流程</h3>
+<p>準備工作完成後，即可依照以下流程執行測試：</p>
+<ol>
+<li><strong>界定測試範圍與目標</strong>：依據已核准的規格文件，確認本次測試的具體功能範疇、目標屬性（例如：功能性、可靠性），並確認測試目標（例如：最大化發現錯誤、驗證需求符合度）。</li>
+<li><strong>分析需求與設計測試案例</strong>：系統性地設計一組非冗餘且高錯誤偵測率的測試案例。
+<ul>
+<li><strong>主要方法</strong>：<code>等價類劃分 (Equivalence Partitioning)</code>、<code>邊界值分析 (Boundary Value Analysis)</code>。</li>
+<li><strong>輔助方法</strong>：<code>因果圖法 (Cause-Effect Graphing)</code>、<code>決策表 (Decision Tables)</code>、<code>狀態轉換測試 (State Transition Testing)</code>、<code>錯誤猜測 (Error Guessing)</code>、<code>所有配對測試 (All-Pair Testing)</code>。</li>
+</ul>
+</li>
+<li><strong>準備並驗證測試環境</strong>：根據測試案例的前置條件，載入所需資料、設定系統參數，並確保測試環境處於可預期的初始狀態。</li>
+<li><strong>執行測試案例</strong>：依照測試程序，透過使用者介面 (UI) 或應用程式介面 (API) 輸入已設計的測試資料。</li>
+<li><strong>記錄實際輸出與系統行為</strong>：詳盡、準確地記錄每次測試執行的實際輸出結果、系統回應及任何異常現象。</li>
+<li><strong>比對與分析結果</strong>：將記錄的「實際結果」與測試案例中預先定義的「預期輸出」進行嚴格比對。</li>
+<li><strong>識別並記錄不一致性</strong>：若實際結果與預期結果存在任何偏差，則判定為一次 <strong>「成功的測試」</strong>（發現潛在缺陷），並立即啟動缺陷提報流程。</li>
+</ol>
+<h3 id="步驟三產出與缺陷提報標準">步驟三：產出與缺陷提報標準</h3>
+<p>測試的價值在於其產出。一個完整的測試週期應包含以下文件，並遵循標準化的缺陷提報格式。</p>
+<ul>
+<li>
+<p><strong>必需文件</strong></p>
+<ol>
+<li><strong>測試案例庫 (Test Case Repository)</strong>：儲存所有設計的測試案例，包含輸入與預期輸出，作為回歸測試與未來複用的基礎。</li>
+<li><strong>測試執行紀錄 (Test Execution Log)</strong>：詳實記錄每個測試案例的執行歷史，包含執行者、日期、版本、實際結果及通過/失敗狀態。</li>
+<li><strong>測試摘要報告 (Test Summary Report)</strong>：彙總測試活動的整體結果，評估軟體品質，並提供是否進入下一階段的建議。</li>
+<li><strong>異常/缺陷報告 (Anomaly/Defect Report)</strong>：針對所有已識別的不一致性，建立獨立的追蹤報告。</li>
+</ol>
+</li>
+<li>
+<p><strong>缺陷提報標準</strong>
+一份標準的缺陷報告必須包含以下五個核心要素，以利快速定位與修復問題：</p>
+<ol>
+<li><strong>缺陷標題</strong>：清晰、簡潔地描述問題的現象。</li>
+<li><strong>重現步驟 (Steps to Reproduce)</strong>：提供一個能穩定重現該缺陷的詳細步驟列表。</li>
+<li><strong>預期結果 (Expected Result)</strong>：根據規格，描述在此步驟下軟體應有的正確行為。</li>
+<li><strong>實際結果 (Actual Result)</strong>：描述軟體實際發生的錯誤行為或輸出。</li>
+<li><strong>環境資訊 (Environment Information)</strong>：提供測試時的軟體版本、作業系統、硬體規格及其他相關配置。</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="第二章黑箱測試核心技術深度解析">第二章：黑箱測試核心技術深度解析</h2>
+<p>在上面的執行流程中，我們提到了多種測試設計方法。現在，讓我們深入了解這些強大的技術是什麼，以及如何應用它們。</p>
+<h3 id="1-等價類劃分-equivalence-partitioning">1. 等價類劃分 (Equivalence Partitioning)</h3>
+<h4 id="什麼是等價類劃分">什麼是等價類劃分？</h4>
+<p>一種將所有可能的輸入資料劃分為若干個「等價類」的技術。其核心假設是，同一等價類中的任何一個輸入資料，對於揭露程式錯誤而言，其效果是相同的。測試時，只需從每個等價類中選取一個代表性的資料即可，從而大幅減少測試案例的數量。</p>
+<p>等價類可分為 <strong>「有效等價類」</strong>（符合規格的輸入）和 <strong>「無效等價類」</strong>（不符合規格的輸入）。</p>
+<h4 id="程式案例">程式案例</h4>
+<p>假設一個函式用於驗證使用者年齡，合法年齡範圍為 18 至 60 歲。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">is_age_valid</span><span class="p">(</span><span class="n">age</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="s2">&#34;&#34;&#34;檢查年齡是否在 18 到 60 歲之間&#34;&#34;&#34;</span>
+    <span class="k">if</span> <span class="mi">18</span> <span class="o">&lt;=</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">60</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>測試案例設計：</strong></p>
+<ul>
+<li><strong>有效等價類</strong>: <code>18 &lt;= age &lt;= 60</code>
+<ul>
+<li>測試案例：輸入 <code>35</code>，預期結果：<code>True</code>。</li>
+</ul>
+</li>
+<li><strong>無效等價類 1</strong>: <code>age &lt; 18</code>
+<ul>
+<li>測試案例：輸入 <code>10</code>，預期結果：<code>False</code>。</li>
+</ul>
+</li>
+<li><strong>無效等價類 2</strong>: <code>age &gt; 60</code>
+<ul>
+<li>測試案例：輸入 <code>70</code>，預期結果：<code>False</code>。</li>
+</ul>
+</li>
+</ul>
+<h4 id="適用情境">適用情境</h4>
+<ul>
+<li>當輸入域非常大或包含無限可能時（例如：任意整數、字串）。</li>
+<li>適用於處理具有明確輸入範圍或分類的功能。</li>
+<li>作為減少冗餘測試案例、提高測試效率的基礎方法。</li>
+</ul>
+<h4 id="不適用情境">不適用情境</h4>
+<ul>
+<li>單獨使用時，容易忽略邊界條件的錯誤。它需要與 <strong>「邊界值分析」</strong> 結合使用。</li>
+<li>對於輸入之間存在複雜邏輯組合的情況，效果有限。</li>
+</ul>
+<h3 id="2-邊界值分析-boundary-value-analysis">2. 邊界值分析 (Boundary Value Analysis)</h3>
+<h4 id="什麼是邊界值分析">什麼是邊界值分析？</h4>
+<p>一種基於經驗的測試技術，即大量的程式錯誤發生在輸入值的 <strong>「邊界」</strong> 上，而非範圍的中央。此方法專注於測試輸入域的邊緣、剛好在邊緣內和剛好在邊緣外的點。</p>
+<h4 id="程式案例-1">程式案例</h4>
+<p>延續上述的年齡驗證函式，其邊界為 18 和 60。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">is_age_valid</span><span class="p">(</span><span class="n">age</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="s2">&#34;&#34;&#34;檢查年齡是否在 18 到 60 歲之間&#34;&#34;&#34;</span>
+    <span class="k">if</span> <span class="mi">18</span> <span class="o">&lt;=</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">60</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>測試案例設計：</strong></p>
+<ul>
+<li><strong>最小值邊界</strong>:
+<ul>
+<li>測試案例 1：輸入 <code>17</code> (略低於最小值)，預期結果：<code>False</code>。</li>
+<li>測試案例 2：輸入 <code>18</code> (等於最小值)，預期結果：<code>True</code>。</li>
+<li>測試案例 3：輸入 <code>19</code> (略高於最小值)，預期結果：<code>True</code>。</li>
+</ul>
+</li>
+<li><strong>最大值邊界</strong>:
+<ul>
+<li>測試案例 4：輸入 <code>59</code> (略低於最大值)，預期結果：<code>True</code>。</li>
+<li>測試案例 5：輸入 <code>60</code> (等於最大值)，預期結果：<code>True</code>。</li>
+<li>測試案例 6：輸入 <code>61</code> (略高於最大值)，預期結果：<code>False</code>。</li>
+</ul>
+</li>
+</ul>
+<h4 id="適用情境-1">適用情境</h4>
+<ul>
+<li>任何具有明確數值範圍、順序或長度限制的輸入。</li>
+<li>非常適合用於發現 <strong>「差一錯誤」(Off-by-one errors)</strong>。</li>
+<li>作為等價類劃分的補充，是投資報酬率極高的測試方法。</li>
+</ul>
+<h4 id="不適用情境-1">不適用情境</h4>
+<ul>
+<li>對於沒有明確邊界的輸入（例如：枚舉值、布林值），此方法不適用。</li>
+<li>無法有效處理多個輸入參數之間的組合性缺陷。</li>
+</ul>
+<h3 id="3-決策表-decision-tables">3. 決策表 (Decision Tables)</h3>
+<h4 id="什麼是決策表">什麼是決策表？</h4>
+<p>一種將複雜的業務規則和邏輯組合以表格形式呈現的系統化方法。決策表包含「條件」（Conditions）和「動作」（Actions），表的每一欄代表一個業務規則，即一組條件的組合會觸發哪些對應的動作。</p>
+<h4 id="程式案例-2">程式案例</h4>
+<p>假設一個電商網站的折扣規則如下：</p>
+<ol>
+<li>若是 VIP 會員，則打 9 折。</li>
+<li>若訂單金額滿 1000 元，也打 9 折。</li>
+<li>若同時是 VIP 且訂單滿 1000 元，則打 8 折。</li>
+<li>其他情況不打折。</li>
+</ol>
+<p><strong>決策表：</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">規則</th>
+<th style="text-align:center">條件1: 是 VIP 會員？</th>
+<th style="text-align:center">條件2: 訂單滿 1000？</th>
+<th style="text-align:center">動作1: 打 8 折</th>
+<th style="text-align:center">動作2: 打 9 折</th>
+<th style="text-align:center">動作3: 不打折</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">R1</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">R2</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">R3</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">R4</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+</tbody>
+</table>
+<p>每個規則（R1-R4）都可直接轉換為一個測試案例。</p>
+<h4 id="適用情境-2">適用情境</h4>
+<ul>
+<li>當系統功能包含大量複雜、有交集的業務規則時。</li>
+<li>需要確保所有邏輯組合都被完整覆蓋的場景。</li>
+<li>輸入條件與最終執行的動作之間有明確的因果關係。</li>
+</ul>
+<h4 id="不適用情境-2">不適用情境</h4>
+<ul>
+<li>對於業務邏輯簡單、沒有太多條件組合的功能，使用決策表會過於繁瑣。</li>
+<li>當系統行為與「順序」或「狀態」相關時，<code>狀態轉換測試</code> 更為合適。</li>
+</ul>
+<h3 id="4-狀態轉換測試-state-transition-testing">4. 狀態轉換測試 (State Transition Testing)</h3>
+<h4 id="什麼是狀態轉換測試">什麼是狀態轉換測試？</h4>
+<p>一種用於測試 <strong>「有限狀態機」</strong> 的技術。它關注系統如何根據不同的事件（或輸入）從一個狀態轉變到另一個狀態，以及在轉換過程中會觸發哪些動作。測試的目標是覆蓋所有有效的狀態和轉換。</p>
+<h4 id="程式案例-3">程式案例</h4>
+<p>一個簡單的 ATM 提款機有以下狀態：<code>待機</code>、<code>已插卡</code>、<code>已輸入密碼</code>、<code>交易完成</code>。</p>
+<p><strong>狀態轉換圖 (簡化):</strong></p>
+<ul>
+<li><code>待機</code> &ndash;(插入提款卡)&ndash;&gt; <code>已插卡</code></li>
+<li><code>已插卡</code> &ndash;(輸入正確密碼)&ndash;&gt; <code>已輸入密碼</code></li>
+<li><code>已插卡</code> &ndash;(輸入錯誤密碼)&ndash;&gt; <code>待機</code> (退卡)</li>
+<li><code>已輸入密碼</code> &ndash;(執行提款)&ndash;&gt; <code>交易完成</code></li>
+<li><code>交易完成</code> &ndash;(退出)&ndash;&gt; <code>待機</code> (退卡)</li>
+</ul>
+<p><strong>測試案例設計：</strong></p>
+<ul>
+<li><strong>測試案例 1 (成功流程):</strong> 插入提款卡 -&gt; 輸入正確密碼 -&gt; 執行提款 -&gt; 退出。驗證每一步的狀態是否正確。</li>
+<li><strong>測試案例 2 (密碼錯誤):</strong> 插入提款卡 -&gt; 輸入錯誤密碼。驗證是否退卡並回到 <code>待機</code> 狀態。</li>
+</ul>
+<h4 id="適用情境-3">適用情境</h4>
+<ul>
+<li>適用於任何 <strong>「有記憶」</strong> 的系統，其當前行為取決於過去的事件和狀態。</li>
+<li>例如：使用者登入狀態、訂單處理流程、工作流程引擎、通訊協定等。</li>
+</ul>
+<h4 id="不適用情境-3">不適用情境</h4>
+<ul>
+<li>對於 <strong>「無狀態」</strong> 的系統，即每次的輸出僅取決於當前的輸入，而與歷史無關。例如一個簡單的計算機。</li>
+</ul>
+<h3 id="5-因果圖法-cause-effect-graphing">5. 因果圖法 (Cause-Effect Graphing)</h3>
+<h4 id="什麼是因果圖法">什麼是因果圖法？</h4>
+<p>一種更形式化的技術，用於分析和視覺化輸入條件（因）與輸出結果（果）之間的複雜邏輯關係。它使用圖形符號（如 AND, OR, NOT）來表示規格文件中的語義，最終目的通常是為了導出決策表，以生成測試案例。</p>
+<h4 id="程式案例-4">程式案例</h4>
+<p>與決策表的案例相似，但更強調圖形化的分析過程。例如，規格描述：「當使用者點擊&rsquo;儲存&rsquo;按鈕時，如果&rsquo;檔案未變更&rsquo;或&rsquo;使用者無權限'，則系統應&rsquo;顯示錯誤訊息'。」</p>
+<ul>
+<li><strong>因 (Causes)</strong>: C1=點擊儲存, C2=檔案未變更, C3=使用者無權限</li>
+<li><strong>果 (Effect)</strong>: E1=顯示錯誤訊息</li>
+</ul>
+<p><strong>邏輯圖</strong>: <code>C1 AND (C2 OR C3) -&gt; E1</code></p>
+<p>此圖可以幫助分析師系統性地找出觸發 <code>E1</code> 的所有組合，並轉換為決策表來設計測試案例。</p>
+<h4 id="適用情境-4">適用情境</h4>
+<ul>
+<li>當需求規格是用自然語言描述，且其中包含大量邏輯詞（如 <code>if</code>, <code>and</code>, <code>or</code>, <code>not</code>）時。</li>
+<li>作為從複雜文字需求到結構化決策表的橋樑。</li>
+</ul>
+<h4 id="不適用情境-4">不適用情境</h4>
+<ul>
+<li>對於簡單的邏輯，直接使用決策表或等價類劃分更有效率。</li>
+<li>繪製和分析因果圖本身可能非常耗時，對於敏捷開發的快速迭代可能不適合。</li>
+</ul>
+<h3 id="6-錯誤猜測-error-guessing">6. 錯誤猜測 (Error Guessing)</h3>
+<h4 id="什麼是錯誤猜測">什麼是錯誤猜測？</h4>
+<p>一種非系統化的、依賴測試人員 <strong>直覺、經驗和專業知識</strong> 的測試技術。測試人員會「猜測」開發者可能犯的錯誤或系統的薄弱環節，並為此設計專門的測試案例。</p>
+<h4 id="程式案例-5">程式案例</h4>
+<p>針對一個檔案上傳功能：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">upload_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="c1"># ... 處理檔案上傳的邏輯 ...</span>
+    <span class="k">pass</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>測試案例設計 (猜測):</strong></p>
+<ul>
+<li>輸入一個不存在的 <code>file_path</code>。</li>
+<li>上傳一個 0 KB 的空檔案。</li>
+<li>上傳一個超出系統限制大小的檔案（例如 2GB）。</li>
+<li>上傳一個檔名包含特殊字元（如 <code>*</code>, <code>?</code>, <code>/</code>）的檔案。</li>
+<li>在檔案上傳過程中，中斷網路連線。</li>
+<li>輸入 <code>null</code> 或空字串作為 <code>file_path</code>。</li>
+</ul>
+<h4 id="適用情境-5">適用情境</h4>
+<ul>
+<li>作為對其他系統化測試方法的補充，用於發現 <strong>「意料之外」</strong> 的錯誤。</li>
+<li>在時間有限的情況下，由經驗豐富的測試人員執行，可以快速找到高風險區域的缺陷。</li>
+</ul>
+<h4 id="不適用情境-5">不適用情境</h4>
+<ul>
+<li>不能作為唯一的測試方法，因为它沒有明確的覆蓋率指標，無法保證測試的完整性。</li>
+<li>測試效果高度依賴測試人員的個人能力，難以複製和標準化。</li>
+</ul>
+<h3 id="7-所有配對測試-all-pair-testing--pairwise-testing">7. 所有配對測試 (All-Pair Testing / Pairwise Testing)</h3>
+<h4 id="什麼是所有配對測試">什麼是所有配對測試？</h4>
+<p>一種組合測試技術，旨在用最少的測試案例來覆蓋所有輸入參數的 <strong>「兩兩組合」</strong>。其理論基礎是，系統中的大多數錯誤是由單一參數或最多兩個參數之間的交互作用引起的。</p>
+<h4 id="程式案例-6">程式案例</h4>
+<p>假設一個文件編輯器有以下文字格式選項：</p>
+<ul>
+<li><strong>字體 (Font)</strong>: Arial, Times, Verdana (3個選項)</li>
+<li><strong>大小 (Size)</strong>: 10, 12, 14 (3個選項)</li>
+<li><strong>顏色 (Color)</strong>: 紅, 藍, 黑 (3個選項)</li>
+<li><strong>對齊 (Alignment)</strong>: 左, 中, 右 (3個選項)</li>
+</ul>
+<p>如果要測試所有可能的格式組合，總共需要 <code>3 * 3 * 3 * 3 = 81</code> 組測試案例，這在實務上幾乎不可行。</p>
+<p>若改用「所有配對測試」，目標則是用最少的案例覆蓋所有選項的「兩兩組合」（例如，<code>[Arial, 10]</code>、<code>[12, 紅]</code>、<code>[黑, 右對齊]</code> 都必須至少出現一次）。使用配對測試工具可以生成如下的精簡測試集：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">測試案例</th>
+<th style="text-align:left">字體</th>
+<th style="text-align:left">大小</th>
+<th style="text-align:left">顏色</th>
+<th style="text-align:left">對齊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">Arial</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">紅</td>
+<td style="text-align:left">左</td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left">Arial</td>
+<td style="text-align:left">12</td>
+<td style="text-align:left">藍</td>
+<td style="text-align:left">中</td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left">Arial</td>
+<td style="text-align:left">14</td>
+<td style="text-align:left">黑</td>
+<td style="text-align:left">右</td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:left">Times</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">藍</td>
+<td style="text-align:left">右</td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:left">Times</td>
+<td style="text-align:left">12</td>
+<td style="text-align:left">黑</td>
+<td style="text-align:left">左</td>
+</tr>
+<tr>
+<td style="text-align:left">6</td>
+<td style="text-align:left">Times</td>
+<td style="text-align:left">14</td>
+<td style="text-align:left">紅</td>
+<td style="text-align:left">中</td>
+</tr>
+<tr>
+<td style="text-align:left">7</td>
+<td style="text-align:left">Verdana</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">黑</td>
+<td style="text-align:left">中</td>
+</tr>
+<tr>
+<td style="text-align:left">8</td>
+<td style="text-align:left">Verdana</td>
+<td style="text-align:left">12</td>
+<td style="text-align:left">紅</td>
+<td style="text-align:left">右</td>
+</tr>
+<tr>
+<td style="text-align:left">9</td>
+<td style="text-align:left">Verdana</td>
+<td style="text-align:left">14</td>
+<td style="text-align:left">藍</td>
+<td style="text-align:left">左</td>
+</tr>
+</tbody>
+</table>
+<p>在這個例子中，測試案例的數量從 81 個驟減到 9 個。我們無需執行全部 81 次測試，只需這 9 次就能覆蓋所有參數兩兩之間的組合，在保證足夠測試覆蓋率的同時，極大地提升了測試效率。</p>
+<h4 id="適用情境-6">適用情境</h4>
+<ul>
+<li>當被測系統有多個獨立的輸入參數或配置選項，而進行全組合測試不切實際時。</li>
+<li>非常適合用於測試軟體的配置組合、API 參數組合等。</li>
+</ul>
+<h4 id="不適用情境-6">不適用情境</h4>
+<ul>
+<li>當已知或高度懷疑錯誤是由三個或更多參數的特定交互作用引起時。</li>
+<li>如果參數數量很少，全組合測試是可行的，且能提供更強的信心。</li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-10-19</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/notes-introduction-to-black-box-testing-sop-and-seven-methods/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/" data-title="[筆記] 黑箱測試入門：標準流程(SOP)與七大方法" data-hashtags="黑箱測試,軟體測試,LLM"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/" data-hashtag="黑箱測試"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/" data-title="[筆記] 黑箱測試入門：標準流程(SOP)與七大方法"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/" data-title="[筆記] 黑箱測試入門：標準流程(SOP)與七大方法"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/" data-title="[筆記] 黑箱測試入門：標準流程(SOP)與七大方法"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%BB%91%E7%AE%B1%E6%B8%AC%E8%A9%A6/">黑箱測試</a>,&nbsp;<a href="/tags/%E8%BB%9F%E9%AB%94%E6%B8%AC%E8%A9%A6/">軟體測試</a>,&nbsp;<a href="/tags/llm/">LLM</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/" class="prev" rel="prev" title="[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧</a>
+            <a href="/notes-interview-insights-not-perfection-but-completeness/" class="next" rel="next" title="[筆記] 一場訪談的體悟：不是求完美，而是求完整">[筆記] 一場訪談的體悟：不是求完美，而是求完整<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>

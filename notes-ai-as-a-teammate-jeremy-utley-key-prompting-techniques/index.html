@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧" />
+<meta property="og:description" content="想提升 AI 的生產力嗎？史丹佛大學教授 Jeremy Utley 提出，關鍵在於將 AI 視為「隊友」而非「工具」。這篇文章整理了他的四個實用提示技巧，幫助你學會如何引導、提問，讓 AI 發揮最佳表現。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-10-04T08:02:45+08:00" />
+<meta property="article:modified_time" content="2025-10-12T08:02:45+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧"/>
+<meta name="twitter:description" content="想提升 AI 的生產力嗎？史丹佛大學教授 Jeremy Utley 提出，關鍵在於將 AI 視為「隊友」而非「工具」。這篇文章整理了他的四個實用提示技巧，幫助你學會如何引導、提問，讓 AI 發揮最佳表現。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/" /><link rel="prev" href="https://nostanduptalk.github.io/thinking-four-similarities-between-frieren-and-vibe-coding/" /><link rel="next" href="https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "LLM","wordcount":  695 ,
+        "url": "https:\/\/nostanduptalk.github.io\/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques\/","datePublished": "2025-10-04T08:02:45+08:00","dateModified": "2025-10-12T08:02:45+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-10-04">2025-10-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;695 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#ai-心態把-ai-當隊友而非工具">AI 心態：把 AI 當隊友，而非工具</a>
+      <ul>
+        <li><a href="#1-逆向提示-reverse-prompting">1. 逆向提示 (Reverse Prompting)</a></li>
+        <li><a href="#2-思維鏈推理-chain-of-thought-reasoning">2. 思維鏈推理 (Chain of Thought Reasoning)</a></li>
+        <li><a href="#3-強化批判性思考-strengthening-critical-thinking">3. 強化批判性思考 (Strengthening Critical Thinking)</a></li>
+        <li><a href="#4-角色指定-role-assignment">4. 角色指定 (Role Assignment)</a></li>
+      </ul>
+    </li>
+    <li><a href="#影片來源">影片來源</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>想提升 AI 的生產力嗎？史丹佛大學教授 Jeremy Utley 提出，關鍵在於將 AI 視為「隊友」而非「工具」。這篇文章整理了他的四個實用提示技巧，幫助你學會如何引導、提問，讓 AI 發揮最佳表現。</p>
+<blockquote>
+<p><em>Right now the primary limitation is the limits of human imagination.</em></p>
+<p><em>… not because they&rsquo;re technologically impossible but because they never occur to us personally.</em></p>
+</blockquote>
+<h2 id="ai-心態把-ai-當隊友而非工具">AI 心態：把 AI 當隊友，而非工具</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">關鍵觀念</th>
+<th style="text-align:left">摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>最佳使用者心態</strong></td>
+<td style="text-align:left">最會用 AI 的人不是「工程師」，而是「教練」：他們懂得引導、提問，幫助 AI 發揮最佳表現。</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>隊友觀念</strong></td>
+<td style="text-align:left">把 AI 當成「隊友」而不是「技術」。</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>本質比喻</strong></td>
+<td style="text-align:left">AI = 「壞軟體，但好人」：它就像一個永不疲倦、超熱情、能力不錯但需要引導的實習生。</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>缺陷提醒</strong></td>
+<td style="text-align:left">AI 天生愛說「是」，不擅長反駁或設限。若用戶缺乏批判，可能被「煤氣燈效應」誤導。</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>鏡子效應</strong></td>
+<td style="text-align:left">AI 會反映用戶的心態：想偷懶的人會更懶，想保持敏銳的人會更敏銳。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-逆向提示-reverse-prompting">1. 逆向提示 (Reverse Prompting)</h3>
+<p>這項技術將 AI 視為<strong>隊友而非技術</strong>，強制 AI 在開始工作前，主動要求任務所需的背景資訊，避免它<strong>編造數字 (make numbers up)</strong>。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">before you get started ask me for any information you need to do a good job
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="2-思維鏈推理-chain-of-thought-reasoning">2. 思維鏈推理 (Chain of Thought Reasoning)</h3>
+<p>這項技術要求 AI <strong>出聲思考 (thinking out loud)</strong>，將隱藏的思維過程外顯化。這能顯著<strong>改善模型的輸出結果 (meaningfully improve the outputs of the model)</strong>，並讓人得以評估其假設。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">before you respond to my query please walk me through your thought process step by step
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="3-強化批判性思考-strengthening-critical-thinking">3. 強化批判性思考 (Strengthening Critical Thinking)</h3>
+<p>這項語句通常用於自訂指令中，目的在於避免<strong>認知卸載 (cognitive offloading)</strong>，並防止 AI 施展<strong>煤氣燈效應 (gaslight you)</strong>。它要求 AI 成為挑戰者，推動人類思考。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">whenever you see opportunities in our conversations please push my critical thinking ability
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="4-角色指定-role-assignment">4. 角色指定 (Role Assignment)</h3>
+<p>這是最基礎的技巧之一。透過指定角色，可以告訴 AI <strong>在它龐大的知識庫中應該聚焦在哪裡 (where in your vast knowledge bank do I want you to draw information)</strong>，從而獲得更有針對性的回答。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">I&#39;d like you to be a professional communications expert
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id="影片來源">影片來源</h2>
+<p><a href="https://www.youtube.com/watch?v=yMOmmnjy3sE" target="_blank" rel="noopener noreffer">提升AI生產力的實用指南 (Jeremy Utley)</a></p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-10-12</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/" data-title="[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧" data-hashtags="LLM"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/" data-hashtag="LLM"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/" data-title="[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/" data-title="[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/" data-title="[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/llm/">LLM</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/thinking-four-similarities-between-frieren-and-vibe-coding/" class="prev" rel="prev" title="[思考] 從《葬送的芙莉蓮》看 Vibe Coding 的四個相似處"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[思考] 從《葬送的芙莉蓮》看 Vibe Coding 的四個相似處</a>
+            <a href="/notes-introduction-to-black-box-testing-sop-and-seven-methods/" class="next" rel="next" title="[筆記] 黑箱測試入門：標準流程(SOP)與七大方法">[筆記] 黑箱測試入門：標準流程(SOP)與七大方法<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>

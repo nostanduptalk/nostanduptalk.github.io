@@ -3,9 +3,42 @@
         <title>不沾醬</title>
         <link>https://nostanduptalk.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Sep 2025 13:51:12 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 04 Oct 2025 08:31:13 &#43;0800</lastBuildDate>
             <atom:link href="https://nostanduptalk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[筆記] 一場訪談的體悟：不是求完美，而是求完整</title>
+    <link>https://nostanduptalk.github.io/notes-interview-insights-not-perfection-but-completeness/</link>
+    <pubDate>Sat, 04 Oct 2025 08:31:13 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-interview-insights-not-perfection-but-completeness/</guid>
+    <description><![CDATA[<p>一位總是在螢光幕前帶來歡笑的模仿藝人，分享了他從單純的喜歡表演，到經歷低潮，最終體悟到「不是求完美，而是求完整」的人生哲學。這段心路歷程，或許也能給在不同角色中切換的我們一些啟發。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 黑箱測試入門：標準流程(SOP)與七大方法</title>
+    <link>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</link>
+    <pubDate>Sat, 04 Oct 2025 08:09:20 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</guid>
+    <description><![CDATA[<p>當測試人員看不到內部情況的時候，同常會採用<strong>黑箱測試（Black-Box Testing）</strong> 確保品質。透過使用者的視角，不窺探內部程式碼，僅根據軟體規格來驗證其功能是否符合預期。</p>
+<p>我查閱了多本書籍與網路資料，透過AI 做成標準作業流程（SOP），再深入解析流程中提到的七種核心測試技術，未來除了給自己參考之外，也想作為LLM的prompt。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧</title>
+    <link>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</link>
+    <pubDate>Sat, 04 Oct 2025 08:02:45 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</guid>
+    <description><![CDATA[<p>想提升 AI 的生產力嗎？史丹佛大學教授 Jeremy Utley 提出，關鍵在於將 AI 視為「隊友」而非「工具」。這篇文章整理了他的四個實用提示技巧，幫助你學會如何引導、提問，讓 AI 發揮最佳表現。</p>]]></description>
+</item>
+<item>
+    <title>[思考] 從《葬送的芙莉蓮》看 Vibe Coding 的四個相似處</title>
+    <link>https://nostanduptalk.github.io/thinking-four-similarities-between-frieren-and-vibe-coding/</link>
+    <pubDate>Sat, 04 Oct 2025 07:54:21 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-four-similarities-between-frieren-and-vibe-coding/</guid>
+    <description><![CDATA[<p>這部動畫我一開始看的時候沒有特別感覺。但後來看到線上的馬拉松播放、又多看了幾次，我發現《葬送的芙莉蓮》跟 <code>Vibe Coding</code> 其實有很多相似之處。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 微軟 2025 年度內部信：在變動中重新承諾</title>
     <link>https://nostanduptalk.github.io/notes-microsoft-2025-recommit-in-change/</link>
     <pubDate>Sat, 06 Sep 2025 13:51:12 &#43;0800</pubDate>
@@ -64,38 +97,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-richard-ceo-strategy/</guid>
     <description><![CDATA[<p>這篇文章整理了陳宗賢老師在「經營方法論」線上課程中的核心筆記。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《朋友與敵人》：合作、競爭與成功的策略</title>
-    <link>https://nostanduptalk.github.io/notes-friend-and-foe-cooperate-compete-succeed/</link>
-    <pubDate>Sun, 17 Aug 2025 02:40:42 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-friend-and-foe-cooperate-compete-succeed/</guid>
-    <description><![CDATA[<p>本書深入探討了人際互動與職場策略，從比較心理、權力運作、階級制度到信任建立與協商技巧，提供在合作與競爭中取得成功的實用洞察。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《管理者每天精進1%的決策躍升思維》</title>
-    <link>https://nostanduptalk.github.io/notes-manager-daily-1-percent-decision-making-upgrade-thinking/</link>
-    <pubDate>Sun, 10 Aug 2025 02:18:05 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-manager-daily-1-percent-decision-making-upgrade-thinking/</guid>
-    <description><![CDATA[<p>這本書探討管理者的日常工作。</p>]]></description>
-</item>
-<item>
-    <title>[思考] 深度優化與終局思維：從表層修補到戰略重構</title>
-    <link>https://nostanduptalk.github.io/thinking-deep-optimization-end-game-thinking/</link>
-    <pubDate>Sun, 03 Aug 2025 01:54:43 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-deep-optimization-end-game-thinking/</guid>
-    <description><![CDATA[<p>大膽目標能驅動更徹底的重構與創新，並學習如何以終為始，讓每一步行動都更具方向性與意義。</p>]]></description>
-</item>
-<item>
-    <title>[筆記]《烏合之眾》：群體心理的洞察</title>
-    <link>https://nostanduptalk.github.io/notes-psychologie-des-foules/</link>
-    <pubDate>Sun, 27 Jul 2025 12:15:17 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-psychologie-des-foules/</guid>
-    <description><![CDATA[<p>這篇讀書筆記深入探討了古斯塔夫·勒龐的經典著作《烏合之眾》，揭示了群體行為的本質、領袖如何影響群體，以及個體在群體中如何失去理性判斷力。文章將帶您了解群體的可暗示性、輕信，以及領袖透過斷言、重複和傳播建立權威的過程。</p>]]></description>
 </item>
 </channel>
 </rss>
