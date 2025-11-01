@@ -4,6 +4,10 @@
 這是我第一次到新竹小叮噹科學主題樂園滑雪，整體感覺還不錯！這篇文章記錄了我的室內滑雪初體驗心得，以及一些給初學者的行前小提醒。
 <!--more-->
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MOou9ROJruo?si=wYQj7sdvmXMv_Q-x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## 行前小提醒與建議
 
 1.  **個人裝備**：事前一定要戴`頭巾`、穿`滑雪長襪`，這樣戴安全帽和穿雪鞋才會舒服。

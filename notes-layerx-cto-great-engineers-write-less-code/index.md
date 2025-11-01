@@ -57,4 +57,4 @@ LayerX 的技術長松本勇氣提出，優秀的工程師應該是「不寫程�
 
 ## 連結
 
-[LayerX CTO 松本勇氣訪談影片](https://youtu.be/ODBcowZ50WU?si=JIm1StS40HXC7PKq)
+[LayerX CTO 松本勇氣訪談影片](https://youtu.be/ODBcowZ50WU)
