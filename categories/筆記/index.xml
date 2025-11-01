@@ -3,10 +3,37 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 04 Oct 2025 08:31:13 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Nov 2025 09:50:39 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] LayerX CTO 松本勇氣：優秀的工程師會少寫程式碼</title>
+    <link>https://nostanduptalk.github.io/notes-layerx-cto-great-engineers-write-less-code/</link>
+    <pubDate>Sat, 01 Nov 2025 09:50:39 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-layerx-cto-great-engineers-write-less-code/</guid>
+    <description><![CDATA[<p>LayerX 的技術長松本勇氣提出，優秀的工程師應該是「不寫程式碼的工程師」。這句話背後的涵義是什麼？這份筆記整理了他對於技術長 (CTO) 與工程師在職責上的獨到見解，探討了技術決策、團隊管理與個人成長的核心原則。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 獲取任何你想要的東西的 - 人脈經營的哲學、策略、心態</title>
+    <link>https://nostanduptalk.github.io/notes-networking-philosophy-strategy-mindset/</link>
+    <pubDate>Sat, 01 Nov 2025 09:28:23 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-networking-philosophy-strategy-mindset/</guid>
+    <description><![CDATA[<p>本文為閱讀《NETWORKING TO GET CUSTOMERS, A JOB OR ANYTHING YOU WANT》一書後的心得筆記。書中將人脈經營譽為<strong>第一商業成功驅動力</strong>，並強調其核心在於「給予」與「積極要求」兩大哲學。想掌握這門藝術，就從改變心態開始。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 獨處30分鐘：環境越安靜，內心越吵雜</title>
+    <link>https://nostanduptalk.github.io/notes-being-alone-for-30-minutes/</link>
+    <pubDate>Sat, 01 Nov 2025 09:01:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-being-alone-for-30-minutes/</guid>
+    <description><![CDATA[<blockquote>
+<p>哲學家帕斯卡曾說：「人類所有的問題，都源於他無法獨自一人在房間裡安靜地待上30分鐘。」</p>
+</blockquote>
+<p>我們時常誤解，以為解決了所有外部問題就能獲得快樂，但真正的平靜，其實源於內心的轉變。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 一場訪談的體悟：不是求完美，而是求完整</title>
     <link>https://nostanduptalk.github.io/notes-interview-insights-not-perfection-but-completeness/</link>
-    <pubDate>Sat, 04 Oct 2025 08:31:13 &#43;0800</pubDate>
+    <pubDate>Sun, 26 Oct 2025 08:31:13 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-interview-insights-not-perfection-but-completeness/</guid>
     <description><![CDATA[<p>一位總是在螢光幕前帶來歡笑的模仿藝人，分享了他從單純的喜歡表演，到經歷低潮，最終體悟到「不是求完美，而是求完整」的人生哲學。這段心路歷程，或許也能給在不同角色中切換的我們一些啟發。</p>]]></description>
@@ -14,7 +41,7 @@
 <item>
     <title>[筆記] 黑箱測試入門：標準流程(SOP)與七大方法</title>
     <link>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</link>
-    <pubDate>Sat, 04 Oct 2025 08:09:20 &#43;0800</pubDate>
+    <pubDate>Sun, 19 Oct 2025 08:09:20 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</guid>
     <description><![CDATA[<p>當測試人員看不到內部情況的時候，同常會採用<strong>黑箱測試（Black-Box Testing）</strong> 確保品質。透過使用者的視角，不窺探內部程式碼，僅根據軟體規格來驗證其功能是否符合預期。</p>
@@ -23,7 +50,7 @@
 <item>
     <title>[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧</title>
     <link>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</link>
-    <pubDate>Sat, 04 Oct 2025 08:02:45 &#43;0800</pubDate>
+    <pubDate>Sun, 12 Oct 2025 08:02:45 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</guid>
     <description><![CDATA[<p>想提升 AI 的生產力嗎？史丹佛大學教授 Jeremy Utley 提出，關鍵在於將 AI 視為「隊友」而非「工具」。這篇文章整理了他的四個實用提示技巧，幫助你學會如何引導、提問，讓 AI 發揮最佳表現。</p>]]></description>
@@ -31,7 +58,7 @@
 <item>
     <title>[筆記] 微軟 2025 年度內部信：在變動中重新承諾</title>
     <link>https://nostanduptalk.github.io/notes-microsoft-2025-recommit-in-change/</link>
-    <pubDate>Sat, 06 Sep 2025 13:51:12 &#43;0800</pubDate>
+    <pubDate>Sun, 28 Sep 2025 13:51:12 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-microsoft-2025-recommit-in-change/</guid>
     <description><![CDATA[<p>在 AI 產業劇烈變動的背景下，微軟 CEO Satya Nadella 發表了 2025 年度內部信。這封信不僅是對員工的喊話，更揭示了微軟如何在矛盾與不確定中，重新定義其使命、優先事項與文化。</p>]]></description>
@@ -39,7 +66,7 @@
 <item>
     <title>[筆記] 《軟體品質全面思維》</title>
     <link>https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/</link>
-    <pubDate>Sat, 06 Sep 2025 13:31:44 &#43;0800</pubDate>
+    <pubDate>Sun, 21 Sep 2025 13:31:44 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/</guid>
     <description><![CDATA[<p>這是一本由多位作者合著的書，探討了從產品設計、開發到交付的全面品質思維。本篇筆記整理了書中關於點子驗證、產品成長、測試核心觀念與實踐心法等重點。</p>]]></description>
@@ -47,7 +74,7 @@
 <item>
     <title>[筆記] 並非所有痛苦都值得擁抱：如何分辨成長與消耗</title>
     <link>https://nostanduptalk.github.io/notes-not-all-suffering-is-worth-embracing/</link>
-    <pubDate>Sat, 06 Sep 2025 12:51:54 &#43;0800</pubDate>
+    <pubDate>Sun, 14 Sep 2025 12:51:54 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-not-all-suffering-is-worth-embracing/</guid>
     <description><![CDATA[<blockquote>
@@ -62,30 +89,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-richard-ceo-strategy/</guid>
     <description><![CDATA[<p>這篇文章整理了陳宗賢老師在「經營方法論」線上課程中的核心筆記。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《朋友與敵人》：合作、競爭與成功的策略</title>
-    <link>https://nostanduptalk.github.io/notes-friend-and-foe-cooperate-compete-succeed/</link>
-    <pubDate>Sun, 17 Aug 2025 02:40:42 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-friend-and-foe-cooperate-compete-succeed/</guid>
-    <description><![CDATA[<p>本書深入探討了人際互動與職場策略，從比較心理、權力運作、階級制度到信任建立與協商技巧，提供在合作與競爭中取得成功的實用洞察。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《管理者每天精進1%的決策躍升思維》</title>
-    <link>https://nostanduptalk.github.io/notes-manager-daily-1-percent-decision-making-upgrade-thinking/</link>
-    <pubDate>Sun, 10 Aug 2025 02:18:05 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-manager-daily-1-percent-decision-making-upgrade-thinking/</guid>
-    <description><![CDATA[<p>這本書探討管理者的日常工作。</p>]]></description>
-</item>
-<item>
-    <title>[筆記]《烏合之眾》：群體心理的洞察</title>
-    <link>https://nostanduptalk.github.io/notes-psychologie-des-foules/</link>
-    <pubDate>Sun, 27 Jul 2025 12:15:17 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-psychologie-des-foules/</guid>
-    <description><![CDATA[<p>這篇讀書筆記深入探討了古斯塔夫·勒龐的經典著作《烏合之眾》，揭示了群體行為的本質、領袖如何影響群體，以及個體在群體中如何失去理性判斷力。文章將帶您了解群體的可暗示性、輕信，以及領袖透過斷言、重複和傳播建立權威的過程。</p>]]></description>
 </item>
 </channel>
 </rss>

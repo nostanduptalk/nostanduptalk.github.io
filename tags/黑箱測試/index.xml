@@ -3,10 +3,10 @@
         <title>黑箱測試 - Tag - 不沾醬</title>
         <link>https://nostanduptalk.github.io/tags/%E9%BB%91%E7%AE%B1%E6%B8%AC%E8%A9%A6/</link>
         <description>黑箱測試 - Tag - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 04 Oct 2025 08:09:20 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E9%BB%91%E7%AE%B1%E6%B8%AC%E8%A9%A6/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 19 Oct 2025 08:09:20 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E9%BB%91%E7%AE%B1%E6%B8%AC%E8%A9%A6/" rel="self" type="application/rss+xml" /><item>
     <title>[筆記] 黑箱測試入門：標準流程(SOP)與七大方法</title>
     <link>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</link>
-    <pubDate>Sat, 04 Oct 2025 08:09:20 &#43;0800</pubDate>
+    <pubDate>Sun, 19 Oct 2025 08:09:20 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</guid>
     <description><![CDATA[<p>當測試人員看不到內部情況的時候，同常會採用<strong>黑箱測試（Black-Box Testing）</strong> 確保品質。透過使用者的視角，不窺探內部程式碼，僅根據軟體規格來驗證其功能是否符合預期。</p>

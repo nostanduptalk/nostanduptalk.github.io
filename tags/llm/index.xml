@@ -3,10 +3,10 @@
         <title>LLM - Tag - 不沾醬</title>
         <link>https://nostanduptalk.github.io/tags/llm/</link>
         <description>LLM - Tag - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 04 Oct 2025 08:09:20 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/llm/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 19 Oct 2025 08:09:20 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/llm/" rel="self" type="application/rss+xml" /><item>
     <title>[筆記] 黑箱測試入門：標準流程(SOP)與七大方法</title>
     <link>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</link>
-    <pubDate>Sat, 04 Oct 2025 08:09:20 &#43;0800</pubDate>
+    <pubDate>Sun, 19 Oct 2025 08:09:20 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</guid>
     <description><![CDATA[<p>當測試人員看不到內部情況的時候，同常會採用<strong>黑箱測試（Black-Box Testing）</strong> 確保品質。透過使用者的視角，不窺探內部程式碼，僅根據軟體規格來驗證其功能是否符合預期。</p>
@@ -15,7 +15,7 @@
 <item>
     <title>[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧</title>
     <link>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</link>
-    <pubDate>Sat, 04 Oct 2025 08:02:45 &#43;0800</pubDate>
+    <pubDate>Sun, 12 Oct 2025 08:02:45 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</guid>
     <description><![CDATA[<p>想提升 AI 的生產力嗎？史丹佛大學教授 Jeremy Utley 提出，關鍵在於將 AI 視為「隊友」而非「工具」。這篇文章整理了他的四個實用提示技巧，幫助你學會如何引導、提問，讓 AI 發揮最佳表現。</p>]]></description>
@@ -23,7 +23,7 @@
 <item>
     <title>[思考] 從《葬送的芙莉蓮》看 Vibe Coding 的四個相似處</title>
     <link>https://nostanduptalk.github.io/thinking-four-similarities-between-frieren-and-vibe-coding/</link>
-    <pubDate>Sat, 04 Oct 2025 07:54:21 &#43;0800</pubDate>
+    <pubDate>Sun, 05 Oct 2025 07:54:21 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-four-similarities-between-frieren-and-vibe-coding/</guid>
     <description><![CDATA[<p>這部動畫我一開始看的時候沒有特別感覺。但後來看到線上的馬拉松播放、又多看了幾次，我發現《葬送的芙莉蓮》跟 <code>Vibe Coding</code> 其實有很多相似之處。</p>]]></description>
@@ -31,7 +31,7 @@
 <item>
     <title>[心得] 無網路 AI 工作流：在 MacBook 上運行 Gemma 與 Whisper</title>
     <link>https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/</link>
-    <pubDate>Sat, 06 Sep 2025 12:41:32 &#43;0800</pubDate>
+    <pubDate>Sun, 07 Sep 2025 12:41:32 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-offline-ai-workflow-on-macbook-gemma-whisper/</guid>
     <description><![CDATA[<p>本文記錄了如何在 MacBook 上透過 <code>LM Studio</code> 和 <code>Whisper</code> 建立一個完全離線的 AI 工作流程，實現本地端的模型推論與語音辨識。</p>]]></description>
