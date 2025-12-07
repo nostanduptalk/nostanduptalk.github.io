@@ -3,10 +3,26 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Nov 2025 09:50:39 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 07 Dec 2025 04:11:15 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 防災士培訓課程重點整理</title>
+    <link>https://nostanduptalk.github.io/notes-disaster-prevention-specialist-training/</link>
+    <pubDate>Sun, 07 Dec 2025 04:11:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-disaster-prevention-specialist-training/</guid>
+    <description><![CDATA[<p>本篇為「防災士培訓課程」的學習筆記，內容涵蓋防災士的核心任務、我國防災體系，以及在災害中最重要的「自助、互助、公助」原則。從風險構成要素到避難收容的實務細節，再到緊急救護的 CPR 操作流程，整理出成為一位合格防災士所需具備的關鍵知識與技能。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] AI工具的建構思維：無感嵌入既有業務</title>
+    <link>https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/</link>
+    <pubDate>Sat, 06 Dec 2025 11:38:37 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/</guid>
+    <description><![CDATA[<p>AI 應該如何融入我們的產品與工作流程？這份筆記探討了四個核心概念，主張 AI 不該是全新的複雜應用，而應是<strong>無縫嵌入既有工具</strong>、<strong>從被動指令轉向主動預測</strong>的智慧夥伴，最終達到<strong>無感但高效</strong>的終極目標。</p>]]></description>
+</item>
+<item>
     <title>[筆記] LayerX CTO 松本勇氣：優秀的工程師會少寫程式碼</title>
     <link>https://nostanduptalk.github.io/notes-layerx-cto-great-engineers-write-less-code/</link>
-    <pubDate>Sat, 01 Nov 2025 09:50:39 &#43;0800</pubDate>
+    <pubDate>Sun, 23 Nov 2025 09:50:39 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-layerx-cto-great-engineers-write-less-code/</guid>
     <description><![CDATA[<p>LayerX 的技術長松本勇氣提出，優秀的工程師應該是「不寫程式碼的工程師」。這句話背後的涵義是什麼？這份筆記整理了他對於技術長 (CTO) 與工程師在職責上的獨到見解，探討了技術決策、團隊管理與個人成長的核心原則。</p>]]></description>
@@ -14,7 +30,7 @@
 <item>
     <title>[筆記] 獲取任何你想要的東西的 - 人脈經營的哲學、策略、心態</title>
     <link>https://nostanduptalk.github.io/notes-networking-philosophy-strategy-mindset/</link>
-    <pubDate>Sat, 01 Nov 2025 09:28:23 &#43;0800</pubDate>
+    <pubDate>Sun, 09 Nov 2025 09:28:23 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-networking-philosophy-strategy-mindset/</guid>
     <description><![CDATA[<p>本文為閱讀《NETWORKING TO GET CUSTOMERS, A JOB OR ANYTHING YOU WANT》一書後的心得筆記。書中將人脈經營譽為<strong>第一商業成功驅動力</strong>，並強調其核心在於「給予」與「積極要求」兩大哲學。想掌握這門藝術，就從改變心態開始。</p>]]></description>
@@ -22,7 +38,7 @@
 <item>
     <title>[筆記] 獨處30分鐘：環境越安靜，內心越吵雜</title>
     <link>https://nostanduptalk.github.io/notes-being-alone-for-30-minutes/</link>
-    <pubDate>Sat, 01 Nov 2025 09:01:15 &#43;0800</pubDate>
+    <pubDate>Sun, 02 Nov 2025 09:01:15 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-being-alone-for-30-minutes/</guid>
     <description><![CDATA[<blockquote>
@@ -70,25 +86,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/</guid>
     <description><![CDATA[<p>這是一本由多位作者合著的書，探討了從產品設計、開發到交付的全面品質思維。本篇筆記整理了書中關於點子驗證、產品成長、測試核心觀念與實踐心法等重點。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 並非所有痛苦都值得擁抱：如何分辨成長與消耗</title>
-    <link>https://nostanduptalk.github.io/notes-not-all-suffering-is-worth-embracing/</link>
-    <pubDate>Sun, 14 Sep 2025 12:51:54 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-not-all-suffering-is-worth-embracing/</guid>
-    <description><![CDATA[<blockquote>
-<p>這段痛苦，與我的人生向量是否對齊？</p>
-</blockquote>
-<p>學習如何分辨「成長性痛苦」與「消耗性痛苦」，原文提供一個清晰的判斷框架，幫助你選擇真正「值得」擁抱的挑戰，破除「痛苦萬能論」的迷思。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 線上課程 - 陳宗賢經營方法論</title>
-    <link>https://nostanduptalk.github.io/notes-richard-ceo-strategy/</link>
-    <pubDate>Sun, 24 Aug 2025 04:15:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-richard-ceo-strategy/</guid>
-    <description><![CDATA[<p>這篇文章整理了陳宗賢老師在「經營方法論」線上課程中的核心筆記。</p>]]></description>
 </item>
 </channel>
 </rss>

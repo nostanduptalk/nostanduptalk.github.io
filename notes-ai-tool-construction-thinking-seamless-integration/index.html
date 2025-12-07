@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[筆記] AI工具的建構思維：無感嵌入既有業務 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[筆記] AI工具的建構思維：無感嵌入既有業務" />
+<meta property="og:description" content="AI 應該如何融入我們的產品與工作流程？這份筆記探討了四個核心概念，主張 AI 不該是全新的複雜應用，而應是無縫嵌入既有工具、從被動指令轉向主動預測的智慧夥伴，最終達到無感但高效的終極目標。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-12-06T11:38:37+08:00" />
+<meta property="article:modified_time" content="2025-12-07T11:38:37+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[筆記] AI工具的建構思維：無感嵌入既有業務"/>
+<meta name="twitter:description" content="AI 應該如何融入我們的產品與工作流程？這份筆記探討了四個核心概念，主張 AI 不該是全新的複雜應用，而應是無縫嵌入既有工具、從被動指令轉向主動預測的智慧夥伴，最終達到無感但高效的終極目標。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/" /><link rel="prev" href="https://nostanduptalk.github.io/journey-ding-dong-ski-experience/" /><link rel="next" href="https://nostanduptalk.github.io/thinking-how-to-make-decisions-without-data/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[筆記] AI工具的建構思維：無感嵌入既有業務",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/notes-ai-tool-construction-thinking-seamless-integration\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "LLM, 產品設計, 自動化","wordcount":  2036 ,
+        "url": "https:\/\/nostanduptalk.github.io\/notes-ai-tool-construction-thinking-seamless-integration\/","datePublished": "2025-12-06T11:38:37+08:00","dateModified": "2025-12-07T11:38:37+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] AI工具的建構思維：無感嵌入既有業務</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-12-06">2025-12-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2036 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#一-策略焦點從直接賺錢到輔助現有業務">一、 策略焦點：從直接賺錢到輔助現有業務</a>
+      <ul>
+        <li><a href="#概念-比起直接透過-ai-賺錢利用-ai-幫助現有業務賺錢是更容易成功的途徑"><strong>概念：</strong> 「比起直接透過 AI 賺錢，利用 AI 幫助現有業務賺錢，是更容易成功的途徑。」</a></li>
+      </ul>
+    </li>
+    <li><a href="#二-產品設計從全新應用到無縫嵌入">二、 產品設計：從全新應用到無縫嵌入</a>
+      <ul>
+        <li><a href="#概念-不要著重於從零開始建立一個全新的-ai-應用程式app策略是將-ai-功能像外掛程式一樣無縫嵌入到使用者每天已經習慣使用的既有工具中"><strong>概念：</strong> 「不要著重於從零開始建立一個全新的 AI 應用程式（App）。策略是將 AI 功能像外掛程式一樣無縫嵌入到使用者每天已經習慣使用的既有工具中。」</a></li>
+      </ul>
+    </li>
+    <li><a href="#三-交互模式從被動指令到主動預測與自動化">三、 交互模式：從被動指令到主動預測與自動化</a>
+      <ul>
+        <li><a href="#概念--從被動地等待用戶發出複雜的指令轉向主動預測並在特定事件發生時自動提供價值"><strong>概念：</strong> 「 從被動地等待用戶發出複雜的指令，轉向主動預測並在特定事件發生時自動提供價值」</a></li>
+      </ul>
+    </li>
+    <li><a href="#四-終極目標無感但高效的融入">四、 終極目標：無感但高效的融入</a>
+      <ul>
+        <li><a href="#概念--最理想的工具是使用者幾乎感覺不到它的存在但它卻能實質性地提升效率或結果的工具"><strong>概念：</strong> 「 最理想的工具，是使用者幾乎感覺不到它的存在，但它卻能實質性地提升效率或結果的工具。」</a></li>
+      </ul>
+    </li>
+    <li><a href="#比喻總結-analogy"><strong>比喻總結 (Analogy)：</strong></a></li>
+    <li><a href="#連結">連結</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>AI 應該如何融入我們的產品與工作流程？這份筆記探討了四個核心概念，主張 AI 不該是全新的複雜應用，而應是<strong>無縫嵌入既有工具</strong>、<strong>從被動指令轉向主動預測</strong>的智慧夥伴，最終達到<strong>無感但高效</strong>的終極目標。</p>
+<h2 id="一-策略焦點從直接賺錢到輔助現有業務">一、 策略焦點：從直接賺錢到輔助現有業務</h2>
+<h3 id="概念-比起直接透過-ai-賺錢利用-ai-幫助現有業務賺錢是更容易成功的途徑"><strong>概念：</strong> 「比起直接透過 AI 賺錢，利用 AI 幫助現有業務賺錢，是更容易成功的途徑。」</h3>
+<p><strong>解析與原文引用：</strong></p>
+<p>與其期望 AI 能夠直接帶來高利潤，不如將 AI 應用於協助既有業務提高效率和獲利能力，這條路徑被認為「<strong>筋がやりやすい気</strong>（更容易操作/更合理）」。</p>
+<p>有觀點指出，如果詢問「AI 是否賺錢？」，答案是「<code>AI で直接儲けるより AI 使って既存事業を設けさせる方が筋がやりやすい気うん</code>（比起直接透過 AI 賺錢，利用 AI 幫助既有事業賺錢是更容易操作的途徑）」。即使是新創公司（スタートアップ）以 AI 相關服務創業，最終也常會轉變成 B2B 模式，協助法人的業務提高效率。例如，幫助企業「<code>なんか効率上げるのをちょっとお手伝いするとかまコンサルっぽいのとかちょっと救ったものでこの営業をちょっと早くしましょうとか</code>（協助提高效率，像是顧問服務，或是製作一些東西來加快營業速度）」。</p>
+<p>此外，AI 單獨提供的服務（AI 単独のサービス）面臨的挑戰是，有高達八成的機率會與 OpenAI 或其他科技巨頭（ビッグテック）所提供的強大基礎模型（基盤モデル）產生激烈的競爭（<strong>ボッコボコり競合する可能性がある</strong>）。</p>
+<h2 id="二-產品設計從全新應用到無縫嵌入">二、 產品設計：從全新應用到無縫嵌入</h2>
+<h3 id="概念-不要著重於從零開始建立一個全新的-ai-應用程式app策略是將-ai-功能像外掛程式一樣無縫嵌入到使用者每天已經習慣使用的既有工具中"><strong>概念：</strong> 「不要著重於從零開始建立一個全新的 AI 應用程式（App）。策略是將 AI 功能像外掛程式一樣無縫嵌入到使用者每天已經習慣使用的既有工具中。」</h3>
+<p><strong>解析與原文引用：</strong></p>
+<p>許多 AI 產品傾向於「<code>新しいもの作りすぎようとしちゃって</code>（試圖製造太多全新的東西）」。然而，全新的產品會帶來使用上的摩擦，因為「<code>みんな使い方わかんないし自分のプロダクトとか業務にどうはめ込めばいいかわからないから</code>（大家不知道如何使用，也不知道如何將其嵌入到自己的產品或業務中）」，因此難以被購買和使用。</p>
+<p>因此，比起「<code>新しすぎる AI を作る</code>（製作過於嶄新的 AI）」，更應該專注於讓 AI 成為「<code>既存のものに対して そのまま使える AI</code>（可以直接用於既有事物上的 AI）」。</p>
+<p>理想的策略是避免開發新的應用程式（新アプリ），而是將 AI 功能整合（<strong>埋め込むような形</strong>）到使用者已經習慣的工具中，例如：Slack、LINE 或 Email 等「<code>普段使ってるツール</code>（平常使用的工具）」。這種「<code>トリガの AI</code>（觸發型 AI）」被認為是更合理的選擇（<strong>筋がいい気はする</strong>）。</p>
+<p>事實上，許多用戶並不會養成習慣專門打開新的 AI 應用程式，例如，他們仍然會像往常一樣在 Google 上搜尋，而如果 AI 功能能夠在搜索時「<code>勝手にちょこっと出るじゃん</code>（自動悄悄地出現一點）」，他們就會參考使用。</p>
+<h2 id="三-交互模式從被動指令到主動預測與自動化">三、 交互模式：從被動指令到主動預測與自動化</h2>
+<h3 id="概念--從被動地等待用戶發出複雜的指令轉向主動預測並在特定事件發生時自動提供價值"><strong>概念：</strong> 「 從被動地等待用戶發出複雜的指令，轉向主動預測並在特定事件發生時自動提供價值」</h3>
+<p><strong>解析與原文引用：</strong></p>
+<p>AI 應用的下一波主流趨勢，是從被動等待使用者命令，轉向主動執行任務。有觀點表示，應該停止開發需要使用者主動「<code>使ってもらう AI</code>（要求使用才能運作的 AI）」，轉而專注於「<code>そもそも使わなくても勝手に起動して仕事をするタイプの AI</code>（即便不去使用，也會自行啟動並工作的 AI）」。</p>
+<p>這種主動預動的 AI 被稱為「<strong>自動発動型</strong>」。</p>
+<p>例如，AI 可以定期檢查 Google 日曆（Google カレンダーを 定期的にチェックして），並在會議開始之前，將與會者是「<code>こういう人でこういったこととかこの会社だよっていうサマディを全部 Google カレンダーに貼っといてくれる</code>（是什麼樣的人、做過什麼事，以及這間公司的摘要，全部貼到 Google 日曆上）」，自動提供有用的資訊。</p>
+<h2 id="四-終極目標無感但高效的融入">四、 終極目標：無感但高效的融入</h2>
+<h3 id="概念--最理想的工具是使用者幾乎感覺不到它的存在但它卻能實質性地提升效率或結果的工具"><strong>概念：</strong> 「 最理想的工具，是使用者幾乎感覺不到它的存在，但它卻能實質性地提升效率或結果的工具。」</h3>
+<p><strong>解析與原文引用：</strong></p>
+<p>未來的 AI 產品成功的關鍵，將不在於單純的性能差異，而在於其與人類工作流程的整合度。</p>
+<p>原因在於，單純的性能（単純な性能）在未來一兩年內將會趨於一致，多數 AI 的「<code>どれ使っても頭良すぎにあんま変わんない</code>（無論使用哪一個，都會聰明到沒有太大差異）」。因此，真正的價值將體現在 AI 是否能「<code>業務のかにスムーズに入ってくるかとか</code>（順暢地融入業務當中）」，以及能否「<code>意識しないで仕事してくれるか</code>（在不被意識到的情況下完成工作）」。</p>
+<p>理想的 AI 應該是「<code>勝手に入れると勝手に仕事して勝手に売上がったり勝手に成績上げてくれるような AI</code>（一旦導入，就能自動工作、自動提高銷售額、自動提升業績的 AI）」。這種設計方向將成為未來的主流（<strong>主流に今後なっていくんじゃないかな</strong>）。</p>
+<h2 id="比喻總結-analogy"><strong>比喻總結 (Analogy)：</strong></h2>
+<p>想像 AI 就像是汽車裡的自動駕駛輔助系統（ADAS）。最開始的 AI 應用就像是複雜的獨立導航儀，你需要手動輸入指令、學習新介面。但成功的 AI 策略，就像是<strong>將 AI 嵌入到你已經在開的車輛中，讓它在你幾乎沒有感覺到的情況下，主動介入幫你保持車道、預測危險，讓你安全且高效地抵達目的地，而你甚至不需要停下來專門去啟動一個獨立的 APP</strong>。</p>
+<p>‌
+‌</p>
+<h2 id="連結">連結</h2>
+<p>‌</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aHOy9KIt5C8?si=fAkcrkm0UqvwbZg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-12-07</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/notes-ai-tool-construction-thinking-seamless-integration/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/" data-title="[筆記] AI工具的建構思維：無感嵌入既有業務" data-hashtags="LLM,產品設計,自動化"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/" data-hashtag="LLM"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/" data-title="[筆記] AI工具的建構思維：無感嵌入既有業務"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/" data-title="[筆記] AI工具的建構思維：無感嵌入既有業務"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/" data-title="[筆記] AI工具的建構思維：無感嵌入既有業務"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/llm/">LLM</a>,&nbsp;<a href="/tags/%E7%94%A2%E5%93%81%E8%A8%AD%E8%A8%88/">產品設計</a>,&nbsp;<a href="/tags/%E8%87%AA%E5%8B%95%E5%8C%96/">自動化</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/journey-ding-dong-ski-experience/" class="prev" rel="prev" title="[旅遊] 小叮噹滑雪初體驗心得"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[旅遊] 小叮噹滑雪初體驗心得</a>
+            <a href="/thinking-how-to-make-decisions-without-data/" class="next" rel="next" title="[思考] 如何在沒有數據的情況下，做出不後悔的決定">[思考] 如何在沒有數據的情況下，做出不後悔的決定<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>

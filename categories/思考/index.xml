@@ -3,7 +3,18 @@
         <title>思考 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/</link>
         <description>思考 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 05 Oct 2025 07:54:21 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 07 Dec 2025 03:55:12 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+    <title>[思考] 如何在沒有數據的情況下，做出不後悔的決定</title>
+    <link>https://nostanduptalk.github.io/thinking-how-to-make-decisions-without-data/</link>
+    <pubDate>Sun, 07 Dec 2025 03:55:12 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-how-to-make-decisions-without-data/</guid>
+    <description><![CDATA[<p>有人說，面對新技術就該 <code>先做再說</code>，不必等看到明確結果。但這種「Just do it」的衝勁真的適用於所有情況嗎？</p>
+<p>如果連勝率都無法估算，努力會不會只是白費？</p>
+<p>這篇文章將探討如何在資訊不透明的情況下，建立一套理性的決策框架，幫助你評估風險，做出更明智的選擇。</p>
+<p><strong>不知道機率時，最好的策略不是賭，而是先創造能讓你估算機率的條件。</strong></p>]]></description>
+</item>
+<item>
     <title>[思考] 從《葬送的芙莉蓮》看 Vibe Coding 的四個相似處</title>
     <link>https://nostanduptalk.github.io/thinking-four-similarities-between-frieren-and-vibe-coding/</link>
     <pubDate>Sun, 05 Oct 2025 07:54:21 &#43;0800</pubDate>
@@ -83,14 +94,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-engineer-performance-indicators/</guid>
     <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[心得] 奧本海默，電影觀後感</title>
-    <link>https://nostanduptalk.github.io/thinking-oppenheimer/</link>
-    <pubDate>Sun, 17 Sep 2023 21:20:15 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-oppenheimer/</guid>
-    <description><![CDATA[<p>三個小時的電影</p>]]></description>
 </item>
 </channel>
 </rss>
