@@ -3,10 +3,18 @@
         <title>思考 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/</link>
         <description>思考 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 07 Dec 2025 03:55:12 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 03 Jan 2026 14:28:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E6%80%9D%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+    <title>[思考] 2026 願景：建立系統化學習與 LLM 輔助開發實踐</title>
+    <link>https://nostanduptalk.github.io/thinking-2026-vision-systematic-learning-llm/</link>
+    <pubDate>Sat, 03 Jan 2026 14:28:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-2026-vision-systematic-learning-llm/</guid>
+    <description><![CDATA[<p>這不僅是技術學習的旅程，更是自我成長與身份轉變的實踐，我將透過 LLM 輔助開發，從零開始打造跨平台的 Flutter 應用程式。</p>]]></description>
+</item>
+<item>
     <title>[思考] 如何在沒有數據的情況下，做出不後悔的決定</title>
     <link>https://nostanduptalk.github.io/thinking-how-to-make-decisions-without-data/</link>
-    <pubDate>Sun, 07 Dec 2025 03:55:12 &#43;0800</pubDate>
+    <pubDate>Sun, 14 Dec 2025 03:55:12 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-how-to-make-decisions-without-data/</guid>
     <description><![CDATA[<p>有人說，面對新技術就該 <code>先做再說</code>，不必等看到明確結果。但這種「Just do it」的衝勁真的適用於所有情況嗎？</p>
@@ -85,14 +93,6 @@
     <pubDate>Sun, 17 Mar 2024 14:24:47 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-housing-price-control-strategy/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>[思考] 我認為工程師的關鍵指標是甚麼</title>
-    <link>https://nostanduptalk.github.io/thinking-engineer-performance-indicators/</link>
-    <pubDate>Sun, 03 Mar 2024 14:21:49 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/thinking-engineer-performance-indicators/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

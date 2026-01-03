@@ -3,10 +3,42 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 07 Dec 2025 06:41:15 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 03 Jan 2026 15:56:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 團隊管理的 Alpha 與 Beta：在創新與穩定間取得平衡</title>
+    <link>https://nostanduptalk.github.io/notes-alpha-beta-management-balance/</link>
+    <pubDate>Sat, 03 Jan 2026 15:56:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-alpha-beta-management-balance/</guid>
+    <description><![CDATA[<p>領導者時常面臨兩難：如何鼓勵團隊大膽創新（Alpha），同時確保產出穩定可靠（Beta）？透過 Matt MacInnis 的管理框架，我們可以更清晰地診斷問題並優化人才配置。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 詹姆斯・戴森的失敗哲學：為何失敗比成功更有趣？</title>
+    <link>https://nostanduptalk.github.io/notes-dyson-failure-philosophy/</link>
+    <pubDate>Sat, 03 Jan 2026 15:20:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-dyson-failure-philosophy/</guid>
+    <description><![CDATA[<p>如果成功有一條必經之路，而這條路上佈滿了無數次的實驗與探索，你還敢走嗎？這不是一個假設性的問題，而是發明家詹姆斯・戴森（James Dyson）的真實寫照。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 避開大廠競爭！獨立開發者靠「利基市場」突圍的生存指南</title>
+    <link>https://nostanduptalk.github.io/notes-solo-developer-niche-market-survival-guide/</link>
+    <pubDate>Sat, 03 Jan 2026 14:51:10 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-solo-developer-niche-market-survival-guide/</guid>
+    <description><![CDATA[<p>有人提到：身為資源有限的獨立開發者，與其在紅海中與巨頭硬碰硬，不如刻意選擇被忽視的「利基」市場，這才是最明智的生存與擴張之道。</p>]]></description>
+</item>
+<item>
+    <title>[思考] 2026 願景：建立系統化學習與 LLM 輔助開發實踐</title>
+    <link>https://nostanduptalk.github.io/thinking-2026-vision-systematic-learning-llm/</link>
+    <pubDate>Sat, 03 Jan 2026 14:28:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-2026-vision-systematic-learning-llm/</guid>
+    <description><![CDATA[<p>這不僅是技術學習的旅程，更是自我成長與身份轉變的實踐，我將透過 LLM 輔助開發，從零開始打造跨平台的 Flutter 應用程式。</p>]]></description>
+</item>
+<item>
     <title>[旅遊] 聖誕節活動心得與檢討</title>
     <link>https://nostanduptalk.github.io/journey-christmas-event-reflection/</link>
-    <pubDate>Sun, 07 Dec 2025 06:41:15 &#43;0800</pubDate>
+    <pubDate>Sun, 28 Dec 2025 06:41:15 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/journey-christmas-event-reflection/</guid>
     <description><![CDATA[<p>記錄一下這次參加公司聖誕節活動的心得，從有趣的遊戲環節到最後的交換禮物，有些環節設計得不錯，但也有些地方值得未來活動參考改進。</p>]]></description>
@@ -14,7 +46,7 @@
 <item>
     <title>[筆記] 防災士培訓課程重點整理</title>
     <link>https://nostanduptalk.github.io/notes-disaster-prevention-specialist-training/</link>
-    <pubDate>Sun, 07 Dec 2025 04:11:15 &#43;0800</pubDate>
+    <pubDate>Sun, 21 Dec 2025 04:11:15 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-disaster-prevention-specialist-training/</guid>
     <description><![CDATA[<p>本篇為「防災士培訓課程」的學習筆記，內容涵蓋防災士的核心任務、我國防災體系，以及在災害中最重要的「自助、互助、公助」原則。從風險構成要素到避難收容的實務細節，再到緊急救護的 CPR 操作流程，整理出成為一位合格防災士所需具備的關鍵知識與技能。</p>]]></description>
@@ -22,7 +54,7 @@
 <item>
     <title>[思考] 如何在沒有數據的情況下，做出不後悔的決定</title>
     <link>https://nostanduptalk.github.io/thinking-how-to-make-decisions-without-data/</link>
-    <pubDate>Sun, 07 Dec 2025 03:55:12 &#43;0800</pubDate>
+    <pubDate>Sun, 14 Dec 2025 03:55:12 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/thinking-how-to-make-decisions-without-data/</guid>
     <description><![CDATA[<p>有人說，面對新技術就該 <code>先做再說</code>，不必等看到明確結果。但這種「Just do it」的衝勁真的適用於所有情況嗎？</p>
@@ -33,7 +65,7 @@
 <item>
     <title>[筆記] AI工具的建構思維：無感嵌入既有業務</title>
     <link>https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/</link>
-    <pubDate>Sat, 06 Dec 2025 11:38:37 &#43;0800</pubDate>
+    <pubDate>Sun, 07 Dec 2025 11:38:37 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/</guid>
     <description><![CDATA[<p>AI 應該如何融入我們的產品與工作流程？這份筆記探討了四個核心概念，主張 AI 不該是全新的複雜應用，而應是<strong>無縫嵌入既有工具</strong>、<strong>從被動指令轉向主動預測</strong>的智慧夥伴，最終達到<strong>無感但高效</strong>的終極目標。</p>]]></description>
@@ -53,41 +85,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-layerx-cto-great-engineers-write-less-code/</guid>
     <description><![CDATA[<p>LayerX 的技術長松本勇氣提出，優秀的工程師應該是「不寫程式碼的工程師」。這句話背後的涵義是什麼？這份筆記整理了他對於技術長 (CTO) 與工程師在職責上的獨到見解，探討了技術決策、團隊管理與個人成長的核心原則。</p>]]></description>
-</item>
-<item>
-    <title>[旅遊] 岩盤浴初體驗</title>
-    <link>https://nostanduptalk.github.io/journey-ganbanyoku-first-experience/</link>
-    <pubDate>Sun, 16 Nov 2025 17:42:35 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/journey-ganbanyoku-first-experience/</guid>
-    <description><![CDATA[<p>這次體驗了最近很熱門的岩盤浴，整體感覺很不錯，是個可以徹底流汗放鬆的地方。不過似乎因為太放鬆了，晚上反而有點睡不著？這篇文章記錄一下這次的初體驗心得。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 獲取任何你想要的東西的 - 人脈經營的哲學、策略、心態</title>
-    <link>https://nostanduptalk.github.io/notes-networking-philosophy-strategy-mindset/</link>
-    <pubDate>Sun, 09 Nov 2025 09:28:23 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-networking-philosophy-strategy-mindset/</guid>
-    <description><![CDATA[<p>本文為閱讀《NETWORKING TO GET CUSTOMERS, A JOB OR ANYTHING YOU WANT》一書後的心得筆記。書中將人脈經營譽為<strong>第一商業成功驅動力</strong>，並強調其核心在於「給予」與「積極要求」兩大哲學。想掌握這門藝術，就從改變心態開始。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 獨處30分鐘：環境越安靜，內心越吵雜</title>
-    <link>https://nostanduptalk.github.io/notes-being-alone-for-30-minutes/</link>
-    <pubDate>Sun, 02 Nov 2025 09:01:15 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-being-alone-for-30-minutes/</guid>
-    <description><![CDATA[<blockquote>
-<p>哲學家帕斯卡曾說：「人類所有的問題，都源於他無法獨自一人在房間裡安靜地待上30分鐘。」</p>
-</blockquote>
-<p>我們時常誤解，以為解決了所有外部問題就能獲得快樂，但真正的平靜，其實源於內心的轉變。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 一場訪談的體悟：不是求完美，而是求完整</title>
-    <link>https://nostanduptalk.github.io/notes-interview-insights-not-perfection-but-completeness/</link>
-    <pubDate>Sun, 26 Oct 2025 08:31:13 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-interview-insights-not-perfection-but-completeness/</guid>
-    <description><![CDATA[<p>一位總是在螢光幕前帶來歡笑的模仿藝人，分享了他從單純的喜歡表演，到經歷低潮，最終體悟到「不是求完美，而是求完整」的人生哲學。這段心路歷程，或許也能給在不同角色中切換的我們一些啟發。</p>]]></description>
 </item>
 </channel>
 </rss>

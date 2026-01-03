@@ -3,10 +3,34 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 07 Dec 2025 04:11:15 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 03 Jan 2026 15:56:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 團隊管理的 Alpha 與 Beta：在創新與穩定間取得平衡</title>
+    <link>https://nostanduptalk.github.io/notes-alpha-beta-management-balance/</link>
+    <pubDate>Sat, 03 Jan 2026 15:56:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-alpha-beta-management-balance/</guid>
+    <description><![CDATA[<p>領導者時常面臨兩難：如何鼓勵團隊大膽創新（Alpha），同時確保產出穩定可靠（Beta）？透過 Matt MacInnis 的管理框架，我們可以更清晰地診斷問題並優化人才配置。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 詹姆斯・戴森的失敗哲學：為何失敗比成功更有趣？</title>
+    <link>https://nostanduptalk.github.io/notes-dyson-failure-philosophy/</link>
+    <pubDate>Sat, 03 Jan 2026 15:20:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-dyson-failure-philosophy/</guid>
+    <description><![CDATA[<p>如果成功有一條必經之路，而這條路上佈滿了無數次的實驗與探索，你還敢走嗎？這不是一個假設性的問題，而是發明家詹姆斯・戴森（James Dyson）的真實寫照。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 避開大廠競爭！獨立開發者靠「利基市場」突圍的生存指南</title>
+    <link>https://nostanduptalk.github.io/notes-solo-developer-niche-market-survival-guide/</link>
+    <pubDate>Sat, 03 Jan 2026 14:51:10 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-solo-developer-niche-market-survival-guide/</guid>
+    <description><![CDATA[<p>有人提到：身為資源有限的獨立開發者，與其在紅海中與巨頭硬碰硬，不如刻意選擇被忽視的「利基」市場，這才是最明智的生存與擴張之道。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 防災士培訓課程重點整理</title>
     <link>https://nostanduptalk.github.io/notes-disaster-prevention-specialist-training/</link>
-    <pubDate>Sun, 07 Dec 2025 04:11:15 &#43;0800</pubDate>
+    <pubDate>Sun, 21 Dec 2025 04:11:15 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-disaster-prevention-specialist-training/</guid>
     <description><![CDATA[<p>本篇為「防災士培訓課程」的學習筆記，內容涵蓋防災士的核心任務、我國防災體系，以及在災害中最重要的「自助、互助、公助」原則。從風險構成要素到避難收容的實務細節，再到緊急救護的 CPR 操作流程，整理出成為一位合格防災士所需具備的關鍵知識與技能。</p>]]></description>
@@ -14,7 +38,7 @@
 <item>
     <title>[筆記] AI工具的建構思維：無感嵌入既有業務</title>
     <link>https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/</link>
-    <pubDate>Sat, 06 Dec 2025 11:38:37 &#43;0800</pubDate>
+    <pubDate>Sun, 07 Dec 2025 11:38:37 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/</guid>
     <description><![CDATA[<p>AI 應該如何融入我們的產品與工作流程？這份筆記探討了四個核心概念，主張 AI 不該是全新的複雜應用，而應是<strong>無縫嵌入既有工具</strong>、<strong>從被動指令轉向主動預測</strong>的智慧夥伴，最終達到<strong>無感但高效</strong>的終極目標。</p>]]></description>
@@ -62,30 +86,6 @@
     <guid>https://nostanduptalk.github.io/notes-introduction-to-black-box-testing-sop-and-seven-methods/</guid>
     <description><![CDATA[<p>當測試人員看不到內部情況的時候，同常會採用<strong>黑箱測試（Black-Box Testing）</strong> 確保品質。透過使用者的視角，不窺探內部程式碼，僅根據軟體規格來驗證其功能是否符合預期。</p>
 <p>我查閱了多本書籍與網路資料，透過AI 做成標準作業流程（SOP），再深入解析流程中提到的七種核心測試技術，未來除了給自己參考之外，也想作為LLM的prompt。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 把 AI 當隊友：Jeremy Utley 的關鍵提示技巧</title>
-    <link>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</link>
-    <pubDate>Sun, 12 Oct 2025 08:02:45 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-ai-as-a-teammate-jeremy-utley-key-prompting-techniques/</guid>
-    <description><![CDATA[<p>想提升 AI 的生產力嗎？史丹佛大學教授 Jeremy Utley 提出，關鍵在於將 AI 視為「隊友」而非「工具」。這篇文章整理了他的四個實用提示技巧，幫助你學會如何引導、提問，讓 AI 發揮最佳表現。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 微軟 2025 年度內部信：在變動中重新承諾</title>
-    <link>https://nostanduptalk.github.io/notes-microsoft-2025-recommit-in-change/</link>
-    <pubDate>Sun, 28 Sep 2025 13:51:12 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-microsoft-2025-recommit-in-change/</guid>
-    <description><![CDATA[<p>在 AI 產業劇烈變動的背景下，微軟 CEO Satya Nadella 發表了 2025 年度內部信。這封信不僅是對員工的喊話，更揭示了微軟如何在矛盾與不確定中，重新定義其使命、優先事項與文化。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《軟體品質全面思維》</title>
-    <link>https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/</link>
-    <pubDate>Sun, 21 Sep 2025 13:31:44 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-comprehensive-thinking-in-software-quality/</guid>
-    <description><![CDATA[<p>這是一本由多位作者合著的書，探討了從產品設計、開發到交付的全面品質思維。本篇筆記整理了書中關於點子驗證、產品成長、測試核心觀念與實踐心法等重點。</p>]]></description>
 </item>
 </channel>
 </rss>

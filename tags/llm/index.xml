@@ -3,10 +3,18 @@
         <title>LLM - Tag - 不沾醬</title>
         <link>https://nostanduptalk.github.io/tags/llm/</link>
         <description>LLM - Tag - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Dec 2025 11:38:37 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/llm/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 03 Jan 2026 14:28:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/llm/" rel="self" type="application/rss+xml" /><item>
+    <title>[思考] 2026 願景：建立系統化學習與 LLM 輔助開發實踐</title>
+    <link>https://nostanduptalk.github.io/thinking-2026-vision-systematic-learning-llm/</link>
+    <pubDate>Sat, 03 Jan 2026 14:28:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/thinking-2026-vision-systematic-learning-llm/</guid>
+    <description><![CDATA[<p>這不僅是技術學習的旅程，更是自我成長與身份轉變的實踐，我將透過 LLM 輔助開發，從零開始打造跨平台的 Flutter 應用程式。</p>]]></description>
+</item>
+<item>
     <title>[筆記] AI工具的建構思維：無感嵌入既有業務</title>
     <link>https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/</link>
-    <pubDate>Sat, 06 Dec 2025 11:38:37 &#43;0800</pubDate>
+    <pubDate>Sun, 07 Dec 2025 11:38:37 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-ai-tool-construction-thinking-seamless-integration/</guid>
     <description><![CDATA[<p>AI 應該如何融入我們的產品與工作流程？這份筆記探討了四個核心概念，主張 AI 不該是全新的複雜應用，而應是<strong>無縫嵌入既有工具</strong>、<strong>從被動指令轉向主動預測</strong>的智慧夥伴，最終達到<strong>無感但高效</strong>的終極目標。</p>]]></description>
