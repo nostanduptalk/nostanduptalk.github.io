@@ -3,10 +3,42 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Mar 2026 12:00:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 05 Apr 2026 16:26:16 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 10 倍影響力法則：決定哪些事該做、哪些事該自動化</title>
+    <link>https://nostanduptalk.github.io/notes-10x-impact-law-decide-what-to-do-what-to-automate/</link>
+    <pubDate>Sun, 05 Apr 2026 16:26:16 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-10x-impact-law-decide-what-to-do-what-to-automate/</guid>
+    <description><![CDATA[<p>Hillary Gidley 在訪談中分享了如何運用「<strong>10 倍影響力法則</strong>」來決定哪些任務值得投入時間，哪些應該交給 <strong>AI 自動化</strong>。她建立了一套「<strong>反系統的系統</strong>」，透過零摩擦的捕捉機制、Markdown 純文字檔儲存，並結合 Claude Code 實現生活與工作的低摩擦自動化。了解她的核心決策框架、AI 規劃流程，以及與 AI 協作的心態，讓 AI 成為你的產品經理，活出更有趣的人生。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 選對賽道、把餅畫大：從工程師到主管的晉升路線圖</title>
+    <link>https://nostanduptalk.github.io/notes-career-track-promotion-roadmap/</link>
+    <pubDate>Sun, 05 Apr 2026 08:09:10 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-career-track-promotion-roadmap/</guid>
+    <description><![CDATA[<p>抹布認為，職涯發展的成功取決於 <strong>「方向」與「執行」</strong> 的結合。方向上，必須勇於進入具備 <strong>時代紅利的高成長產業</strong>（如半導體、AI、國際外商大廠），因為本業收入是一切投資與複利的根基，賽道選錯，再努力也事倍功半。執行上，晉升的關鍵不在於把份內工作做好，而在於主動承接那些 <strong>「沒有明確定義、不知道該歸屬給誰做」的模糊地帶 (Gray Area)</strong> ——這正是主管每天最頭痛的痛點。當你習慣解決這些痛點，並且每一季都把手上的 <strong>Project Scope</strong> 撐大到 <strong>「一個人絕對做不起來」</strong> 的規模，公司就會自然給你資源與團隊，你也就從工程師順理成章地成長為管理者。長期累積下來，位階越高、選擇越多，職涯就會進入持續成長的正向循環。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 揭開用戶內心的「真心話」：UX 深度訪談的做與不做</title>
+    <link>https://nostanduptalk.github.io/notes-ux-interview-dos-and-donts/</link>
+    <pubDate>Sun, 05 Apr 2026 08:01:32 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-ux-interview-dos-and-donts/</guid>
+    <description><![CDATA[<p>優秀的研究員不只是聽取用戶說了什麼，而是去解讀他們「沒說出口」的是什麼。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 從謝賽寧訪談看研究品味與 AI 未來</title>
+    <link>https://nostanduptalk.github.io/notes-xie-saining-research-taste-ai/</link>
+    <pubDate>Sun, 05 Apr 2026 07:52:10 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-xie-saining-research-taste-ai/</guid>
+    <description><![CDATA[<p>這份筆記整理自謝賽寧的一場七小時訪談，以軟體工程師的視角萃取出八個核心主題，涵蓋思維框架、工作習慣與長期視角。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 《職場不是自助餐》- 主動回報與不可取代性</title>
     <link>https://nostanduptalk.github.io/notes-workplace-not-buffet-proactive-value/</link>
-    <pubDate>Sun, 01 Mar 2026 12:00:00 &#43;0800</pubDate>
+    <pubDate>Sun, 29 Mar 2026 12:00:00 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-workplace-not-buffet-proactive-value/</guid>
     <description><![CDATA[<p>主動回報是低成本高回報的關鍵行為。</p>]]></description>
@@ -14,7 +46,7 @@
 <item>
     <title>[筆記] 《主管假面思維》</title>
     <link>https://nostanduptalk.github.io/notes-reading-manager-mask-thinking/</link>
-    <pubDate>Sun, 01 Mar 2026 04:28:00 &#43;0800</pubDate>
+    <pubDate>Sun, 22 Mar 2026 04:28:00 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-reading-manager-mask-thinking/</guid>
     <description><![CDATA[<p>看完這本書之後，我在想，作者為什麼會用「假面」這個詞？我的理解是，也許你本來不是這樣子，但為了要當好主管，所以你必須戴上這個面具。</p>]]></description>
@@ -22,7 +54,7 @@
 <item>
     <title>[筆記] 運氣表面積：擴大幸運的完整策略</title>
     <link>https://nostanduptalk.github.io/notes-luck-surface-area/</link>
-    <pubDate>Sun, 01 Mar 2026 04:18:00 &#43;0800</pubDate>
+    <pubDate>Sun, 15 Mar 2026 04:18:00 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-luck-surface-area/</guid>
     <description><![CDATA[<p>「運氣表面積」（Luck Surface Area, LSA）這個詞彙指出，<strong>你可以在一定程度上直接控制自己所獲得的運氣量，換言之，運氣是可以自己創造的</strong>。本文將帶你深入了解擴大幸運表面的完整策略。</p>]]></description>
@@ -30,7 +62,7 @@
 <item>
     <title>[筆記] 掌握工作中的「內在賽局」：從自我干擾到卓越表現的轉化之路</title>
     <link>https://nostanduptalk.github.io/notes-inner-game-of-work/</link>
-    <pubDate>Sun, 01 Mar 2026 04:10:00 &#43;0800</pubDate>
+    <pubDate>Sun, 08 Mar 2026 04:10:00 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-inner-game-of-work/</guid>
     <description><![CDATA[<p>在當代高速變動的職場環境中，組織與個人往往陷入一種「為了達成績效而過度發力」的隱形陷阱。傳統管理模式傾向於透過外部指令與高頻率的技能培訓來填補表現差距，卻忽略了最大的隱形成本——<strong>心理干擾 (Interference)</strong>。本文帶您深入解構 W. Timothy Gallwey 的「內在賽局」理論，探索如何將工作從壓抑的義務轉化為釋放潛能的自我實現過程。</p>]]></description>
@@ -50,39 +82,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/journey-2026-japan-ski-kandatsu-experience/</guid>
     <description><![CDATA[<p>這次來到位於越後湯澤的神立滑雪場，發現一個超值的女生平日方案：<strong>只要 3500 日圓，就送可麗餅和面膜</strong>！加上免費接駁車從 JR 越後湯澤站直達，雪場設施新穎、紅線綠線選擇豐富，還意外獲得日本老爺爺的雙板指導。神立滑雪場究竟值不值得推薦？一起來看看我的初滑體驗！</p>]]></description>
-</item>
-<item>
-    <title>[旅遊] 2026日本滑雪：Naspa雪場體驗心得分享</title>
-    <link>https://nostanduptalk.github.io/journey-2026-japan-ski-naspa-experience/</link>
-    <pubDate>Sun, 15 Feb 2026 15:33:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/journey-2026-japan-ski-naspa-experience/</guid>
-    <description><![CDATA[<p>距離上一次來 Naspa 滑雪，已經過了一年。第一次來的記憶其實相當深刻，因為那是我第一次上雪地滑雙版。雖然有雪機經驗，當時就連最基礎的三角形轉彎，都做得又怪又醜，整個人非常不穩。</p>
-<p>這一年之間，累積了幾次雪上經驗，兩年間多了六天雪上經驗，加上這次滑雪前不久參加了雪地課，跟著教練學習，很多原本錯誤的動作才慢慢被修正。再回到 Naspa 的時候，能力已經完全不同，甚至可以說是「脫胎換骨」的感覺。</p>]]></description>
-</item>
-<item>
-    <title>[旅遊] 2026日本滑雪：石打丸山ishiuchi雪場體驗心得分享</title>
-    <link>https://nostanduptalk.github.io/journey-2026-japan-ski-ishiuchi-experience/</link>
-    <pubDate>Sun, 08 Feb 2026 15:21:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/journey-2026-japan-ski-ishiuchi-experience/</guid>
-    <description><![CDATA[<p>這次在石打丸山上課與滑行，從纜車動線、場地配置，到實際上課學到的技巧，都有不少值得記錄的地方。無論是 Sunrise Express 纜車的體驗、團體課的學習內容，還是雪場設施與美食推薦，都是寶貴的經驗分享。</p>]]></description>
-</item>
-<item>
-    <title>[旅遊] 2026日本滑雪：湯澤中里yuzawa-nakazato雪場體驗心得分享</title>
-    <link>https://nostanduptalk.github.io/journey-2026-japan-ski-yuzawa-nakazato/</link>
-    <pubDate>Sun, 01 Feb 2026 15:06:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/journey-2026-japan-ski-yuzawa-nakazato/</guid>
-    <description><![CDATA[<p>湯澤中里滑雪場是 JR 越後中里站直達的雪場，交通便利。這篇分享從 Ski Center 進場的纜車使用攻略、各號纜車的實際體驗，以及周邊餐廳推薦，幫助計畫前往的滑雪者做好準備。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 團隊管理的 Alpha 與 Beta：在創新與穩定間取得平衡</title>
-    <link>https://nostanduptalk.github.io/notes-alpha-beta-management-balance/</link>
-    <pubDate>Sun, 25 Jan 2026 15:56:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-alpha-beta-management-balance/</guid>
-    <description><![CDATA[<p>領導者時常面臨兩難：如何鼓勵團隊大膽創新（Alpha），同時確保產出穩定可靠（Beta）？透過 Matt MacInnis 的管理框架，我們可以更清晰地診斷問題並優化人才配置。</p>]]></description>
 </item>
 </channel>
 </rss>
