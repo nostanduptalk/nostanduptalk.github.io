@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用" />
+<meta property="og:description" content="在 AI 輔助開發的時代，許多人誤以為程式碼變得很廉價，只要把規格丟給 AI，就能自動產出系統，但這往往會引發災難。糟糕的程式碼反而會讓維護成本飆升。軟體大師 Kent Beck 提醒我們必須持續投資系統設計，本文將探討如何透過「深層模組」架構與正確的協作模式，讓 AI 發揮最大產能。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-05-03T12:45:00+08:00" />
+<meta property="article:modified_time" content="2026-05-24T12:45:00+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用"/>
+<meta name="twitter:description" content="在 AI 輔助開發的時代，許多人誤以為程式碼變得很廉價，只要把規格丟給 AI，就能自動產出系統，但這往往會引發災難。糟糕的程式碼反而會讓維護成本飆升。軟體大師 Kent Beck 提醒我們必須持續投資系統設計，本文將探討如何透過「深層模組」架構與正確的協作模式，讓 AI 發揮最大產能。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/" /><link rel="prev" href="https://nostanduptalk.github.io/notes-how-to-apply-first-principles/" /><link rel="next" href="https://nostanduptalk.github.io/journey-bouldering-first-experience/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/notes-mastering-ai-development-strategies\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "軟體架構, 深層模組, LLM","wordcount":  1562 ,
+        "url": "https:\/\/nostanduptalk.github.io\/notes-mastering-ai-development-strategies\/","datePublished": "2026-05-03T12:45:00+08:00","dateModified": "2026-05-24T12:45:00+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-05-03">2026-05-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1562 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#一-重新定位你是戰略指揮官ai-是戰術執行者">一、 重新定位：你是戰略指揮官，AI 是戰術執行者</a></li>
+    <li><a href="#二-警惕-ai-開發的兩大陷阱">二、 警惕 AI 開發的兩大陷阱</a>
+      <ul>
+        <li><a href="#1-軟體熵software-entropy惡化">1. 軟體熵（Software Entropy）惡化</a></li>
+        <li><a href="#2-淺層模組shallow-modules氾濫">2. 淺層模組（Shallow Modules）氾濫</a></li>
+      </ul>
+    </li>
+    <li><a href="#三-核心解法擁抱深層模組與高階介面">三、 核心解法：擁抱「深層模組」與高階介面</a>
+      <ul>
+        <li><a href="#為什麼深層模組能拯救-ai-開發">為什麼深層模組能拯救 AI 開發？</a></li>
+      </ul>
+    </li>
+    <li><a href="#四-實戰工作流用grill-me產出高品質-prd">四、 實戰工作流：用「Grill Me」產出高品質 PRD</a></li>
+    <li><a href="#我的連結">我的連結</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>在 AI 輔助開發的時代，許多人誤以為程式碼變得很廉價，只要把規格丟給 AI，就能自動產出系統，但這往往會引發災難。糟糕的程式碼反而會讓維護成本飆升。軟體大師 Kent Beck 提醒我們必須持續投資系統設計，本文將探討如何透過「深層模組」架構與正確的協作模式，讓 AI 發揮最大產能。</p>
+<p>原文影片：https://www.youtube.com/watch?v=v4F1gFy-hqg</p>
+<h2 id="一-重新定位你是戰略指揮官ai-是戰術執行者">一、 重新定位：你是戰略指揮官，AI 是戰術執行者</h2>
+<p>要駕馭 AI，我們必須先釐清人類與 AI 在開發上的分工：</p>
+<ul>
+<li><strong>戰術型程式設計（由 AI 負責）：</strong> AI 就像前線執行任務的士官。他負責處理具體的實作細節、填補複雜邏輯，並執行實際的程式碼變更。</li>
+<li><strong>戰略型程式設計（由開發者負責）：</strong> 開發者必須堅守戰略層面的指揮權。你的核心任務是思考全局、定義模組邊界、精心設計外部介面，並在撰寫產品需求文件（PRD）時具體指定模組的修改方式。</li>
+</ul>
+<p>純粹的「規格轉程式碼（Specs to code）」運動之所以會失敗，是因為開發者放棄了對系統設計的投資，任由 AI 在缺乏良好架構的情況下盲目生成程式碼。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/notes-mastering-ai-development-strategies/image.png"
+        data-srcset="/notes-mastering-ai-development-strategies/image.png, /notes-mastering-ai-development-strategies/image.png 1.5x, /notes-mastering-ai-development-strategies/image.png 2x"
+        data-sizes="auto"
+        alt="/notes-mastering-ai-development-strategies/image.png"
+        title="alt text" width="1376" height="768" /></p>
+<h2 id="二-警惕-ai-開發的兩大陷阱">二、 警惕 AI 開發的兩大陷阱</h2>
+<p>當我們讓 AI 自由發揮而缺乏戰略引導時，系統很容易陷入以下兩種困境：</p>
+<h3 id="1-軟體熵software-entropy惡化">1. 軟體熵（Software Entropy）惡化</h3>
+<p>「軟體熵」指的是系統自然傾向於混亂與崩潰的狀態。如果你（或 AI）每次只專注於眼前的單一修改，而忽略整體架構，系統就會產生大量難以維護的「複雜程式碼」。當軟體熵累積到一定程度，專案就會徹底淪為無法修改的垃圾。AI 只有在結構良好的程式碼庫中才能表現出色，一旦架構被摧毀，AI 也無能為力。</p>
+<h3 id="2-淺層模組shallow-modules氾濫">2. 淺層模組（Shallow Modules）氾濫</h3>
+<p>如果程式碼充滿以下特徵，就代表系統充斥著淺層模組：</p>
+<ul>
+<li><strong>介面複雜，實際功能少：</strong> 呼叫方式繁瑣、需要傳遞大量參數，但內部處理的邏輯卻極少。</li>
+<li><strong>過度零碎化：</strong> 程式碼被拆解成無數極小的區塊，導致導航困難，依賴關係錯綜複雜。
+在這種架構下，AI 容易迷失在錯綜複雜的依賴關係中，不僅無法理解全貌，還會出現 <strong>「跑得比大燈快（Outrunning your headlights）」</strong> 的現象。</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/notes-mastering-ai-development-strategies/image-1.png"
+        data-srcset="/notes-mastering-ai-development-strategies/image-1.png, /notes-mastering-ai-development-strategies/image-1.png 1.5x, /notes-mastering-ai-development-strategies/image-1.png 2x"
+        data-sizes="auto"
+        alt="/notes-mastering-ai-development-strategies/image-1.png"
+        title="alt text" width="1376" height="768" /></p>
+<h2 id="三-核心解法擁抱深層模組與高階介面">三、 核心解法：擁抱「深層模組」與高階介面</h2>
+<p>要解決上述問題，我們必須將程式碼組織成 <strong>「深層模組（Deep Modules）」</strong>。其核心特徵是 <strong>將大量且複雜的功能，隱藏在一個簡單的介面背後</strong>。</p>
+<h3 id="為什麼深層模組能拯救-ai-開發">為什麼深層模組能拯救 AI 開發？</h3>
+<ul>
+<li><strong>將模組視為「灰盒（Gray boxes）」：</strong> 開發者只需精心設計高階介面，並確立外部的測試邊界，就不需要逐行審查內部的實作。你可以放心地將介面背後的龐大複雜性委派給 AI 處理。</li>
+<li><strong>簡化邊界，落實 TDD：</strong> 簡單的介面提供了極佳的測試邊界。你只需針對介面寫測試，這能強迫 AI 透過「測試驅動開發（TDD）」採取小步快跑的方式實作，建立穩健的回饋迴圈。</li>
+<li><strong>降低認知負擔：</strong> 無論是人類開發者還是 AI，都不再需要把所有零碎的資訊與依賴關係塞進大腦中。</li>
+</ul>
+<blockquote>
+<p><strong>💡 翻新現有專案的小技巧：</strong>
+你可以指示 AI 掃描現有程式碼庫，找出那些邏輯高度相關卻散落各處的「淺層模組」，並要求它將這些零碎區塊重新組織，封裝成擁有簡單介面的「深層模組」。</p>
+</blockquote>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/notes-mastering-ai-development-strategies/image-3.png"
+        data-srcset="/notes-mastering-ai-development-strategies/image-3.png, /notes-mastering-ai-development-strategies/image-3.png 1.5x, /notes-mastering-ai-development-strategies/image-3.png 2x"
+        data-sizes="auto"
+        alt="/notes-mastering-ai-development-strategies/image-3.png"
+        title="alt text" width="1376" height="768" /></p>
+<h2 id="四-實戰工作流用grill-me產出高品質-prd">四、 實戰工作流：用「Grill Me」產出高品質 PRD</h2>
+<p>要在日常開發中落實「戰略設計」，可以使用名為 <strong>&ldquo;Grill Me&rdquo;（無情盤問我）</strong> 的提示詞技巧：</p>
+<ol>
+<li><strong>下達「盤問」指令：</strong> 輸入：「無情地盤問我關於這個計畫的每一個層面，直到我們達成共識。沿著設計樹的每一個分支探索，逐一解決決策之間的依賴關係。」</li>
+<li><strong>經歷密集的對齊過程：</strong> AI 會化身為嚴格的訪談者，透過回答問題，將所有架構選擇與連鎖反應討論清楚。</li>
+<li><strong>將共識轉化為 PRD 與介面規劃：</strong> 當對話收斂後，要求 AI 總結為一份正式的 PRD，並明確指定「模組變更」與「介面修改」。</li>
+</ol>
+<p>透過這種「先建立共享設計，再產出計畫」的作法，你就能確保每一次的開發都在持續投資系統設計，讓 AI 在你搭建的穩健舞台上，安全且高效地產出程式碼。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/notes-mastering-ai-development-strategies/image-2.png"
+        data-srcset="/notes-mastering-ai-development-strategies/image-2.png, /notes-mastering-ai-development-strategies/image-2.png 1.5x, /notes-mastering-ai-development-strategies/image-2.png 2x"
+        data-sizes="auto"
+        alt="/notes-mastering-ai-development-strategies/image-2.png"
+        title="alt text" width="1376" height="768" /></p>
+<h2 id="我的連結">我的連結</h2>
+<ul>
+<li>Youtube: <a href="https://www.youtube.com/@Daydream-Studio/videos" target="_blank" rel="noopener noreffer">https://www.youtube.com/@Daydream-Studio/videos</a></li>
+<li>Podcast: <a href="https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.io/episodes" target="_blank" rel="noopener noreffer">https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.io/episodes</a></li>
+<li>FaceBook: <a href="https://www.facebook.com/profile.php?id=100082389794254" target="_blank" rel="noopener noreffer">https://www.facebook.com/profile.php?id=100082389794254</a></li>
+<li>Blog: <a href="https://nostanduptalk.github.io/" target="_blank" rel="noopener noreffer">https://nostanduptalk.github.io/</a></li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2026-05-24</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/notes-mastering-ai-development-strategies/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/" data-title="[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用" data-hashtags="軟體架構,深層模組,LLM"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/" data-hashtag="軟體架構"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/" data-title="[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/" data-title="[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/" data-title="[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B/">軟體架構</a>,&nbsp;<a href="/tags/%E6%B7%B1%E5%B1%A4%E6%A8%A1%E7%B5%84/">深層模組</a>,&nbsp;<a href="/tags/llm/">LLM</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/notes-how-to-apply-first-principles/" class="prev" rel="prev" title="[筆記] 如何運用「第一性原理」？"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[筆記] 如何運用「第一性原理」？</a>
+            <a href="/journey-bouldering-first-experience/" class="next" rel="next" title="[旅遊] 抱石初體驗">[旅遊] 抱石初體驗<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>

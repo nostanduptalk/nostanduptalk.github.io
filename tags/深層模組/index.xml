@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>深層模組 - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/%E6%B7%B1%E5%B1%A4%E6%A8%A1%E7%B5%84/</link>
+        <description>深層模組 - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 May 2026 12:45:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E6%B7%B1%E5%B1%A4%E6%A8%A1%E7%B5%84/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用</title>
+    <link>https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/</link>
+    <pubDate>Sun, 03 May 2026 12:45:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/</guid>
+    <description><![CDATA[<p>在 AI 輔助開發的時代，許多人誤以為程式碼變得很廉價，只要把規格丟給 AI，就能自動產出系統，但這往往會引發災難。糟糕的程式碼反而會讓維護成本飆升。軟體大師 Kent Beck 提醒我們必須持續投資系統設計，本文將探討如何透過「深層模組」架構與正確的協作模式，讓 AI 發揮最大產能。</p>]]></description>
+</item>
+</channel>
+</rss>

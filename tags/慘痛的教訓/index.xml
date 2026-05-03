@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>慘痛的教訓 - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/%E6%85%98%E7%97%9B%E7%9A%84%E6%95%99%E8%A8%93/</link>
+        <description>慘痛的教訓 - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 May 2026 11:24:36 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E6%85%98%E7%97%9B%E7%9A%84%E6%95%99%E8%A8%93/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 強化學習之父 Richard Sutton：從模仿到真正理解世界，AI 發展的下一步與人類心態</title>
+    <link>https://nostanduptalk.github.io/notes-richard-sutton-ai-future-bitter-lesson/</link>
+    <pubDate>Sun, 03 May 2026 11:24:36 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-richard-sutton-ai-future-bitter-lesson/</guid>
+    <description><![CDATA[<p>Richard Sutton 提出了著名的「慘痛的教訓」（The Bitter Lesson），他認為 AI 發展不應過度依賴人類先驗知識，而應透過<strong>龐大算力與環境試錯</strong>來實現真正的智慧。本文將深入探討他對當前 <strong>LLM</strong> 的批判，以及對 <strong>AI 未來發展</strong>與<strong>人類應有心態</strong>的獨到見解。</p>
+<p><strong>原文影片：</strong> <a href="https://www.youtube.com/watch?v=21EYKqUsPfg" target="_blank" rel="noopener noreffer">https://www.youtube.com/watch?v=21EYKqUsPfg</a></p>]]></description>
+</item>
+</channel>
+</rss>

@@ -3,7 +3,24 @@
         <title>LLM - Tag - 不沾醬</title>
         <link>https://nostanduptalk.github.io/tags/llm/</link>
         <description>LLM - Tag - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 04 Jan 2026 14:28:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/llm/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 May 2026 12:45:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/llm/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用</title>
+    <link>https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/</link>
+    <pubDate>Sun, 03 May 2026 12:45:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/</guid>
+    <description><![CDATA[<p>在 AI 輔助開發的時代，許多人誤以為程式碼變得很廉價，只要把規格丟給 AI，就能自動產出系統，但這往往會引發災難。糟糕的程式碼反而會讓維護成本飆升。軟體大師 Kent Beck 提醒我們必須持續投資系統設計，本文將探討如何透過「深層模組」架構與正確的協作模式，讓 AI 發揮最大產能。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 強化學習之父 Richard Sutton：從模仿到真正理解世界，AI 發展的下一步與人類心態</title>
+    <link>https://nostanduptalk.github.io/notes-richard-sutton-ai-future-bitter-lesson/</link>
+    <pubDate>Sun, 03 May 2026 11:24:36 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-richard-sutton-ai-future-bitter-lesson/</guid>
+    <description><![CDATA[<p>Richard Sutton 提出了著名的「慘痛的教訓」（The Bitter Lesson），他認為 AI 發展不應過度依賴人類先驗知識，而應透過<strong>龐大算力與環境試錯</strong>來實現真正的智慧。本文將深入探討他對當前 <strong>LLM</strong> 的批判，以及對 <strong>AI 未來發展</strong>與<strong>人類應有心態</strong>的獨到見解。</p>
+<p><strong>原文影片：</strong> <a href="https://www.youtube.com/watch?v=21EYKqUsPfg" target="_blank" rel="noopener noreffer">https://www.youtube.com/watch?v=21EYKqUsPfg</a></p>]]></description>
+</item>
+<item>
     <title>[思考] 2026 願景：建立系統化學習與 LLM 輔助開發實踐</title>
     <link>https://nostanduptalk.github.io/thinking-2026-vision-systematic-learning-llm/</link>
     <pubDate>Sun, 04 Jan 2026 14:28:00 &#43;0800</pubDate>
