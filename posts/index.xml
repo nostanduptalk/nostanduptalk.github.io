@@ -3,10 +3,42 @@
         <title>All Posts - 不沾醬</title>
         <link>https://nostanduptalk.github.io/posts/</link>
         <description>All Posts | 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 May 2026 16:15:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 07 Jun 2026 12:38:38 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 從目標倒推：解構「逆推思考」在日常業務中的戰略實踐</title>
+    <link>https://nostanduptalk.github.io/notes-backward-thinking-business-strategy/</link>
+    <pubDate>Sun, 07 Jun 2026 12:38:38 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-backward-thinking-business-strategy/</guid>
+    <description><![CDATA[<p>在多變的商業環境中，「逆推思考」是讓每一步行動精準服務於最終願景的關鍵能力。本文以濱村小姐的工作方法為核心，拆解其底層邏輯與可操作的實踐框架。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 《換框思維力》- 溝通、安全感與職涯修煉</title>
+    <link>https://nostanduptalk.github.io/notes-reframing-communication-and-career/</link>
+    <pubDate>Sun, 07 Jun 2026 12:31:07 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-reframing-communication-and-career/</guid>
+    <description><![CDATA[<p>職場與生活中的衝突與碰撞，往往取決於我們的底層系統如何「定義」與「排列」。《換框思維力》提供了一套實用的思維工具，從溝通語言的橋接、心理安全感的建立，到職涯心智的長期修煉——透過換框，將壓力轉化為動能。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 《完美決定之魂》- 如何做出更好的決定</title>
+    <link>https://nostanduptalk.github.io/notes-how-to-make-better-decisions/</link>
+    <pubDate>Sun, 07 Jun 2026 12:20:22 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-how-to-make-better-decisions/</guid>
+    <description><![CDATA[<p>做決定很難，但<strong>不做決定也是一種決定</strong>。這本書提醒我們：決策本身就是一個不斷假設、執行、驗證、修正的循環，沒有一擊必中這回事。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 世界模型——認知地圖決定命運效率</title>
+    <link>https://nostanduptalk.github.io/notes-world-model-cognitive-map/</link>
+    <pubDate>Sun, 07 Jun 2026 12:11:07 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-world-model-cognitive-map/</guid>
+    <description><![CDATA[<p>如果你的認知地圖本來就是錯的，那麼你跑得再快，也永遠到不了目的地。</p>]]></description>
+</item>
+<item>
     <title>[旅遊] 抱石初體驗</title>
     <link>https://nostanduptalk.github.io/journey-bouldering-first-experience/</link>
-    <pubDate>Sun, 03 May 2026 16:15:00 &#43;0800</pubDate>
+    <pubDate>Sun, 31 May 2026 16:15:00 &#43;0800</pubDate>
     <author>NoStandUpTalk</author>
     <guid>https://nostanduptalk.github.io/journey-bouldering-first-experience/</guid>
     <description><![CDATA[<p>一開始其實沒有特別計畫要來體驗抱石，只是有人問，我就順勢跟著去了。對我來說，這項活動有點陌生，也不太確定到底是在做什麼，但直覺上應該會滿有趣的。</p>
@@ -15,7 +47,7 @@
 <item>
     <title>[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用</title>
     <link>https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/</link>
-    <pubDate>Sun, 03 May 2026 12:45:00 &#43;0800</pubDate>
+    <pubDate>Sun, 24 May 2026 12:45:00 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/</guid>
     <description><![CDATA[<p>在 AI 輔助開發的時代，許多人誤以為程式碼變得很廉價，只要把規格丟給 AI，就能自動產出系統，但這往往會引發災難。糟糕的程式碼反而會讓維護成本飆升。軟體大師 Kent Beck 提醒我們必須持續投資系統設計，本文將探討如何透過「深層模組」架構與正確的協作模式，讓 AI 發揮最大產能。</p>]]></description>
@@ -23,7 +55,7 @@
 <item>
     <title>[筆記] 如何運用「第一性原理」？</title>
     <link>https://nostanduptalk.github.io/notes-how-to-apply-first-principles/</link>
-    <pubDate>Sun, 03 May 2026 11:46:49 &#43;0800</pubDate>
+    <pubDate>Sun, 17 May 2026 11:46:49 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-how-to-apply-first-principles/</guid>
     <description><![CDATA[<p>在職涯轉職或進修前，如何運用「第一性原理」來驗證隱含假設，避免盲目決策？本文將帶您深入了解第一性原理的核心概念，並提供三步驟實踐方法，幫助您釐清底層邏輯、主動查驗事實，並透過低成本實驗，掌握職涯主導權。</p>
@@ -32,7 +64,7 @@
 <item>
     <title>[筆記] 強化學習之父 Richard Sutton：從模仿到真正理解世界，AI 發展的下一步與人類心態</title>
     <link>https://nostanduptalk.github.io/notes-richard-sutton-ai-future-bitter-lesson/</link>
-    <pubDate>Sun, 03 May 2026 11:24:36 &#43;0800</pubDate>
+    <pubDate>Sun, 10 May 2026 11:24:36 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-richard-sutton-ai-future-bitter-lesson/</guid>
     <description><![CDATA[<p>Richard Sutton 提出了著名的「慘痛的教訓」（The Bitter Lesson），他認為 AI 發展不應過度依賴人類先驗知識，而應透過<strong>龐大算力與環境試錯</strong>來實現真正的智慧。本文將深入探討他對當前 <strong>LLM</strong> 的批判，以及對 <strong>AI 未來發展</strong>與<strong>人類應有心態</strong>的獨到見解。</p>
@@ -53,38 +85,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-10x-impact-law-decide-what-to-do-what-to-automate/</guid>
     <description><![CDATA[<p>Hillary Gidley 在訪談中分享了如何運用「<strong>10 倍影響力法則</strong>」來決定哪些任務值得投入時間，哪些應該交給 <strong>AI 自動化</strong>。她建立了一套「<strong>反系統的系統</strong>」，透過零摩擦的捕捉機制、Markdown 純文字檔儲存，並結合 Claude Code 實現生活與工作的低摩擦自動化。了解她的核心決策框架、AI 規劃流程，以及與 AI 協作的心態，讓 AI 成為你的產品經理，活出更有趣的人生。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 選對賽道、把餅畫大：從工程師到主管的晉升路線圖</title>
-    <link>https://nostanduptalk.github.io/notes-career-track-promotion-roadmap/</link>
-    <pubDate>Sun, 19 Apr 2026 08:09:10 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-career-track-promotion-roadmap/</guid>
-    <description><![CDATA[<p>抹布認為，職涯發展的成功取決於 <strong>「方向」與「執行」</strong> 的結合。方向上，必須勇於進入具備 <strong>時代紅利的高成長產業</strong>（如半導體、AI、國際外商大廠），因為本業收入是一切投資與複利的根基，賽道選錯，再努力也事倍功半。執行上，晉升的關鍵不在於把份內工作做好，而在於主動承接那些 <strong>「沒有明確定義、不知道該歸屬給誰做」的模糊地帶 (Gray Area)</strong> ——這正是主管每天最頭痛的痛點。當你習慣解決這些痛點，並且每一季都把手上的 <strong>Project Scope</strong> 撐大到 <strong>「一個人絕對做不起來」</strong> 的規模，公司就會自然給你資源與團隊，你也就從工程師順理成章地成長為管理者。長期累積下來，位階越高、選擇越多，職涯就會進入持續成長的正向循環。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 揭開用戶內心的「真心話」：UX 深度訪談的做與不做</title>
-    <link>https://nostanduptalk.github.io/notes-ux-interview-dos-and-donts/</link>
-    <pubDate>Sun, 12 Apr 2026 08:01:32 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-ux-interview-dos-and-donts/</guid>
-    <description><![CDATA[<p>優秀的研究員不只是聽取用戶說了什麼，而是去解讀他們「沒說出口」的是什麼。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 從謝賽寧訪談看研究品味與 AI 未來</title>
-    <link>https://nostanduptalk.github.io/notes-xie-saining-research-taste-ai/</link>
-    <pubDate>Sun, 05 Apr 2026 07:52:10 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-xie-saining-research-taste-ai/</guid>
-    <description><![CDATA[<p>這份筆記整理自謝賽寧的一場七小時訪談，以軟體工程師的視角萃取出八個核心主題，涵蓋思維框架、工作習慣與長期視角。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《職場不是自助餐》- 主動回報與不可取代性</title>
-    <link>https://nostanduptalk.github.io/notes-workplace-not-buffet-proactive-value/</link>
-    <pubDate>Sun, 29 Mar 2026 12:00:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-workplace-not-buffet-proactive-value/</guid>
-    <description><![CDATA[<p>主動回報是低成本高回報的關鍵行為。</p>]]></description>
 </item>
 </channel>
 </rss>
