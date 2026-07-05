@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Claude Skill - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/claude-skill/</link>
+        <description>Claude Skill - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 05 Jul 2026 16:51:30 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/claude-skill/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 打造 Claude Skill 的 5 個秘訣</title>
+    <link>https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/</link>
+    <pubDate>Sun, 05 Jul 2026 16:51:30 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/</guid>
+    <description><![CDATA[<p>如何將人類的「品味」與審美邏輯編碼進 AI 工具中？本文整理了構建高效 Claude Skill 的五個核心秘訣，從架構分離、精確觸發到雙 Agent 閉環，幫助你打造具備自我進化能力的自動化工作流。</p>]]></description>
+</item>
+</channel>
+</rss>

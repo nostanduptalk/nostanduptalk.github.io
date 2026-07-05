@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[筆記] 打造 Claude Skill 的 5 個秘訣 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[筆記] 打造 Claude Skill 的 5 個秘訣" />
+<meta property="og:description" content="如何將人類的「品味」與審美邏輯編碼進 AI 工具中？本文整理了構建高效 Claude Skill 的五個核心秘訣，從架構分離、精確觸發到雙 Agent 閉環，幫助你打造具備自我進化能力的自動化工作流。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-07-05T16:51:30+08:00" />
+<meta property="article:modified_time" content="2026-07-12T16:51:30+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[筆記] 打造 Claude Skill 的 5 個秘訣"/>
+<meta name="twitter:description" content="如何將人類的「品味」與審美邏輯編碼進 AI 工具中？本文整理了構建高效 Claude Skill 的五個核心秘訣，從架構分離、精確觸發到雙 Agent 閉環，幫助你打造具備自我進化能力的自動化工作流。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/" /><link rel="prev" href="https://nostanduptalk.github.io/notes-claude-mythos-preview-the-sign-painter/" /><link rel="next" href="https://nostanduptalk.github.io/journey-spontaneous-osaka-flash-trip/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[筆記] 打造 Claude Skill 的 5 個秘訣",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/notes-five-secrets-to-build-claude-skills\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "Claude Skill","wordcount":  2016 ,
+        "url": "https:\/\/nostanduptalk.github.io\/notes-five-secrets-to-build-claude-skills\/","datePublished": "2026-07-05T16:51:30+08:00","dateModified": "2026-07-12T16:51:30+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] 打造 Claude Skill 的 5 個秘訣</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-07-05">2026-07-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2016 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#秘訣一架構分離為你的創造力解套避免過度擬合">秘訣一：架構分離——為你的創造力解套，避免「過度擬合」</a></li>
+    <li><a href="#秘訣二精確觸發描述欄位決定了自動化的成敗">秘訣二：精確觸發——描述欄位決定了自動化的成敗</a></li>
+    <li><a href="#秘訣三拒絕打分建立通過失敗的-ai-品味邊界">秘訣三：拒絕打分——建立「通過/失敗」的 AI 品味邊界</a></li>
+    <li><a href="#秘訣四雙-agent-閉環與記憶全自動的迭代進化">秘訣四：雙 Agent 閉環與記憶——全自動的迭代進化</a></li>
+    <li><a href="#秘訣五掃除ai-廢話-維護技能的純度">秘訣五：掃除「AI 廢話」—— 維護技能的純度</a></li>
+    <li><a href="#結語將品味編碼進工具中">結語：將品味編碼進工具中</a></li>
+    <li><a href="#相關連結">相關連結</a></li>
+    <li><a href="#我的連結">我的連結</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>如何將人類的「品味」與審美邏輯編碼進 AI 工具中？本文整理了構建高效 Claude Skill 的五個核心秘訣，從架構分離、精確觸發到雙 Agent 閉環，幫助你打造具備自我進化能力的自動化工作流。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/notes-five-secrets-to-build-claude-skills/image.png"
+        data-srcset="/notes-five-secrets-to-build-claude-skills/image.png, /notes-five-secrets-to-build-claude-skills/image.png 1.5x, /notes-five-secrets-to-build-claude-skills/image.png 2x"
+        data-sizes="auto"
+        alt="/notes-five-secrets-to-build-claude-skills/image.png"
+        title="alt text" width="1376" height="768" /></p>
+<h2 id="秘訣一架構分離為你的創造力解套避免過度擬合">秘訣一：架構分離——為你的創造力解套，避免「過度擬合」</h2>
+<p>在構建技能時，最直覺但錯誤的做法是將核心指令、背景資料與範例全部塞進同一個 <code>skill.md</code> 文件中。這種做法會導致 AI 產生 <strong>「過度擬合」（Overfitting）</strong> 的副作用：當 AI 被過多的範例淹沒時，它會變得過於膽小，只敢機械式地模仿那幾個範例，而失去了處理新場景的泛化能力。</p>
+<p>透過實施 <strong>「模組化」</strong> 架構，將核心指令與範例文件分開存放，能為你的創造力帶來以下優勢：</p>
+<ul>
+<li><strong>動態載入與效率</strong>：Claude 無需每次都讀取冗長的範例。它能根據當前任務（如教學文、個人評論、產品拆解），僅精確加載最相關的上下文資訊。</li>
+<li><strong>保持邏輯純淨</strong>：獨立的 <code>skill.md</code> 應只包含核心邏輯框架。這不僅提高執行效率，更方便你在不洩漏個人敏感資訊的情況下，與團隊共享這套方法論。</li>
+<li><strong>防止風格僵化</strong>：讓 AI 學習你的 <strong>「美學原則」</strong> 而非「特定文字」，使其能產出具備一致品質但形式多樣的內容。</li>
+</ul>
+<hr>
+<h2 id="秘訣二精確觸發描述欄位決定了自動化的成敗">秘訣二：精確觸發——描述欄位決定了自動化的成敗</h2>
+<p>許多使用者抱怨技能無法精確啟動，原因在於誤解了 Claude 的運作機制。Claude 在判斷是否觸發技能時，並非掃描整個文件夾，而是優先讀取技能的 <strong>「名稱」</strong> 與 <strong>「描述」（Description）</strong> 。</p>
+<p>若要建立可靠的自動化工作流，描述欄位必須做到 <strong>「極致明確」</strong> 。這不是在寫簡介，而是在定義 <strong>「意圖匹配」（Intent Matching）</strong> 的邊界：</p>
+<ul>
+<li><strong>定義精確輸入</strong>：如「當使用者貼上草稿或要求編輯標題時使用。」</li>
+<li><strong>界定適用類型</strong>：如「適用於長篇通訊、部落格文章或深度產品分析。」</li>
+<li><strong>明確啟動條件</strong>：如「偵測到編輯長篇文稿的需求時自動啟動。」</li>
+</ul>
+<p>這種明確性是自動化系統的基石，否則再強大的技能也無法在關鍵時刻被喚醒。</p>
+<hr>
+<h2 id="秘訣三拒絕打分建立通過失敗的-ai-品味邊界">秘訣三：拒絕打分——建立「通過/失敗」的 AI 品味邊界</h2>
+<p>一個反直覺的技術洞察是：讓 AI 給自己的產出打分（如 1 到 5 分）是毫無意義的勞動。</p>
+<blockquote>
+<p>「AI 根本不懂 4 分與 5 分之間的哲學差異，它只會為了討好你而編造出毫無根據的數字。」</p>
+</blockquote>
+<p>有效的品質控管應採用 <strong>二元式的評估系統（Evals）</strong> 。請建立一個 <code>evals.md</code> 文件，包含約 10 個明確的 <strong>「通過/失敗」（Pass/Fail）</strong> 檢查點，作為 AI 的品味邊界：</p>
+<ul>
+<li><strong>引言 (Introduction)</strong>：開頭前兩句是否具備吸引力？是否包含必要的導流連結？</li>
+<li><strong>語氣 (Voice)</strong>：是否排除了所有 AI 冗餘詞彙？聽起來是否像真人而非機器？</li>
+<li><strong>實質內容 (Substance)</strong>：是否提供了可立即執行的具體洞察？</li>
+</ul>
+<p>這種機制能強迫 AI 進行具體的自我審視，對標人類的審美標準。</p>
+<hr>
+<h2 id="秘訣四雙-agent-閉環與記憶全自動的迭代進化">秘訣四：雙 Agent 閉環與記憶——全自動的迭代進化</h2>
+<p>這是讓 AI 技能具備 <strong>「靈魂」</strong> 的核心技術。要實現真正的全自動優化，必須建立一個 <strong>「雙代理人（Dual Agent）」</strong> 循環，並搭配記憶機制：</p>
+<ol>
+<li><strong>獨立評估代理人</strong>：當編輯代理人完成初稿後，技能應要求啟動一個具備「乾淨上下文視窗」（Clean Context Window）的獨立代理人執行評估。這樣做是為了防止評估過程受到編輯過程的偏見（Bias）干擾，確保審核的客觀性。</li>
+<li><strong>自我修正循環</strong>：若任何 Eval 檢查點顯示為「失敗」，結果將返回給原編輯代理人修改，直到全部通過。</li>
+<li><strong>記憶紀錄（<code>memory.md</code>）</strong>：這是技能進化的關鍵。在對話結束時，要求 AI 將本次溝通的「教訓」以逆時序記錄在 <code>memory.md</code> 中（例如：發現 AI 容易在結尾過於囉唆）。這份文件讓技能在未來執行任務時，能回顧過去的錯誤，實現真正的自我進化。</li>
+</ol>
+<p>這種「讓 AI 監督 AI」的機制能為你省下大量打磨細節的時間，讓你只需在啟動指令後去喝杯咖啡，回來就能收穫完美的成品。</p>
+<hr>
+<h2 id="秘訣五掃除ai-廢話-維護技能的純度">秘訣五：掃除「AI 廢話」—— 維護技能的純度</h2>
+<p>高品質內容的區別往往在於 <strong>「刪減」的藝術</strong> 。你需要建立一個「技能編輯器」（Skill Editor），專門用來審計與優化技能指令本身。這個編輯器應配備一份 <strong>「黑名單」</strong> ，明確禁止以下常見的 AI 廢話（AI Slop）：</p>
+<ul>
+<li><strong>無效辭令黑名單</strong>：徹底剔除 <code>delve</code>、<code>leverage</code>、<code>comprehensive</code>、<code>innovative</code> 等被過度使用的單字。</li>
+<li><strong>邏輯樣式禁令</strong>：禁止使用「This is not X, this is Y」（這不是 X，而是 Y）這類典型的 AI 教條式句式。</li>
+<li><strong>格式汙染</strong>：限制過度使用的破折號（m-dashes）與細碎到缺乏逻辑的列點。</li>
+</ul>
+<p>定期使用「技能編輯器」來審核你的 <code>skill.md</code>，能確保你的指令保持精煉，避免 AI 因為指令本身的贅詞而產出平庸的內容。</p>
+<hr>
+<h2 id="結語將品味編碼進工具中">結語：將品味編碼進工具中</h2>
+<p>雖然技術與自動化能完成 80% 到 90% 的寫作與編輯工作，但剩下的最後 10% 到 20%——那些關於幽默、共感與最終判斷的部分——必須依靠人類的 <strong>「品味」</strong> 來手動打磨。</p>
+<p>工具的價值在於它能承載人類的靈魂。當你將自己的判斷標準與審美邏輯編碼進 Claude 技能時，你其實是在擴展自己的創造力邊界。</p>
+<blockquote>
+<p><strong>反思問題</strong>：回顧過去的一週，有哪些重複性、讓你感到乏味的任務？現在就開始思考，如何將這些工作「技能化」，讓 AI 帶著你的品味開始自我進化。</p>
+</blockquote>
+<hr>
+<h2 id="相關連結">相關連結</h2>
+<ul>
+<li><a href="https://youtu.be/uT3EQPVIEb0" target="_blank" rel="noopener noreffer">YouTube 影片來源</a></li>
+</ul>
+<h2 id="我的連結">我的連結</h2>
+<ul>
+<li>Youtube: <a href="https://www.youtube.com/@Daydream-Studio/videos" target="_blank" rel="noopener noreffer">https://www.youtube.com/@Daydream-Studio/videos</a></li>
+<li>Podcast: <a href="https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.io/episodes" target="_blank" rel="noopener noreffer">https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.io/episodes</a></li>
+<li>FaceBook: <a href="https://www.facebook.com/profile.php?id=100082389794254" target="_blank" rel="noopener noreffer">https://www.facebook.com/profile.php?id=100082389794254</a></li>
+<li>Blog: <a href="https://nostanduptalk.github.io/" target="_blank" rel="noopener noreffer">https://nostanduptalk.github.io/</a></li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2026-07-12</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/notes-five-secrets-to-build-claude-skills/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/" data-title="[筆記] 打造 Claude Skill 的 5 個秘訣" data-hashtags="Claude Skill"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/" data-hashtag="Claude Skill"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/" data-title="[筆記] 打造 Claude Skill 的 5 個秘訣"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/" data-title="[筆記] 打造 Claude Skill 的 5 個秘訣"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/" data-title="[筆記] 打造 Claude Skill 的 5 個秘訣"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/claude-skill/">Claude Skill</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/notes-claude-mythos-preview-the-sign-painter/" class="prev" rel="prev" title="[筆記] Claude Mythos Preview 短篇故事《招牌畫師》讀後感"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[筆記] Claude Mythos Preview 短篇故事《招牌畫師》讀後感</a>
+            <a href="/journey-spontaneous-osaka-flash-trip/" class="next" rel="next" title="[旅遊] 臨時起意的大阪快閃！一週前買機票、一天前訂住宿的三天兩夜體驗">[旅遊] 臨時起意的大阪快閃！一週前買機票、一天前訂住宿的三天兩夜體驗<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>
