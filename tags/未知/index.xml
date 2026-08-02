@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>未知 - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/%E6%9C%AA%E7%9F%A5/</link>
+        <description>未知 - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Aug 2026 10:58:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E6%9C%AA%E7%9F%A5/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 與 Agentic AI 協作的成功關鍵：發掘並解決開發中的「未知」</title>
+    <link>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</link>
+    <pubDate>Sun, 02 Aug 2026 10:58:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</guid>
+    <description><![CDATA[<p>與 Agentic AI 協作的成功關鍵，在於區分「地圖」（Map，即提示詞、技能與上下文）與「疆域」（Territory，即實際程式碼庫與現實限制）。兩者之間的差異即為 <strong>未知 (Unknowns)</strong>，本文整理了發掘與釐清這些未知的四象限框架與完整開發方法論。</p>]]></description>
+</item>
+</channel>
+</rss>

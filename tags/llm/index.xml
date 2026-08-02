@@ -3,7 +3,23 @@
         <title>LLM - Tag - 不沾醬</title>
         <link>https://nostanduptalk.github.io/tags/llm/</link>
         <description>LLM - Tag - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 24 May 2026 12:45:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/llm/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Aug 2026 10:58:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/llm/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 與 Agentic AI 協作的成功關鍵：發掘並解決開發中的「未知」</title>
+    <link>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</link>
+    <pubDate>Sun, 02 Aug 2026 10:58:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</guid>
+    <description><![CDATA[<p>與 Agentic AI 協作的成功關鍵，在於區分「地圖」（Map，即提示詞、技能與上下文）與「疆域」（Territory，即實際程式碼庫與現實限制）。兩者之間的差異即為 <strong>未知 (Unknowns)</strong>，本文整理了發掘與釐清這些未知的四象限框架與完整開發方法論。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 從《萬能鑑定士Q：蒙娜麗莎之瞳》想到 AI 的反向篩選</title>
+    <link>https://nostanduptalk.github.io/notes-all-round-appraiser-q-ai-reverse-selection/</link>
+    <pubDate>Sun, 02 Aug 2026 10:34:09 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-all-round-appraiser-q-ai-reverse-selection/</guid>
+    <description><![CDATA[<p>看完《萬能鑑定士Q：蒙娜麗莎之瞳》後，片中對真偽鑑定的訓練過程令人印象深刻。從最差的選項開始，一路篩選、回收與重組，或許會成為一種很有價值的 AI 決策方法。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用</title>
     <link>https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/</link>
     <pubDate>Sun, 24 May 2026 12:45:00 &#43;0800</pubDate>

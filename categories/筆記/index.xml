@@ -3,10 +3,42 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 05 Jul 2026 18:18:41 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Aug 2026 11:14:14 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 「不要坑別人，也不要被別人坑」 - 潘健成談格局、AI 時代與創業</title>
+    <link>https://nostanduptalk.github.io/notes-do-not-screw-others-ks-pan/</link>
+    <pubDate>Sun, 02 Aug 2026 11:14:14 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-do-not-screw-others-ks-pan/</guid>
+    <description><![CDATA[<p>這份筆記整理了群聯電子董事長潘健成在訪談中分享的核心經營哲學、人才觀點及產業洞察。內容涵蓋了「格局決定結局」的處世心法、創業所需的關鍵三力，以及 AI 時代下的策略佈局與人才選拔觀點。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 與 Agentic AI 協作的成功關鍵：發掘並解決開發中的「未知」</title>
+    <link>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</link>
+    <pubDate>Sun, 02 Aug 2026 10:58:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</guid>
+    <description><![CDATA[<p>與 Agentic AI 協作的成功關鍵，在於區分「地圖」（Map，即提示詞、技能與上下文）與「疆域」（Territory，即實際程式碼庫與現實限制）。兩者之間的差異即為 <strong>未知 (Unknowns)</strong>，本文整理了發掘與釐清這些未知的四象限框架與完整開發方法論。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 《驚人的NLP！》- 擺脫框架，重塑自我信念，安裝人生新程式</title>
+    <link>https://nostanduptalk.github.io/notes-amazing-nlp-rewrite-subconscious-program/</link>
+    <pubDate>Sun, 02 Aug 2026 10:42:33 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-amazing-nlp-rewrite-subconscious-program/</guid>
+    <description><![CDATA[<p>事件是事實，意義與印象是腦中的想像，而腦中的想像，我們都可以任意編輯。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 從《萬能鑑定士Q：蒙娜麗莎之瞳》想到 AI 的反向篩選</title>
+    <link>https://nostanduptalk.github.io/notes-all-round-appraiser-q-ai-reverse-selection/</link>
+    <pubDate>Sun, 02 Aug 2026 10:34:09 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-all-round-appraiser-q-ai-reverse-selection/</guid>
+    <description><![CDATA[<p>看完《萬能鑑定士Q：蒙娜麗莎之瞳》後，片中對真偽鑑定的訓練過程令人印象深刻。從最差的選項開始，一路篩選、回收與重組，或許會成為一種很有價值的 AI 決策方法。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 職涯發展洞察：從偶然相遇到自主成長的行動指南</title>
     <link>https://nostanduptalk.github.io/notes-career-growth-action-guide/</link>
-    <pubDate>Sun, 05 Jul 2026 18:18:41 &#43;0800</pubDate>
+    <pubDate>Sun, 26 Jul 2026 18:18:41 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-career-growth-action-guide/</guid>
     <description><![CDATA[<p>職涯中 <strong>80%</strong> 的發展來自偶然的相遇——但這種偶然，需要主動去創造。</p>]]></description>
@@ -14,7 +46,7 @@
 <item>
     <title>[筆記] 打造 Claude Skill 的 5 個秘訣</title>
     <link>https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/</link>
-    <pubDate>Sun, 05 Jul 2026 16:51:30 &#43;0800</pubDate>
+    <pubDate>Sun, 12 Jul 2026 16:51:30 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/</guid>
     <description><![CDATA[<p>如何將人類的「品味」與審美邏輯編碼進 AI 工具中？本文整理了構建高效 Claude Skill 的五個核心秘訣，從架構分離、精確觸發到雙 Agent 閉環，幫助你打造具備自我進化能力的自動化工作流。</p>]]></description>
@@ -50,40 +82,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-how-to-make-better-decisions/</guid>
     <description><![CDATA[<p>做決定很難，但<strong>不做決定也是一種決定</strong>。這本書提醒我們：決策本身就是一個不斷假設、執行、驗證、修正的循環，沒有一擊必中這回事。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 世界模型——認知地圖決定命運效率</title>
-    <link>https://nostanduptalk.github.io/notes-world-model-cognitive-map/</link>
-    <pubDate>Sun, 07 Jun 2026 12:11:07 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-world-model-cognitive-map/</guid>
-    <description><![CDATA[<p>如果你的認知地圖本來就是錯的，那麼你跑得再快，也永遠到不了目的地。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 駕馭 AI 開發：戰略思維與深層模組的應用</title>
-    <link>https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/</link>
-    <pubDate>Sun, 24 May 2026 12:45:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-mastering-ai-development-strategies/</guid>
-    <description><![CDATA[<p>在 AI 輔助開發的時代，許多人誤以為程式碼變得很廉價，只要把規格丟給 AI，就能自動產出系統，但這往往會引發災難。糟糕的程式碼反而會讓維護成本飆升。軟體大師 Kent Beck 提醒我們必須持續投資系統設計，本文將探討如何透過「深層模組」架構與正確的協作模式，讓 AI 發揮最大產能。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 如何運用「第一性原理」？</title>
-    <link>https://nostanduptalk.github.io/notes-how-to-apply-first-principles/</link>
-    <pubDate>Sun, 17 May 2026 11:46:49 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-how-to-apply-first-principles/</guid>
-    <description><![CDATA[<p>在職涯轉職或進修前，如何運用「第一性原理」來驗證隱含假設，避免盲目決策？本文將帶您深入了解第一性原理的核心概念，並提供三步驟實踐方法，幫助您釐清底層邏輯、主動查驗事實，並透過低成本實驗，掌握職涯主導權。</p>
-<p>原文影片：https://www.youtube.com/watch?v=hToO6daVuSw</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 強化學習之父 Richard Sutton：從模仿到真正理解世界，AI 發展的下一步與人類心態</title>
-    <link>https://nostanduptalk.github.io/notes-richard-sutton-ai-future-bitter-lesson/</link>
-    <pubDate>Sun, 10 May 2026 11:24:36 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-richard-sutton-ai-future-bitter-lesson/</guid>
-    <description><![CDATA[<p>Richard Sutton 提出了著名的「慘痛的教訓」（The Bitter Lesson），他認為 AI 發展不應過度依賴人類先驗知識，而應透過<strong>龐大算力與環境試錯</strong>來實現真正的智慧。本文將深入探討他對當前 <strong>LLM</strong> 的批判，以及對 <strong>AI 未來發展</strong>與<strong>人類應有心態</strong>的獨到見解。</p>
-<p><strong>原文影片：</strong> <a href="https://www.youtube.com/watch?v=21EYKqUsPfg" target="_blank" rel="noopener noreffer">https://www.youtube.com/watch?v=21EYKqUsPfg</a></p>]]></description>
 </item>
 </channel>
 </rss>

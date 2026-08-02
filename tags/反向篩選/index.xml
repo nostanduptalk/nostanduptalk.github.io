@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>反向篩選 - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/%E5%8F%8D%E5%90%91%E7%AF%A9%E9%81%B8/</link>
+        <description>反向篩選 - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Aug 2026 10:34:09 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/%E5%8F%8D%E5%90%91%E7%AF%A9%E9%81%B8/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 從《萬能鑑定士Q：蒙娜麗莎之瞳》想到 AI 的反向篩選</title>
+    <link>https://nostanduptalk.github.io/notes-all-round-appraiser-q-ai-reverse-selection/</link>
+    <pubDate>Sun, 02 Aug 2026 10:34:09 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-all-round-appraiser-q-ai-reverse-selection/</guid>
+    <description><![CDATA[<p>看完《萬能鑑定士Q：蒙娜麗莎之瞳》後，片中對真偽鑑定的訓練過程令人印象深刻。從最差的選項開始，一路篩選、回收與重組，或許會成為一種很有價值的 AI 決策方法。</p>]]></description>
+</item>
+</channel>
+</rss>
