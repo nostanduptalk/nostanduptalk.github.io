@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase" />
+<meta property="og:description" content="面對龐大且陌生的 Codebase，最忌諱過早陷入局部細節或盲目通讀原始碼。本文將密涅瓦大學（Minerva）的核心習慣與通識能力（HCs）轉化為一套專門探索陌生 Codebase 的認知工具箱，透過多層次拆解、假說驗證與系統動力學思維，建立清晰且精確的心智模型（Mental Model）。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-09-05T11:13:00+08:00" />
+<meta property="article:modified_time" content="2026-09-20T11:13:00+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase"/>
+<meta name="twitter:description" content="面對龐大且陌生的 Codebase，最忌諱過早陷入局部細節或盲目通讀原始碼。本文將密涅瓦大學（Minerva）的核心習慣與通識能力（HCs）轉化為一套專門探索陌生 Codebase 的認知工具箱，透過多層次拆解、假說驗證與系統動力學思維，建立清晰且精確的心智模型（Mental Model）。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/" /><link rel="prev" href="https://nostanduptalk.github.io/notes-homo-sapiens-vs-neanderthals-evolution/" /><link rel="next" href="https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/notes-minerva-hcs-for-pure-c-codebase\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "Minerva, 心智模型","wordcount":  2916 ,
+        "url": "https:\/\/nostanduptalk.github.io\/notes-minerva-hcs-for-pure-c-codebase\/","datePublished": "2026-09-05T11:13:00+08:00","dateModified": "2026-09-20T11:13:00+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AD%86%E8%A8%98/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>筆記</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-09-05">2026-09-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2916 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#什麼是核心習慣與通識能力hcs">什麼是核心習慣與通識能力（HCs）？</a></li>
+    <li><a href="#各階段-hc-拆解與實踐">各階段 HC 拆解與實踐</a>
+      <ul>
+        <li><a href="#階段一界定問題產出system-brief">階段一：界定問題（產出：System Brief）</a></li>
+        <li><a href="#階段二結構拆解產出codebase-map">階段二：結構拆解（產出：Codebase Map）</a></li>
+        <li><a href="#階段三多層次理解系統動力學">階段三：多層次理解（系統動力學）</a></li>
+        <li><a href="#階段四追蹤執行路徑產出happy-path--error-path">階段四：追蹤執行路徑（產出：Happy Path &amp; Error Path）</a></li>
+        <li><a href="#階段五假說驗證產出hypothesis-ledger">階段五：假說驗證（產出：Hypothesis Ledger）</a>
+          <ul>
+            <li><a href="#hypothesis-ledger-結構範例">Hypothesis Ledger 結構範例</a></li>
+          </ul>
+        </li>
+        <li><a href="#階段六盲點管理產出unknown-map">階段六：盲點管理（產出：Unknown Map）</a></li>
+      </ul>
+    </li>
+    <li><a href="#第一週實戰計畫5-day-roadmap">第一週實戰計畫（5-Day Roadmap）</a></li>
+    <li><a href="#核心心智模型流程">核心心智模型流程</a></li>
+    <li><a href="#總結">總結</a></li>
+    <li><a href="#我的連結">我的連結</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>面對龐大且陌生的 Codebase，最忌諱過早陷入局部細節或盲目通讀原始碼。本文將密涅瓦大學（Minerva）的核心習慣與通識能力（HCs）轉化為一套專門探索陌生 Codebase 的認知工具箱，透過多層次拆解、假說驗證與系統動力學思維，建立清晰且精確的心智模型（Mental Model）。</p>
+<p>參考連結：https://www.mext.go.jp/content/20250717-mxt_koutou02-000043727_4.pdf</p>
+<hr>
+<img src="image.png" width="99%"/>
+<h2 id="什麼是核心習慣與通識能力hcs">什麼是核心習慣與通識能力（HCs）？</h2>
+<p><strong>HCs（Habits of Mind and Foundational Concepts）</strong> 是密涅瓦大學教學架構的核心，其定義與在工程領域的定位如下：</p>
+<ul>
+<li><strong>本質</strong> ：面對高度複雜與未知問題時，可反覆調用的 <strong>思考習慣與認知標籤</strong> （非死記硬背的知識點，亦非死板僵化的 80 步 Checklist）。</li>
+<li><strong>在工程上的定位</strong> ：閱讀陌生系統時，用來「提醒自己如何思考、避免過早下定論」的認知導航工具。</li>
+<li><strong>核心心態</strong> ：不追求「一次看完整個 codebase」，而是專注於 <strong>「透過證據逐步建立並修正系統運作的 Mental Model」</strong> 。</li>
+</ul>
+<hr>
+<h2 id="各階段-hc-拆解與實踐">各階段 HC 拆解與實踐</h2>
+<p>在進入大型 C 專案時，可將認知歷程分為六個階段，各階段對應特定的 HCs 思考工具與具體工程產出：</p>
+<ol>
+<li><strong>階段一：界定問題</strong> （產出：System Brief）</li>
+<li><strong>階段二：結構拆解</strong> （產出：Codebase Map）</li>
+<li><strong>階段三：多層次理解</strong> （系統動力學）</li>
+<li><strong>階段四：追蹤執行路徑</strong> （產出：Happy Path &amp; Error Path）</li>
+<li><strong>階段五：假說驗證</strong> （產出：Hypothesis Ledger）</li>
+<li><strong>階段六：盲點管理</strong> （產出：Unknown Map）</li>
+</ol>
+<h3 id="階段一界定問題產出system-brief">階段一：界定問題（產出：System Brief）</h3>
+<img src="image-1.png" width="99%"/>
+<p>在閱讀任何一行具體函式之前，先釐清「這套系統為何存在、需要先掌握什麼外部條件」：</p>
+<ul>
+<li><code>#purpose</code>（核心目的）：釐清這套系統的使用者是誰、解決什麼核心問題、主要的輸入／輸出為何，以及成功運作的標準。</li>
+<li><code>#context</code>（脈絡）：補足非程式碼的背景資訊，包含底層硬體架構、通訊協定（Protocol）、作業系統限制、歷史技術包袱與效能邊界。</li>
+<li><code>#rightproblem</code>（找對問題）：優先鎖定當前最迫切需要理解的核心路徑與問題，避免過早鑽入旁枝末節的實作細節。</li>
+</ul>
+<h3 id="階段二結構拆解產出codebase-map">階段二：結構拆解（產出：Codebase Map）</h3>
+<img src="image-2.png" width="99%"/>
+<p>將看似密不可分的龐大系統分解為可獨立理解的模組與其相互關係：</p>
+<ul>
+<li><code>#breakitdown</code>（問題拆解）：自頂向下依序拆解： <strong>大系統 $\to$ Subsystem $\to$ Module $\to$ 模組職責</strong> 。</li>
+<li><code>#variables</code>（變數與狀態）：找出關鍵的 State、Configuration、核心 Struct、全域變數（Global）與靜態變數（Static），並徹底釐清其讀寫權限與生命週期（Ownership）。</li>
+<li><code>#networks</code>（關係網絡）：繪製模組依賴圖，找出資料流向與整個系統的核心 Hub 模組。</li>
+</ul>
+<h3 id="階段三多層次理解系統動力學">階段三：多層次理解（系統動力學）</h3>
+<img src="image-3.png" width="99%"/>
+<p>跳脫單一函式逐行追蹤的侷限，從整體系統架構的高層次切入：</p>
+<ul>
+<li><code>#levelsofanalysis</code>（分析層次）：切換至最適當的抽象層級（ <strong>System $\to$ Subsystem $\to$ Module $\to$ Function $\to$ State</strong> ）進行切入分析，且此層次劃分可依專案特性彈性調整， <strong>非固定死板層級</strong> 。</li>
+<li><code>#multiplecauses</code>（多重因果）：在 C 語言中，Bug 往往源於系統 Configuration、時序（Timing）、狀態轉移（State）與硬體行為的交互作用，絕非單純特定單一 Function 寫錯。</li>
+<li><code>#systemdynamics</code>（系統動力學）：針對 Embedded 與 Pure C 的特性，深入分析 State Machine、Timer、Event 驅動與反饋迴路（Feedback Loops）等隨時間推移的動態變化行為。</li>
+</ul>
+<h3 id="階段四追蹤執行路徑產出happy-path--error-path">階段四：追蹤執行路徑（產出：Happy Path &amp; Error Path）</h3>
+<img src="image-5.png" width="99%"/>
+<p>動態追蹤系統關鍵業務邏輯的實際運作流向：</p>
+<ul>
+<li><code>#algorithms</code>（演算法式策略）：完整梳理從 <strong>Input $\to$ Parse $\to$ Validate $\to$ State Transition $\to$ Action $\to$ Output</strong> 的端到端處理邏輯。</li>
+<li><code>#decisiontrees</code>（決策樹）：將程式碼中密集的條件判斷（<code>if/else</code>、<code>switch</code>）抽象化為包含分支（Branch）、前置條件（Condition）與異常處理（Error Handling）的完整決策模型。</li>
+</ul>
+<h3 id="階段五假說驗證產出hypothesis-ledger">階段五：假說驗證（產出：Hypothesis Ledger）</h3>
+<img src="image-4.png" width="99%"/>
+<p>工程師最常見的盲點是「以為自己看懂了」。此階段將主觀猜測具體轉化為「可檢驗的命題」：</p>
+<ul>
+<li><code>#hypothesisdevelopment</code>（假說發展）：將推測具體化（例如：「推測 Connection state 是由 Module A 負責管理」）。</li>
+<li><code>#testability</code>（可檢驗性）：為假說設計明確的驗證途徑（例如：查看 Log、設定斷點、於 Runtime 觀察行為、執行特定 Unit Test）。</li>
+<li><code>#evidencebased</code>（證據導向）：必須使用實際程式碼、測試結果或執行數據佐證，杜絕主觀臆測。</li>
+<li><code>#sourcequality</code>（來源品質）：客觀評估證據的可信度排序： <strong>Runtime 行為 $\ge$ Test $\ge$ Implementation $\ge$ Spec 文件 $\ge$ 口頭傳聞</strong> 。</li>
+</ul>
+<h4 id="hypothesis-ledger-結構範例">Hypothesis Ledger 結構範例</h4>
+<p>透過結構化表格記錄並持續更新假說狀態：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Claim（主張）</th>
+<th style="text-align:left">Evidence（證據）</th>
+<th style="text-align:left">Confidence（信心度）</th>
+<th style="text-align:left">Status（狀態）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Connection state 由 Module A 管理</td>
+<td style="text-align:left">Code 實作 + 單元測試覆蓋</td>
+<td style="text-align:left">High</td>
+<td style="text-align:left"><strong>已確認</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Retry 機制由 Module B 觸發</td>
+<td style="text-align:left">靜態程式碼分析</td>
+<td style="text-align:left">Medium</td>
+<td style="text-align:left"><strong>待驗證假說</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">連線 Timeout 之根本原因</td>
+<td style="text-align:left">尚無直接日誌與測試證據</td>
+<td style="text-align:left">Low</td>
+<td style="text-align:left"><strong>Unknown</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="階段六盲點管理產出unknown-map">階段六：盲點管理（產出：Unknown Map）</h3>
+<img src="image-6.png" width="99%"/>
+<p>主動辨識知識斷層與既有的思維偏誤，避免帶入錯誤假設：</p>
+<ul>
+<li><code>#biasidentification</code>（偏誤辨識）：警惕跨語言或跨架構的心智模型慣性（例如：習慣性將 C++ 的物件導向與多型思維直接套用至 Pure C）。</li>
+<li><code>#biasmitigation</code>（偏誤緩解）：透過刻意尋找反例、翻閱歷史 Git Commit 紀錄、撰寫對比測試等具體方式降低認知偏差。</li>
+<li><code>#gapanalysis</code>（缺口分析）：條列出「已知資訊」與「達成目標所需資訊」之間的落差，標註優先順序，建立系統化的 <strong>Unknown Map</strong> 。</li>
+</ul>
+<hr>
+<h2 id="第一週實戰計畫5-day-roadmap">第一週實戰計畫（5-Day Roadmap）</h2>
+<img src="image-7.png" width="99%"/>
+<p>面對一套全新的陌生專案，可以依照五天節奏循序推進，每天鎖定特定的核心思維與交付成果：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">天數</th>
+<th style="text-align:left">目標主題</th>
+<th style="text-align:left">核心 HCs 工具</th>
+<th style="text-align:left">核心產出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Day 1</strong></td>
+<td style="text-align:left"><strong>系統界定</strong></td>
+<td style="text-align:left"><code>#purpose</code> <code>#context</code> <code>#rightproblem</code></td>
+<td style="text-align:left"><strong>System Brief</strong> <br>（釐清核心目的、邊界與背景限制）</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Day 2</strong></td>
+<td style="text-align:left"><strong>架構拆解</strong></td>
+<td style="text-align:left"><code>#breakitdown</code> <code>#variables</code> <code>#networks</code></td>
+<td style="text-align:left"><strong>Codebase Map</strong> <br>（模組邊界、關鍵狀態與相依拓撲圖）</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Day 3</strong></td>
+<td style="text-align:left"><strong>動態追蹤</strong></td>
+<td style="text-align:left"><code>#algorithms</code> <code>#decisiontrees</code> <code>#systemdynamics</code></td>
+<td style="text-align:left"><strong>Execution Trace</strong> <br>（正常路徑與異常路徑的執行模型）</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Day 4</strong></td>
+<td style="text-align:left"><strong>假說驗證</strong></td>
+<td style="text-align:left"><code>#hypothesisdevelopment</code> <code>#testability</code> <code>#evidencebased</code> <code>#sourcequality</code></td>
+<td style="text-align:left"><strong>Hypothesis Ledger</strong> <br>（嚴格區分客觀事實與主觀假設）</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Day 5</strong></td>
+<td style="text-align:left"><strong>缺口與實驗</strong></td>
+<td style="text-align:left"><code>#biasidentification</code> <code>#biasmitigation</code> <code>#gapanalysis</code> <code>#designthinking</code></td>
+<td style="text-align:left"><strong>Unknown Map</strong> <br>（低風險實驗驗證並迭代修正模型）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="核心心智模型流程">核心心智模型流程</h2>
+<p>探索大型陌生專案不要漫無目的的隨機瀏覽，而是一個嚴謹遞進的閉環認知歷程：</p>
+<p>$$\text{Purpose} \to \text{Break it down} \to \text{Levels of analysis} \to \text{Trace} \to \text{Hypothesis} \to \text{Evidence} \to \text{Gaps} \to \text{Experiment}$$</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">graph TD
+    P[&#34;1. Purpose（界定核心目的）&#34;] --&gt; B[&#34;2. Break it down（拆解模組結構）&#34;]
+    B --&gt; L[&#34;3. Levels of analysis（多層次分析）&#34;]
+    L --&gt; T[&#34;4. Trace（追蹤執行路徑）&#34;]
+    T --&gt; H[&#34;5. Hypothesis（提出關鍵假說）&#34;]
+    H --&gt; E[&#34;6. Evidence（尋求客觀證據）&#34;]
+    E --&gt; G[&#34;7. Gaps（標記未知與盲點）&#34;]
+    G --&gt; EX[&#34;8. Experiment（低風險實驗驗證）&#34;]
+    EX --&gt;|迭代修正心智模型| H
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id="總結">總結</h2>
+<p>閱讀龐大陌生的 Pure C 專案時，切忌將 HCs 當成死板填寫的清單。將它們視為一組具備彈性的 <strong>「認知鷹架」</strong> ，能幫助工程師在資訊過載與細節洪流中，保持高維度的全局視野， <strong>透過實證逐步建立、驗證並動態修正對系統的心智模型</strong> 。</p>
+<hr>
+<h2 id="我的連結">我的連結</h2>
+<ul>
+<li>Youtube: <a href="https://www.youtube.com/@Daydream-Studio/videos" target="_blank" rel="noopener noreffer">https://www.youtube.com/@Daydream-Studio/videos</a></li>
+<li>Podcast: <a href="https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.io/episodes" target="_blank" rel="noopener noreffer">https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.io/episodes</a></li>
+<li>FaceBook: <a href="https://www.facebook.com/profile.php?id=100082389794254" target="_blank" rel="noopener noreffer">https://www.facebook.com/profile.php?id=100082389794254</a></li>
+<li>Blog: <a href="https://nostanduptalk.github.io/" target="_blank" rel="noopener noreffer">https://nostanduptalk.github.io/</a></li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2026-09-20</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/notes-minerva-hcs-for-pure-c-codebase/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/" data-title="[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase" data-hashtags="Minerva,心智模型"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/" data-hashtag="Minerva"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/" data-title="[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/" data-title="[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/" data-title="[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/minerva/">Minerva</a>,&nbsp;<a href="/tags/%E5%BF%83%E6%99%BA%E6%A8%A1%E5%9E%8B/">心智模型</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/notes-homo-sapiens-vs-neanderthals-evolution/" class="prev" rel="prev" title="[筆記] 智人與尼安德塔人：演化競爭、資訊力量與想像共同體"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[筆記] 智人與尼安德塔人：演化競爭、資訊力量與想像共同體</a>
+            <a href="/notes-from-bdd-to-multi-agent-software-development/" class="next" rel="next" title="[筆記] 從 BDD 到 Multi-Agent：重新思考 AI 時代的軟體開發流程">[筆記] 從 BDD 到 Multi-Agent：重新思考 AI 時代的軟體開發流程<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>

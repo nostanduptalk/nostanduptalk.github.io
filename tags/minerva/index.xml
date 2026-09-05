@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Minerva - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/minerva/</link>
+        <description>Minerva - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Sep 2026 11:13:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/minerva/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase</title>
+    <link>https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/</link>
+    <pubDate>Sat, 05 Sep 2026 11:13:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/</guid>
+    <description><![CDATA[<p>面對龐大且陌生的 Codebase，最忌諱過早陷入局部細節或盲目通讀原始碼。本文將密涅瓦大學（Minerva）的核心習慣與通識能力（HCs）轉化為一套專門探索陌生 Codebase 的認知工具箱，透過多層次拆解、假說驗證與系統動力學思維，建立清晰且精確的心智模型（Mental Model）。</p>]]></description>
+</item>
+</channel>
+</rss>

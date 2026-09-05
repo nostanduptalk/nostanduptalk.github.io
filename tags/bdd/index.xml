@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>BDD - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/bdd/</link>
+        <description>BDD - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Sep 2026 15:06:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/bdd/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 從 BDD 到 Multi-Agent：重新思考 AI 時代的軟體開發流程</title>
+    <link>https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/</link>
+    <pubDate>Sat, 05 Sep 2026 15:06:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/</guid>
+    <description><![CDATA[<p>在 AI 輔助編程迅速普及的時代，如何避免大型語言模型產出脆弱混亂的程式碼、克服情境視窗（Context Window）的長文本遺忘問題？本文從行為驅動開發（BDD）的 <strong>Given–When–Then</strong> 語法、<strong>Model Client（模型客戶端）</strong> 的自私設計哲學，探討軟體大師 Uncle Bob 所提出的 <strong>多代理協同工作流（Multi-Agent Workflow）</strong>，深入拆解 AI 時代下高品質軟體開發的管線化實踐。</p>]]></description>
+</item>
+</channel>
+</rss>

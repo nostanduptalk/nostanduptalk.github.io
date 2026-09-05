@@ -3,10 +3,42 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Aug 2026 11:14:14 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Sep 2026 15:06:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 從 BDD 到 Multi-Agent：重新思考 AI 時代的軟體開發流程</title>
+    <link>https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/</link>
+    <pubDate>Sat, 05 Sep 2026 15:06:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/</guid>
+    <description><![CDATA[<p>在 AI 輔助編程迅速普及的時代，如何避免大型語言模型產出脆弱混亂的程式碼、克服情境視窗（Context Window）的長文本遺忘問題？本文從行為驅動開發（BDD）的 <strong>Given–When–Then</strong> 語法、<strong>Model Client（模型客戶端）</strong> 的自私設計哲學，探討軟體大師 Uncle Bob 所提出的 <strong>多代理協同工作流（Multi-Agent Workflow）</strong>，深入拆解 AI 時代下高品質軟體開發的管線化實踐。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase</title>
+    <link>https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/</link>
+    <pubDate>Sat, 05 Sep 2026 11:13:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/</guid>
+    <description><![CDATA[<p>面對龐大且陌生的 Codebase，最忌諱過早陷入局部細節或盲目通讀原始碼。本文將密涅瓦大學（Minerva）的核心習慣與通識能力（HCs）轉化為一套專門探索陌生 Codebase 的認知工具箱，透過多層次拆解、假說驗證與系統動力學思維，建立清晰且精確的心智模型（Mental Model）。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 智人與尼安德塔人：演化競爭、資訊力量與想像共同體</title>
+    <link>https://nostanduptalk.github.io/notes-homo-sapiens-vs-neanderthals-evolution/</link>
+    <pubDate>Sat, 05 Sep 2026 10:51:30 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-homo-sapiens-vs-neanderthals-evolution/</guid>
+    <description><![CDATA[<p>在演化競爭中，為何身體更壯碩、腦容量更大的尼安德塔人會走向滅絕？關鍵不在於個體生理蠻力，而在於智人具備以資訊交流擴大組織規模，並藉由虛構價值凝聚萬人合作的關鍵能力。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 為什麼做不久？當你沒動力的四個檢查</title>
+    <link>https://nostanduptalk.github.io/notes-four-checks-when-lacking-motivation/</link>
+    <pubDate>Sat, 05 Sep 2026 10:35:23 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-four-checks-when-lacking-motivation/</guid>
+    <description><![CDATA[<p>當價值觀、優先事項、目標、計畫與當下行動越一致，投入度就越高。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 「不要坑別人，也不要被別人坑」 - 潘健成談格局、AI 時代與創業</title>
     <link>https://nostanduptalk.github.io/notes-do-not-screw-others-ks-pan/</link>
-    <pubDate>Sun, 02 Aug 2026 11:14:14 &#43;0800</pubDate>
+    <pubDate>Sun, 30 Aug 2026 11:14:14 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-do-not-screw-others-ks-pan/</guid>
     <description><![CDATA[<p>這份筆記整理了群聯電子董事長潘健成在訪談中分享的核心經營哲學、人才觀點及產業洞察。內容涵蓋了「格局決定結局」的處世心法、創業所需的關鍵三力，以及 AI 時代下的策略佈局與人才選拔觀點。</p>]]></description>
@@ -14,7 +46,7 @@
 <item>
     <title>[筆記] 與 Agentic AI 協作的成功關鍵：發掘並解決開發中的「未知」</title>
     <link>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</link>
-    <pubDate>Sun, 02 Aug 2026 10:58:00 &#43;0800</pubDate>
+    <pubDate>Sun, 23 Aug 2026 10:58:00 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</guid>
     <description><![CDATA[<p>與 Agentic AI 協作的成功關鍵，在於區分「地圖」（Map，即提示詞、技能與上下文）與「疆域」（Territory，即實際程式碼庫與現實限制）。兩者之間的差異即為 <strong>未知 (Unknowns)</strong>，本文整理了發掘與釐清這些未知的四象限框架與完整開發方法論。</p>]]></description>
@@ -22,7 +54,7 @@
 <item>
     <title>[筆記] 《驚人的NLP！》- 擺脫框架，重塑自我信念，安裝人生新程式</title>
     <link>https://nostanduptalk.github.io/notes-amazing-nlp-rewrite-subconscious-program/</link>
-    <pubDate>Sun, 02 Aug 2026 10:42:33 &#43;0800</pubDate>
+    <pubDate>Sun, 09 Aug 2026 10:42:33 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-amazing-nlp-rewrite-subconscious-program/</guid>
     <description><![CDATA[<p>事件是事實，意義與印象是腦中的想像，而腦中的想像，我們都可以任意編輯。</p>]]></description>
@@ -50,38 +82,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/</guid>
     <description><![CDATA[<p>如何將人類的「品味」與審美邏輯編碼進 AI 工具中？本文整理了構建高效 Claude Skill 的五個核心秘訣，從架構分離、精確觸發到雙 Agent 閉環，幫助你打造具備自我進化能力的自動化工作流。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] Claude Mythos Preview 短篇故事《招牌畫師》讀後感</title>
-    <link>https://nostanduptalk.github.io/notes-claude-mythos-preview-the-sign-painter/</link>
-    <pubDate>Sun, 05 Jul 2026 16:38:15 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-claude-mythos-preview-the-sign-painter/</guid>
-    <description><![CDATA[<p>這是一篇關於 Anthropic 內部的 <strong>Claude Mythos Preview</strong> 模型所創作的短篇寓言故事《招牌畫師》（The Sign Painter）的筆記與讀後反思。故事透過一位招牌畫師與其學徒的互動，深刻探討了創作者如何在「被迫讓步」的平庸妥協中，透過轉念重新奪回「主動送禮」的心態主導權。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 從目標倒推：解構「逆推思考」在日常業務中的戰略實踐</title>
-    <link>https://nostanduptalk.github.io/notes-backward-thinking-business-strategy/</link>
-    <pubDate>Sun, 28 Jun 2026 12:38:38 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-backward-thinking-business-strategy/</guid>
-    <description><![CDATA[<p>在多變的商業環境中，「逆推思考」是讓每一步行動精準服務於最終願景的關鍵能力。本文以濱村小姐的工作方法為核心，拆解其底層邏輯與可操作的實踐框架。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《換框思維力》- 溝通、安全感與職涯修煉</title>
-    <link>https://nostanduptalk.github.io/notes-reframing-communication-and-career/</link>
-    <pubDate>Sun, 21 Jun 2026 12:31:07 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-reframing-communication-and-career/</guid>
-    <description><![CDATA[<p>職場與生活中的衝突與碰撞，往往取決於我們的底層系統如何「定義」與「排列」。《換框思維力》提供了一套實用的思維工具，從溝通語言的橋接、心理安全感的建立，到職涯心智的長期修煉——透過換框，將壓力轉化為動能。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《完美決定之魂》- 如何做出更好的決定</title>
-    <link>https://nostanduptalk.github.io/notes-how-to-make-better-decisions/</link>
-    <pubDate>Sun, 14 Jun 2026 12:20:22 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-how-to-make-better-decisions/</guid>
-    <description><![CDATA[<p>做決定很難，但<strong>不做決定也是一種決定</strong>。這本書提醒我們：決策本身就是一個不斷假設、執行、驗證、修正的循環，沒有一擊必中這回事。</p>]]></description>
 </item>
 </channel>
 </rss>
