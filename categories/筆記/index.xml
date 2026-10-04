@@ -3,10 +3,10 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Sep 2026 15:06:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 27 Sep 2026 15:06:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
     <title>[筆記] 從 BDD 到 Multi-Agent：重新思考 AI 時代的軟體開發流程</title>
     <link>https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/</link>
-    <pubDate>Sat, 05 Sep 2026 15:06:00 &#43;0800</pubDate>
+    <pubDate>Sun, 27 Sep 2026 15:06:00 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/</guid>
     <description><![CDATA[<p>在 AI 輔助編程迅速普及的時代，如何避免大型語言模型產出脆弱混亂的程式碼、克服情境視窗（Context Window）的長文本遺忘問題？本文從行為驅動開發（BDD）的 <strong>Given–When–Then</strong> 語法、<strong>Model Client（模型客戶端）</strong> 的自私設計哲學，探討軟體大師 Uncle Bob 所提出的 <strong>多代理協同工作流（Multi-Agent Workflow）</strong>，深入拆解 AI 時代下高品質軟體開發的管線化實踐。</p>]]></description>
@@ -14,7 +14,7 @@
 <item>
     <title>[筆記] 用密涅瓦大學（Minerva）核心習慣與通識能力（HCs）讀懂陌生 Codebase</title>
     <link>https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/</link>
-    <pubDate>Sat, 05 Sep 2026 11:13:00 &#43;0800</pubDate>
+    <pubDate>Sun, 20 Sep 2026 11:13:00 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/</guid>
     <description><![CDATA[<p>面對龐大且陌生的 Codebase，最忌諱過早陷入局部細節或盲目通讀原始碼。本文將密涅瓦大學（Minerva）的核心習慣與通識能力（HCs）轉化為一套專門探索陌生 Codebase 的認知工具箱，透過多層次拆解、假說驗證與系統動力學思維，建立清晰且精確的心智模型（Mental Model）。</p>]]></description>
@@ -22,7 +22,7 @@
 <item>
     <title>[筆記] 智人與尼安德塔人：演化競爭、資訊力量與想像共同體</title>
     <link>https://nostanduptalk.github.io/notes-homo-sapiens-vs-neanderthals-evolution/</link>
-    <pubDate>Sat, 05 Sep 2026 10:51:30 &#43;0800</pubDate>
+    <pubDate>Sun, 13 Sep 2026 10:51:30 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-homo-sapiens-vs-neanderthals-evolution/</guid>
     <description><![CDATA[<p>在演化競爭中，為何身體更壯碩、腦容量更大的尼安德塔人會走向滅絕？關鍵不在於個體生理蠻力，而在於智人具備以資訊交流擴大組織規模，並藉由虛構價值凝聚萬人合作的關鍵能力。</p>]]></description>
@@ -30,7 +30,7 @@
 <item>
     <title>[筆記] 為什麼做不久？當你沒動力的四個檢查</title>
     <link>https://nostanduptalk.github.io/notes-four-checks-when-lacking-motivation/</link>
-    <pubDate>Sat, 05 Sep 2026 10:35:23 &#43;0800</pubDate>
+    <pubDate>Sun, 06 Sep 2026 10:35:23 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-four-checks-when-lacking-motivation/</guid>
     <description><![CDATA[<p>當價值觀、優先事項、目標、計畫與當下行動越一致，投入度就越高。</p>]]></description>
