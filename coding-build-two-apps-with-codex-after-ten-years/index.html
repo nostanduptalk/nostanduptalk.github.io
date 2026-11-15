@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[程式] 十年沒做 App，這次用 Codex 做了兩個 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[程式] 十年沒做 App，這次用 Codex 做了兩個" />
+<meta property="og:description" content="十年前自己做 App，光是排版畫面、搭環境、對版本與學 Java 就要忙上很久；這次我一行程式碼都沒看，用平常講話的方式跟 AI 溝通，就用 Codex 做出兩個自己天天用的 App。一個陪我散步，一個陪我旅行。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-11-15T07:54:00+08:00" />
+<meta property="article:modified_time" content="2026-11-15T07:54:00+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[程式] 十年沒做 App，這次用 Codex 做了兩個"/>
+<meta name="twitter:description" content="十年前自己做 App，光是排版畫面、搭環境、對版本與學 Java 就要忙上很久；這次我一行程式碼都沒看，用平常講話的方式跟 AI 溝通，就用 Codex 做出兩個自己天天用的 App。一個陪我散步，一個陪我旅行。"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/" /><link rel="prev" href="https://nostanduptalk.github.io/journey-2026-europe-15days-ep6-netherlands-suburbs/" /><link rel="next" href="https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[程式] 十年沒做 App，這次用 Codex 做了兩個",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/coding-build-two-apps-with-codex-after-ten-years\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "Codex, App開發, Android, iOS","wordcount":  1946 ,
+        "url": "https:\/\/nostanduptalk.github.io\/coding-build-two-apps-with-codex-after-ten-years\/","datePublished": "2026-11-15T07:54:00+08:00","dateModified": "2026-11-15T07:54:00+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[程式] 十年沒做 App，這次用 Codex 做了兩個</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%A8%8B%E5%BC%8F/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>程式</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-11-15">2026-11-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1946 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#十年前光是排畫面就要忙很久">十年前，光是排畫面就要忙很久</a></li>
+    <li><a href="#walkscore先在瀏覽器試再帶出門散步">WalkScore｜先在瀏覽器試，再帶出門散步</a></li>
+    <li><a href="#tabiframeandroid-做好之後再做-ios">TABIframe｜Android 做好之後，再做 iOS</a></li>
+    <li><a href="#我這次怎麼用-codex">我這次怎麼用 Codex</a></li>
+    <li><a href="#如果朋友問我不會寫程式也能做嗎">如果朋友問我「不會寫程式，也能做嗎？」</a></li>
+    <li><a href="#我的連結">我的連結</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>十年前自己做 App，光是排版畫面、搭環境、對版本與學 Java 就要忙上很久；這次我一行程式碼都沒看，用平常講話的方式跟 AI 溝通，就用 Codex 做出兩個自己天天用的 App。一個陪我散步，一個陪我旅行。</p>
+<img src="assets/cover.png" alt="十年沒做 App，這次用 Codex 做了兩個。一個陪我散步，一個陪我旅行。" width="99%" style="width: 99%;" />
+<p>我用 Codex 做了兩個自己會用的 App：</p>
+<ul>
+<li><strong>WalkScore</strong> 陪我散步。出門時可以離線記步、累積分數，還能在地圖上看到自己走過的路。</li>
+<li><strong>TABIframe</strong> 陪我旅行。行程、住宿和票券放在一起，同一份旅程檔在 Android 和 iOS 都能開。</li>
+</ul>
+<hr>
+<h2 id="十年前光是排畫面就要忙很久">十年前，光是排畫面就要忙很久</h2>
+<p>我上一次自己弄 Android App，大概是十年前。我記得光是弄畫面就有很多事：這一頁要放什麼？按了要跳去哪裡？頁面要怎麼切換？這些都得自己排。還要搭環境、對版本、學 Java，再一行一行把程式寫出來。</p>
+<p>這次我先把開發環境和專案資料夾準備好，接著用平常講話的方式告訴 Codex 我想做什麼。畫面、按鈕和頁面切換，它就能先做一版給我試。後來才回頭看，兩個 Android App 用的是 Kotlin，TABIframe 的 iOS 版用的是 Swift。我做的時候想的是：打開 App 之後，能不能做我想做的事。</p>
+<hr>
+<h2 id="walkscore先在瀏覽器試再帶出門散步">WalkScore｜先在瀏覽器試，再帶出門散步</h2>
+<p>我一開始只想做個有點像皮克敏的東西。出門走路，靠近地圖上的東西就可以加分，而且我想離線用。玩法還沒想清楚，我就問 Codex：「是不是可以先做一個 HTML 的樣子來當樣板呢？」</p>
+<p>它先做了個網頁，我在瀏覽器點點看。看到地圖、分數和事件出現在同一個畫面，我才比較知道自己想要什麼。</p>
+<img src="assets/walkscore-html.png" alt="WalkScore 早期 HTML 原型，畫面包含步數、分數、地圖和可收集的事件。" width="99%" style="width: 99%;" />
+<p><em>早期 HTML 原型。這時就能先試地圖上的事件和收集流程。</em></p>
+<p>後來我用 Macbook Air 開發，把 Android 版直接裝到自己的 S24。真的帶出門走了一趟，才想到幾件事：</p>
+<ul>
+<li><strong>螢幕要一直亮著。</strong> 我散步時只是想低頭看一眼，不想每次都把螢幕叫醒。</li>
+<li><strong>站著的時候，步數不要增加。</strong> 我當時問「我沒有移動，被當作移動？」後來步數改用手機的計步器，定位則用來記錄走過的路。</li>
+<li><strong>附近的事件可以多一點。</strong> 我請 Codex 先加一個滑桿，讓我邊走邊試，再把適合的數量定下來。</li>
+<li><strong>走過的路想看得見。</strong> 散步當下想看藍色足跡，結束之後也想從紀錄回看。</li>
+</ul>
+<img src="assets/walkscore-android.png" alt="WalkScore Android 測試版，顯示步數、距離、定位與可收集的事件。" width="99%" style="width: 99%;" />
+<p>看到自己走過的路真的畫在地圖上，那個感覺蠻棒的。新竹底圖用的是 <strong>OpenStreetMap</strong> 圖資，打包成 <strong>PMTiles</strong> 放在 App 裡，再用 <strong>MapLibre</strong> 顯示。手機開著定位，就算沒上網也能看底圖和足跡。</p>
+<p>這些功能有些是第一版出來後才想到的。我當時就是想到一個、試一個，有用就留下來。</p>
+<hr>
+<h2 id="tabiframeandroid-做好之後再做-ios">TABIframe｜Android 做好之後，再做 iOS</h2>
+<p>做旅行 App 時，我手上已經有一份行程和 App 規格。我把它們和專案資料夾交給 Codex，先說「請先說明你的理解，還不要開始，可以提問」。看過它的理解，覺得方向對了，我才請它一口氣做出第一版。</p>
+<p>有些細節還是要拿手機才知道。像我想往下看晚一點的行程，手指碰到色塊卻把事件拖走了。我試過長按兩秒、一秒，最後改成半秒才可以拖，放手後再確認。這種手感要真的滑過才講得清楚。</p>
+<p>後來想做 iOS，我先開好 Xcode 專案，再請 Codex 參考已經用過的 Android 版。我交代兩件事：</p>
+<ul>
+<li><strong>功能帶過去，操作照 iOS 的習慣。</strong></li>
+<li><strong>兩邊都能匯入同一份檔案。</strong> 支援匯入 <code>.tabiframe</code> 檔，先把這趟旅程匯出保存，下次換一份資料匯進去，就能繼續用原本的 App。</li>
+</ul>
+<p>這就是我想做的旅行框架。去下一個地方，換旅程檔就好，程式不用重新編譯。行程、住宿和票券也能一起帶過去。</p>
+<p><a href="InteractiveShowcase/" target="_blank" rel="noopener noreferrer">👉 點此進入 TABIframe 互動展示（開新頁面）</a></p>
+<img src="assets/tabiframe-android-ios.png" alt="TABIframe 的 Android 與 iOS 畫面並排，兩邊都選在 8 月 24 日。" width="99%" style="width: 99%;" />
+<p><em>同一天的旅程。左邊是 Android，右邊是 iOS。</em></p>
+<p>我只想裝在自己的裝置上用，兩邊都可以先裝來試， <strong>不用上架</strong> 。實際裝起來有個差別：</p>
+<ul>
+<li><strong>Android</strong> ：我在 S24 開啟開發者模式和 USB 偵錯，接上 Mac 就可以裝。我還能看著 Codex 操作手機。</li>
+<li><strong>iOS</strong> ：用免費 Apple 帳號也可以透過 Xcode 裝到自己的裝置。安裝用的描述檔七天會到期，到時要重新編譯、安裝。Apple Developer Program 的年費是 99 美元。<a href="https://developer.apple.com/help/account/basics/about-your-developer-account" target="_blank" rel="noopener noreffer">Apple 免費帳號的真機測試規則</a> · <a href="https://developer.apple.com/help/account/membership/program-enrollment" target="_blank" rel="noopener noreffer">Apple Developer Program 年費</a></li>
+</ul>
+<hr>
+<h2 id="我這次怎麼用-codex">我這次怎麼用 Codex</h2>
+<ul>
+<li><strong>前期規劃和產圖，我常放在 ChatGPT。</strong> 我先在那邊想功能、看畫面範例，方向差不多了，再用 Codex 動手開發和測試。以我當時的用法，這樣可以把 Codex 的額度留給開發。</li>
+<li><strong>沒有五小時額度的那段時間，用起來很舒服。</strong> 後來限制加回來，有一次我半天就用掉了粗估相當於六個五小時額度的量。那陣子我開了高階選項和加速，也常碰到重置。有重置券的時候，我會自己決定什麼時候用。</li>
+<li><strong>同一個對話接著做，也能把專案做完。</strong> TABIframe 大多在同一個對話裡從 Android 做到 iOS，對話長到壓縮了好幾次。我沒有特別留每輪的文件，平常也很少回頭看。到了想寫這篇文章，才想找出當初自己怎麼提需求、用過後為什麼改。</li>
+</ul>
+<hr>
+<h2 id="如果朋友問我不會寫程式也能做嗎">如果朋友問我「不會寫程式，也能做嗎？」</h2>
+<p>我會說，可以先這樣做：</p>
+<ol>
+<li><strong>把需求講清楚。</strong> 你會在什麼時候打開這個 App？打開之後，最想完成哪一件事？</li>
+<li><strong>先請 AI 做幾個範例。</strong> 看一下畫面，也點點看。感覺對了，就請它一口氣做出一版能用的。</li>
+<li><strong>裝到自己的手機，真的用一次。</strong> 哪裡卡住，或是用著用著想到還想加什麼，就接著講。</li>
+</ol>
+<p>我一開始只是想讓散步有點分數可以累積。想看足跡、想回顧散步紀錄，都是帶著手機走出去才想到的。 <strong>先把最想要的功能做出來，其他的可以邊用邊加。</strong></p>
+<hr>
+<h2 id="我的連結">我的連結</h2>
+<ul>
+<li>Youtube: <a href="https://www.youtube.com/@Daydream-Studio/videos" target="_blank" rel="noopener noreffer">https://www.youtube.com/@Daydream-Studio/videos</a></li>
+<li>Podcast: <a href="https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.cc/episodes" target="_blank" rel="noopener noreffer">https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.cc/episodes</a></li>
+<li>FaceBook: <a href="https://www.facebook.com/profile.php?id=100082389794254" target="_blank" rel="noopener noreffer">https://www.facebook.com/profile.php?id=100082389794254</a></li>
+<li>Blog: <a href="https://nostanduptalk.github.io/" target="_blank" rel="noopener noreffer">https://nostanduptalk.github.io/</a></li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2026-11-15</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/coding-build-two-apps-with-codex-after-ten-years/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/" data-title="[程式] 十年沒做 App，這次用 Codex 做了兩個" data-hashtags="Codex,App開發,Android,iOS"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/" data-hashtag="Codex"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/" data-title="[程式] 十年沒做 App，這次用 Codex 做了兩個"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/" data-title="[程式] 十年沒做 App，這次用 Codex 做了兩個"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/" data-title="[程式] 十年沒做 App，這次用 Codex 做了兩個"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/codex/">Codex</a>,&nbsp;<a href="/tags/app%E9%96%8B%E7%99%BC/">App開發</a>,&nbsp;<a href="/tags/android/">Android</a>,&nbsp;<a href="/tags/ios/">iOS</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/journey-2026-europe-15days-ep6-netherlands-suburbs/" class="prev" rel="prev" title="[旅遊] 2026歐洲15天 [EP6 荷蘭近郊] 羊角村自駕遊船、小孩堤防與ICD避坑攻略 | 荷蘭近郊 | 羊角村Giethoorn | 小孩堤防Kinderdijk | 風車村Zaanse Schans | 特快車ICD | 鹿特丹Rotterdam | 史基浦機場Schiphol"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[旅遊] 2026歐洲15天 [EP6 荷蘭近郊] 羊角村自駕遊船、小孩堤防與ICD避坑攻略 | 荷蘭近郊 | 羊角村Giethoorn | 小孩堤防Kinderdijk | 風車村Zaanse Schans | 特快車ICD | 鹿特丹Rotterdam | 史基浦機場Schiphol</a>
+            <a href="/coding-how-to-build-app-with-ai-family-pantry/" class="next" rel="next" title="[程式] 零技術如何請 AI 開發 App - PWA實作紀錄">[程式] 零技術如何請 AI 開發 App - PWA實作紀錄<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>

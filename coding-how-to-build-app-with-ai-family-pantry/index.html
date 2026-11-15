@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[程式] 零技術如何請 AI 開發 App - PWA實作紀錄 - 不沾醬</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="[程式] 零技術如何請 AI 開發 App - PWA實作紀錄" />
+<meta property="og:description" content="零技術背景也能請 AI 寫出一套真正可用、安全上線的 Web App 嗎？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/" /><meta property="og:image" content="https://nostanduptalk.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-11-15T09:00:00+08:00" />
+<meta property="article:modified_time" content="2026-11-22T09:00:00+08:00" /><meta property="og:site_name" content="不沾醬" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nostanduptalk.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[程式] 零技術如何請 AI 開發 App - PWA實作紀錄"/>
+<meta name="twitter:description" content="零技術背景也能請 AI 寫出一套真正可用、安全上線的 Web App 嗎？"/>
+<meta name="application-name" content="不沾醬">
+<meta name="apple-mobile-web-app-title" content="不沾醬"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/" /><link rel="prev" href="https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/" /><link rel="next" href="https://nostanduptalk.github.io/notes-ando-kodai-workplace-leadership-results-oriented-management/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[程式] 零技術如何請 AI 開發 App - PWA實作紀錄",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nostanduptalk.github.io\/coding-how-to-build-app-with-ai-family-pantry\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/nostanduptalk.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "AI開發, Cloudflare, PWA","wordcount":  5246 ,
+        "url": "https:\/\/nostanduptalk.github.io\/coding-how-to-build-app-with-ai-family-pantry\/","datePublished": "2026-11-15T09:00:00+08:00","dateModified": "2026-11-22T09:00:00+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/nostanduptalk.github.io\/images\/avatar.png",
+                    "width":  1500 ,
+                    "height":  1500 
+                }},"author": {
+                "@type": "Person",
+                "name": "NoStandUpTalk"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="不沾醬">不沾醬</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="不沾醬">不沾醬</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[程式] 零技術如何請 AI 開發 App - PWA實作紀錄</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://nostanduptalk.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>NoStandUpTalk</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%A8%8B%E5%BC%8F/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>程式</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-11-15">2026-11-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;5246 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;11 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#01-先說清楚你想解決什麼">01 先說清楚：你想解決什麼？</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#02-看懂全貌每個角色各司其職">02 看懂全貌：每個角色各司其職</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-1">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#03-react-做畫面vite-整理成可發佈檔案">03 React 做畫面，Vite 整理成可發佈檔案</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-2">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#04-api-是入口workers-執行規則">04 API 是入口，Workers 執行規則</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-3">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#05-一個資料庫多個家庭各自隔離">05 一個資料庫，多個家庭，各自隔離</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-4">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#06-google-證明身分cookie-記住登入">06 Google 證明身分，Cookie 記住登入</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-5">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#07-gemini-讀照片後端把關候選">07 Gemini 讀照片，後端把關候選</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-6">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#08-辨識完成還要經過確認入庫">08 辨識完成，還要經過確認入庫</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-7">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#09-pwa讓網站像-app-一樣打開">09 PWA：讓網站像 App 一樣打開</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-8">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#10-雲端排程提醒手機不必一直開著">10 雲端排程提醒，手機不必一直開著</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-9">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#11-上線建置備份升級發佈驗證">11 上線：建置、備份、升級、發佈、驗證</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-10">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#12-請-ai-分階段實作每一步都要能驗收">12 請 AI 分階段實作，每一步都要能驗收</a>
+      <ul>
+        <li><a href="#可複製-ai-實作提示詞-11">可複製 AI 實作提示詞</a></li>
+      </ul>
+    </li>
+    <li><a href="#結語">結語</a></li>
+    <li><a href="#我的連結">我的連結</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>零技術背景也能請 AI 寫出一套真正可用、安全上線的 Web App 嗎？</p>
+<p>「家中有食」是一套支援家人共用的食品庫存與到期提醒系統，採用 PWA，可加入手機主畫面使用。前端以 React、TypeScript 開發並透過 Vite 建置，後端使用 Hono、Cloudflare Workers，搭配 D1（SQLite） 保存資料；使用者透過 Google 登入，由工作階段 Cookie 與家庭權限檢查管理資料存取。系統整合 Gemini API 辨識食品照片，先保存為草稿，經人工核對期限後入庫，並提供庫存查詢、低庫存補貨清單，再透過 Cron 排程與 Web Push 推播發送手機提醒；多人操作則以原子操作、版本檢查及請求去重維持資料正確。</p>
+<hr>
+<h2 id="01-先說清楚你想解決什麼">01 先說清楚：你想解決什麼？</h2>
+<img src="final/01-product-goal.png" alt="先說清楚：你想解決什麼？" width="99%" style="width: 99%;" />
+<p>第一步先定義要解決的生活問題，不必先背技術名詞。</p>
+<p>在家庭生活中，我們常遇到「買了重複的東西」、「放過期壞掉浪費」、「不知道家裡還剩多少」等問題。拍照只是輸入方法，真正的目標是 <strong>讓全家人清楚知道家裡有什麼、先用什麼、要補什麼</strong> 。</p>
+<p>需求上必須嚴格劃分階段： <strong>AI 辨識到的內容先是「候選」，經人工核對入庫後才成為「正式庫存」</strong> 。</p>
+<h3 id="可複製-ai-實作提示詞">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請先訪談並整理家庭食品庫存 App 的需求，不要立即寫程式。使用者以家庭共用食品，需有手動與照片輸入、可恢復草稿、商品與批次、期限核對、庫存查詢、使用與丟棄、低庫存購物清單，以及個人提醒偏好。列出必要流程、資料規則、未知事項與可操作的驗收條件；區分第一版與可選擴充。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：需求應明確區分辨識、草稿與正式庫存，並列出每個流程的成功與失敗條件。</li>
+</ul>
+<hr>
+<h2 id="02-看懂全貌每個角色各司其職">02 看懂全貌：每個角色各司其職</h2>
+<img src="final/02-architecture.png" alt="看懂全貌：每個角色各司其職" width="99%" style="width: 99%;" />
+<p>釐清需求後，接著要界定系統的 <strong>服務邊界</strong> 。不能把所有功能混為一談：</p>
+<ol>
+<li><strong>瀏覽器／手機</strong> ：負責呈現介面與操作互動，絕不能直接存放私密 API 金鑰。</li>
+<li><strong>Cloudflare Workers</strong> ：輕量高效率的邊緣運算環境，是後端程式執行的核心守門員。</li>
+<li><strong>Cloudflare D1</strong> ：雲端關聯式資料庫，負責持久化保存結構化資料。</li>
+<li><strong>Google Identity Services</strong> ：專職驗證使用者身分。</li>
+<li><strong>Google Gemini API</strong> ：專職讀取分析食材照片，由後端統一呼叫。</li>
+</ol>
+<h3 id="可複製-ai-實作提示詞-1">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請以 React＋TypeScript、Vite、Hono、Cloudflare Workers、D1、Google Identity Services、Gemini API、PWA 與 Cron／Web Push 規劃架構。畫清楚瀏覽器、Cloudflare 與 Google 服務的邊界；列出每次請求、保存位置與外部呼叫。後端必須驗證身分與家庭權限。說明取捨和未驗證假設，先提供設計供我閱讀。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：手機不可直接取得私密 API 金鑰或直接決定可存取的家庭資料；各服務分工清晰透明。</li>
+</ul>
+<hr>
+<h2 id="03-react-做畫面vite-整理成可發佈檔案">03 React 做畫面，Vite 整理成可發佈檔案</h2>
+<img src="final/03-frontend-vite.png" alt="React 做畫面，Vite 整理成可發佈檔案" width="99%" style="width: 99%;" />
+<p>前端是使用者看得見摸得著的表單、清單與按鈕：</p>
+<ul>
+<li><strong>React</strong> ：將複雜的介面元件化（如食品卡片、數量調整器）。</li>
+<li><strong>TypeScript</strong> ：在程式編譯階段提前檢查型別錯誤，避免低級打字疏失。</li>
+<li><strong>Vite</strong> ：提供極速的本機開發伺服器，並在正式部署前把程式碼打包成瀏覽器能執行的純靜態檔案。</li>
+</ul>
+<p>在初期實作時，務必建立 <strong>清晰的假資料展示機制</strong> ，假資料與真實保存必須明確區隔，切忌在 API 尚未接通前製造假成功的錯覺。</p>
+<h3 id="可複製-ai-實作提示詞-2">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請先用 React、TypeScript 和 CSS 製作手機優先介面，透過 Vite 建置。第一階段完成登入入口、草稿、入庫、庫存、購物與家庭頁面；先以清楚標示的假資料展示。表單需有必填、載入、成功與錯誤狀態，刷新保留未存輸入，320px 起不產生整頁橫向捲動。API 尚未接線的部分必須明確標示，不可假裝已保存。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：假資料與真保存可清楚辨識；按鈕點擊有操作回饋；手機版面文字與欄位不被裁切。</li>
+</ul>
+<hr>
+<h2 id="04-api-是入口workers-執行規則">04 API 是入口，Workers 執行規則</h2>
+<img src="final/04-workers-api.png" alt="API 是入口，Workers 執行規則" width="99%" style="width: 99%;" />
+<p>API 就像是餐廳的櫃檯點餐窗口，是前後端溝通的契約：</p>
+<ul>
+<li>使用輕巧快速的 <strong>Hono</strong> 框架路由網址，把請求分派到相應邏輯。</li>
+<li><strong>Workers</strong> 作為執行環境，在資料落盤前嚴格檢查格式（搭配 <code>Zod</code> 檢查器）與家庭權限。</li>
+<li>遇上資料衝突時（如家人已提前領取食材），後端主動回傳 <strong>409 Conflict</strong> ，防止舊畫面覆蓋家人的最新更新。</li>
+</ul>
+<h3 id="可複製-ai-實作提示詞-3">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請用 Hono 在 Cloudflare Workers 建立正式 API：讀取家庭狀態、建立／修改草稿、確認入庫、修改批次、出庫與購物清單。所有正式資料先驗證登入和家庭權限，寫入檢查來源，使用 Zod 驗證格式；回傳明確 HTTP 狀態與繁體中文錯誤。未保存成功不可回傳假成功。用隔離測試覆蓋未登入、跨家庭與不合法輸入。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：未登入或跨家庭操作必須被明確拒絕；錯誤訊息淺顯易懂；刷新頁面能確實取回已保存資料。</li>
+</ul>
+<hr>
+<h2 id="05-一個資料庫多個家庭各自隔離">05 一個資料庫，多個家庭，各自隔離</h2>
+<img src="final/05-database.png" alt="一個資料庫，多個家庭，各自隔離" width="99%" style="width: 99%;" />
+<p>家庭庫存系統是典型的多租戶（Multi-tenant）應用：</p>
+<ul>
+<li><strong>嚴格的多家庭隔離</strong> ：同一個資料庫服務多個家庭，後端查詢必須自動綁定 <code>household_id</code>，絕不可只在前端隱藏他人資料。</li>
+<li><strong>商品（Item）與批次（Batch）分離</strong> ：
+<ul>
+<li>「全脂鮮奶」是 <strong>商品</strong> （共同名稱、單位、警示天數）。</li>
+<li>「上週買的牛奶（剩 1 瓶，後天過期）」與「今天買的牛奶（2 瓶，下週過期）」是 <strong>批次</strong> 。</li>
+<li>修改商品名稱可以全家同步連動，但消耗數量絕不能改錯批次。</li>
+</ul>
+</li>
+</ul>
+<h3 id="可複製-ai-實作提示詞-4">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請為 D1（SQLite）設計使用者、家庭、成員、商品、批次、草稿、購物清單及通知工作的資料表。商品與批次分離，家庭資料使用 household_id 並由後端判定，不接受前端任意指定其他家庭。加入主鍵、外鍵、必要索引與有順序的 migration。先提供資料關係與示例，再實作；以測試證明同商品多批次及跨家庭隔離。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：同商品多效期批次可獨立保存；跨家庭讀寫完全隔絕；升級資料庫時保留既有資料。</li>
+</ul>
+<hr>
+<h2 id="06-google-證明身分cookie-記住登入">06 Google 證明身分，Cookie 記住登入</h2>
+<img src="final/06-google-cookie.png" alt="Google 證明身分，Cookie 記住登入" width="99%" style="width: 99%;" />
+<p>身分認證是系統安全的基石：</p>
+<ul>
+<li><strong>Google 只負責證明「你是誰」</strong> ：使用者透過 Google 登入取得 ID Token，後端驗證其簽章、時效與觀眾（Audience）。</li>
+<li><strong>後端自建工作階段（Session）</strong> ：驗證成功後，由後端核發專屬的 Session ID，寫入 <strong>HttpOnly、Secure 的 Cookie</strong> 。</li>
+<li>Cookie 就像遊樂園的 <strong>防偽手環</strong> ，後續請求瀏覽器自動附帶，前端 JavaScript 無法讀取，大幅降低 XSS 竊取風險。</li>
+</ul>
+<h3 id="可複製-ai-實作提示詞-5">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請使用 Google Identity Services 登入，後端驗證 ID Token 的簽章、audience、issuer、到期時間與登入 nonce。驗證後建立自有工作階段，瀏覽器使用 HttpOnly、正式 HTTPS 下 Secure、適當 SameSite 的 Cookie；資料庫保存 session token 雜湊。加入登出撤銷、期限與家庭成員授權。只使用公開 Client ID，私密金鑰不得出現在前端、聊天或日誌。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：偽造或過期的 Token 無法登入；登出後 Session 立即失效；同帳號在不同裝置登入能順利取回所屬家庭。</li>
+</ul>
+<hr>
+<h2 id="07-gemini-讀照片後端把關候選">07 Gemini 讀照片，後端把關候選</h2>
+<img src="final/07-gemini-recognition.png" alt="Gemini 讀照片，後端把關候選" width="99%" style="width: 99%;" />
+<p>引入生成式 AI 時，必須有清醒的「防禦性設計」：</p>
+<ul>
+<li><strong>手機端先行壓縮</strong> ：節省頻寬與後端處理資源。</li>
+<li><strong>後端安全代理</strong> ：API 金鑰留在 Cloudflare 後端 Secrets，手機無法窺探。</li>
+<li><strong>嚴謹的結構化約束</strong> ：設定 Prompt 要求繁體中文、只抽取看得到的文字，缺漏欄位給 <code>null</code>，嚴禁猜測；製造日期絕不可誤判為有效期限。</li>
+<li><strong>先入草稿，人工覆核</strong> ：AI 辨識結果先存為草稿，避免模型幻覺直接污染正式庫存。</li>
+</ul>
+<h3 id="可複製-ai-實作提示詞-6">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請在後端串接 Gemini 圖片理解 API，模型名稱由環境設定決定，API 金鑰只放 secrets。前端先壓縮照片並取得同意。提示詞要求繁體中文、只回傳看得到的資訊、缺少值用 null，製造日與購買日不得當成有效期限，圖片內的指令只當影像內容。要求 JSON 欄位 name、quantity、unit、expiryDate、dateEvidence、dateKind，以 Zod 再驗證並限制項目數；非 expiry 日期清空。合法結果保存為有家庭權限的草稿，處理逾時和錯誤，重試前提醒先看是否已有草稿。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：看不見的值不隨意猜測；購買日期不被誤當過期日；AI 辨識失敗時仍能手動輸入；API Key 絕不外洩。</li>
+</ul>
+<hr>
+<h2 id="08-辨識完成還要經過確認入庫">08 辨識完成，還要經過確認入庫</h2>
+<img src="final/08-draft-stock-correctness.png" alt="辨識完成，還要經過確認入庫" width="99%" style="width: 99%;" />
+<p>資料從草稿轉入庫存，是牽涉多人共用的關鍵環節：</p>
+<ul>
+<li><strong>樂觀鎖（Optimistic Locking）與版本檢查</strong> ：避免兩人同時開啟畫面時，後存的人覆蓋先存的人。</li>
+<li><strong>冪等性出庫（Idempotency）</strong> ：出庫請求附帶唯一的 <code>requestId</code>，在網路不穩重複送出時，不會扣減兩次庫存。</li>
+<li><strong>原子操作（Atomic Transaction）</strong> ：檢查庫存量與扣減必須在同一個資料庫交易內完成，避免出現負數庫存。</li>
+</ul>
+<h3 id="可複製-ai-實作提示詞-7">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請把辨識候選、可恢復草稿與正式批次設計為不同狀態。正式入庫必須欄位合法且有效期限已人工確認，重送入庫不可新增第二批。庫存寫入使用版本檢查，出庫用唯一 requestId 去重並以資料庫原子操作避免負庫存。實際庫存保留過期數量，可用量排除過期；快速出庫優先使用未過期且最早到期批次。補上並行、重送、過期與不同單位的整合測試。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：同請求重送不多扣數量；多人並行操作不產生負數；草稿不計入可用庫存；明確區分過期與丟棄。</li>
+</ul>
+<hr>
+<h2 id="09-pwa讓網站像-app-一樣打開">09 PWA：讓網站像 App 一樣打開</h2>
+<img src="final/09-pwa.png" alt="PWA：讓網站像 App 一樣打開" width="99%" style="width: 99%;" />
+<p>我們不需要一開始就花大錢上架雙平台 App Store：</p>
+<ul>
+<li><strong>PWA 全名是 Progressive Web App（漸進式網頁應用程式）</strong> ：本質是現代網頁，但具備類似原生 App 的流暢體驗。</li>
+<li><strong>Web App Manifest</strong> ：定義安裝到主畫面的名稱、Icon 圖示、啟動網址與獨立視窗外觀（Standalone）。</li>
+<li><strong>Service Worker</strong> ：背景運作的小幫手，負責接收 Web Push 推播通知與處理使用者點擊事件。</li>
+<li><strong>觀念導正</strong> ：加入主畫面不是把雲端資料庫搬到手機，查詢庫存仍需連網，避免過度宣稱離線同步。</li>
+</ul>
+<h3 id="可複製-ai-實作提示詞-8">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請在既有網站加入 PWA（Progressive Web App，漸進式網頁應用程式），先用白話說明開網址、加入主畫面與獨立開啟的差別。設定 manifest 的穩定 id、start_url、scope、名稱、圖示與 standalone 顯示；沿用現有後端與資料庫，不因安裝建立另一份家庭資料。使用 Service Worker 處理 push 與 notificationclick，只允許同站通知目標。若未實作離線資料同步，明確說明庫存仍需網路；通知需裝置支援與使用者允許。保留既有安裝識別，提供支援的 iPhone 與 Android 驗收步驟，驗證主畫面啟動、同帳號讀到相同資料、更新與通知點擊。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：手機主畫面可順利啟動獨立視窗；同帳號讀取一致資料；推播通知點擊能正確導向對應頁面。</li>
+</ul>
+<hr>
+<h2 id="10-雲端排程提醒手機不必一直開著">10 雲端排程提醒，手機不必一直開著</h2>
+<img src="final/10-cron-webpush.png" alt="雲端排程提醒，手機不必一直開著" width="99%" style="width: 99%;" />
+<p>「過期通知」該如何運作？絕對不能依賴使用者把手機網頁一直開著：</p>
+<ul>
+<li><strong>Cloudflare Cron Triggers</strong> ：雲端定期自動喚醒檢查（例如每天上午 9 點）。</li>
+<li><strong>個人偏好與去重</strong> ：比對每位家庭成員設定的通知時間與到期天數，已處理或已丟棄的項目不再重複發送。</li>
+<li><strong>Web Push 與 VAPID 認證</strong> ：後端使用標準 VAPID 簽章發送推播至瀏覽器推播伺服器，再轉送至使用者裝置。</li>
+</ul>
+<h3 id="可複製-ai-實作提示詞-9">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請使用 Cloudflare Cron 定期檢查以台北時區設定的個人摘要時間與頻率。偏好、裝置訂閱與通知工作保存在 D1。Web Push 使用後端 VAPID 私鑰；送出前重查食品狀態，加入去重、取消、有限重試與失效裝置處理。Service Worker 顯示通知，摘要開庫存、稍後提醒開指定批次；使用透明單色 badge。列出多人同時到期時的處理量與排隊限制。先以隔離推播服務測試，再由我在手機驗收；未授權前不要發真實通知。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：排程重跑不重複推播；過期品已吃完不再騷擾；關閉 App 仍能接收推播；圖示與點擊導向分開驗收。</li>
+</ul>
+<hr>
+<h2 id="11-上線建置備份升級發佈驗證">11 上線：建置、備份、升級、發佈、驗證</h2>
+<img src="final/11-deployment.png" alt="上線：建置、備份、升級、發佈、驗證" width="99%" style="width: 99%;" />
+<p>程式寫好了，如何健康長久地上線維運？</p>
+<ul>
+<li><strong>Wrangler 工具鏈</strong> ：統一打包靜態前端與後端 Workers 程式碼，一鍵安全部署到 Cloudflare 邊緣節點。</li>
+<li><strong>資料庫遷移（Migration）原則</strong> ：修改資料表綱要前務必先備份，並確認新舊程式在部署過渡期具備向下相容性。</li>
+<li><strong>服務額度盤點</strong> ：清楚掌握 Cloudflare Workers、D1 與 Gemini API 的免費額度邊界，避免無預警超額卡住。</li>
+</ul>
+<h3 id="可複製-ai-實作提示詞-10">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請提供可審閱的 Cloudflare 發佈方案：先完成型別、建置與必要測試，確認 Workers 與 D1 設定、secrets 與 Cron；需要 migration 時先備份並驗證相容性與安全順序。列出發佈、線上只讀檢查、手機驗收和恢復方案。保留原網址與 PWA 識別，私密資料不寫入公開檔案。整理目前各服務的官方免費額度與我帳號的實際用量，無法確認者標示未知，不自行開通付費服務。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：資料庫升級平順不遺失資料；線上環境運作正常；金鑰不進版控；訂定可行的回滾復原方案。</li>
+</ul>
+<hr>
+<h2 id="12-請-ai-分階段實作每一步都要能驗收">12 請 AI 分階段實作，每一步都要能驗收</h2>
+<img src="final/12-ai-implementation-roadmap.png" alt="請 AI 分階段實作，每一步都要能驗收" width="99%" style="width: 99%;" />
+<p>最後也是最核心的心法： <strong>建立分階段實作節奏</strong> 。</p>
+<p>切莫期待 AI「一步到位」替你做完上萬行系統，而是將專案劃分為四個穩紮穩打的階段：</p>
+<ol>
+<li><strong>階段一</strong> ：釐清需求、資料模型與架構設計。</li>
+<li><strong>階段二</strong> ：Google 登入、家庭成員權限、D1 資料庫、手動入庫與出庫流程。</li>
+<li><strong>階段三</strong> ：Gemini 圖片辨識候選、草稿保存與人工確認機制。</li>
+<li><strong>階段四</strong> ：低庫存購物清單、Cloudflare Cron 自動推播、PWA 與線上發佈。</li>
+</ol>
+<p>每個階段要求 AI 交付 <strong>可驗收的具體證據</strong> （如成功測試結果、畫面示範），並明確標示 <strong>尚未測試或受限的範圍</strong> 。</p>
+<h3 id="可複製-ai-實作提示詞-11">可複製 AI 實作提示詞</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">請依附件需求分四階段實作家庭食品 App：一、釐清需求、資料模型與架構；二、Google 登入、家庭權限、D1、可恢復草稿與手動入出庫；三、Gemini 照片辨識與人工確認流程；四、低庫存摘要、Cron／Web Push、PWA 與部署。每階段先提供具體驗收條件，再實作並執行必要測試，報告最終行為、已驗證證據與尚待實機驗收事項。保護既有資料與密鑰，不用假成功替代真保存，不把未測試的能力宣稱完成。
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>驗收重點</strong> ：每一階段皆能逐步展示；重啟伺服器後資料完整存在；具備在真實手機端驗收的閉環。</li>
+</ul>
+<hr>
+<h2 id="結語">結語</h2>
+<p>零技術並不代表無法主導軟體開發。當你清楚掌握 <strong>問題本質</strong> 、 <strong>系統架構分工</strong> 與 <strong>分階段交付標準</strong> 時，AI 將會是你最強大且最忠實的資深工程搭檔！</p>
+<hr>
+<h2 id="我的連結">我的連結</h2>
+<ul>
+<li>Youtube: <a href="https://www.youtube.com/@Daydream-Studio/videos" target="_blank" rel="noopener noreffer">https://www.youtube.com/@Daydream-Studio/videos</a></li>
+<li>Podcast: <a href="https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.cc/episodes" target="_blank" rel="noopener noreffer">https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.cc/episodes</a></li>
+<li>FaceBook: <a href="https://www.facebook.com/profile.php?id=100082389794254" target="_blank" rel="noopener noreffer">https://www.facebook.com/profile.php?id=100082389794254</a></li>
+<li>Blog: <a href="https://nostanduptalk.github.io/" target="_blank" rel="noopener noreffer">https://nostanduptalk.github.io/</a></li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2026-11-22</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/coding-how-to-build-app-with-ai-family-pantry/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/" data-title="[程式] 零技術如何請 AI 開發 App - PWA實作紀錄" data-hashtags="AI開發,Cloudflare,PWA"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/" data-hashtag="AI開發"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/" data-title="[程式] 零技術如何請 AI 開發 App - PWA實作紀錄"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/" data-title="[程式] 零技術如何請 AI 開發 App - PWA實作紀錄"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/" data-title="[程式] 零技術如何請 AI 開發 App - PWA實作紀錄"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/ai%E9%96%8B%E7%99%BC/">AI開發</a>,&nbsp;<a href="/tags/cloudflare/">Cloudflare</a>,&nbsp;<a href="/tags/pwa/">PWA</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/coding-build-two-apps-with-codex-after-ten-years/" class="prev" rel="prev" title="[程式] 十年沒做 App，這次用 Codex 做了兩個"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[程式] 十年沒做 App，這次用 Codex 做了兩個</a>
+            <a href="/notes-ando-kodai-workplace-leadership-results-oriented-management/" class="next" rel="next" title="[筆記] 《鬼神級の職場領導實戰課》- 安藤廣大的識學管理與成果導向思維">[筆記] 《鬼神級の職場領導實戰課》- 安藤廣大的識學管理與成果導向思維<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://nostanduptalk.github.io/" target="_blank">NoStandUpTalk</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"WJ6MENK6A5","algoliaIndex":"hugogo","algoliaSearchKey":"86207a6279f0e636e705b321cfc9ee9a","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-Y1T80PB29S', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-Y1T80PB29S" async></script></body>
+</html>

@@ -88,7 +88,7 @@
 
 ## 我的連結
 - Youtube: https://www.youtube.com/@Daydream-Studio/videos
-- Podcast: https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.io/episodes
+- Podcast: https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.cc/episodes
 - FaceBook: https://www.facebook.com/profile.php?id=100082389794254
 - Blog: https://nostanduptalk.github.io/
 

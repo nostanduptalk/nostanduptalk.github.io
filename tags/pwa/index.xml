@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>PWA - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/pwa/</link>
+        <description>PWA - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 15 Nov 2026 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/pwa/" rel="self" type="application/rss+xml" /><item>
+    <title>[程式] 零技術如何請 AI 開發 App - PWA實作紀錄</title>
+    <link>https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/</link>
+    <pubDate>Sun, 15 Nov 2026 09:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/</guid>
+    <description><![CDATA[<p>零技術背景也能請 AI 寫出一套真正可用、安全上線的 Web App 嗎？</p>]]></description>
+</item>
+</channel>
+</rss>

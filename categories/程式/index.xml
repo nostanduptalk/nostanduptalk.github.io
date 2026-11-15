@@ -3,7 +3,23 @@
         <title>程式 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%A8%8B%E5%BC%8F/</link>
         <description>程式 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 27 Oct 2024 14:38:52 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%A8%8B%E5%BC%8F/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 15 Nov 2026 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%A8%8B%E5%BC%8F/" rel="self" type="application/rss+xml" /><item>
+    <title>[程式] 零技術如何請 AI 開發 App - PWA實作紀錄</title>
+    <link>https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/</link>
+    <pubDate>Sun, 15 Nov 2026 09:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/</guid>
+    <description><![CDATA[<p>零技術背景也能請 AI 寫出一套真正可用、安全上線的 Web App 嗎？</p>]]></description>
+</item>
+<item>
+    <title>[程式] 十年沒做 App，這次用 Codex 做了兩個</title>
+    <link>https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/</link>
+    <pubDate>Sun, 15 Nov 2026 07:54:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/</guid>
+    <description><![CDATA[<p>十年前自己做 App，光是排版畫面、搭環境、對版本與學 Java 就要忙上很久；這次我一行程式碼都沒看，用平常講話的方式跟 AI 溝通，就用 Codex 做出兩個自己天天用的 App。一個陪我散步，一個陪我旅行。</p>]]></description>
+</item>
+<item>
     <title>[程式] Google Apps Script 約定通知系統：自動郵件通知系統</title>
     <link>https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/</link>
     <pubDate>Sun, 27 Oct 2024 14:38:52 &#43;0800</pubDate>

@@ -2,37 +2,64 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep6-netherlands-suburbs/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
-            <loc>https://nostanduptalk.github.io/categories/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
-            <loc>https://nostanduptalk.github.io/posts/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
-            <loc>https://nostanduptalk.github.io/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
-            <loc>https://nostanduptalk.github.io/categories/%E6%97%85%E9%81%8A/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E6%AD%90%E6%B4%B2%E8%87%AA%E7%94%B1%E8%A1%8C/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
-            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep5-amsterdam/</loc><lastmod>2026-11-01T10:53:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.3</priority></url><url>
-            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep4-belgium/</loc><lastmod>2026-10-25T10:51:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.2</priority></url><url>
-            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep3-france-suburbs/</loc><lastmod>2026-10-18T10:49:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.1</priority></url><url>
-            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep2-paris/</loc><lastmod>2026-10-11T10:47:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep1-prep/</loc><lastmod>2026-10-04T09:31:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/bdd/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/multi-agent/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/tdd/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/</loc><lastmod>2026-09-20T11:13:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/minerva/</loc><lastmod>2026-09-20T11:13:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E5%BF%83%E6%99%BA%E6%A8%A1%E5%9E%8B/</loc><lastmod>2026-09-20T11:13:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://nostanduptalk.github.io/notes-homo-sapiens-vs-neanderthals-evolution/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E5%B0%BC%E5%AE%89%E5%BE%B7%E5%A1%94%E4%BA%BA/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E6%83%B3%E5%83%8F%E5%85%B1%E5%90%8C%E9%AB%94/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E6%99%BA%E4%BA%BA/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E6%BC%94%E5%8C%96/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://nostanduptalk.github.io/notes-four-checks-when-lacking-motivation/</loc><lastmod>2026-09-06T10:35:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E5%9F%B7%E8%A1%8C%E5%8A%9B/</loc><lastmod>2026-09-06T10:35:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://nostanduptalk.github.io/notes-overton-window-communication-mindset/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/categories/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/posts/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E5%A5%A7%E5%BC%97%E9%A0%93%E4%B9%8B%E7%AA%97/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E6%8F%90%E6%A1%88%E7%AD%96%E7%95%A5/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E6%BA%9D%E9%80%9A%E6%8A%80%E5%B7%A7/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E7%B5%84%E7%B9%94%E8%AE%8A%E9%9D%A9/</loc><lastmod>2026-12-20T11:02:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.4</priority></url><url>
+            <loc>https://nostanduptalk.github.io/notes-the-making-of-a-manager-be-a-good-person/</loc><lastmod>2026-12-13T10:32:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.3</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E4%BF%A1%E4%BB%BB/</loc><lastmod>2026-12-13T10:32:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.3</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E7%AE%A1%E7%90%86/</loc><lastmod>2026-12-13T10:32:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.3</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E9%A0%98%E5%B0%8E%E5%8A%9B/</loc><lastmod>2026-12-13T10:32:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.3</priority></url><url>
+            <loc>https://nostanduptalk.github.io/notes-product-market-fit-pull-framework/</loc><lastmod>2026-12-06T10:04:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.2</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/pmf/</loc><lastmod>2026-12-06T10:04:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.2</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/pull%E6%B3%95%E5%89%87/</loc><lastmod>2026-12-06T10:04:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.2</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E5%89%B5%E6%A5%AD/</loc><lastmod>2026-12-06T10:04:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.2</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E7%94%A2%E5%93%81%E9%96%8B%E7%99%BC/</loc><lastmod>2026-12-06T10:04:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.2</priority></url><url>
+            <loc>https://nostanduptalk.github.io/notes-ando-kodai-workplace-leadership-results-oriented-management/</loc><lastmod>2026-11-29T09:45:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/pdca/</loc><lastmod>2026-11-29T09:45:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E5%AE%89%E8%97%A4%E5%BB%A3%E5%A4%A7/</loc><lastmod>2026-11-29T09:45:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/categories/%E8%AA%B2%E7%A8%8B/</loc><lastmod>2026-11-29T09:45:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1.1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/coding-how-to-build-app-with-ai-family-pantry/</loc><lastmod>2026-11-22T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/ai%E9%96%8B%E7%99%BC/</loc><lastmod>2026-11-22T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/cloudflare/</loc><lastmod>2026-11-22T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/pwa/</loc><lastmod>2026-11-22T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/categories/%E7%A8%8B%E5%BC%8F/</loc><lastmod>2026-11-22T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/</loc><lastmod>2026-11-15T07:54:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/android/</loc><lastmod>2026-11-15T07:54:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/app%E9%96%8B%E7%99%BC/</loc><lastmod>2026-11-15T07:54:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/codex/</loc><lastmod>2026-11-15T07:54:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/ios/</loc><lastmod>2026-11-15T07:54:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep6-netherlands-suburbs/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://nostanduptalk.github.io/categories/%E6%97%85%E9%81%8A/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E6%AD%90%E6%B4%B2%E8%87%AA%E7%94%B1%E8%A1%8C/</loc><lastmod>2026-11-08T10:56:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep5-amsterdam/</loc><lastmod>2026-11-01T10:53:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep4-belgium/</loc><lastmod>2026-10-25T10:51:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep3-france-suburbs/</loc><lastmod>2026-10-18T10:49:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep2-paris/</loc><lastmod>2026-10-11T10:47:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/journey-2026-europe-15days-ep1-prep/</loc><lastmod>2026-10-04T09:31:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/bdd/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/multi-agent/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/tdd/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC/</loc><lastmod>2026-09-27T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/notes-minerva-hcs-for-pure-c-codebase/</loc><lastmod>2026-09-20T11:13:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/minerva/</loc><lastmod>2026-09-20T11:13:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E5%BF%83%E6%99%BA%E6%A8%A1%E5%9E%8B/</loc><lastmod>2026-09-20T11:13:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/notes-homo-sapiens-vs-neanderthals-evolution/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E5%B0%BC%E5%AE%89%E5%BE%B7%E5%A1%94%E4%BA%BA/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E6%83%B3%E5%83%8F%E5%85%B1%E5%90%8C%E9%AB%94/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E6%99%BA%E4%BA%BA/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E6%BC%94%E5%8C%96/</loc><lastmod>2026-09-13T10:51:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/notes-four-checks-when-lacking-motivation/</loc><lastmod>2026-09-06T10:35:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nostanduptalk.github.io/tags/%E5%9F%B7%E8%A1%8C%E5%8A%9B/</loc><lastmod>2026-09-06T10:35:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/notes-do-not-screw-others-ks-pan/</loc><lastmod>2026-08-30T11:14:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/ai%E6%87%89%E7%94%A8/</loc><lastmod>2026-08-30T11:14:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E5%89%B5%E6%A5%AD/</loc><lastmod>2026-08-30T11:14:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E6%BD%98%E5%81%A5%E6%88%90/</loc><lastmod>2026-08-30T11:14:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E7%B6%93%E7%87%9F%E5%93%B2%E5%AD%B8/</loc><lastmod>2026-08-30T11:14:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</loc><lastmod>2026-08-23T10:58:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -67,10 +94,7 @@
             <loc>https://nostanduptalk.github.io/tags/%E5%BF%83%E7%90%86%E5%AE%89%E5%85%A8%E6%84%9F/</loc><lastmod>2026-06-21T12:31:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E6%8F%9B%E6%A1%86%E6%80%9D%E7%B6%AD/</loc><lastmod>2026-06-21T12:31:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/categories/%E6%9B%B8%E7%B1%8D/</loc><lastmod>2026-06-21T12:31:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E6%BA%9D%E9%80%9A%E6%8A%80%E5%B7%A7/</loc><lastmod>2026-06-21T12:31:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E9%A0%98%E5%B0%8E%E5%8A%9B/</loc><lastmod>2026-06-21T12:31:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/notes-how-to-make-better-decisions/</loc><lastmod>2026-06-14T12:20:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/pdca/</loc><lastmod>2026-06-14T12:20:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E6%B1%BA%E7%AD%96/</loc><lastmod>2026-06-14T12:20:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E8%A1%8C%E5%8B%95%E5%8A%9B/</loc><lastmod>2026-06-14T12:20:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/notes-world-model-cognitive-map/</loc><lastmod>2026-06-07T12:11:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -190,7 +214,6 @@
             <loc>https://nostanduptalk.github.io/tags/ceo/</loc><lastmod>2025-08-24T04:15:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E5%88%B6%E5%BA%A6%E5%BB%BA%E7%AB%8B/</loc><lastmod>2025-08-24T04:15:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E7%AD%96%E7%95%A5%E8%A6%8F%E5%8A%83/</loc><lastmod>2025-08-24T04:15:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://nostanduptalk.github.io/categories/%E8%AA%B2%E7%A8%8B/</loc><lastmod>2025-08-24T04:15:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E8%B2%A1%E5%8B%99%E7%AE%A1%E7%90%86/</loc><lastmod>2025-08-24T04:15:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/notes-friend-and-foe-cooperate-compete-succeed/</loc><lastmod>2025-08-17T02:40:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E5%90%88%E4%BD%9C/</loc><lastmod>2025-08-17T02:40:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -289,7 +312,6 @@
             <loc>https://nostanduptalk.github.io/tags/%E5%8F%B0%E7%A9%8D%E9%9B%BB/</loc><lastmod>2025-03-09T15:22:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E5%BC%B5%E5%BF%A0%E8%AC%80/</loc><lastmod>2025-03-09T15:22:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E7%A0%94%E7%99%BC/</loc><lastmod>2025-03-09T15:22:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://nostanduptalk.github.io/tags/%E7%AE%A1%E7%90%86/</loc><lastmod>2025-03-09T15:22:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E7%B5%84%E7%B9%94/</loc><lastmod>2025-03-09T15:22:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/notes-key-mindsets-and-strategies-to-become-a-top-salesperson/</loc><lastmod>2025-02-23T17:20:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E5%AE%A2%E6%88%B6%E9%97%9C%E4%BF%82/</loc><lastmod>2025-02-23T17:20:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -372,7 +394,6 @@
             <loc>https://nostanduptalk.github.io/tags/%E9%95%B7%E6%9C%9F%E6%80%9D%E7%B6%AD/</loc><lastmod>2024-11-03T15:18:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/coding-google-apps-script-appointment-notification-system/</loc><lastmod>2024-10-27T14:38:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/google-apps-script/</loc><lastmod>2024-10-27T14:38:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://nostanduptalk.github.io/categories/%E7%A8%8B%E5%BC%8F/</loc><lastmod>2024-10-27T14:38:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/notes-five-steps-to-handle-legacy-code/</loc><lastmod>2024-10-20T14:35:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E7%A8%8B%E5%BC%8F%E9%87%8D%E6%A7%8B/</loc><lastmod>2024-10-20T14:35:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nostanduptalk.github.io/tags/%E8%80%81%E8%88%8A%E7%A8%8B%E5%BC%8F%E7%A2%BC/</loc><lastmod>2024-10-20T14:35:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

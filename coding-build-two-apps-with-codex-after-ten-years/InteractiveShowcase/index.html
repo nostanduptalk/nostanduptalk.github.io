@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f8">
+  <meta name="description" content="親手體驗 TABIframe 的時間軸、提醒、每日路線與旅程檔案。以虛構巴黎旅程製作的 Android 互動展示。">
+  <title>TABIframe · 一趟旅行的所有脈絡</title>
+  <link rel="icon" type="image/webp" href="assets/tabi-app-icon.webp">
+  <link rel="stylesheet" href="style.css">
+  <script src="zip.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="#timeline" class="wordmark" aria-label="TABIframe 首頁"><span class="brand-mark" aria-hidden="true"><img src="assets/tabi-app-icon.webp" alt="" width="44" height="44"></span>TABI<span>frame</span></a>
+    <div class="edition"><span></span>ANDROID · INTERACTIVE EDITION</div>
+    <button class="reset-button" id="reset-demo" title="重新載入虛構示範資料"><span aria-hidden="true">↻</span> 重新體驗</button>
+  </header>
+  <main class="showcase">
+    <aside class="story">
+      <div class="eyebrow">為旅途中的每一個當下</div>
+      <h1>把旅程整理好，<br>出發時<span>只看今天。</span></h1>
+      <p class="intro">時間、地點與隨身資料，回到同一條脈絡。<br>從右邊的手機，走進一趟巴黎小旅行。</p>
+      <nav class="chapter-nav" id="chapters" aria-label="功能導覽"></nav>
+      <section class="chapter-story" aria-live="polite">
+        <div class="chapter-eyebrow" id="chapter-eyebrow"></div>
+        <h2 id="chapter-title"></h2>
+        <p id="chapter-description"></p>
+        <div id="chapter-actions" class="try-actions"></div>
+      </section>
+      <div class="story-bottom"><span class="small-dot"></span><span>虛構旅程 · 可點擊、滑動與編輯</span><button id="show-help">操作提示 <span aria-hidden="true">↗</span></button></div>
+    </aside>
+    <section class="demo-stage" aria-label="Android 可操作展示">
+      <div class="stage-grid" aria-hidden="true"></div>
+      <div class="stage-meta"><span><span class="live-dot"></span>Android 互動展示</span><button id="preview-size" title="切換手機顯示大小">放大畫面 ↗</button></div>
+      <div id="phone-wrap" class="phone-wrap">
+        <div class="phone" id="phone">
+          <div class="phone-screen" id="phone-screen">
+            <div class="statusbar"><span>9:41</span><span class="camera" aria-hidden="true"></span><span class="status-icons" aria-hidden="true"><svg viewBox="0 0 48 15"><path d="M1 12h2V9H1zm5 0h2V6H6zm5 0h2V3h-2z" fill="currentColor"/><path d="M18 5q7-7 14 0M21 8q4-4 8 0" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="25" cy="11" r="1.4" fill="currentColor"/><rect x="35" y="3" width="10" height="9" rx="2" stroke="currentColor" fill="none"/><path d="M46 6v3" stroke="currentColor"/><rect x="37" y="5" width="6" height="5" rx=".5" fill="currentColor"/></svg></span></div>
+            <div id="app" class="android-app"></div>
+            <div id="overlay-root"></div>
+            <div id="notification-root" aria-live="polite"></div>
+            <div id="toast-root" aria-live="polite"></div>
+            <div class="system-nav"><span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="stage-caption"><span class="gesture-mark" aria-hidden="true">↔</span><span id="stage-caption">點選行程看詳情，左右滑動換日期</span></div>
+      <div class="chapter-pager"><button id="previous-chapter" aria-label="上一個功能">←</button><span id="chapter-position">01 / 07</span><button id="next-chapter" aria-label="下一個功能">→</button></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>一套旅行框架，陪下一趟旅程出發。</span><span>HTML / CSS / SVG · 所有展示資料皆為虛構</span></footer>
+  <input type="file" id="trip-file" accept=".tabiframe,.json,.zip" hidden>
+  <input type="file" id="attachment-file" accept="application/pdf,image/*" hidden>
+</body>
+</html>

@@ -3,7 +3,39 @@
         <title>筆記 - Category - 不沾醬</title>
         <link>https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/</link>
         <description>筆記 - Category - 不沾醬</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 27 Sep 2026 15:06:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 15 Nov 2026 11:02:06 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/categories/%E7%AD%86%E8%A8%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[筆記] 奧弗頓之窗 (Overton Window) - 拓展溝通與接受範圍的思維模型</title>
+    <link>https://nostanduptalk.github.io/notes-overton-window-communication-mindset/</link>
+    <pubDate>Sun, 15 Nov 2026 11:02:06 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-overton-window-communication-mindset/</guid>
+    <description><![CDATA[<p>在日常溝通或推動組織變革時，你是否曾遇過滿懷熱忱提出的好點子，卻立刻被團隊或主管認為「太激進」、「不可行」而碰壁？很多時候，阻力並非來自方案本身的優劣，而是該想法落在了對方的認知接受範圍之外。這正是政治學與傳播學中經典的思維模型 —— <strong>奧弗頓之窗（Overton Window）</strong> 所揭示的核心本質。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 《當上主管後，難道只能默默崩潰？》- 主管不是努力當上司，而是做好一個人</title>
+    <link>https://nostanduptalk.github.io/notes-the-making-of-a-manager-be-a-good-person/</link>
+    <pubDate>Sun, 15 Nov 2026 10:32:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-the-making-of-a-manager-be-a-good-person/</guid>
+    <description><![CDATA[<p>許多人在初次升任主管時，常面臨角色轉換的陣痛與自我懷疑。在《當上主管後，難道只能默默崩潰？》這本書中，作者分享了大量實務領導的真實心得，指出卓越的管理並非展現權威或控制，而是回歸到人與人之間的信任、真誠關懷與明確願景。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 顛覆 PMF 傳統迷思：打造爆款產品的「拉力法則」與 3 個心法</title>
+    <link>https://nostanduptalk.github.io/notes-product-market-fit-pull-framework/</link>
+    <pubDate>Sun, 15 Nov 2026 10:04:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-product-market-fit-pull-framework/</guid>
+    <description><![CDATA[<p>傳統的 PMF 理論常強調「解決客戶痛點」，但現實是「有痛點不代表客戶會買單」。真正的 PMF（Product-Market Fit）不是靠說服客戶的 Push（推力），而是來自市場中本就存在的 Pull（拉力）。本文深入解析 PULL Framework 的四大要素，協助創業者與產品經理避開假性需求陷阱，打造真正讓市場主動搶購的產品。</p>]]></description>
+</item>
+<item>
+    <title>[筆記] 《鬼神級の職場領導實戰課》- 安藤廣大的識學管理與成果導向思維</title>
+    <link>https://nostanduptalk.github.io/notes-ando-kodai-workplace-leadership-results-oriented-management/</link>
+    <pubDate>Sun, 15 Nov 2026 09:45:20 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/notes-ando-kodai-workplace-leadership-results-oriented-management/</guid>
+    <description><![CDATA[<p>《鬼神級の職場領導實戰課》是由日本商管權威、暢銷書《數值化之鬼》作者安藤廣大所推出的線上課程。這堂課的核心基於「識學」，主張團隊應抽離個人情感與直覺，透過釐清位置角色、建立清晰規則、專注可控變數與數據化管理，讓團隊系統能持續且穩定地產生成果。本文整理課程中關於「工作管理與高效行動」的五大核心精華筆記。</p>]]></description>
+</item>
+<item>
     <title>[筆記] 從 BDD 到 Multi-Agent：重新思考 AI 時代的軟體開發流程</title>
     <link>https://nostanduptalk.github.io/notes-from-bdd-to-multi-agent-software-development/</link>
     <pubDate>Sun, 27 Sep 2026 15:06:00 &#43;0800</pubDate>
@@ -50,38 +82,6 @@
     <author>Author</author>
     <guid>https://nostanduptalk.github.io/notes-agentic-ai-collaboration-finding-unknowns/</guid>
     <description><![CDATA[<p>與 Agentic AI 協作的成功關鍵，在於區分「地圖」（Map，即提示詞、技能與上下文）與「疆域」（Territory，即實際程式碼庫與現實限制）。兩者之間的差異即為 <strong>未知 (Unknowns)</strong>，本文整理了發掘與釐清這些未知的四象限框架與完整開發方法論。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 《驚人的NLP！》- 擺脫框架，重塑自我信念，安裝人生新程式</title>
-    <link>https://nostanduptalk.github.io/notes-amazing-nlp-rewrite-subconscious-program/</link>
-    <pubDate>Sun, 09 Aug 2026 10:42:33 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-amazing-nlp-rewrite-subconscious-program/</guid>
-    <description><![CDATA[<p>事件是事實，意義與印象是腦中的想像，而腦中的想像，我們都可以任意編輯。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 從《萬能鑑定士Q：蒙娜麗莎之瞳》想到 AI 的反向篩選</title>
-    <link>https://nostanduptalk.github.io/notes-all-round-appraiser-q-ai-reverse-selection/</link>
-    <pubDate>Sun, 02 Aug 2026 10:34:09 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-all-round-appraiser-q-ai-reverse-selection/</guid>
-    <description><![CDATA[<p>看完《萬能鑑定士Q：蒙娜麗莎之瞳》後，片中對真偽鑑定的訓練過程令人印象深刻。從最差的選項開始，一路篩選、回收與重組，或許會成為一種很有價值的 AI 決策方法。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 職涯發展洞察：從偶然相遇到自主成長的行動指南</title>
-    <link>https://nostanduptalk.github.io/notes-career-growth-action-guide/</link>
-    <pubDate>Sun, 26 Jul 2026 18:18:41 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-career-growth-action-guide/</guid>
-    <description><![CDATA[<p>職涯中 <strong>80%</strong> 的發展來自偶然的相遇——但這種偶然，需要主動去創造。</p>]]></description>
-</item>
-<item>
-    <title>[筆記] 打造 Claude Skill 的 5 個秘訣</title>
-    <link>https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/</link>
-    <pubDate>Sun, 12 Jul 2026 16:51:30 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://nostanduptalk.github.io/notes-five-secrets-to-build-claude-skills/</guid>
-    <description><![CDATA[<p>如何將人類的「品味」與審美邏輯編碼進 AI 工具中？本文整理了構建高效 Claude Skill 的五個核心秘訣，從架構分離、精確觸發到雙 Agent 閉環，幫助你打造具備自我進化能力的自動化工作流。</p>]]></description>
 </item>
 </channel>
 </rss>

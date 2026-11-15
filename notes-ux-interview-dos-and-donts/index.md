@@ -93,6 +93,6 @@ UX 研究員不僅是「用戶的代言人」，更是「用戶需求」與「�
 
 ## 我的連結
 - Youtube: https://www.youtube.com/@Daydream-Studio/videos
-- Podcast: https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.io/episodes
+- Podcast: https://cl4bfh8ww02uu01zgaj2i3d1u.firstory.cc/episodes
 - FaceBook: https://www.facebook.com/profile.php?id=100082389794254
 - Blog: https://nostanduptalk.github.io/

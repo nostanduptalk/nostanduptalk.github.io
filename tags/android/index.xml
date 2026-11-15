@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Android - Tag - 不沾醬</title>
+        <link>https://nostanduptalk.github.io/tags/android/</link>
+        <description>Android - Tag - 不沾醬</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 15 Nov 2026 07:54:00 &#43;0800</lastBuildDate><atom:link href="https://nostanduptalk.github.io/tags/android/" rel="self" type="application/rss+xml" /><item>
+    <title>[程式] 十年沒做 App，這次用 Codex 做了兩個</title>
+    <link>https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/</link>
+    <pubDate>Sun, 15 Nov 2026 07:54:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://nostanduptalk.github.io/coding-build-two-apps-with-codex-after-ten-years/</guid>
+    <description><![CDATA[<p>十年前自己做 App，光是排版畫面、搭環境、對版本與學 Java 就要忙上很久；這次我一行程式碼都沒看，用平常講話的方式跟 AI 溝通，就用 Codex 做出兩個自己天天用的 App。一個陪我散步，一個陪我旅行。</p>]]></description>
+</item>
+</channel>
+</rss>
